@@ -121,6 +121,7 @@ TID_PRO_LEAGUE_POPUP_INFO,"יש לך אפשרות לבחון את הכישורי
 TID_PRO_LEAGUE_POPUP_CURRENT_SEASON,הליגה הנוכחית
 TID_PRO_LEAGUE_POPUP_PREVIOUS_SEASON,הליגה הקודמת
 TID_PRO_LEAGUE_LABEL,מהלך כוחני
+TID_TEAM_ERROR_38,צריך לבחור בראולר ברמת עוצמה 10!
 TID_TEAM_ERROR_39,לא נותרו יותר משחקי מהלך כוחני היום!
 TID_PRO_LEAGUE_GAMES,נותרו <MAXGAMES>/<GAMESLEFT> קרבות
 TID_PRO_LEAGUE_SEASON_END_POPUP_TITLE,ליגת ׳מהלך כוחני׳ הסתיימה
@@ -181,6 +182,7 @@ TID_INBOX_CAPTION_72_52,תרומה: סיכה
 TID_INBOX_CAPTION_71,תרומה: <AMOUNT> טוקנים לעונת BRAWL PASS <SEASON>
 TID_INBOX_CAPTION_70,פרס על ניצחון ב<CHALLENGE>:
 TID_INBOX_CAPTION_64,תרומה: <NAME> x <AMOUNT>
+TID_INBOX_CAPTION_DONATION,תרומה: <TEXT>
 TID_INBOX_NEW,חדש!
 TID_BAND_MAIL_POPUP_TITLE,דואר מועדון
 TID_BAND_MAIL_POPUP_DEFAULT_TXT,כתבו את ההודעה שלך כאן...
@@ -219,7 +221,6 @@ TID_BATTLE_LOG_REPLAY_INFO_NO_REPLAY_TOO_LOW,אין אפשרות להילוך ח
 TID_BATTLE_LOG_REPLAY_INFO_NO_REPLAY_TOO_LOW_TROPHIES,צריך לצבור <NUM> פרסי בראולר כדי לפתוח הילוכים חוזרים
 TID_BATTLE_LOG_REPLAY_INFO_NO_REPLAY_SERVER_ERROR,אין אפשרות להילוך חוזר: ההקלטה נכשלה
 TID_BATTLE_LOG_REPLAY_INFO_REPLAY_EXPIRED,ההילוך החוזר כבר לא זמין
-TID_PLAYER_XP_LEVEL,רמה
 TID_PLAYER_RANK_TIER_0,I
 TID_PLAYER_RANK_TIER_1,II
 TID_PLAYER_RANK_TIER_2,III
@@ -255,6 +256,7 @@ TID_HERO_INFO_MAX_LEVEL,כוח מקסימלי
 TID_HERO_INFO_MORE_POWER_NEEDED,יש לצבור עוד כוח כדי לשדרג!
 TID_HERO_INFO_LEVEL_UP_ERROR_4,לבראולר אין מספיק נקודות כוח
 TID_HERO_INFO_LEVEL_UP_ERROR_3,אין לך מספיק מטבעות!
+TID_HERO_INFO_LEVEL_UP_ERROR_5,הבראולר הגיע לרמת כוח מקסימלית!
 TID_HERO_INFO_LEVEL_UP_PRICE_MISSING,<cff6034><AMOUNT></c>
 TID_HERO_INFO_LEVEL_UP_PRICE,<AMOUNT>
 TID_HERO_INFO_STARTING_HERO,בראולרית ראשונה
@@ -337,6 +339,7 @@ TID_UNDERTAKER_DESC,מורטיס מזנק קדימה עם כל הינף של א�
 TID_UNDERTAKER_WEAPON,עת להניף את האת
 TID_UNDERTAKER_WEAPON_DESC,"מורטיס מזנק קדימה בהינף חד של את החפירה שלו, ומייצר לעצמו הזדמנויות עסקיות. כאשר כל שלושת הזינוקים שלו יהיו מוכנים, יקבל זינוק ארוך יותר לאחר עיכוב קצר."
 TID_UNDERTAKER_ULTI,תמצית החיים
+TID_UNDERTAKER_ULTI_DESC,מורטיס מזמן נחיל ערפדים שמנקזים את בריאותם של בראולרים אויבים תוך שהוא משקם את בריאותו שלו. מצמרר!
 TID_CROW,קרואו
 TID_CROW_DESC,"היצור האניגמטי הזה פשוט צץ בעיר יום אחד. אף אחד לא מעז לעצבן אותו. כבר לא, בכל אופן."
 TID_CROW_WEAPON,אולר
@@ -424,7 +427,7 @@ TID_SUPERCELL_ID_BUTTON_CONNECTED,מחובר
 TID_SUPERCELL_ID_BUTTON_DISCONNECTED,התחברות
 TID_SUPERCELL_ID_LOGIN_BUTTON,כניסה
 TID_SUPERCELL_ID_NEW_GAME_BUTTON,משחק בלי
-TID_CANNOT_SWITCH_TO_ACCOUNT_WITHOUT_SUPERCELL_ID,האם ברצונך לטעון התקדמות אחרת עם רמת ניסיון <number>? יש לטעון אותה באמצעות כניסה עם Supercell ID שלך.
+TID_CANNOT_SWITCH_TO_ACCOUNT_WITHOUT_SUPERCELL_ID,האם ברצונך לטעון התקדמות נוספת עבור השחקן <name> עם <trophies> גביעים? יש לטעון זאת באמצעות כניסה עם ה-Supercell ID שלך.
 TID_ERROR_POP_UP_OUT_OF_SYNC_TITLE,שגיאה!
 TID_ERROR_POP_UP_OUT_OF_SYNC,לקוח ושרת לא מסונכרנים!
 TID_ERROR_POP_UP_OUT_OF_SYNC_BUTTON,טעינת המשחק מחדש
@@ -472,7 +475,6 @@ TID_BATTLE_END_RETURN_HOME,יציאה
 TID_BATTLE_END_NEXT,הבא
 TID_BATTLE_END_TAP,יש להקיש כדי להמשיך
 TID_BATTLE_END_NO_PRACTISE_TROPHIES,אין גביעים מאימון
-TID_BATTLE_END_XP_CAPPED,כל הניסיון שנצבר להיום
 TID_BATTLE_END_PLAY_AGAIN,לשחק מחדש
 TID_BATTLE_END_PLAY_AGAIN_CANCEL,ביטול
 TID_BATTLE_END_PLAY_AGAIN_READY_PLAYERS,<WAITING>/<TOTAL>
@@ -551,6 +553,7 @@ TID_TEAM_ERROR_62,לא ניתן להציע את האירוע. האירוע לא 
 TID_TEAM_ERROR_102,לא ניתן ליצור קבוצה. יש לך בקשת הצטרפות בהמתנה.
 TID_TEAM_ERROR_120,לא ניתן להתחיל במשחק. אתה יכול לשחק רק במפה של הרמה הנוכחית שלך באתגר
 TID_TEAM_ERROR_121,לא ניתן להתחיל במשחק. לא נותרו יותר ניסיונות.
+TID_TEAM_ERROR_122,הבראולר הזה נחסם מהמשחק
 TID_TEAM_ERROR_123,לא ניתן להתחיל בקרב. הבראולר שנבחר לא משתתף במהלך כוחני ובאתגרים בעונה זו.
 TID_TEAM_ERROR_124,אי אפשר להתחיל במשחק. המפה שנבחרה לא קיבלה אור ירוק למשחק עם חברים.
 TID_TEAM_ERROR_125,אירוע זה לא תומך במשחק קבוצתי
@@ -656,15 +659,17 @@ TID_HERO_INFO_ABILITY_LEVEL,רמה <LEVEL>/<MAXLEVEL>
 TID_HERO_INFO_CRAFT_HERO,קניית בראולר
 TID_HERO_INFO_RARITY,<c<COLOR>><NAME></c>
 TID_HERO_INFO_ITEM_RARITY,<c<COLOR>><NAME></c>
-TID_HERO_INFO_POWER_BAR_TOOL_TIP,באפשרותך לצבור נקודות כוח מתיבות בראולר וממבצעים בחנות כדי לפתוח את השדרוג הבא
+TID_HERO_INFO_POWER_BAR_TOOL_TIP,"באפשרותך לצבור נקודות כוח מ-Brawl Pass, מצבירת גביעים וממבצעים בחנות כדי לפתוח את השדרוג הבא"
 TID_HERO_INFO_STAR_POWER_CAN_DROP,אפשר כעת למצוא כוח כוכב בתיבות בראולר
+TID_HERO_INFO_STAR_POWER_BLOCKED,זה הזמן לחזק את <HERONAME> בכוח כוכב מיוחד! זמין לרכישה אחרי שמגיעים לרמת כוח <LEVEL>.
 TID_HERO_INFO_ACCESSORIES_CAN_DROP,אפשר כעת למצוא גאדג‘ט בתיבות בראולרים
+TID_HERO_INFO_ACCESSORIES_BLOCKED,זה הזמן לחזק את <HERONAME> בגאדג‘ט מיוחד! זמין לרכישה אחרי שמגיעים לרמת כוח <LEVEL>.
 TID_HERO_INFO_STAR_POWER_LABEL,כוח כוכב: <NAME>
 TID_HERO_INFO_ACCESSORIES_LABEL,גאדג‘ט: <NAME>
 TID_HERO_INFO_ABILITY_DESC,<c<COLOR>><CAPTION></c>\n<BODY>
-TID_HERO_INFO_DYNAMIC_RARITY_INFO,"הסיכוי לקבל בראולר כרומטי עולה עם כל עונה שלBrawl Pass. הסיכויים מתחילים באגדי, מתקדמים למדהים ובסוף מגיעים לדרגת אדיר.\n\nבעונה זו, הסיכוי לפתוח <BRAWLER> הוא <RARITY>."
-TID_HERO_INFO_DYNAMIC_RARITY_INFO_TIER,"הסיכוי לקבל בראולר כרומטי עולה עם כל עונה של Brawl Pass. הסיכויים מתחילים באגדי, מתקדמים למדהים ובסוף מגיעים לדרגת אדיר.\n\nצריך להגיע לדרגה <TIER> של עונה <SEASON> כדי שבראולר מסוג <BRAWLER> יהיה זמין בתיבות."
-TID_HERO_INFO_DYNAMIC_RARITY_INFO_TEASER,"הסיכוי לקבל בראולר כרומטי עולה עם כל עונה של Brawl Pass. הסיכויים מתחילים באגדי, מתקדמים למדהים ובסוף מגיעים לדרגת אדיר.\n\nבראולר <BRAWLER> מגיע בעונה <SEASON>."
+TID_HERO_INFO_DYNAMIC_RARITY_INFO,"רמת הנדירות של בראולר כרומטי עולה עם כל עונה של Brawl Pass. היא מתחילה באגדי, עולה למדהים ובסוף מגיעה לדרגת אדיר.\n\nבעונה זו, דרגת הנדירות של <BRAWLER> היא <RARITY>."
+TID_HERO_INFO_DYNAMIC_RARITY_INFO_TIER,"דרגת הנדירות של בראולר כרומטי עולה עם כל עונה של Brawl Pass. היא מתחילה באגדי, עולה למדהים ובסוף מגיעה לדרגת אדיר.\n\nצריך להגיע לדרגה <TIER> של עונה <SEASON> כדי שבראולר מסוג <BRAWLER> יהיה זמין לרכישה בקרדיטי כרומה."
+TID_HERO_INFO_DYNAMIC_RARITY_INFO_TEASER,"דרגת הנדירות של בראולר כרומטי עולה עם כל עונה של Brawl Pass. היא מתחילה באגדי, עולה למדהים ובסוף מגיעה לדרגת אדיר.\n\n<BRAWLER> מגיע בעונה <SEASON>."
 TID_HERO_INFO_BUY_ITEM,קנייה
 TID_HERO_INFO_BUY_ITEM_FREE,חינם
 TID_HERO_INFO_BUY_MISSING1,צריך עוד <MISSINGCOINS> כוכבים
@@ -741,6 +746,7 @@ TID_RANK_POPUP_NEXT_GOAL,המטרה הבאה
 TID_RANK_POPUP_COLLECT,איסוף
 TID_RANK_POPUP_SEASON_END_REWARD,פרס ליגת הגביע
 TID_RANK_POPUP_SEASON_END_REWARD_OWN,<cffff00>פרס ליגת הגביע שלך</c>
+TID_RANK_POPUP_TOTAL_INFO,כדאי להגדיל את מספר הגביעים הכולל שלך כדי לפתוח פרסים ולהגיע לליגות חדשות!\nמספר הגביעים הכולל הוא שילוב של כל הגביעים שיש לכל בראולר שלך בנפרד.
 TID_RANK_POPUP_SEASON_END_TITLE,ליגת הגביע מסתיימת בעוד
 TID_RANK_POPUP_SEASON_END_INFO,"בסיום ליגת הגביע, הבראולרים שלך שמחזיקים ביותר מ-<DECAYSTART> גביעים יאבדו חלק מהגביעים שלהם. כפיצוי יינתנו נקודות כוכב שניתן לנצל בחנות."
 TID_RANK_POPUP_HILITE_CAPTION_3,פתיחה: <HERO>
@@ -785,6 +791,7 @@ TID_GATCHA_SCREEN_VANITY_ITEM_DROP_TITLE_52,סיכה
 TID_GATCHA_SCREEN_VANITY_ITEM_DROP_DESC_52,בטאו את עצמבם עם סיכות לאספנים!
 TID_GATCHA_SCREEN_VANITY_ITEM_DROP_TITLE_68,ספריי
 TID_GATCHA_SCREEN_VANITY_ITEM_DROP_DESC_68,הבעה עצמית עם מיכלי ספריי לאספנים!
+TID_GATCHA_SCREEN_VANITY_ITEM_DROP_TITLE_76,תפקיד שחקן חדש
 TID_GATCHA_SCREEN_BOX_COUNTER_BONUS,בונוס
 TID_GATCHA_SCREEN_STAR_POINT_DROP_TITLE,נקודות כוכב
 TID_GATCHA_SCREEN_STAR_POINT_DROP_DESC,אפשר להשתמש בנקודות כוכב כדי לקנות פריטים מיוחדים מהחנות
@@ -825,9 +832,8 @@ TID_VICTORY_CONDITION_COINRUSH_TEXT,יש לתפוס ולהחזיק 10 יהלומ
 TID_BATTLE_END_MY_TEAM,הקבוצה שלך
 TID_BATTLE_END_ENEMY_TEAM,קבוצה יריבה
 TID_BACK,חזרה
-TID_NOT_ENOUGH_GOLD,"אין מספיק מטבעות, יש לפתוח תיבות בראולר כדי לקבל מטבעות"
+TID_NOT_ENOUGH_GOLD,אין מספיק מטבעות! ניתן לאסוף עוד ממסלול הגביעים ומ-Brawl Pass.
 TID_UNLOCK_SKIN_ERROR_1,אין מספיק יהלומים
-TID_EXPERIENCE_LEVEL,רמת ניסיון
 TID_BOT_1,בוט 1
 TID_BOT_2,בוט 2
 TID_BOT_3,בוט 3
@@ -848,8 +854,8 @@ TID_TOP_TOOL_TIP_GEMS,<c0ed12d>יהלומים</c> משמשים לקניית בר
 TID_TOP_TOOL_TIP_COINS,"<cff8E1b>מטבעות</c> משמשים לשדרוג הבראולרים. אפשר למצוא מטבעות בנתיב הגביעים, ב-Brawl Pass ולקבל אותם כפרסים מקווסטים ואתגרים."
 TID_TOP_TOOL_TIP_STAR_POINTS,"<cff00ff>נקודות כוכב</c> משמשות לקניית פריטים בלעדיים בחנות.\n\nאפשר להרוויח נקודות כוכב מליגת הגביע או כשכל בראולר מגיע לדירוג 10, ובכל 5 שלבים לאחר מכן!"
 TID_TOP_TOOL_TIP_CLUB_TICKETS,<cff0000>כרטיסים</c> משמשים למשחק באירועי ליגת מועדונים
-TID_TOP_TOOL_TIP_CLUB_COINS,<cff0000>מטבעות מועדון</c> משמשים לרכישת פריטים בלעדיים בחנות ליגת המועדונים.\n\nניתן להשיג מטבעות מועדון מליגת המועדונים!
-TID_TOP_TOOL_TIP_CHROMATIC_COINS,<cF88F25>קרדיטי כרומה</c> משמשים לפתיחת בראולרים כרומטיים.\n\nאספו קרדיטי כרומה מצבירת גביעים ומ-Brawl Pass.\n\nמקסימום:<cFF0000><MAX></c><EXTRAINFO>
+TID_TOP_TOOL_TIP_CLUB_COINS,<cff0000>מטבעות מועדון</c> משמשים לרכישת פריטים בלעדיים בחנות המועדון.\n\nניתן לזכות במטבעות מועדון על ידי השתתפות במשחקי מועדון!
+TID_TOP_TOOL_TIP_CHROMATIC_COINS,<cF88F25>קרדיטי כרומה</c> משמשים לפתיחת בראולרים כרומטיים.\n\nניתן לאסוף קרדיטי כרומה מפרסי Brawl Pass.\n\nמקסימום:<cFF0000><MAX></c><EXTRAINFO>
 TID_TOP_TOOL_TIP_CHROMATIC_COINS_EXTRAINFO_MAX_REACHED,\n\n<cFF0000>הגעתם לכמות המקסימלית. עליכם להשתמש תחילה בקרדיטי כרומה לפני שתאספו עוד.</c>
 TID_GAME_MODE_0,תופסים יהלומים
 TID_GAME_MODE_0_DESC,"אפשר לאסוף יהלומים שיוצאים מתוך מכרה היהלומים שבמרכז המפה, או לקחת אותם מיריבים שנפלו! צריך להחזיק עשרה יהלומים עד סוף הספירה לאחור כדי לנצח במשחק!"
@@ -895,8 +901,6 @@ TID_FIGHT_TUTORIAL,משחק
 TID_HERO_SCORE_INFO,יש לנצח במשחקים נגד שחקנים אחרים כדי לצבור גביעים לבראולר הזה.\n\nצריך לקבל <PROGRESS> גביעים כדי להגיע לדירוג הבא ולהרוויח <COINS> טוקנים.
 TID_HERO_SCORE_INFO_LEG_TROS,יש לנצח במשחקים נגד שחקנים אחרים כדי לצבור גביעים לבראולר הזה.\n\nצריך לקבל <PROGRESS> גביעים כדי להגיע לדירוג הבא ולהרוויח <COINS> טוקנים ו-<cff00ff> <LEGTROS> נקודות כוכב</c>
 TID_HERO_SCORE_INFO_MAXED,הגעת לדירוג הסופי.\n\n
-TID_XP_INFO_ME,רמת הניסיון שלך.\n\nיש לצבור ניסיון באמצעות קרבות. צריך לצבור עוד <REMPROGRESS> נקודות ניסיון כדי להגיע לשלב <LEVEL> ולהרוויח <COINS> טוקנים.
-TID_XP_INFO_OTHER,רמת הניסיון של השחקן הזה
 TID_TUTORIAL_WIN_ONE_GAME_PROMPT,צריך לשחק בקרב אימון אחד כדי לפתוח את המשחק המלא
 TID_SOCIAL_TAB_CLANS,מועדון
 TID_SOCIAL_TAB_FRIENDS,חברים
@@ -1010,7 +1014,6 @@ TID_CLAN_MEMBER_VIEW_ALLIANCE,הצגת מועדון
 TID_BUTTON_INVITE,הזמנה
 TID_PLAYER_INFO_GOTO_CLAN,הצגת מועדון
 TID_SELECT_PLAYER_THUMBNAIL,בחירת סמל
-TID_SELECT_PLAYER_THUMBNAIL_FAIL_2,ניתן לפתוח סמל זה ברמת ניסיון <LEVEL>
 TID_SELECT_PLAYER_THUMBNAIL_FAIL_3,ניתן לפתוח סמל זה כשמספר הגביעים הכולל הוא <TROPHIES>
 TID_PLAYER_INFO_WINS_AMOUNT,<AMOUNT> ניצחונות
 TID_PLAYER_INFO_TAB_1,סטטיסטיקה
@@ -1198,7 +1201,6 @@ TID_HINT_COLLECT_BUFFS,כדאי לצבור <c50d050>קוביות כוח</c> מא
 TID_PLAYERS_LEFT,בראולרים שנותרו: <num>
 TID_AVOID_POISON,חשוב להתרחק <c90ee90>מענני הרעל</c> המתקרבים!
 TID_CLAN_CREATE_COOLDOWN,לא ניתן ליצור מועדון עדיין. אפשר לנסות שוב בעוד <TIME>
-TID_CLAN_CREATE_XP_LEVEL_REQUIRED,עליכם להגיע לרמת ניסיון <LEVEL> כדי ליצור מועדון
 TID_PLAYER_DATA_MISSING,נתוני שחקן חסרים
 TID_ALLIANCE_DATA_MISSING,נתוני מועדון חסרים
 TID_BATTLE_END_PLAYER_NAME_YOU,<c00ff00><NAME></c>
@@ -1206,7 +1208,6 @@ TID_BATTLE_END_PLAYER_NAME_OTHER,<NAME>
 TID_RECHARGE_HINT,צריך לחכות שהתחמושת תתחדש!
 TID_EVENT_EXPIRED,האירוע הסתיים
 TID_DOUBLE_COINS_INFO,הקרב הזה נותן לך פי 2 טוקנים
-TID_DOUBLE_XP_INFO,הקרב הזה נותן לך פי 2 ניסיון
 TID_SETTINGS_TITLE,הגדרות
 TID_SETTINGS_CONTROL_MODE_TITLE,מצב שליטה
 TID_SETTINGS_CONTROL_MODE_VALUE_0,הקשה כדי לזוז
@@ -1228,7 +1229,6 @@ TID_NAME_ALREADY_CHANGED,ניתן לשנות שם רק פעם אחת.
 TID_NAME_CHANGE_ALREADY_USED,כבר שינית את השם שלך פעם אחת
 TID_NAME_CHANGED_SUCCESS,השם שלך שונה!
 TID_NAME_CHANGE_IN_PROGRESS,לא ניתן לשנות שם. החלפת שם קודמת נמצאת בתהליך.
-TID_NAME_CHANGE_EXP_LEVEL_TOO_LOW,ניתן לשנות שם החל מרמת ניסיון <level>
 TID_CONFIRM_CONFIRM,נא להקליד \q<confirmword>\q וללחוץ על לחצן האישור כדי להשלים את הפעולה
 TID_CONFIRM_WORD,אישור
 TID_SETTINGS_PLAYERNAME_CONFIRM_NEW,יש להזין שוב את שמך החדש כדי לאשר את שינוי השם.\nשמך החדש יהיה:
@@ -1241,12 +1241,11 @@ TID_EVENTS_NEXT_EVENT_STARTING_AT,האירוע הבא בעוד
 TID_EVENTS_TIME_LEFT,זמן שנותר
 TID_EVENTS_NEW,חדש!
 TID_EVENTS_FREE_REWARD,<AMOUNT>
-TID_EVENTS_XP_CAP_REACHED,כל הניסיון שנצבר
 TID_EVENTS_EVENT_LOCKED,נעול
 TID_EVENTS_TROPHY_REQ,דרוש מספר כולל של <c00ffff><COUNT></c> גביעים כדי לפתוח
 TID_EVENTS_PRO_LEAGUE_REQ,צריך לקבל כוח כוכב כדי שייפתח בראולר
 TID_GAME_STARTING,מתחיל קרב ב-<LOCATION>. נא להצטרף!
-TID_WEEKEND_EVENT,אירוע ניסיון כפול
+TID_WEEKEND_EVENT,אירוע סוף השבוע
 TID_PLAYER_KILLED_SOMEONE,<name>
 TID_SHOP_TEMPORARILY_DISABLED,החנות סגורה באופן זמני
 TID_GATCHA_TEMPORARILY_DISABLED,פתיחת תיבות בראולר מושבתת באופן זמני
@@ -1328,6 +1327,7 @@ TID_SHOP_OFFER_TITLE_20,סט סיכות
 TID_SHOP_OFFER_TITLE_21,חבילת סיכות
 TID_SHOP_OFFER_TITLE_22,חבילת סיכות עבור
 TID_SHOP_OFFER_TITLE_23,סיכה - <RARITY>
+TID_SHOP_OFFER_TITLE_25,סמל שחקן
 TID_SHOP_OFFER_TITLE_27,חבילת סיכות ברמת נדירות <RARITY>
 TID_SHOP_OFFER_TITLE_35,ספריי חדש
 TID_SHOP_OFFER_TITLE_36,ספריי
@@ -1342,6 +1342,7 @@ TID_EMOTE_RARITY_2,אדירה
 TID_EMOTE_RARITY_3,אגדית
 TID_SHOP_OFFER_DESC_GOLD,אפשר להשתמש במטבעות כדי לשדרג את הבראולרים שלך
 TID_SHOP_OFFER_ANY_BRAWLER,בכל\nבראולר
+TID_SHOP_OFFER_ANY_BRAWLER_DESC,עם כל בראולר!
 TID_PURCHASE_OFFER_POPUP_TITLE,אשרו רכישה
 TID_PURCHASE_OFFER_POPUP_TITLE_FREE,פרס בחינם
 TID_SHOP_OFFER_NEW_HERO_LABEL,בראולר
@@ -1353,6 +1354,7 @@ TID_SHOP_OFFER_NEW,חדש
 TID_GATCHA_BOX_TITLE_2,תיבת בראולר
 TID_GATCHA_BOX_TITLE_3,מגה תיבה
 TID_SHOP_HERO_PURCHASE_CONFIRM_LABEL,בראולר חדש
+TID_GATCHA_BOX_INFO_2,מכילה בראולר חדש או גאדג‘ט או כוח כוכב או מטבעות ונקודות כוח עבור שני בראולרים. חלק מהתיבות מכילות בונוס של מכפיל טוקנים!
 TID_GATCHA_BOX_INFO_3,גדול פי\n\n<AMOUNT> מתיבת בראולר אחת.
 TID_SHOP_OFFER_INFO_0,זה בחינם. בכיף!
 TID_SHOP_OFFER_INFO_1,מכילה <AMOUNT> מטבעות. יש להשתמש במטבעות כדי לשדרג את הבראולרים שלך.
@@ -1367,7 +1369,7 @@ TID_SHOP_OFFER_INFO_12,אפשר לבחור את הבראולר שיקבל את �
 TID_SHOP_OFFER_INFO_13,פתיחת מסגרת אירוע חדשה
 TID_SHOP_OFFER_INFO_14,תיבות גדולות מכילות פי 3 יותר הטבות מתיבות בראולר בגודל רגיל!
 TID_SHOP_OFFER_INFO_16,מכיל <AMOUNT> יהלומים
-TID_SHOP_OFFER_INFO_18,פתחו קווסטים וקבלו עוד טוקנים עבור Brawl Pass
+TID_SHOP_OFFER_INFO_18,פותחים קווסטים עונתיים ומקבלים עוד טוקנים עבור Brawl Pass
 TID_SHOP_OFFER_INFO_19,סיכה חדשה עבור <BRAWLER>!
 TID_SHOP_OFFER_INFO_20,מכיל סט של <AMOUNT> סיכות. ניתן להשתמש בהן כדי לתקשר עם שחקנים אחרים!
 TID_SHOP_OFFER_INFO_21,"החבילה כוללת 2 סיכות נפוצות וסיכה אחת נדירה או אדירה לכל בראולר שפתחת, עם הסיכויים הבאים:\nסיכה נדירה: %<Rare>\nסיכה אדירה: %<Epic>"
@@ -1380,6 +1382,7 @@ TID_SHOP_OFFER_INFO_32,אפשר להשתמש בטוקנים של ציוד כדי
 TID_SHOP_OFFER_INFO_33,כדאי להשתמש בגרוטאות כדי לעצב ולשדרג את הציוד!
 TID_SHOP_OFFER_INFO_35,צריך להשתמש בספריי לקישוט רמות!
 TID_SHOP_OFFER_INFO_37,משבצת אחת נוספת של ספריי!
+TID_SHOP_OFFER_INFO_38,קרדיטים משמשים כדי לפתוח בראולרים חדשים!
 TID_SHOP_OFFER_INFO_39,השתמשו בקרדיטי כרומה כדי לפתוח בראולרים כרומטיים
 TID_SHOP_OFFER_HOR_NEW,חדש
 TID_SHOP_OFFER_HOR_RARITY,<c<COLOR>><NAME></c>
@@ -1401,11 +1404,11 @@ TID_HINT_DRAG_TO_ULTI_1,יש לירות כעת את תכונת הסופר שלך
 TID_BIND_TO_NEW_GAMECENTER_ACCOUNT_TITLE,התחברות חדשה ל-Game Center
 TID_BIND_TO_NEW_GAMECENTER_ACCOUNT,האם ברצונך לשמור את המשחק הנוכחי שלך בחשבון Game Center זה?
 TID_GOOGLE_SERVICE_BOUND_TO_OTHER_ACCOUNT_TITLE,התראת חשבון Google
-TID_GOOGLE_SERVICE_BOUND_TO_OTHER_ACCOUNT,האם ברצונך לטעון את המשחק של <name> עם רמת ניסיון <number>? אזהרה: ההתקדמות במשחק הנוכחי תאבד.
+TID_GOOGLE_SERVICE_BOUND_TO_OTHER_ACCOUNT,האם ברצונך לטעון את המשחק של <name> עם <trophies> גביעים? אזהרה: ההתקדמות במשחק הנוכחי תאבד.
 TID_BOUND_TO_OTHER_ACCOUNT_LOAD_VILLAGE_TITLE,האם לטעון משחק?
 TID_BUTTON_VILLAGE_LOAD,טעינה
 TID_GAMECENTER_BOUND_TO_OTHER_ACCOUNT_TITLE,התראת Game Center
-TID_GAMECENTER_BOUND_TO_OTHER_ACCOUNT,האם ברצונך לטעון את המשחק של <name> עם רמת ניסיון <number>? אזהרה: ההתקדמות במשחק הנוכחי תאבד.
+TID_GAMECENTER_BOUND_TO_OTHER_ACCOUNT,האם ברצונך לטעון את המשחק של <name> עם <trophies> גביעים? אזהרה: ההתקדמות במשחק הנוכחי תאבד.
 TID_BUTTON_AVATAR_LOAD,טעינה
 TID_SETTINGS_SCREEN_TITLE,הגדרות
 TID_SETTINGS_MUSIC,מוזיקה
@@ -1428,7 +1431,7 @@ TID_SETTINGS_BUTTON_FACEBOOK_CONNECTED_UP,מחובר
 TID_SETTINGS_BUTTON_FACEBOOK_DISCONNECTED_UP,התחברות
 TID_FAQ_BUTTON,עזרה ותמיכה
 TID_ABOUT_TERMS,כל שימוש בתוכנה זו כפוף לתנאים ולהתניות ולמדיניות באתר www.supercell.com.
-TID_ABOUT,קרדיט\n\n<names>\n\nזכויות יוצרים Brawl Stars ™ <version>\nכל הזכויות שמורות ל- 2016-2022 Supercell Ltd\n<extracopyright>\n<terms>TID_SPEC_ABI_FLEA_1_DESC.
+TID_ABOUT,קרדיט\n\n<names>\n\nזכויות יוצרים Brawl Stars ™ <version>\nכל הזכויות שמורות ל- 2016-2023 Supercell Ltd\n<extracopyright>\n<terms>.
 TID_IAP_TRANSACTION_PENDING,נא להמתין. העיסקה בטיפול.
 TID_RATE_APP_TITLE,דירוג Brawl Stars
 TID_RATE_APP_MESSAGE,נא לדרג את Brawl Stars או לכתוב ביקורת ב-App Store כדי לתת לנו משוב מועיל!
@@ -1611,7 +1614,6 @@ TID_BOLTS_MIGRATION_CHIP_GEM,הצ‘יפים שלך הומרו ביהלומים
 TID_STAT_HEALING_PER_SEC,ריפוי בכל שנייה
 TID_STAT_DAMAGE_PER_CARD,נזק מכל קלף
 TID_OVERTIME,הארכת זמן!
-TID_STARTER_PACK_XP_REQ,מבצע מיוחד לרגל הגעתך לרמת ניסיון <XPLEVEL>
 TID_VALUE,ערך
 TID_SHOP_ONE_TIME_PURCHASE,מבצע זה הוא לרכישה חד פעמית!
 TID_HINT_MAKE_GOAL_1,יש לגרור את <ccc0033>הסמן האדום</c> לכיוון הכדור!
@@ -1680,6 +1682,7 @@ TID_SPEC_SELF_DESTRUCT_DESC,כשדינ-מייק מובס הוא משליך שי�
 TID_SPEC_ABI_CACTUS_HEAL_DESC,"אחרי שימוש בתכונת הסופר שלו, החיים של ספייק מתחדשים בקצב של <c00cc00><VALUE1></c> לשנייה אם הוא נשאר באזור ההשפעה שלה."
 TID_SPEC_ABI_HEAL_SELF_MAIN_ATTACK_DESC,בארלי מחזיר לעצמו <c00cc00><VALUE1></c> חיים מכל מתקפה.
 TID_SPEC_ABI_REPAIR_TURRET_DESC,ג‘סי יכולה לתקן את צריח הרובה שלה ולהחזיר לו <c00cc00><VALUE1></c> מהחיים שחסרים לו אם היא משתמשת במתקפה שלה עליו.
+TID_SPEC_ABI_PET_LIFESTEAL_DESC,"ניטה מחזירה לעצמה <c00cc00><VALUE1></c> נקודות בריאות בכל פעם שהדוב שלה פוגע בבראולר אויב. כשניטה גורמת נזק לבראולר אויב, הדוב שלה זוכה מחדש ב-<c00cc00><VALUE2></c> נקודות בריאות."
 TID_SPEC_ABI_STEAL_SOULS_DESC,מורטיס שואב את תמצית החיים של הבראולרים שהוא מביס ובכך מוסיף לעצמו <c00cc00><VALUE1></c> חיים.
 TID_SPEC_SPOT_FROM_AIR_DESC,"כשפייפר משתמשת בתכונת הסופר שלה, היא יכולה לזהות מהאוויר אויבים שמתחבאים בשיחים."
 TID_SPEC_HEAL_MAIN_ATTACK_DESC,כשהמתקפה של פוקו פוגעת בבראולרים ידידותיים הם מקבלים כעת <c00cc00><VALUE1></c> חיים.
@@ -1689,6 +1692,7 @@ TID_SPEC_ABI_BLACK_HOLE_MONSTER_DESC,מתקפת הסופר של טארה פות�
 TID_SPEC_ABI_TODO_DESC,יכולת מיוחדת לא מוגדרת
 TID_SPEC_ABI_SPEED_DESC,מהירות התנועה של קולט מוגדלת ב-<c00cc00><VALUE1>%</c>.
 TID_SPEC_ABI_PUSHBACK_SELF_DESC,דינ-מייק יכול לגלוש על הגל של פיצוץ חומרי הנפץ שלו כדי לקפוץ מעל מכשולים!
+TID_SPEC_ABI_HEAL_OTHERS_MAIN_ATTACK_DESC,"בכל פעם שפאם פוגעת בבראולר אויב באמצעות סופת שאריות, היא מרפאה את עצמה ובראולרים ידידותיים שנמצאים בסביבה ב-<c00cc00><VALUE1></c> נקודות בריאות."
 TID_SPEC_BOUNCED_BULLETS_STRONGER_DESC,"הכדורים של ריקו, במתקפה הרגילה וגם בתכונת הסופר, נטענים בכוחות על בפגיעה הראשונה שלהם ומסבים <c00cc00><VALUE1></c> נזק!"
 TID_SPEC_ABI_FIRE_DOT_ULTI_DESC,אויבים שנפגעים על-ידי תכונת הסופר של אל פרימו יישרפו ויספגו נזק של <c00cc00><VALUE1></c> למשך 4 שניות.
 TID_SPEC_LAST_STAND_DESC,פוקו משמיע את שירת הברבור שלו ונעלם. בראולרים ידידותיים בסביבה מקבלים <c00cc00><VALUE1></c> חיים!
@@ -1730,22 +1734,22 @@ TID_CLAN_RESPONSE_44,הצטרפות נכשלה: הצטרפת כבר למועדו
 TID_SHOTGUN_GIRL_SHORT_DESC,גורמת נזק
 TID_GUNSLINGER_SHORT_DESC,גורם נזק
 TID_BULL_DUDE_SHORT_DESC,טנק
-TID_ROCKET_GIRL_SHORT_DESC,גורם נזק
-TID_TNT_DUDE_SHORT_DESC,גורם נזק
+TID_ROCKET_GIRL_SHORT_DESC,צלף
+TID_TNT_DUDE_SHORT_DESC,ארטילריה
 TID_LUCHADOR_SHORT_DESC,טנק
 TID_TRICKSHOT_DUDE_SHORT_DESC,גורם נזק
 TID_CACTUS_SHORT_DESC,גורם נזק
-TID_BARKEEP_SHORT_DESC,גורם נזק
-TID_MECHANIC_SHORT_DESC,גורמת נזק
+TID_BARKEEP_SHORT_DESC,ארטילריה
+TID_MECHANIC_SHORT_DESC,בקר
 TID_SHAMAN_SHORT_DESC,גורמת נזק
 TID_UNDERTAKER_SHORT_DESC,מתנקש
 TID_CROW_SHORT_DESC,מתנקש
 TID_DEAD_MARIACHI_SHORT_DESC,תמיכה
-TID_BOW_DUDE_SHORT_DESC,גורם נזק
-TID_SNIPER_SHORT_DESC,גורמת נזק
+TID_BOW_DUDE_SHORT_DESC,בקר
+TID_SNIPER_SHORT_DESC,צלף
 TID_MINIGUN_DUDE_SHORT_DESC,תמיכה
 TID_BLACK_HOLE_SHORT_DESC,גורמת נזק
-TID_BARREL_BOT_SHORT_DESC,היברידי
+TID_BARREL_BOT_SHORT_DESC,טנק
 TID_CLAN_INTRO_SUGGESTED_CLANS,המועדונים הטובים ביותר עבורך
 TID_CLAN_INTRO_CREATE_TITLE,למה לא לפתוח אחד משלך?
 TID_CLAN_INTRO_HEADER,מועדונים
@@ -1758,6 +1762,7 @@ TID_BRAWL_BOX_INFO_1,"תיבה גדולה מעניקה פרסים שדומים �
 TID_BRAWL_BOX_INFO_2,"כל תיבת בראולר מכילה אחד מהדברים הבאים: בראולר חדש, נקודות כוח + מטבעות, גאדג‘ט או כוח כוכב. בנוסף, אפשר לקבל מכפילי טוקנים כבונוס.\n\nהסיכויים לזכות בפרסים הם:"
 TID_BRAWL_BOX_INFO_3,"מגה תיבה מעניקה לך פרסים שדומים לפתיחה של 10 תיבות בראולר. עם זאת, נקודות הכוח מתחלקות בין פחות בראולרים.\n\nיינתנו לך 10 משיכות אקראיות ואלה סיכויי הזכייה בפרסים בכל אחת מהן:"
 TID_BRAWL_BOX_INFO_CATEGORIES,\n\n<CATEGORY1> : <NUM1>%\nבראולר נדיר: <NUM2>% <GAR_HERO_1>\nבראולר נדיר במיוחד: <NUM3>% <GAR_HERO_2>\nבראולר אדיר: <NUM4>% <GAR_HERO_3>\nבראולר מדהים: <NUM5>% <GAR_HERO_4>\nבראולר אגדי: <NUM6>% <GAR_HERO_5>\nכוח כוכב: <NUM7>% <GAR_STAR_POWER>\nגאדג‘ט: <NUM8>% <GAR_ACCESSORY>
+TID_BRAWL_BOX_INFO_FOOTER,"\n\nבנוסף, כל הגרלה מעניקה לך סיכוי של %<TOKEN_DOUBLER> לקבל מכפיל טוקנים. גאדג‘טים זמינים רק כאשר בראולרים מגיעים לרמת כוח 7. כוחות כוכב זמינים רק עבור בראולרים שהגיעו לרמת כוח 9. לאחר פתיחת <WCPP_BRAWLERS> בראולרים, יהיה סיכוי של %<WCPP_CHANCE> שנקודות כוח יוקצו לבראולר כלשהו. ברגע שפותחים את כל הפרסים מסוג מסוים, למשל בראולרים נדירים, הסבירות לקבל את כל יתר הפרסים תגדל. מזל: על מנת להפוך את החוויה של פתיחת תיבת בראולר להוגנת יותר, קיימת מערכת מזל שמשפיעה על הסבירות של בראולרים אגדיים. ערך המזל שלך עולה עם כל הגרלה שלא מניבה לך בראולר חדש, ובכל פעם שמקבלים בראולר חדש, ערך המזל שלך פוחת בהתבסס על רמת הנדירות של הבראולר שקיבלת. כשערך המזל גבוה מספיק הסיכוי שלך לקבל בראולר אגדי יגדל בערכו עד %<MAX_LEGENDARY>. המשמעות של ערך מזל נמוך היא שקשה יותר להשיג בראולר אגדי. הגרלות מוקדמות נקבעות מראש כדי להבטיח התחלה שווה לכולם."
 TID_BRAWL_BOX_INFO_POWER_POINTS_AND_COINS,נקודות כוח+מטבעות
 TID_BRAWL_BOX_INFO_POWER_POINTS_COINS_AND_SCRAP,נקודות כוח+מטבעות+גרוטאות
 TID_BRAWL_BOX_INFO_COINS_AND_SCRAP,מטבעות+גרוטאות
@@ -1850,6 +1855,7 @@ TID_BUTTON_CHANGE,החלפה
 TID_CLAN_JOIN_FAILED_IN_TUTORIAL,יש לסיים את ההדרכה כדי להצטרף למועדון
 TID_CLAN_JOIN_FAILED_FEATURE_LOCKED,תחילה יש לפתוח מועדונים באמצעות צבירת גביעים!
 TID_CLUB_FEATURE_LOCKED_TROPHIES,גישה למועדונים מתקבלת עם <TROPHIES> גביעים!
+TID_CLUB_CREATE_LOCKED_TROPHIES,צריך לצבור <TROPHIES> גביעים כדי להקים מועדון
 TID_CLAN_INTRO_INVITE,שיתוף הזמנה
 TID_INVITE_CLAN_TOKEN_ERROR,שגיאה ביצירת הזמנה
 TID_ALLIANCE_INVITE_FAILED_NO_RIGHTS,רק נשיאי מועדון יכולים להזמין חברים חדשים
@@ -1893,7 +1899,7 @@ TID_ALLIANCE_JOIN_POST_MESSAGE,יש ללחוץ על הקישור להצטרפו�
 TID_ALLIANCE_JOIN_POST_TITLE,כדאי להזמין חבר להצטרף למועדון!
 TID_HOMESCREEN_MODE_LOCKED,דרוש מספר כולל של <COUNT> גביעים כדי להילחם כאן!
 TID_GAMEROOMS_PLAYERS_ONLINE,<count> חברים מחוברים
-TID_ARTILLERY_DUDE_SHORT_DESC,גורמת נזק
+TID_ARTILLERY_DUDE_SHORT_DESC,ארטילריה
 TID_HAMMER_DUDE_SHORT_DESC,טנק
 TID_HAMMER_DUDE_DESC,פרנק מניף את הפטיש שלו אל עבר האויבים ויוצר גל הלם. תכונת הסופר שלו היא מכה חזקה במיוחד שמהממת את האויבים!
 TID_HAMMER_DUDE_WEAPON,מכת פטיש
@@ -1985,7 +1991,6 @@ TID_HINT_28,"אפשר לשחק בקרבות ידידותיים כדי לתרגל
 TID_HINT_29,"אחרי משחק טוב עם חברי קבוצה חדשים, ניתן ללחוץ על משחק מחדש כדי לשחק איתם עוד משחק!"
 TID_HINT_30,"אפשר בקרבות ידידותיים לבחור כל אירוע ומפה. בנוסף, הבראולרים יהיו משודרגים לחלוטין!"
 TID_HINT_31,פרנק עוצר כדי לבצע את המתקפה ואת תכונת הסופר שלו וכך מאפשר ליריבים לצאת מהטווח שלו.
-TID_EXPERIENCE,ניסיון
 TID_HINT_32,אירועים מיוחדים לא מעניקים גביעים. שחקו בהם כדי לזכות בטוקנים עבור Brawl Pass.
 TID_HINT_33,ניתן להזמין חברי מועדון להיות חברים שלך דרך רשימת חברי המועדון.
 TID_HINT_34,ניתן להזמין אנשים מקבוצה שהצטרפת אליה להיות חברים שלך.
@@ -2066,6 +2071,7 @@ TID_EVENT_MODIFIER_DESC_14,כל הבראולרים זזים מהר יותר!
 TID_EVENT_MODIFIER_15,קרב מכריע+
 TID_EVENT_MODIFIER_DESC_15,"ניתן לך גביעים נוספים על כל יריב שהבסת, אבל יאבדו לך גביעים על כל תבוסה שלך!"
 TID_EVENT_MODIFIER_16,מחבואים
+TID_EVENT_MODIFIER_DESC_16,מדי פעם כל הבראולרים הופכים לבלתי נראים!
 TID_EVENT_MODIFIER_17,כדור אש
 TID_EVENT_MODIFIER_DESC_17,"אמבר לא הייתה זהירה עם נוזל האש שלה והציתה את הכדור! לא רק שהוא גורם נזק לכל מי שנוגע בו, הוא גם שובר קירות עכשיו! הוא פולט כל כך הרבה חום!"
 TID_BALL_5,מבצר כדור-בראולר
@@ -2115,7 +2121,7 @@ TID_EVENT_MODIFIER_DESC_5_SD,"פטריות ריפוי מופיעות באקרא�
 TID_NINJA,לאון
 TID_ROSA,רוזה
 TID_HINT_42,"אם לא תתקפו או תספגו נזק, הבראולר שלכם יקבל חיים בחזרה לאחר זמן מה."
-TID_HOOK_SHORT_DESC,תמיכה
+TID_HOOK_SHORT_DESC,בקר
 TID_HOOK_DESC,ג‘ין יורה טיל ממנורת הקסמים שלו. תכונת הסופר שלו היא יד קסומה שתופסת אויבים ומקרבת אותם אליו!
 TID_SPEC_ABI_HOOK,ענני קסם
 TID_SPEC_ABI_HOOK_DESC,ג‘ין מרפא את כל הבראולרים הידידותיים שסביבו ומוסיף להם <c00cc00><VALUE1></c> חיים בכל שנייה.
@@ -2383,7 +2389,6 @@ TID_SHOP_UPGRADE_BUNDLE,חבילת שדרוג
 TID_SHOP_NEW_BRAWLER_OFFER,הצעת בראולר חדש
 TID_SHOP_NEW_SKIN_RELEASE,גרסת סקין חדשה
 TID_SHOP_NEW_SKIN_OFFER,מבצע סקין חדש
-TID_FRIENDLY_GAME_ROOM_LOCKED,צריך להגיע לרמת ניסיון <NUM> כדי לפתוח קרבות ידידותיים
 TID_HEROES_COMING_SOON,בראולרים חדשים בקרוב
 TID_RARITY_NAME_0_UPPER,פרס צבירת גביעים
 TID_RARITY_NAME_1_UPPER,נדיר
@@ -2407,6 +2412,7 @@ TID_STAT_DAMAGE_EACH_WAY,נזק בפגיעה
 TID_STAT_DAMAGE_PER_SWING,נזק מכל הנפה
 TID_HINT_43,"כשהמכוש של קארל פוגע במכשול, הוא ניתז ממנו וחוזר וכך קארל יכול לזרוק אותו שוב מהר יותר."
 TID_SPEC_ABI_PROJECTILE_SPEED,הטלת כוח
+TID_SPEC_ABI_PROJECTILE_SPEED_DESC,קארל זורק את המכוש שלו במהירות מוגברת ב-<c00cc00><VALUE1>%</c> וכך הוא עף מהר יותר וחוזר מהר יותר.
 TID_SPEC_ABI_SUPERSPEED,מתגלגלים
 TID_SPEC_ABI_SUPERSPEED_DESC,העגלה המסתובבת של קארל צוברת יותר מהירות כשתכונת הסופר שלו פעילה!
 TID_HERO_SORTING_TROPHIES,הכי פחות גביעים
@@ -2615,7 +2621,7 @@ TID_SKIN_INFO_FX_TURRET,- מודל בראולר בהתאמה אישית\n- מו�
 TID_SPEC_ABI_SPED_FULL_AMMO,הום ראן
 TID_SPEC_ABI_SPED_FULL_AMMO_DESC,מהירות התנועה של באבל מוגברת ב-<c00cc00><VALUE1>%</c> כשמד ההום ראן שלה טעון במלואו.
 TID_BASEBALL,באבל
-TID_BASEBALL_SHORT_DESC,גורמת נזק
+TID_BASEBALL_SHORT_DESC,טנק
 TID_BASEBALL_DESC,קדימה לחבוט! באבל מניפה את המחבט ומעיפה את האויבים כשמד ההום ראן שלה טעון. תכונת הסופר שלה היא כדור מסטיקים מקפץ שמסב נזק.
 TID_BASEBALL_WEAPON,שלוש פסילות
 TID_BASEBALL_ULTI,כדור מלוכלך
@@ -2656,7 +2662,7 @@ TID_SPEC_ULTI_BURN_DESC,פגזים מהצריח של פני מבעירים אש 
 TID_SPEC_ABI_REPAIR_SELF,משומן היטב
 TID_SPEC_ABI_REPAIR_SELF_DESC,"אם טיק לא סופג נזק ולא תוקף, הוא מתחיל להחזיר לעצמו חיים <c00cc00><VALUE1></c> שניות מהר יותר מהרגיל."
 TID_HEAD_HEALTH,חיי ראש
-TID_CLUSTER_BOMB_DUDE_SHORT_DESC,גורם נזק
+TID_CLUSTER_BOMB_DUDE_SHORT_DESC,ארטילריה
 TID_CLUSTER_BOMB_DUDE_DESC,"טיק הוא כדור מתכת מפוצץ באנרגיה! הוא זורק מוקשים וכשהוא משתמש בתכונת הסופר שלו, הראש שלו מתנתק, מחפש מטרה ומתפוצץ."
 TID_CLUSTER_BOMB_DUDE_WEAPON,מיני מוקשים
 TID_CLUSTER_BOMB_DUDE_ULTI,עם הראש קדימה
@@ -2677,6 +2683,7 @@ TID_SPEC_ABI_STUN_TRAP_DESC,המלכודות של בו משתקות כעת את 
 TID_SPEC_ABI_TURRET_ELECTRICITY,מכת חשמל
 TID_SPEC_ABI_TURRET_ELECTRICITY_DESC,סקראפי הצריח יורה כעת כדורי אנרגיה שמקפצים בין האויבים. הטווח של הכדור לאחר שהוא קופץ הוא <c00cc00><VALUE1>%</c> מהטווח הרגיל.
 TID_SPEC_EXTRA_BULLET,טיל מספר 4
+TID_SPEC_EXTRA_BULLET_DESC,ברוק טוען טיל רביעי במשגר שלו ומגדיל את קיבולת התחמושת שלו - וגם נפטר מהתרמוס שהוא שמר שם עד עכשיו.
 TID_SPEC_ABI_SPIKES_LOW_HEALTH,התפרצות קוצים
 TID_SPEC_ABI_SPIKES_LOW_HEALTH_DESC,"כשהחיים של ספייק נמצאים מתחת ל-<c00cc00><VALUE1>%</c>, הוא מתחיל לירות קוצים. כל אחד מהם גורם ל-<c00cc00><VALUE2></c> נזק!"
 TID_SPEC_ABI_RELOAD_ON_HIT,צליפה מהירה
@@ -2847,7 +2854,7 @@ TID_SOLO_BOUNTY_IN_LEAD,את/ה מוביל/ה!
 TID_SOLO_BOUNTY_DOING_GOOD,המשיכו ככה!
 TID_SOLO_BOUNTY_DOING_OK,את/ה בסדר
 TID_SOLO_BOUNTY_DOING_BAD,אתם צריכים עוד כוכבים!
-TID_SANDSTORM_SHORT_DESC,תמיכה
+TID_SANDSTORM_SHORT_DESC,בקר
 TID_SANDSTORM_DESC,סנדי הוא בראולר שלא ישן מספיק והוא יכול לשלוט בחול. הוא זורק חצץ חד על האויבים ומזמן סופת חול שמסתירה את החברים בקבוצה.
 TID_SANDSTORM_WEAPON,מפץ חצץ
 TID_SANDSTORM_WEAPON_DESC,סנדי משליך על האויבים חצץ חד ודוקר. אאוץ‘!
@@ -2886,7 +2893,7 @@ TID_ADDITIONAL_GEM_TOOLTIP_FOR_JAPAN,\n\nיהלומים בתשלום: <PAID>\nי
 TID_RANK,דירוג: <val>/10
 TID_SOLO_BOUNTY_NO_RANK,צריך להביס בראולרים כדי לקבל כוכבים!
 TID_BOSS_RACE_NO_RANK,צריך לגרום נזק לבוס!
-TID_MUMMY_SHORT_DESC,גורמת נזק
+TID_MUMMY_SHORT_DESC,בקר
 TID_MUMMY_DESC,תכונת הסופר של Emz מאטה את האויבים שלה. היא תוקפת עם מטחי ספריי לשיער שמסבים נזק לאורך זמן.
 TID_MUMMY_WEAPON,ספריי
 TID_MUMMY_WEAPON_DESC,מטח ספריי השיער שEmz מרססת לכיוונך יכול להמיס לך את הפנים!
@@ -2896,6 +2903,7 @@ TID_STAT_MUMMY,Emz
 TID_SPEC_ABI_TICK_DMG_GROW,קארמה רעה
 TID_SPEC_ABI_TICK_DMG_GROW_DESC,"אויבים שנשארים בטווח הענן הרעיל של ספריי השיער של Emz סובלים מנזק גובר, <c00cc00>%<VALUE1></c> לכל פגיעה."
 TID_SPEC_ABI_HEAL_SUPER_DMG,ריגוש
+TID_SPEC_ABI_HEAL_SUPER_DMG_DESC,"על כל בראולר אויב שנמצא בתוך אזור ההשפעה של תכונת הסופר שלה, Emz מקבלת בחזרה <c00cc00><VALUE1></c> נקודות בריאות לשנייה."
 TID_FRIEND_ADD_YOUR_ID,ה-ID שלך: <ID>
 TID_FRIEND_ADD_BUTTON,הוספת\nחבר
 TID_FRIEND_ADD_BUTTON_SHORT,הוספה
@@ -2991,12 +2999,12 @@ TID_IAP_XMAS_19_3,חוגגים עם הבראולרים
 TID_IAP_XMAS_19_4,חוגגים עם הבראולרים
 TID_IAP_COINPACK_11_19,"מטבעות, מטבעות, מטבעות"
 TID_IAP_NEWYEAR_20,שנה טובה
-TID_SKIN_INFO_CAMPAIGN_4_NOT_AVAILABLE,סקין BROWN & FRIENDS
+TID_SKIN_INFO_CAMPAIGN_4_NOT_AVAILABLE,BROWN & FRIENDS
 TID_HOME_PAGE_PENDING_DONATION,הודעה\nחשובה
 TID_SETTINGS_BLOCK_FRIEND_REQUESTS,חסימת בקשות חברות
 TID_SPAWNER_DUDE,מר P
 TID_BEE_SNIPER,בי
-TID_BEE_SNIPER_SHORT_DESC,גורמת נזק
+TID_BEE_SNIPER_SHORT_DESC,צלף
 TID_BEE_SNIPER_DESC,בי אוהבת חרקים וחיבוקים. היא יורה רחפנים מכניים ותכונת הסופר שלה משגרת נחיל של דבורים כועסות!
 TID_BEE_SNIPER_WEAPON,עקיצה רצינית
 TID_BEE_SNIPER_WEAPON_DESC,בי יורה מטווח ארוך והפגיעה מוסיפה טעינת סופר לירייה הבאה שלה וגורמת לנזק עצום!
@@ -3018,8 +3026,10 @@ TID_SPEC_ABI_SPEEDY_1_DESC,מקס טוענת כעת את תכונת הסופר �
 TID_SPEC_ABI_SPEEDY_2,לרוץ ולירות
 TID_SPEC_ABI_SPEEDY_2_DESC,מקס טוענת מהר יותר תוך כדי תנועה.
 TID_SPEEDY_ULTI_STAT,קדימה!
+TID_QUICK_MESSAGE_CHOOSE_BRAWLER,אנחנו צריכים בראולר...
 TID_QUICK_MESSAGE_CHOOSE_MODE,בואו נשחק...
 TID_QUICK_MESSAGE_CHOOSE_FRIENDLY_LOCATION,בואו נשחק...
+TID_QUICK_MESSAGE_CHANGE_BRAWLERS,בואו נחליף בראולרים!
 TID_QUICK_MESSAGE_GOOD_GAME,משחק טוב!
 TID_QUICK_MESSAGE_PLAY_AGAIN,רוצה לשחק שוב?
 TID_QUICK_MESSAGE_WELL_PLAYED,שיחקת אותה!
@@ -3040,6 +3050,7 @@ TID_QUICK_MESSAGE_OOPS,אופס
 TID_QUICK_MESSAGE_SUGGEST_BRAWLER,רוצה לשחק בתור <c<COLOR>><NAME></c>?
 TID_QUICK_MESSAGE_SUGGEST_STARPOWER,רוצה להשתמש ב-<c<COLOR>><NAME></c>?
 TID_QUICK_MESSAGE_SUGGEST_MODE,בואו נשחק <c<COLOR>><NAME></c>!
+TID_QUICK_MESSAGE_ASK_BRAWLER,איזה בראולר כדאי לי לבחור?
 TID_QUICK_MESSAGE_ASK_MODE,באיזה אירוע נשחק?
 TID_PLAYER_CTX_SUGGEST_BRAWLER_SHORT,הצעה
 TID_PLAYER_CTX_SUGGEST_CANCEL,ביטול הצעה
@@ -3091,11 +3102,15 @@ TID_CLAN_POPUP_TAB_CHAT,צ‘אט
 TID_BUTTON_SCID,Supercell ID
 TID_BUTTON_NAVI_CHAT,צ‘אט
 TID_BUTTON_NAVI_TEAM,קבוצה
-TID_CTF_INTRO_TEXT,תפסו שני גביעים כדי לנצח!
+TID_GAME_MODE_16,גנבי מלון שלגון
+TID_GAME_MODE_16_DESC,"תפסו מתנות של הקבוצה היריבה וקחו אותן אל הבסיס שלכם! המשחק מסתיים כשאחת הקבוצות תופסת שתי מתנות, או כשהזמן נגמר."
+TID_CTF_INTRO_TEXT,תופסים שתי מתנות וזוכים!
 TID_TEAM_CHAT_NOT_AVAILABLE_NO_TEAM,צרו קבוצה כדי לשחק ולשוחח בצ‘אט עם חברים!
 TID_CTF_2,על הקווים
-TID_HINT_CTF_STEAL_GIFT,תפסו את הגביע של הקבוצה היריבה!
-TID_HINT_CTF_BRING_GIFT_BACK,החזירו את הגביע לבסיס שלכם!
+TID_HINT_CTF_STEAL_GIFT,יש לתפוס את מתנת הקבוצה היריבה!
+TID_HINT_CTF_BRING_GIFT_BACK,ואז להביא את המתנה לבסיס שלך!
+TID_CTF_GOAL,<name>\nגנב מתנה!
+TID_CTF_GOAL_MATCH_OVER,<name>\nגנבו מתנה!\n\nהמשחק נגמר
 TID_IAP_XMAS_19_GENERIC,חוגגים עם הבראולרים
 TID_IAP_XMAS_19_GENERIC_2,הגיעה העונה
 TID_IAP_NEW_YEAR_20,שנה טובה
@@ -3158,11 +3173,11 @@ TID_CTF_5,בריחה מבחירה
 TID_CTF_6,שק של מתנות
 TID_CTF_7,גמדונים שובבים
 TID_CTF_8,המתנה הטובה ביותר
-TID_CTF_GOAL_MATCH_OVER,הגביע נגנב על ידי <name>\nהמשחק נגמר
 TID_STAT_DAMAGE_PER_DRONE,נזק מכל רחפן
 TID_GOLDRUSH_46,אלפיים אגמים
 TID_EVENT_MODIFIER_11,הטיה
 TID_EVENT_MODIFIER_DESC_11,הקרקעית נוטה הצידה ומגבירה או מאיטה את המהירות שלך בהתאם לכיוון התנועה!
+TID_QUICK_MESSAGE_ASK_BRAWLER_SPLIT,איזה בראולר כדאי לי לבחור?
 TID_QUICK_MESSAGE_ASK_MODE_SPLIT,באיזה אירוע נשחק?
 TID_DRILLER,ג‘קי
 TID_GAME_MODE_17,אזור חם
@@ -3174,7 +3189,7 @@ TID_IAP_LNY2020,מבצעים לשנה הסינית החדשה
 TID_IAP_TGS2020,מבצע
 TID_IAP_VD2020,חג אהבה שמח!
 TID_IAP_MAR2020,חודש מרץ הגיע!
-TID_SPAWNER_DUDE_SHORT_DESC,גורם נזק
+TID_SPAWNER_DUDE_SHORT_DESC,בקר
 TID_SPAWNER_DUDE_DESC,מר P הוא מטעין מזוודות ממורמר שזורק מזוודות בכעס על היריבים. תכונת הסופר שלו מזמנת רובו-סבלים שעוזרים לו.
 TID_SPAWNER_DUDE_WEAPON,"המזוודה שלך, אדוני!"
 TID_SPAWNER_DUDE_WEAPON_DESC,"מר P מעיף מזוודה כבדה בכוונה ובכעס. כשהיא פוגעת במכשול או מגיעה לטווח המקסימלי, המזוודה קופצת, נוחתת ב\qבום\q וגורמת נזק סביבה."
@@ -3345,7 +3360,8 @@ TID_ACCESSORY_BLOCKED_REQUIRES_DUPLICATE,נדרש האגו של לולה!
 TID_ACCESSORY_BLOCKED_DUPLICATE_TOO_FAR,האגו של לולה רחוק מדי!
 TID_ACCESSORY_BLOCKED_SILENCED,הושתק!
 TID_ACCESSORY_BLOCKED_RANGE_TO_TURRET,אין אויבים בטווח!
-TID_WALLY_SHORT_DESC,תמיכה
+TID_ACCESSORY_BLOCKED_MIND_CONTROL,מישהו השתלט עליך!
+TID_WALLY_SHORT_DESC,ארטילריה
 TID_WALLY_DESC,המטרה של ספראוט היא לשתול חיים. והוא משליך באהבה פצצות זרעים קופצניות. תכונת הסופר שלו יוצרת מכשול צמחי!
 TID_WALLY_WEAPON,פצצת זרעים
 TID_WALLY_WEAPON_DESC,"ספראוט משליך כדור זרעים שמקפץ מסביב ואז מתפוצץ בבום! אם הוא פוגע באויבים, הוא מיד מתפוצץ."
@@ -3386,7 +3402,7 @@ TID_ACCESSORY_TELEPORT_TO_PET_DESC,8-ביט משתגר באופן מיידי ל�
 TID_ACCESSORY_BARREL_SPIN_DESC,דאריל מסתובב ומרסס ביריות לכל הכיוונים. כל ירייה שמצליחה לפגוע באויב גורמת <c00cc00><VALUE1></c> נזק ומטעינה את תכונת הסופר שלו ב-<c00cc00><VALUE2>%</c>!
 TID_ACCESSORY_FRANK_CC_IMMUNITY_DESC,"פרנק מסיר מעצמו כל השפעה מנטרלת ובאופן זמני הופך לחסין מפני שיתוקים, האטות והדיפות לאחור."
 TID_ACCESSORY_CARL_TRAIL_DESC,המכוש הבא שקארל זורק ישאיר שביל של אבנים חמות מאחוריו! יריבים שנוגעים בהן עולים באש ובמשך הזמן חוטפים נזק של <c00cc00><VALUE1></c>.
-TID_ACCESSORY_BOW_TOTEM_DESC,בו מציב טוטם שטוען מחדש את תכונות הסופר שלו ושל חברי הקבוצה שלו בטווח ההשפעה. במשך הזמן מאבד הטוטם אט-אט את בריאותו.
+TID_ACCESSORY_BOW_TOTEM_DESC,בו מציב טוטם שמשפר את קצב טעינת תכונת סופר של חבריו ב- <c00cc00><VALUE1></c>%. הטוטם מאבד באטיות את הבריאות שלו לאורך זמן.
 TID_ACCESSORY_PRIMO_GRAB_DESC,אל פרימו תופס את האויב הקרוב ביותר והופך אותו כמו פנקייק אל מאחורי הכתפיים הרחבות שלו.
 TID_ACCESSORY_MORTIS_SWING_DESC,"מורטיס מסובב את המעדר שלו, פוגע בכל האויבים שסביבו ומסב להם נזק של <c00cc00><VALUE1></c>."
 TID_ACCESSORY_TARA_VISION_DESC,"טארה וחברי הקבוצה שלה יכולים לראות את כל האויבים, אפילו בתוך שיחים, למשך <c00cc00><VALUE1></c> שניות."
@@ -3488,11 +3504,12 @@ TID_ENTER_BIRTHDAY_BUTTON,יש להזין את יום ההולדת
 TID_FREE_TEXT_CHAT_MUTED_OTHER,צ‘אט הטקסט מושתק אצל שחקן אחר
 TID_FREE_TEXT_CHAT_MUTED_LFG,צ‘אט הטקסט מושתק בעת שימוש בחיפוש קבוצה
 TID_FREE_TEXT_CHAT_MUTED_YOU,השתקתם את טקסט הצ‘אט. עברו אל התפריט ׳שחקנים מחוברים׳ כדי לבטל את ההשתקה.
-TID_SKIN_INFO_CAMPAIGN_6_NOT_AVAILABLE,סקין של PSG
+TID_SKIN_INFO_CAMPAIGN_6_NOT_AVAILABLE,PSG
 TID_KAKAO_TEAM_INVITED,הוזמן
 TID_ACCESSORY_CHARGES_PER_MATCH,טעינות בכל משחק: <NUM>
 TID_SKIN_INFO_CAMPAIGN_7_NOT_AVAILABLE,סקין Supercell Make\n\nרעיון מאת:\n<cff8000><CREDIT></c>
 TID_CLAN_CANNOT_JOIN_NON_FF_CLAN,לא ניתן להצטרף למועדון שאינו מתאים לילדים
+TID_ALLIANCE_FF_FAILED_NO_RIGHTS,רק נשיא המועדון יכול להתאים את המועדון לילדים
 TID_QQ_LOGIN_BUTTON,התחברות ל-QQ
 TID_WECHAT_LOGIN_BUTTON,התחברות ל-WeChat
 TID_GUEST_LOGIN_BUTTON,התחברות כאורח
@@ -3503,7 +3520,7 @@ TID_WECHAT_NOT_INSTALLED,עדיין לא התקנת WeChat
 TID_SHARE_DIALOG_TITLE,שיתוף
 TID_TENCENT_CREATE_NEW_ACCOUNT_CONFIRM_TITLE,חשבון משחק חדש
 TID_TENCENT_CREATE_NEW_ACCOUNT_CONFIRM,ההתקדמות הנוכחית שלכם מחוברת לחשבון אחר! בטוח שאתם רוצים להתחבר וליצור משחק חדש עם חשבון QQ/WeChat זה?
-TID_TENCENT_BOUND_TO_OTHER_ACCOUNT,האם ברצונך לטעון רמת ניסיון <number>לההתקדמות של <name>?
+TID_TENCENT_BOUND_TO_OTHER_ACCOUNT,האם ברצונך לטעון את ההתקדמות של <name>עם <trophies> גביעים?
 TID_INFO_POP_UP_IAP_NOTE_TENCENT,"אפשר לשחק ב-Brawl Stars בחינם, אבל אפשר להאיץ את ההתקדמות שלך בעזרת רכישות בתוך האפליקציה."
 TID_MULTIDEVICE_INFO_TENCENT,"כדי לשחק במספר מכשירי Android, יש להתחבר באמצעות אותו חשבון WeChat או QQ."
 TID_LINK_SAME_PLATFORM_TITLE_TENCENT,סינכרון עם החשבון שלך
@@ -3518,7 +3535,7 @@ TID_BUTTON_CONFLICTING_ACCOUNT_YES,"כן, החלף לחשבון הנוכחי."
 TID_BUTTON_CONFLICTING_ACCOUNT_NO,"לא, השתמש בחשבון המקורי."
 TID_TENCENT_AUTH_EXPIRED,"פג תוקף ההרשאה, יש להתחבר מחדש."
 TID_BLOWER,גייל
-TID_BLOWER_SHORT_DESC,HYBRID
+TID_BLOWER_SHORT_DESC,בקר
 TID_BLOWER_DESC,גייל הוא שיפוצניק שלא נח לרגע. עם המפציץ שלו הוא מפציץ את האויבים עם ירייה חזקה של רוח ושלג ותכונת הסופר שלו הודפת אותם לאחור עם סופת שלג עצומה!
 TID_BLOWER_WEAPON,מערבולת קוטב
 TID_BLOWER_WEAPON_DESC,גייל מפגיז את אויביו בקיר של כדורי שלג גדולים!
@@ -3529,7 +3546,7 @@ TID_SPEC_ABI_BLOWER_1_DESC,תכונת הסופר של גייל משתקת כעת
 TID_SPEC_ABI_BLOWER_2,שלג מקפיא
 TID_SPEC_ABI_BLOWER_2_DESC,כדורי השלג של גייל כעת גם מאיטים אויבים למשך <c00cc00><VALUE1></c> שניות.
 TID_CONTROLLER,נאני
-TID_CONTROLLER_SHORT_DESC,גורמת נזק
+TID_CONTROLLER_SHORT_DESC,צלף
 TID_CONTROLLER_DESC,נאני אוהבת את החברים שלה ומשגיחה עליהם בעזרת עדשה. היא מטפלת באיומים בעזרת יריות מסובבות. תכונת הסופר שלה מאפשרת לנאני להשתלט על החבר המתפוצץ שלה פיפ!
 TID_CONTROLLER_WEAPON,האצבע על ההדק
 TID_CONTROLLER_WEAPON_DESC,נאני יורה שלושה כדורי אור שנעים בזוויות שונות ומתכנסים אל מטרות מכוונות.
@@ -3620,6 +3637,7 @@ TID_HOMEPAGE_GUIDE_NEW_BRAWLER,פתחת בראולר חדש!
 TID_HOMEPAGE_GUIDE_QUESTS_UNLOCKED,פתחת קווסטים!
 TID_HOMEPAGE_GUIDE_CLUB_FEATURE_UNLOCKABLE,קיבלת גישה למועדונים!
 TID_HOMEPAGE_GUIDE_CLUB_FEATURE_UNLOCKED,כדאי לעיין כאן כדי למצוא את המועדון שלך!
+TID_HOMEPAGE_GUIDE_FIRST_MASTERY_REWARD,פתחת דירוג מיומנות חדש עבור <HERO>. הפרס מחכה לך!
 TID_BRAWL_PASS_SEASON_0,הבזאר של טארה
 TID_BRAWL_PASS_TAB_REWARDS,פרסים
 TID_BRAWL_PASS_TAB_QUESTS,קווסטים
@@ -3839,8 +3857,8 @@ TID_TRUE_GOLD_LEON_SKIN,יציקת לאון מזהב
 TID_TRUE_GOLD_LEON_SKIN_SHOP,יציקת לאון\nמזהב
 TID_SUPER_RANGER_BROCK_SKIN,ברוק סופר ריינג‘ר
 TID_SUPER_RANGER_BROCK_SKIN_SHOP,ברוק\nסופר ריינג‘ר
-TID_SKIN_INFO_CAMPAIGN_13_NOT_AVAILABLE,סקין יציקה מכסף
-TID_SKIN_INFO_CAMPAIGN_14_NOT_AVAILABLE,סקין יציקה מזהב
+TID_SKIN_INFO_CAMPAIGN_13_NOT_AVAILABLE,יציקה מכסף
+TID_SKIN_INFO_CAMPAIGN_14_NOT_AVAILABLE,יציקה מזהב
 TID_BATTLE_ROYALE_45,הרעמב ברק
 TID_BATTLE_ROYALE_46,התנגשות בקולוסיאום
 TID_BATTLE_ROYALE_47,זירת גדת הנהר
@@ -3871,6 +3889,7 @@ TID_KING_OF_HILL_26,רולטה
 TID_KING_OF_HILL_27,חתך אנכי
 TID_KING_OF_HILL_28,שליטה בגדול
 TID_EMOTE_EQUIP_NOT_OWNED_SPECIAL,סיכה לאספנים! לא קל להשיג סיכה כזאת!
+TID_EMOTE_EQUIP_NOT_OWNED_MASTERY,סיכת מיומנות! אפשר לשחרר סיכה זו ממסלול המיומנות של הבראולר!
 TID_LOGIN_WITH_FACEBOOK,כניסה באמצעות Facebook
 TID_TERMS_OF_SERVICE_BUTTON_TENCENT,רישיון משחק והסכם משתמש של Tencent Games
 TID_PRIVACY_POLICY_BUTTON_TENCENT,荒野乱斗隐私保护指引
@@ -3983,7 +4002,9 @@ TID_PERCENTER_WEAPON_DESC,"סופיה יורה ירייה שגובה ממך את
 TID_PERCENTER_ULTI,הגיע הזמן לאסוף
 TID_PERCENTER_ULTI_DESC,"סופיה מבצעת זינוק קדימה ואחורה וגורמת נזקי מיסוי לכל מי שניקרה בדרכה, על סמך מד הבריאות המרבי שלהם."
 TID_SPEC_ABI_PERCENTER_1,עד הסוף
+TID_SPEC_ABI_PERCENTER_1_DESC,כל הבראולרים של האויב שחוטפים מסופיה עוברים לנקודה הכי מרוחקת של המתקפה!
 TID_SPEC_ABI_PERCENTER_2,מס מסיבי
+TID_SPEC_ABI_PERCENTER_2_DESC,"תכונת הסופר של סופיה מספקת לה <c00cc00><VALUE1>%</c> מגן למשך <c00cc00><VALUE3></c> שניות. כל בראולר אויב שחוטף ממנה, יוסיף לה <c00cc00><VALUE2>%</c> הגנה."
 TID_ACCESSORY_PERCENTER_STATIC_DAMAGE,מה עכשיו?!
 TID_ACCESSORY_PERCENTER_STATIC_DAMAGE_DESC,הירייה הבאה של סופיה גורמת <c00cc00><VALUE1></c> נזק נוסף.
 TID_TUTORIAL_PLAYED_BEFORE,שיחקת בעבר?
@@ -4089,7 +4110,7 @@ TID_ACCESSORY_GUNSLINGER_BIG_BULLET_DESC,"ההתקפה הבאה של קולט ה
 TID_MULTIPLE_PURCHASE_RESTART_WARNING_TITLE,להתחיל את הרכישה מחדש?
 TID_MULTIPLE_PURCHASE_RESTART_WARNING,"רכישה במסגרת מבצע זה כבר החלה בעבר. המבצע זמין רק פעם אחת. רכישות נוספות, גם אם בטעות, לא יספקו את אותם פריטים בפעם השנייה. אם אתם בטוחים שהרכישה הקודמת בוטלה, נסו לרכוש שוב, על אחריותכם בלבד. להמשיך?"
 TID_FIRE_DUDE,אמבר
-TID_FIRE_DUDE_SHORT_DESC,גורמת נזק
+TID_FIRE_DUDE_SHORT_DESC,בקר
 TID_FIRE_DUDE_DESC,לאמבר תמיד הייתה חולשה לאש. היא אוהבת להעלות באש את העולם וכל אויב שניצב למולה!
 TID_FIRE_DUDE_WEAPON,נשימת דרקון
 TID_FIRE_DUDE_WEAPON_DESC,"אמבר שולחת אש תופת לכיוון האויבים שלה. זה נראה מדהים, אבל זהירות מכוויות!"
@@ -4351,7 +4372,7 @@ TID_TEAM_MEMBER_STATUS_NEW_14,יוצר מפות
 TID_FRIEND_STATUS_MAP_MAKER,יוצר מפות
 TID_CLAN_MEMBER_ONLINE_STATUS_14,יוצר מפות
 TID_ICE_DUDE,לו
-TID_ICE_DUDE_SHORT_DESC,HYBRID
+TID_ICE_DUDE_SHORT_DESC,בקר
 TID_ICE_DUDE_DESC,לו הוא טיפוס מקפיא עצמות! יש לו אוסף של כל מיני פריטים קפואים. אבל שימו לב לא להחליק על הקרח ותיזהרו לא לחטוף קיפאון מוח!
 TID_ICE_DUDE_WEAPON,קיפאון מוח
 TID_ICE_DUDE_WEAPON_DESC,לו מפגיז את היריבים במשקאות ברד ובסופו של דבר מקפיא אותם במקומם למשך <accumulatedStun> שניות.
@@ -4396,7 +4417,7 @@ TID_HERO_INFO_LOCKED_BP_FUTURE_SEASON_INFO,מגיע בעונה <SEASON>
 TID_HERO_INFO_LOCKED_BP_FUTURE_SEASON_INFO_SHORT,מגיע בעונה <SEASON>
 TID_RAID_4,"מה זה פה, ג'ונגל?"
 TID_RAID_5,לעייף את היריב
-TID_BRAWLPASS_AUTOCOLLECT_INFO,"רצינו להזכיר לך שיש פרסים מעונה <NUM> שעוד לא לקחת! אם הם לא יילקחו בקרוב, הפרסים מעונה <NUM> ייאספו עבורך אוטומטית. פרסים של נקודות כוח שלא ייאספו ויחרגו מהכמות המקסימלית של נקודות כוח, יאבדו בסוף עונה הנוכחית."
+TID_BRAWLPASS_AUTOCOLLECT_INFO,"רצינו להזכיר לך שיש פרסים מעונה <NUM> שעוד לא לקחת! אם הם לא יילקחו בקרוב, הפרסים מעונה <NUM> ייאספו עבורך אוטומטית. פרסים של נקודות כוח שלא ייאספו ויחרגו מהכמות המקסימלית של נקודות כוח, יומרו למטבעות בסוף העונה הנוכחית."
 TID_BRAWLPASS_AUTOCOLLECT_INFO_TITLE,הודעה חשובה!
 TID_BRAWLPASS_ALREADY_UNLOCKED_COMPENSATION_INFO,"ה-Brawl Pass נפתח כבר בעת עיבוד הרכישה שלך. בתור פיצוי, הוספנו <NUM> יהלומים לחשבון שלך."
 TID_BRAWLPASS_ALREADY_UNLOCKED_COMPENSATION_INFO_TITLE,ה-Brawl Pass נפתח כבר
@@ -4495,6 +4516,7 @@ TID_SPEC_ABI_RUFFS_1_DESC,מטען האספקה כולל כעת פצצה שמו�
 TID_SPEC_ABI_RUFFS_2,קידום בשטח
 TID_SPEC_ABI_RUFFS_2_DESC,בראולרים ידידותיים מגדילים את הבריאות המרבית שלהם ב <c00cc00><VALUE1></c> בכל שניה שהם בטווח היכולת הזו בזמן שהיא פעילה.
 TID_ACCESSORY_RUFFS_COVER,תפסו מחסה
+TID_ACCESSORY_RUFFS_COVER_DESC,ראפס זורק <c00cc00><VALUE1></c> שקי חול כדי להסתתר. בכל אחד מהם יש <c00cc00><VALUE2></c> נקודות בריאות.
 TID_SKIN_INFO_CAMPAIGN_ANNIVERSARY_2019,סקין ליום השנה 2019
 TID_SKIN_INFO_CAMPAIGN_ANNIVERSARY_2020,סקין ליום השנה 2020
 TID_ENTER_AGE_TIP_NUM_PAD,נא להזין את גילך כדי להמשיך.
@@ -4503,6 +4525,7 @@ TID_ACCESSORY_ROSA_BUSH_CONTROL_DESC,כל האויבים שמסתתרים בשי
 TID_ACCESSORY_SPAWNER_DUDE_EXTRA_PORTER,רובו-סבל לחיזוק
 TID_ACCESSORY_SPAWNER_DUDE_EXTRA_PORTER_DESC,ההתקפה הבאה תביא סבל חלש במקום הנחיתה שלה.
 TID_ACCESSORY_POCO_CLEANSE,נעימות הגנה
+TID_ACCESSORY_POCO_CLEANSE_DESC,מסירות השפעות מזיקות פעילות מבראולרים ידידותיים בשטח גדול ומעניקות חסינות למשך <c00cc00><VALUE2></c> שניות.
 TID_ACCESSORY_FRANK_PULL,משיכה שאי אפשר לעמוד בפניה
 TID_ACCESSORY_FRANK_PULL_DESC,ההתקפה הבאה של פרנק גורמת <c00cc00>%<VALUE1></c> נוספים של נזק ומושכת אליו אויבים.
 TID_ACCESSORY_GENE_HOMING,רוחות נקמה
@@ -4719,7 +4742,7 @@ TID_RANKED_ENEMY_TEAM_PICK_TURN,לבחור תור<cf75252> <PLAYER></c>
 TID_RANKED_OWN_PICK_TURN,תורך <cffffff>לבחור</c>
 TID_RANKED_FINAL_TURN,<cffffff>הכנות אחרונות</c>
 TID_ELECTRO_SNIPER,בל
-TID_ELECTRO_SNIPER_SHORT_DESC,גורמת נזק
+TID_ELECTRO_SNIPER_SHORT_DESC,צלף
 TID_ELECTRO_SNIPER_DESC,לבל יש חבורת מעריצים והרובה החשמלי שלה מעורר הלם ואימה בקרב יריביה!
 TID_ELECTRO_SNIPER_WEAPON,שוקר
 TID_ELECTRO_SNIPER_WEAPON_DESC,"בל יורה ברובה החשמלי שלה לטווח ארוך וגורמת נזק לכל מטרה שפגעה בה. לאחר עיכוב קצר הקליע קופץ לאחת המטרות הקרובות, גורם נזק וקופץ למטרה הבאה, וכן הלאה."
@@ -4732,7 +4755,7 @@ TID_SPEC_ABI_ELECTRO_SNIPER_2_DESC,יריב שסומן על ידי תכונת ה
 TID_ACCESSORY_ELECTRO_SNIPER_TRAP,קן ביצים
 TID_ACCESSORY_ELECTRO_SNIPER_TRAP_DESC,בל מטמינה מלכודת על הקרקע שתתפוצץ כשתופעל על ידי היריב. המלכודת גורמת <c00cc00><VALUE1></c> נזק ומאיטה את התקדמותו של כל מי שנמצא ברדיוס הפגיעה שלה למשך <c00cc00><VALUE2></c> שניות.
 TID_STICKY_BOMB,סקוויק
-TID_STICKY_BOMB_SHORT_DESC,גורם נזק
+TID_STICKY_BOMB_SHORT_DESC,בקר
 TID_STICKY_BOMB_DESC,"בתור יצירתו האקראית של קולונל ראפס, סקוויק פשוט נולד כדי להחזיר מקלות שנזרקו למרחק!"
 TID_STICKY_BOMB_WEAPON,בום-בועה דביקה
 TID_STICKY_BOMB_WEAPON_DESC,"הבום-בועות הדביקות של סקוויק אינן יציבות, ומתפוצצות בבום וטראח! הן נדבקות לכל יריב שהן פוגעות בו ישירות."
@@ -4750,6 +4773,7 @@ TID_RANKED_PICK_ERROR_BRAWLER_BANNED,"הבראולר הזה נפסל, יש לב�
 TID_RANKED_PICK_ERROR_BRAWLER_PICKED,"הבראולר הזה כבר נבחר, יש לבחור בראולר אחר!"
 TID_RANKED_PICK_ERROR_BRAWLER_UNRELEASED,"הבראולר הזה עוד לא זמין בליגת הכוח, אבל אפשר לבחור אחד אחר!"
 TID_RANKED_PICK_ERROR_BRAWLER_UNRELEASED_CLUB_LEAGUE,בראולר זה אינו זמין עדיין במשחקי כוח. צריך לבחור בראולר אחר!
+TID_RANKED_ERROR_BRAWLER_BLACKLISTED,בראולר זה הושבת על ידי מארגן הטורניר
 TID_RANKED_HERO_POWER,כוח <NUM>
 TID_RANKED_REWARD_POPUP_SEASON,עונה <SEASON>
 TID_RANKED_REWARDS_TOOL_TIP,"בליגת הכוח יש שני מצבי 3 נגד 3:\n\n- מצב סולו, שבו מצטרפים לשני שחקנים אקראיים ברמת ליגה דומה.\n\n- מצב קבוצה, שבו צריך קודם להקים צוות של שלושה כדי להתחיל במשחק.\n\nפרסי ליגת הכוח מבוססים על הדירוג הגבוה ביותר שמגיעים אליו במהלך העונה, במצב זה או אחר."
@@ -4934,7 +4958,7 @@ TID_ACCESSORY_ROPE_DUDE_WEAK_ULTI,מצוף רזרבי
 TID_ACCESSORY_ROPE_DUDE_WEAK_ULTI_DESC,"ממלא מיידית את מד תכונת הסופר, אבל השלכת הטורפדו הבאה לא תהמם יריבים."
 TID_DONATION_FROM_SUPPORT,תרומה מתמיכת Brawl Stars
 TID_ASSAULT_SHOTGUN,גריף
-TID_ASSAULT_SHOTGUN_SHORT_DESC,גורם נזק
+TID_ASSAULT_SHOTGUN_SHORT_DESC,בקר
 TID_ASSAULT_SHOTGUN_DESC,"גריף הוא הבעלים של חנות המתנות בפארק סטארר. העסקים לא במצב טוב, ולמרות זאת הוא זורק מטבעות מתוך צנצנת הטיפים של העובדים שלו!"
 TID_ASSAULT_SHOTGUN_WEAPON,זריקת מטבעות
 TID_ASSAULT_SHOTGUN_WEAPON_DESC,גריף הכועס זורק על יריביו מטבעות. הוא זורק שלושה מטחים שמתפזרים בצורת קונוס.
@@ -4960,7 +4984,7 @@ TID_SPEC_ABI_KNIGHT_2_DESC,"אש מאיץ בהדרגה את מהירות הטע�
 TID_ACCESSORY_KNIGHT_HEAL,גלולת הרגעה
 TID_ACCESSORY_KNIGHT_HEAL_DESC,"למרות הזעם, אש צריך להתאפס על עצמו. מד זעם מלא יביא לריפוי <c00cc00><VALUE1></c> בריאות כשהגאדג‘ט צץ - פחות זעם, פחות ריפוי."
 TID_MECHA_DUDE,מג
-TID_MECHA_DUDE_SHORT_DESC,גורמת נזק
+TID_MECHA_DUDE_SHORT_DESC,טנק
 TID_MECHA_DUDE_DESC,למג יש צורה בסיסית וצורה מתקדמת שבה היא מקפצת בחליפה המכנית האמינה שלה. החליפה מאבדת בריאות בהדרגה ומחזירה את מג לצורתה הבסיסית כשהחליפה מושמדת.
 TID_MECHA_DUDE_WEAPON,ננעלה מטרה
 TID_MECHA_DUDE_WEAPON_DESC,מג יורה צרור קצר מהמפוצץ שלה שדוקר את הסבלנות את האויבים שלה.
@@ -5002,7 +5026,7 @@ TID_CERRO_PORTENO_COLT_SKIN_SHOP,קולט\nסרו פורטניו
 TID_ATL_NACIONAL_COLT_SKIN_SHOP,קולט\nאתלטיקו נסיונל
 TID_CLUB_AMERICA_COLT_SKIN,קולט קלוב אמריקה
 TID_CLUB_AMERICA_COLT_SKIN_SHOP,קולט\nקלוב אמריקה
-TID_SKIN_INFO_CAMPAIGN_LAML,סקין ליגת המאסטר של אמריקה הלטינית
+TID_SKIN_INFO_CAMPAIGN_LAML,ליגת מיומנות אמריקה הלטינית
 TID_GAME_MODE_21,החזיקו בגביע
 TID_GAME_MODE_21_DESC,החזיקו בגביע כדי לאסוף נקודות! הקבוצה הראשונה שמגיעה ל-100% מנצחת במשחק.
 TID_HOLD_THE_BALL_INTRO_TEXT,החזיקו בגביע כדי לאסוף מטבעות!
@@ -5148,6 +5172,7 @@ TID_KO_JUNE21_1,לשפוך כסף
 TID_KO_JUNE21_2,לקפוץ למים עמוקים
 TID_QUALIFIED_INFO_PARAM,"מזל טוב, ניצחת ב-<CHALLENGE>! הפרס על הניצחון באתגר: <REWARD>"
 TID_CHALLENGE_WIN_REWARD_POPUP_TEXT,הפרס שלך על ניצחון #<WIN> ב-<CHALLENGE>: <REWARD>
+TID_QUALIFIED_INFO_FALLBACK_PARAM,"מזל טוב, ניצחת ב-<CHALLENGE>! הפרס על הניצחון באתגר הוא: <REWARD>\nפרס זה מחליף את הפרס המקורי שכבר קיבלת."
 TID_CHALLENGE_WIN_FALLBACK_REWARD_POPUP_TEXT,הפרס על הניצחון #<WIN> ב-<CHALLENGE>: <REWARD>\nפרס זה מחליף את הפרס המקורי שכבר קיבלת.
 TID_CHALLENGE_TEASER_INFO_PARAM,מוכנים לשחק ב<CHALLENGE>?\n\nנצחו ב-<WIN> משחקים ופרס ה-<REWARD> שלכם! הקימו קבוצה עם חברים או \qחפשו קבוצה\q קיימת כדי למקסם את הסיכויים שלכם לנצח.\n\nהאתגר יהיה פעיל למשך <DURATION> שעות בלבד. בהצלחה ושיהיה בכיף!
 TID_CC_POPUP_QUALIFY_INFO_PARAM,נצחו באתגר כדי לקבל: <REWARD>
@@ -5275,7 +5300,10 @@ TID_GEAR_VISION_TITLE,ראייה
 TID_GEAR_SHIELD_TITLE,מגן
 TID_GEAR_RELOAD_SPEED_TITLE,מהירות טעינה
 TID_GEAR_SUPER_CHARGE_TITLE,טעינת סופר
+TID_GEAR_FOREST_SPEED_INFO,מתקבל %<NUM> שיפור מהירות בביצוע תנועה בשיחים.
 TID_GEAR_STANDING_HEAL_INFO,חידוש בריאות יעיל יותר ב-%<NUM>
+TID_GEAR_LOW_HEALTH_DAMAGE_INFO,נגרם %<NUM> נזק נוסף כשרמת הבריאות של הבראולר שלך נמוכה מ-50%.
+TID_GEAR_VISION_INFO,גילוי יריבים למשך <NUM> שניות לאחר שגורמים להם נזק.
 TID_GEAR_SHIELD_INFO,תוספת <NUM> בריאות כמגן הניתן לצריכה. המגן מתחדש בתוך 10 שניות במצב בריאות מלא.
 TID_GEAR_RELOAD_SPEED_INFO,טעינה מהירה יותר ב-%<NUM>
 TID_GEAR_SUPER_CHARGE_INFO,תכונת הסופר נטענת %<NUM> מהר יותר
@@ -5287,25 +5315,34 @@ TID_GEAR_SHIELD_UPGRADE_INFO,מתקבל מגן שמשפר בריאות
 TID_GEAR_RELOAD_SPEED_UPGRADE_INFO,טעינה מהירה יותר
 TID_GEAR_SUPER_CHARGE_UPGRADE_INFO,טעינת סופר מהירה יותר
 TID_GEAR_FOREST_SPEED_UPGRADE_TARGET,חיזוק מהירות
-TID_GEAR_STANDING_HEAL_UPGRADE_TARGET,בונוס חידוש בריאות
+TID_GEAR_STANDING_HEAL_UPGRADE_TARGET,בונוס חידוש בריאות %
 TID_GEAR_LOW_HEALTH_DAMAGE_UPGRADE_TARGET,תוספת נזק
 TID_GEAR_VISION_UPGRADE_TARGET,שניות גילוי
 TID_GEAR_SHIELD_UPGRADE_TARGET,מגן בריאות
 TID_GEAR_RELOAD_SPEED_UPGRADE_TARGET,מהירות טעינה
 TID_GEAR_SUPER_CHARGE_UPGRADE_TARGET,קצב טעינת סופר
 TID_GEAR_SUPER_HEALTH_TITLE,ראש טוב
+TID_GEAR_SUPER_HEALTH_INFO,הראש של טיק משיג <NUM> תוספת בריאות.
 TID_GEAR_SUPER_HEALTH_UPGRADE_INFO,הראש של טיק משיג תוספת בריאות
 TID_GEAR_SUPER_HEALTH_UPGRADE_TARGET,בריאות הראש
 TID_GEAR_POISON_DURATION_TITLE,רעל בעל השפעה מתמשכת
+TID_GEAR_POISON_DURATION_INFO,מגביר את הנזק הנגרם מהרעל של קרואו ב-<NUM>.
+TID_GEAR_POISON_DURATION_UPGRADE_INFO,מגביר את הנזק הנגרם מהרעל של קרואו
 TID_GEAR_POISON_DURATION_UPGRADE_TARGET,רעל בעל השפעה מתמשכת
 TID_GEAR_SLOW_INCREASE_TITLE,קוצים דביקים
+TID_GEAR_SLOW_INCREASE_INFO,תכונת הסופר של ספייק מאיטה באופן יעיל יותר ב-%<NUM>.
+TID_GEAR_SLOW_INCREASE_UPGRADE_INFO,תכונת הסופר של ספייק מאיטה באופן יעיל יותר
 TID_GEAR_SLOW_INCREASE_UPGRADE_TARGET,קוצים דביקים
 TID_GEAR_SMOKE_DURATION_TITLE,עשן מתמשך
+TID_GEAR_SMOKE_DURATION_INFO,פצצת העשן של לאון נמשכת <NUM> שניות יותר.
 TID_GEAR_SMOKE_DURATION_UPGRADE_INFO,פצצת העשן של לאון נמשכת זמן רב יותר
 TID_GEAR_SMOKE_DURATION_UPGRADE_TARGET,עשן מתמשך
 TID_GEAR_SUPER_SHIELD_TITLE,סערה מעייפת
+TID_GEAR_SUPER_SHIELD_INFO,אויבים הנקלעים לסערה של סנדי גורמים %<NUM> פחות נזק.
+TID_GEAR_SUPER_SHIELD_UPGRADE_INFO,אויבים הנקלעים לסערה של סנדי גורמים פחות נזק
 TID_GEAR_SUPER_SHIELD_UPGRADE_TARGET,סערה מעייפת
 TID_GEAR_SUPER_RANGE_TITLE,עבודת יד
+TID_GEAR_SUPER_RANGE_INFO,האריכו את טווח היד הקסומה של ג‘ין.
 TID_GEAR_SUPER_RANGE_UPGRADE_INFO,היד הקסומה של ג‘ין מגיעה רחוק יותר
 TID_GEAR_SUPER_RANGE_UPGRADE_TARGET,עבודת יד
 TID_GEAR_UPGRADED,הציוד שודרג!
@@ -5551,13 +5588,16 @@ TID_CLUB_LEAGUE_SHOW_TICKETS_TOGGLE,הצג <cFFDA14>מקסימום</c> גביע�
 TID_CLUB_LEAGUE_INFO_TITLE,פרטי ליגת מועדונים
 TID_CLUB_LEAGUE_INFO_PAGE_1_MARKER,ברוכים הבאים
 TID_CLUB_LEAGUE_INFO_PAGE_1_TITLE,<cFCBC22>ברוכים הבאים למשחק המועדונים</c>
+TID_CLUB_LEAGUE_INFO_PAGE_1_DESC,"שחקו עם המועדון שלכם והרוויחו פרסי <cFCBC22>חנות מועדון</c> מדי שבוע!\n\nמשחק מועדון אחד יהיה פעיל בכל שבוע:\n<cFCBC22>שבוע ליגת המועדונים</c> - התחרו נגד מועדונים אחרים בליגת המועדונים כדי להרוויח את פרס הדירוג הגבוה ביותר והעפילו במעלה הליגות.\n<cFCBC22>שבוע קווסטים של מועדונים</c> - השלימו 3 קווסטים של מועדונים כדי לצבור נקודות עבור המועדון שלכם. ככל שכל חברי המועדון ישלימו יותר קווסטים, כך הפרס שכל אחד מהם יקבל יהיה שווה יותר."
 TID_CLUB_LEAGUE_INFO_PAGE_2_MARKER,ליגת מועדונים
 TID_CLUB_LEAGUE_INFO_PAGE_2_TITLE,<cFCBC22>שבוע ליגת מועדונים</c>
+TID_CLUB_LEAGUE_INFO_PAGE_2_DESC,בשבוע ליגת המועדונים התחרו נגד 7 מועדונים בליגה שלכם. שחקו באירועי ליגת המועדונים ב-<cFCBC22>3 ימים שונים</c> והתחרו על <cFCBC22>גביע המועדון</c> בדירוג הגבוה ביותר. על השתתפות במשחקי ליגת המועדונים משלמים ב<cFCBC22>כרטיסים</c>.\n\nהמועדון שיפגין את הביצועים הטובים ביותר במהלך השבוע יזכה בפרסים השווים ביותר. <cFCBC22>קידומים</c> ו<cFCBC22>הורדות בדרגה</c> יתבצעו בסוף השבוע.\n\nבונוס: שחקו עם חברי מועדון אחרים וזכו ב<cFCBC22>עוד גביעי מועדון</c> במשחקים.
 TID_CLUB_LEAGUE_INFO_PAGE_3_MARKER,קווסטים של מועדונים
 TID_CLUB_LEAGUE_INFO_PAGE_3_TITLE,<cFCBC22>שבוע קווסטים של מועדונים</c>
+TID_CLUB_LEAGUE_INFO_PAGE_3_DESC,"בשבוע הקווסטים של המועדונים אפשר להתחרות ב<cFCBC22>3 קווסטים</c>.\n\nהשלמת קווסט מועדונים מזכה את המועדון ב-<cFCBC22>נקודות</c>. ככל שמרוויחים יותר נקודות, כך הפרס שכל משתתף מקבל גדול יותר. צריך להשלים לפחות קווסט מועדונים אחד כדי לקבל את הפרס.\n\nבונוס: התחרו עם חבר מועדון כלשהו כדי <cFCBC22>להכפיל את התקדמות הקווסט</c>."
 TID_CLUB_LEAGUE_INFO_PAGE_4_MARKER,חנות מועדון
 TID_CLUB_LEAGUE_INFO_PAGE_4_TITLE,<cFCBC22>מה זו חנות מועדון</c>
-TID_CLUB_LEAGUE_INFO_PAGE_4_DESC,השתתפו בליגת המועדונים ובקווסטים של המועדונים כדי לזכות ב<cFCBC22>מטבעות מועדון</c>. אפשר להשתמש במטבעות מועדון בחנות המועדון!\nבחנות המועדון אפשר\nלשפר את ההתקדמות<cFCBC22> בעד 50% ולמצוא </c>סקינים בלעדיים<cFCBC22>!
+TID_CLUB_LEAGUE_INFO_PAGE_4_DESC,צריך להשתתף במשחקי מועדון כדי לזכות ב<cFCBC22>מטבעות מועדון</c>. אפשר להשתמש במטבעות מועדון בחנות המועדון!\nבחנות המועדון אפשר\n<cFCBC22>לשפר את ההתקדמות</c> בעד 50% ולמצוא <cFCBC22>סקינים בלעדיים</c>!
 TID_CLUB_LEAGUE_INFO_PAGE_1_IMAGE_1,תחרות נגד 7 מועדונים
 TID_CLUB_LEAGUE_INFO_PAGE_1_IMAGE_2,3 ימי אירוע
 TID_CLUB_LEAGUE_INFO_PAGE_1_IMAGE_3,משתתפים באירועים בשביל גביעי מועדון
@@ -5728,7 +5768,7 @@ TID_TEAM_ERROR_52,לא ניתן להצטרף לקבוצה. האירוע אינו
 TID_TEAM_ERROR_53,לקבוצה נדרשים יותר חברים
 TID_TEAM_ERROR_54,לא ניתן לבחור באירוע. אירוע זה מיועד לחברי מועדון בלבד
 TID_CROSS_BOMBER,גרום
-TID_CROSS_BOMBER_SHORT_DESC,גורם נזק
+TID_CROSS_BOMBER_SHORT_DESC,ארטילריה
 TID_CROSS_BOMBER_DESC,"הגנה נמצאת בראש סדר העדיפויות של גרום השומר. הוא משליך את באד, מכשיר הקשר שלו על אויביו. תכונת הסופר שלו היא פצצה גדולה ואכזרית שמנפצת קירות ומרחיקה אויבים!"
 TID_CROSS_BOMBER_WEAPON,באד מתפוצץ!
 TID_CROSS_BOMBER_WEAPON_DESC,"גרום זורק את באד, מכשיר הקשר המתפוצץ שלו! הפיצוץ נע בצורת צלב ומעיף אחורה כל יריב שנקרה בדרכו."
@@ -5740,6 +5780,7 @@ TID_SPEC_ABI_CROSS_BOMBER_2,אקס פקטור
 TID_SPEC_ABI_CROSS_BOMBER_2_DESC,"הפיצול מהמתקפה העיקרית של גרום, גורם לתוספת נזק של עד <c00cc00>+<VALUE1>%</c> במרחק המרבי."
 TID_ACCESSORY_CROSS_BOMBER_WATCHTOWER,מגדל שמירה
 TID_ACCESSORY_CROSS_BOMBER_WATCHTOWER_DESC,גרום משגר מגדל שמירה מפצצת הגרום שלו המאפשר לכל בני בריתו לתצפת על כל השיחים בשטח נרחב. מגדל השמירה לאט לאט מאבד את בריאותו עם הזמן.
+TID_HOMEPAGE_GUIDE_FIRST_GEAR,משבצת הציוד נפתחה!
 TID_HOMEPAGE_GUIDE_FIRST_GEAR_2,לבחירתך פריט ציוד ראשון חינם
 TID_ITEMS_HUB_GUIDE_GADGET,כאן באפשרותך לבחור גאדג‘טים ייחודיים עבור <BRAWLER> ולרכוש אותם
 TID_ITEMS_HUB_GUIDE_GADGET_TAB,גאדג‘טים זמינים עכשיו כאן
@@ -5781,6 +5822,7 @@ TID_CLUB_LEAGUE_MIGRATION_KICKED,"עקב הצמצום שבוצע לאחרונה 
 TID_CLUB_LEAGUE_MIGRATION_NO_CLUB_FOUND,"אוף, לא הצלחנו למצוא בשבילך מועדון מתאים. אם ברצונך לשחק בליגת המועדונים, האפשרות הכי טובה היא שימוש בחיפוש כדי למצוא מועדון חדש."
 TID_LOOKING_TOGGLE_LOOKING_FOR_A_TEAM,כעת אחרים ברשת רואים אותך כמחפש/ת קבוצה
 TID_LOOKING_TOGGLE_LOOKING_FOR_PLAYERS,כעת אחרים ברשת רואים את הקבוצה שלך כקבוצה שמחפשת שחקנים
+TID_CLUB_JOIN_FAIL_FEATURE_LOCKED,לא ניתן להצטרף למועדון. גישה למועדונים מתקבלת עם <NUM> גביעים.
 TID_CLUB_LEAGUE_LEAGUES_POPUP_CURRENT_LEAGUE,הליגה הנוכחית
 TID_CLUB_LEAGUE_LEAGUES_POPUP_MESSAGE,קידום והורדה בדרגה מתבצעים בסוף כל שבוע של ליגת מועדונים!\nטפסו במעלה הליגות כדי להגדיל את מספרם של פרסי מטבעות המועדון.
 TID_CLUB_LEAGUE_LEAGUES_POPUP_BUTTON,אישור
@@ -5798,19 +5840,22 @@ TID_TEAM_AD_JOIN_FAIL_NOT_ENOUGH_TICKETS_YOU,לא ניתן להצטרף לקבו
 TID_TEAM_REQUEST_INVITE_FAIL_NOT_ENOUGH_TICKETS_YOU,לא ניתן להזמין. אין לך מספיק כרטיסי מועדון!
 TID_TEAM_REQUEST_INVITE_FAIL_NOT_ENOUGH_TICKETS_PLAYER,לא ניתן להזמין. לשחקן אין מספיק כרטיסי מועדון!
 TID_KICKER_DUDE,פאנג
-TID_KICKER_DUDE_SHORT_DESC,גורם נזק
+TID_KICKER_DUDE_SHORT_DESC,מתנקש
 TID_KICKER_DUDE_DESC,פאנג בועט ראשון ובועט מהר. ההתקפה העיקרית שלו היא בעיטה מסיבית שמעיפה את הנעל שלו! תכונת הסופר של פאנג היא בעיטה חזקה שפוגעת בשרשרת אויבים שניצבים קרובים זה לזה.
 TID_KICKER_DUDE_WEAPON,ספיד-נעל
 TID_KICKER_DUDE_WEAPON_DESC,"פאנג משחרר בעיטה מהירה באמצעות טריק נסתר. אם הבעיטה מפספסת את המטרה, הנעל עפה מהרגל שלו!"
 TID_KICKER_DUDE_ULTI,ללא מעצורים
 TID_KICKER_DUDE_ULTI_DESC,פאנג מעיף בעיטה אכזרית שבמגע יכולה לשרשר עוד 3 בעיטות רצופות לכיוון אויבים סמוכים.
 TID_SPEC_ABI_KICKER_DUDE_1,בעיטות חדשות
+TID_SPEC_ABI_KICKER_DUDE_1_DESC,"כשפאנג מביס בראולר אויב באמצעות תכונת הסופר שלו הוא נטען מחדש באופן מיידי, מה שמאפשר לו להשתמש בתכונת הסופר שלו שוב!"
 TID_SPEC_ABI_KICKER_DUDE_2,סוליות אלוהיות
 TID_SPEC_ABI_KICKER_DUDE_2_DESC,הפחתת <c00cc00><VALUE2></c> נזק מפגיעות נכנסות פעם אחת בכל <c00cc00><VALUE1></c> שניות. ההפחתה המרבית היא <c00cc00>%<VALUE3></c> מהנזק הנספג.
 TID_ACCESSORY_KICKER_DUDE_GADGET,מטר תירס
 TID_ACCESSORY_KICKER_DUDE_GADGET_DESC,"פאנג משליך חופן גרעיני תירס לאוויר, שהופכים לגשם של פופקורן! כל חופן כזה גורם <c00cc00><VALUE1></c> נזק."
 TID_GAME_MODE_24,דו-קרב
+TID_GAME_MODE_24_DESC,הרכיבו צוות של 3 בראולרים כדי להילחם נגד קבוצה יריבה בדו-קרב בדרך האלימינציה. כל סבב הוא קרב 1 נגד 1 המסתיים כשאחד הבראולרים מובס. המנצח ב-3 סבבים מנצח משחק!\n\nבחירת נבחרת אפקטיבית של בראולרים והפעלתם בסדר הנכון יכולה לשפר מאוד את הסיכוי לנצח.
 TID_NOTIFICATION_TAG_TEAM,מפת ׳דו-קרב׳ חדשה זמינה! זה הזמן לזכות בפרסים חדשים!
+TID_TAG_TEAM_INTRO_TEXT,נצחו את כל הבראולרים של היריב!
 TID_REWARD_INFO_RESOURCE_CLUBCOINS,התקבלו <AMOUNT>מטבעות מועדון
 TID_REWARD_INFO_RESOURCE_GEARSCRAP,התקבלו <AMOUNT> גרוטאות
 TID_SKIN_INFO_PIRATES,סקינים של פיראטים
@@ -5900,6 +5945,7 @@ TID_CLUB_LEAGUE_TODAYS_MAX_POINTS,מקסימום נקודות
 TID_CLUB_LEAGUE_TODAYS_MAX_POINTS_EXTRA_PERCENT,+%<PERCENT>
 TID_CLUB_LEAGUE_BONUS_DAY,יום בונוס
 TID_CLUB_LEAGUE_TROPHY_RESET,גביעי מועדון מתאפסים בסוף כל יום אירוע
+TID_CLUB_LEAGUE_TROPHY_RESET_MESSAGE,שחקו באירועי היום של ליגת המועדון כדי לאסוף גביעי מועדון! גביעי המועדון מתאפסים בכל יום אירוע. שחקו בכל יום אירוע כדי לתרום תרומה מרבית למועדון שלכם.
 TID_EMOTE_BUNDLE_LNY22_PACK,ערכת סיכות סקינים לראש השנה הסיני
 TID_SKIN_INFO_CAMPAIGN_LUNAR_BRAWL_22,חגגו את השנה הסינית בסקינים חגיגיים!
 TID_EVENT_POPUP_GMV_LABEL_DUEL,1 נגד 1
@@ -5912,6 +5958,9 @@ TID_BRAWL_PASS_SEASON_9,שנת הנמר
 TID_TAGTEAM_TROPHY_INFO_TITLE,פרסי גביע דו-קרב
 TID_TAGTEAM_TROPHY_INFO_LOSE_TITLE,הפסדת במשחק
 TID_TAGTEAM_TROPHY_INFO_WIN_TITLE,ניצחת במשחק
+TID_TAGTEAM_TROPHY_INFO_LOSE_INFO,כל בראולר מפסיד <VALUE> מהגביעים שהיה מפסיד במשחק רגיל
+TID_TAGTEAM_TROPHY_INFO_WIN_INFO,כל בראולר מרוויח <VALUE> מהגביעים שהיה מרוויח במשחק רגיל
+TID_TAGTEAM_TROPHY_INFO_WIN_INFO_EXTRA,"אם סך הגביעים קטן מכמות הגביעים הקטנה ביותר שכל בראולר בודד היה זוכה בו, ההפרש יתחלק באופן אקראי בין כל הבראולרים."
 TID_TRUE_GOLD_ROSA_SKIN,יציקת רוזה מזהב
 TID_TRUE_GOLD_ROSA_SKIN_SHOP,יציקת\nרוזה מזהב
 TID_TRUE_GOLD_JACKY_SKIN,יציקת ג‘קי מזהב
@@ -5993,7 +6042,7 @@ TID_VICTORY_MATCH_OVER,ניצחון!\nהמשחק נגמר
 TID_LOSS_MATCH_OVER,תבוסה!\nהמשחק נגמר
 TID_SKIN_INFO_CAMPAIGN_LUNAR_BRAWL_2022,סקין לראש השנה הסיני 2022
 TID_LOGIN_CALENDAR_LEFT_TITLE,רצף מתנות יומיות
-TID_LOGIN_CALENDAR_LEFT_SUBTITLE,<cfffc11>נכנסים כל יום במשך 15 יום</c> וזוכים ב<cfffc11>מתנות חינם</c>! <cfffc11>אל תפספסו אף יום</c> כדי לא לשבור את הרצף!
+TID_LOGIN_CALENDAR_LEFT_SUBTITLE,<cfffc11>נכנסים מדי יום במשך 15 יום ברציפות</c> ומקבלים <cfffc11>מתנות חינמיות</c>!
 TID_LOGIN_CALENDAR_RIGHT_TITLE,פרסי היום
 TID_LOGIN_CALENDAR_BUTTON_CLAIM,קבל/י
 TID_LOGIN_CALENDAR_BUTTON_CLOSE,סגירה
@@ -6014,6 +6063,7 @@ TID_LOGIN_CALENDAR_REWARD_DESC_PIN,<VALUE1> סיכה <VALUE2>/<VALUE3>. אפשר
 TID_LOGIN_CALENDAR_REWARD_DESC_SKIN,ניתן להתאים אישית את <VALUE> עם הסקין החדש!
 TID_LOGIN_CALENDAR_REWARD_DESC_GADGET_CHOICE,בחרו גאדג‘ט עבור <VALUE>. גאדג‘טים הם יכולת נוספת לשימוש עד 3 פעמים בכל קרב.
 TID_LOGIN_CALENDAR_REWARD_DESC_PIN_X2,פרס זה מעניק לך 2 סיכות חדשות
+TID_LOGIN_CALENDAR_REWARD_DESC_STARPOWER_CHOICE,בחרו כוח כוכב עבור <VALUE>. כוחות כוכב הם יכולות פסיביות נוספת עבור הבראולר.
 TID_LOGIN_CALENDAR_ERROR_REWARD_EXPIRED,פג תוקף הפרס
 TID_CHINA_PRIVACY_SETTINGS_BUTTON,הגדרות פרטיות
 TID_CHINA_PRIVACY_SETTINGS_TITLE,הגדרות פרטיות
@@ -6027,6 +6077,7 @@ TID_ACCESSORY_STICKY_BOMB_VISION,שאריות
 TID_ACCESSORY_STICKY_BOMB_VISION_DESC,"הבום-בועה הדביקה הבאה של סקוויק משאירה אחריה שטח זרוע הריסות מהפצצה, אשר מאט את התקדמות האויבים ומעניק לחברי הצוות תצפית על השיחים למשך <c00cc00><VALUE1></c> שניות."
 TID_ACCESSORY_ELECTRO_SNIPER_BOUNCE,קוטביות הפוכה
 TID_ACCESSORY_ELECTRO_SNIPER_BOUNCE_DESC,הקליע החשמלי הבא של בל קופץ מקירות.
+TID_TUTORIAL_SD_FIRSTBATTLE,"הבראולר האחרון שעומד, מנצח! כדאי לאסוף קוביות כוח מתיבות כדי להגביר את הכוח. ענני רעל מתקרבים, אז חשוב להמשיך לזוז!"
 TID_ACCESSORY_KICKER_DUDE_SWEEP,בעיטה מסובבת
 TID_ACCESSORY_KICKER_DUDE_SWEEP_DESC,"פאנג מסובב את כל האויבים סביבו, מכה אותם ומהמם אותם למשך <c00cc00><VALUE1></c> שניות."
 TID_TDM_30_SECONDS,נשארו 30 שניות!
@@ -6040,6 +6091,7 @@ TID_STAT_BIG_EGG_DAMAGE,נזק הביצים הגדול ביותר
 TID_TUTORIAL_SD_FIRST,אי האימונים
 TID_OVERTIME_PAYLOAD,הארכת זמן!\nהעגלות זזות מהר יותר!
 TID_GATCHA_SCREEN_WCPP_DROP_TITLE,נקודות כוח עבור כל בראולר
+TID_GATCHA_SCREEN_WCPP_DROP_DESC,בחרו בראולר לאחר איסוף כל הפרסים
 TID_EMOTE_BUNDLE_BIODOME_PACK,ערכת סיכות סקינים של ביודום
 TID_SHOP_BIODOME_SKINS,סקינים של ביודום
 TID_SHOP_BIODOME_TITLE,ביודום
@@ -6056,6 +6108,7 @@ TID_LOGIN_CALENDAR_TIP_TITLE,טיפ:
 TID_LOGIN_CALENDAR_TIP_SKINS,השתמשו בלחצן הסקינים כשהחלטת ששלי תחליף את הסקין שלה
 TID_LOGIN_CALENDAR_TIP_PINS,ניתן להשתמש בסיכות להבעת רגשות בקרב!
 TID_LOGIN_CALENDAR_TIP_GADGET,גאדג‘טים הם יכולת נוספת לשימוש עד 3 פעמים בכל קרב
+TID_LOGIN_CALENDAR_TIP_STAR_POWER,כוחות כוכב הם יכולות פסיביות נוספות עבור הבראולר
 TID_LOGIN_CALENDAR_PINS_DESCRIPTION,הסיכה הבאה זמינה ביום <VALUE>.\nחשוב להתחבר כל יום כדי להשלים את האוסף
 TID_LOGIN_CALENDAR_BUTTON_TITLE,המתנה היומית הבאה ב:
 TID_LOGIN_CALENDAR_REMINDER_1_TITLE,פרסים חינמיים עבור <HERONAME> למשך 14 יום
@@ -6065,6 +6118,7 @@ TID_LOGIN_CALENDAR_REMINDER_2_TITLE,בראולר <cff92f9>אדיר</c> חינם 
 TID_LOGIN_CALENDAR_REMINDER_2_DESCRIPTION,"חשוב לא להחמיץ אף יום, אחרת יאבדו הפרסים היומיים!"
 TID_LOGIN_CALENDAR_REMINDER_2_BUTTON,קדימה!
 TID_LOGIN_CALENDAR_REWARD_DESC_GADGET,כדאי לפתוח גאדג‘ט <VALUE> עבור <HERONAME>. גאדג‘טים הם יכולות נוספות לשימוש עד 3 פעמים בכל קרב.
+TID_LOGIN_CALENDAR_REWARD_DESC_STARPOWER,כדאי לפתוח כוח כוכב <HERONAME>עבור <VALUE>. כוחות כוכב הם יכולות פסיביות נוספות עבור הבראולר.
 TID_LOGIN_CALENDAR_SCREEN_BRAWLER_CHOICE_TAGLINE_1,רובה כפול
 TID_LOGIN_CALENDAR_SCREEN_BRAWLER_CHOICE_TAGLINE_2,נזק שפריץ
 TID_LOGIN_CALENDAR_CHOICE_OR,או
@@ -6144,7 +6198,7 @@ TID_SHOWDOWN_70,חדר המתים
 TID_RANKED_BATTLE_END_EPIC,ניצחון אפי!
 TID_RANKED_BATTLE_END_CLOSE,תחרות צמודה!
 TID_JETPACK_GIRL,ג‘נט
-TID_JETPACK_GIRL_SHORT_DESC,גורמת נזק
+TID_JETPACK_GIRL_SHORT_DESC,צלף
 TID_JETPACK_GIRL_DESC,"ג'נט היא כוכבת המופע, ולא חוששת ליידע על כך את כולם סביבה.\n\nחבל שאחותה בוני מסתבכת כל הזמן בצרות..."
 TID_JETPACK_GIRL_WEAPON,קול גבוה
 TID_JETPACK_GIRL_WEAPON_DESC,"ג'נט שרה בקול עוצמתי. ככל שהיא מחזיקה את הצליל זמן רב יותר, כך הוא יהפוך ממוקד יותר ויישמע רחוק יותר."
@@ -6159,7 +6213,7 @@ TID_ACCESSORY_JETPACK_GIRL_GADGET_1_DESC,ג'נט פורסת רמקול שגור�
 TID_ACCESSORY_JETPACK_GIRL_GADGET_2,פס מאחורי הקלעים
 TID_ACCESSORY_JETPACK_GIRL_GADGET_2_DESC,"הצליל הגבוה הבא של ג'נט דוחף אותה לאחור, אפילו מעבר לקירות. ככל שההתקפה שלה תהיה ממוקדת יותר, כך היא תידחק יותר לאחור."
 TID_CANNON_GIRL,בוני
-TID_CANNON_GIRL_SHORT_DESC,HYBRID
+TID_CANNON_GIRL_SHORT_DESC,צלף
 TID_CANNON_GIRL_DESC,בוני והתותח הדומם שלה \qקלייד\qבדרך כלל עושים בלגן. מי היה מאמין שהילדה החמודה הזו תגרום מהומה גדולה כל כך?
 TID_CANNON_GIRL_WEAPON,שן רופפת
 TID_CANNON_GIRL_WEAPON_DESC,בוני יורה שן ענקית מהתותח קלייד לעבר האויבים שלה.
@@ -6252,6 +6306,7 @@ TID_REPORT_BATTLE_PLAYER_CONFIRMATION,האם באמת ברצונך לדווח ע
 TID_DELETE_ACCOUNT_TITLE,מחיקת החשבון שלי
 TID_UGC_INPUT_FEATURE_UNAVAILABLE,תכונה זו לא זמינה כרגע
 TID_PLAYER_PROFILE_PRIVATE,השחקן הפעיל את פרטיות הפרופיל שלו
+TID_PLAYER_CLUB_INFO_PRIVATE,השחקן הפעיל את פרטיות המידע של המועדון
 TID_CLAN_RESPONSE_111,תכונה זו לא זמינה כרגע
 TID_CLAN_RESPONSE_120,"לא ניתן להזין את תוכן התיאור הזה, נא לנסות תוכן אחר."
 TID_CHINA_LOGIN_DESC_YOOZOO,本公司积极履行《网络游戏行业防沉迷自律公约》抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》、《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有网络游戏用户均需使用有效身份信息完成账号实名注册后方可进入游戏，认证为未成年的玩家将受到防沉迷功能限制。沪网文【2018】8544-517号、新出网证（沪）字33号 著作权人：SUPERCELL OY 出版单位：上海游族信息技术有限公司 运营单位：上海游族信息技术有限公司 批准文号：国新出审【2020】552号 出版物号：ISBN 978-7-498-07472-0
@@ -6330,7 +6385,7 @@ TID_VALKYRIE_JANET_SKIN,ג‘נט הוולקיריה
 TID_VALKYRIE_JANET_SKIN_SHOP,ג‘נט\nהוולקיריה
 TID_DARUMA_MRP_SKIN,מר P דארומה
 TID_DARUMA_MRP_SKIN_SHOP,מר P\nדארומה
-TID_SKIN_INFO_CAMPAIGN_LANTERN,סקין פסטיבל הפנסים
+TID_SKIN_INFO_CAMPAIGN_LANTERN,חולות הזמן
 TID_ACCESSORY_DRILLER_REBUILD,בנייה מחדש
 TID_ACCESSORY_DRILLER_REBUILD_DESC,ג‘קי בונה מחדש את הסביבה ברדיוס קטן סביבה.
 TID_ACCESSORY_ASSAULT_SHOTGUN_PROJECTILES,גשם של מטבעות
@@ -6346,8 +6401,10 @@ TID_LOGIN_CALENDAR_ALREADY_HAVE_GADGET,כבר יש לך את הגאדג‘ט ה�
 TID_LOGIN_CALENDAR_ALREADY_HAVE_STAR_POWER,כבר יש לך את כוח הכוכב הזה
 TID_LOGIN_CALENDAR_FINAL_REWARD_MESSAGE,בראולר <cFF92F9>אדיר</c> חינם ביום ה-15
 TID_LOGIN_CALENDAR_WARNING_MESSAGE,<cFFB820>לא כדאי לפספס אף יום</c> אחרת שאר המתנות שלך יאבדו!
+TID_POWER_LEAGUE_BRAWLER_REQUIREMENT_SELECT,כדי להשתתף באירוע צריך לפתוח לפחות 12 בראולרים
 TID_TEAM_ERROR_134,כדי להשתתף באירוע צריך לפתוח לפחות 12 בראולרים
 TID_MATCHMAKE_FAILED_25,כדי להשתתף באירוע צריך לפתוח לפחות 12 בראולרים
+TID_POWER_LEAGUE_BRAWLER_REQUIREMENT_INVITE,אין לשחקן מספיק בראולרים פתוחים כדי להשתתף באירוע זה
 TID_TEAM_ERROR_133,אין לשחקן מספיק בראולרים פתוחים כדי להשתתף באירוע זה
 TID_REWARD_SPRAY_SLOT,משבצת ספריי נוספת
 TID_SPRAY_SLOT_TITLE,משבצת ספריי
@@ -6356,15 +6413,19 @@ TID_BANKHEIST_31,אסור לגעת בזה
 TID_LOGIN_CALENDAR_FINAL_REWARD,בראולר <cFF92F9>אדיר</c> חינם
 TID_LOGIN_CALENDAR_OR,או
 TID_LOGIN_CALENDAR_BRAWLER_UPGRADED,שדרוג בראולר!
+TID_LOGIN_CALENDAR_TOOLTIP_SKIN,"כדאי לפתוח את הסקין של הבראולר חדש הזה\n\nברגע שיהיה שלך, באפשרותך לצייד את הסקין שלך ממסך הבראולר. אם לבראולר יש לפחות סקין אחד, אפשר לעבור לבחירת הבראולר ולהקיש על הלחצן עם הסמל של מתלה המעילים."
+TID_LOGIN_CALENDAR_TOOLTIP_CHOOSE_BRAWLER,לבחירתך איזה בראולר לפתוח בשלב הבא!
+TID_LOGIN_CALENDAR_TOOLTIP_UPGRADE_BRAWLER,"כדאי לשדרג את הבראולר שלך! ניתן לשפר את הבריאות, נזקי ההתקפה ואת נזקי תכונת הסופר בכל רמת כוח חדשה. משבצת הגאדג'ט של הבראולרים נפתחת ברמת כוח 7 ומשבצת כוח הכוכב נפתחת ברמת כוח 9."
 TID_LOGIN_CALENDAR_TOOLTIP_PIN_1,כדאי להשתמש בסיכות כדי להביע את עצמך בקרב. ניתן להצטייד בסיכות במסך הבראולר.
 TID_LOGIN_CALENDAR_TOOLTIP_PIN_2,כדאי להשתמש בסיכות כדי להביע את עצמך בקרב. ניתן להצטייד בסיכות במסך הבראולר.
 TID_LOGIN_CALENDAR_TOOLTIP_GADGETS,כדאי לבחור גאדג'ט לבראולר שלך. גאדג'טים הם יכולת נוספת לשימוש עד 3 פעמים בכל קרב. לכל בראולר יש גאדג'טים ייחודיים משלו.
+TID_LOGIN_CALENDAR_TOOLTIP_STAR_POWER,כדאי לבחור כוכב כוח עבור הבראולר שלך. כוחות כוכב הם יכולות פסיביות נוספות עבור הבראולר שלך. לכל בראולר יש כוחות כוכב ייחודיים לו.
 TID_LOGIN_CALENDAR_TUTORIAL_TOOLTIP,המתנה היומית הראשונה שלך מחכה לך!\צריך להקיש כדי לאסוף אותה.
 TID_LOGIN_CALENDAR_STARR_PARK,פארק סטארר
 TID_LOGIN_CALENDAR_LOYALTY_PROGRAM,תוכנית נאמנות
 TID_LOGIN_CALENDAR_TITLE,תוכנית נאמנות של פארק סטארר
 TID_REWARD_DESC_PLAYER_ICON_REGULAR,סמל שחקן
-TID_CLUB_LEAGUE_CLUB_COINS_HOW_TO_GET,מתחרים בליגת המועדונים וזוכים במטבעות מועדון
+TID_CLUB_LEAGUE_CLUB_COINS_HOW_TO_GET,מתחרים במשחקי מועדון וזוכים במטבעות מועדון
 TID_CLUB_EVENTS_TITLE,משחקי מועדונים
 TID_CLUB_EVENTS_LEAGUE_TAB_DAY,יום האירוע
 TID_CLUB_EVENTS_LEAGUE_TAB_EVENT_DAY,יום אירוע <NUM>
@@ -6373,8 +6434,13 @@ TID_CLUB_EVENTS_LEAGUE_TAB_SEASON,שבוע
 TID_CLUB_EVENTS_TAB_LEAGUE,ליגה
 TID_CLUB_EVENTS_TAB_QUESTS,קווסטים
 TID_CLUB_EVENTS_BUTTON_CLUB_SHOP,חנות המועדון
+TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_IS_TOP,רק <TOP> התוצאות הגבוהות ביותר של כל מועדון נחשבות. הגעת למיקום <NUM>.
+TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_NOT_TOP,רק <TOP> התוצאות הגבוהות ביותר של כל מועדון נחשבות. הגעת למיקום <cF76263><NUM></c>.
+TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_NOT_RANKED,רק <TOP> התוצאות הגבוהות ביותר של כל מועדון נחשבות. <cF76263>עוד לא השתתפת.</c>
+TID_CLUB_INFO_TOP_EVENT_DAY_PLAYER_DIVIDER,רק התוצאות של <TOP> המשתתפים המוצלחים ביותר במועדון נחשבות
 TID_CLUB_QUESTS_PLAYER_REWARD_DESC,פרס הסופ\qש שלך
 TID_CLUB_QUESTS_LOCKED_REWARD_DESC,צריך להשלים קווסט מועדון כלשהו כדי לפתוח נעילה
+TID_CLUB_QUESTS_REWARD_TRACK_OVERLAY,צריך לצבור <POINTS> נקודות עם המועדון שלך כדי לקבל את זה בתור פרס סיום השבוע!
 TID_CLUB_QUESTS_REWARD_TRACK_OVERLAY_CURRENT,זה הפרס הנוכחי של סיום שבוע הקווסטים של המועדונים.
 TID_CLUB_QUESTS_REWARD_TRACK_OVERLAY_LOCKED,זה הפרס של סיום שבוע הקווסטים של המועדונים הנוכחי. צריך להשלים קווסט מועדונים כדי לקבל אותו בסיום השבוע!
 TID_CLUB_QUESTS_LEAGUES_BUTTON,ליגות
@@ -6399,7 +6465,7 @@ TID_CLUB_QUESTS_ALL_COMPLETED_DESC,כל הקווסטים של המועדונים
 TID_CLUB_QUEST_ALREADY_COMPLETED,קווסט המועדונים הזה כבר הושלם!
 TID_CLUB_QUESTS_SEASON_ENDS_IN_TIME,השבוע מסתיים בעוד:
 TID_CLUB_QUESTS_REWARD_LOCKED_DESC,הקווסט הראשון פותח נעילת פרס!
-TID_CLUB_QUESTS_COMPLETED_NUM,קווסטים שהושלמו: <NUM>
+TID_CLUB_QUESTS_COMPLETED_NUM,קווסטים שהושלמו: <NUM>/<MAX>
 TID_CLUB_QUESTS_TITLE,קווסטים של מועדונים
 TID_CLUB_QUESTS_NEW_SEASON,שבוע חדש!
 TID_CLUB_QUESTS_SEASON_END_NOTIFICATION,"סיום שבוע הקווסטים של המועדונים. בתור פרס השבוע, הרווחת <COINS> <cEE1B39>מטבעות מועדון</c>!"
@@ -6413,7 +6479,9 @@ TID_CLUB_QUESTS_TEAM_BONUS_POPUP_X2,x‏2
 TID_CLUB_QUESTS_TEAM_BONUS_POPUP_PLAY_SOLO,משחק לבד
 TID_CLUB_QUESTS_TEAM_BONUS_POPUP_ONLINE,<NUM> מחוברים
 TID_CLUB_QUESTS_TEAM_BONUS_POPUP_TEAM_UP,משחק קבוצתי!
+TID_CLUB_QUESTS_WARNING_NOT_AVAILABLE,"אפשר לתרום רק למועדון שאיתו מתחילים את השבוע.\n\nכדי לתרום למועדון זה, צריך לחכות לשבוע הבא!"
 TID_CLUB_QUESTS_SEASON_END_REWARD_CLAIMED,התקבל
+TID_CLUB_LEAGUE_WARNING_NOT_AVAILABLE,היי! נראה שהמועדון שלך עדיין לא משתתף בשבוע ליגת המועדונים. באפשרותך להתחרות במועדונים אחרים כשיתחיל שבוע ליגת המועדונים הבא.
 TID_CLUB_EVENT_TIME_LEFT,נותרו <TIME>
 TID_SHOP_CLUB_SHOP_SEE_OFFERS,מבצעים
 TID_SHOP_CLUB_SHOP_TITLE,חנות המועדון
@@ -6426,7 +6494,7 @@ TID_BRAWLBALL_51,ניקוד גבוה
 TID_BRAWLBALL_52,פינג פונג
 TID_INBOX_CAPTION_72_68,תרומה: ספריי
 TID_SILENCER,אוטיס
-TID_SILENCER_SHORT_DESC,גורם נזק
+TID_SILENCER_SHORT_DESC,בקר
 TID_SILENCER_DESC,אוטיס הוא אומן רחוב אמיתי שמתפנן במעמקים עם חברו כוכב הים סיל. יחד הם מפזרים ציורי גרפיטי בכל רחבי פארק סטארר.
 TID_SILENCER_WEAPON,אומנות בדיו
 TID_SILENCER_WEAPON_DESC,אוטיס מתיז פרץ של טיפות דיו מתוך זרוע אקדח הריסוס שלו.
@@ -6435,7 +6503,7 @@ TID_SILENCER_ULTI_DESC,"אוטיס מעיף את סיל, שעוטף ועוצר �
 TID_SPEC_ABI_SILENCER_1,דבק סטנסיל
 TID_SPEC_ABI_SILENCER_1_DESC,"סיל סוחט בכל כוחו את האויב, ומונע ממנו לתקוף למשך <c00cc00>%<VALUE1></c> יותר זמן."
 TID_SPEC_ABI_SILENCER_2,מילוי מחדש של דיו
-TID_SPEC_ABI_SILENCER_2_DESC,אוטיס כעת יורה <c00cc00>%<VALUE1> יותר טיפות דיו.
+TID_SPEC_ABI_SILENCER_2_DESC,אוטיס כעת יורה <c00cc00>%<VALUE1></c> יותר טיפות דיו.
 TID_ACCESSORY_SILENCER_GADGET_1,כוכב רדום
 TID_ACCESSORY_SILENCER_GADGET_1_DESC,"כוכב הים הבא יישאר על הקרקע אם אף אויב לא פוגע, וישכב שם רדום עד שאויב מתקרב."
 TID_ACCESSORY_SILENCER_GADGET_2,שלוליות או לא להיות
@@ -6458,7 +6526,10 @@ TID_CLUB_EVENTS_ONBOARDING_SUBTITLE,משפרים את ההתקדמות וזוכ�
 TID_CLUB_EVENTS_ONBOARDING_PAGE_1_TITLE,ברוכים הבאים\nלמשחקי המועדונים השבועיים!
 TID_CLUB_EVENTS_ONBOARDING_NEW_GAME,משחק מועדון חדש!
 TID_CLUB_EVENTS_ONBOARDING_PAGE_2_TITLE,ליגת מועדונים
+TID_CLUB_EVENTS_ONBOARDING_PAGE_2_DESCRIPTION,מתחרים נגד מועדונים אחרים\nומעפילים במעלה הליגות!
 TID_CLUB_EVENTS_ONBOARDING_PAGE_3_TITLE,קווסטים של מועדונים
+TID_CLUB_EVENTS_ONBOARDING_PAGE_3_DESCRIPTION,משלימים קווסטים עם המועדון!
+TID_CLUB_EVENTS_ONBOARDING_PAGE_4_1,משחקים עם המועדון! משחק מועדון אחד לשבוע.
 TID_CLUB_EVENTS_ONBOARDING_PAGE_4_2,מרוויחים מטבעות מועדון!
 TID_CLUB_EVENTS_ONBOARDING_PAGE_4_3,משפרים את ההתקדמות בחנות המועדון!
 TID_SUGGEST_TITLE,הצעת בראולר
@@ -6528,6 +6599,8 @@ TID_DEATHMATCH_FFA_4,מהיר ועצבני
 TID_DEATHMATCH_FFA_5,שחרור
 TID_DEATHMATCH_FFA_6,עקבות אמת
 TID_DEATHMATCH_FFA_7,אומגה
+TID_CLUB_EVENTS_CHANGED_CLUB,"אפשר לתרום רק למועדון שאיתו מתחילים את השבוע.\n\nכדי לתרום למועדון זה, צריך לחכות לשבוע הבא!\n\nהשבוע הבא מתחיל בעוד: <TIME>"
+TID_CLUB_QUESTS_CURRENT_CLUB_POINTS,סך הנקודות שצבר המועדון שלך השבוע
 TID_CLUB_QUESTS_THIS_WEEKS_QUESTS,הקווסטים של המועדונים השבוע
 TID_SPEC_ABI_ARTILLERY_DUDE_1,תיבות כבדות
 TID_SPEC_ABI_ARTILLERY_DUDE_1_DESC,נרתיקי הזהב של פני מתפוצצים על פני שטח קונוס רחב ב-<c00cc00>%<VALUE1></c> לאחר כל פגיעה.
@@ -6540,6 +6613,7 @@ TID_ACCESSORY_ARTILLERY_DUDE_GADGET_2_DESC,התותח של פני מתפוצץ �
 TID_RANDOM_GAME_MODE_DESC,"שחקו משחק מתוך מאגר אקראי של מצבי משחק, מפות ומגדירים שונים. אין לדעת מה תקבלו!"
 TID_CLUB_QUESTS_EXPIRED,פג תוקפו של הקווסט
 TID_CLUB_LEAGUE_ACTIVE,שבוע הליגה פעיל
+TID_CLUB_QUESTS_TUTORIAL,צריך להשלים 3 קווסטים של מועדונים השבוע כדי לזכות בנקודות עבור המועדון
 TID_CLUB_QUESTS_YOUR_QUESTS,הקווסטים של המועדונים שלך השבוע
 TID_CLUB_QUESTS_NEW_QUESTS,קווסטים חדשים של מועדונים
 TID_CLUB_QUESTS_REWARDS_INCREASED,הפרסים המקסימליים שלך עלו עבור ליגת המועדונים ועבור קווסטים של מועדונים
@@ -6581,13 +6655,14 @@ TID_BRAWL_PASS_SEASON_12,סקין בראולר ים עמוק
 TID_TRIPLE_TAKEDOWN,ניצחון מוחץ ומשולש!
 TID_QUAD_TAKEDOWN,ניצחון מוחץ כפול ארבע!
 TID_WEAPON_THROWER,סאם
-TID_WEAPON_THROWER_SHORT_DESC,גורם נזק
+TID_WEAPON_THROWER_SHORT_DESC,מתנקש
 TID_WEAPON_THROWER_DESC,"סאם ברונסון, עובד מפעל לשעבר, רוצה לנקום בכל הרובוטים.\n\nהוא הכוח מאחורי המוח של חבורת זרוע הזהב, ותמיד שמח לקחת את השלל ולהכניס מכות לרובוטים!"
 TID_WEAPON_THROWER_WEAPON,מטר אגרופים
 TID_WEAPON_THROWER_WEAPON_DESC,"סאם משחרר מנה כפולה של אגרופים קשוחים. הודות לכפפות שלו, הוא גורם הרבה יותר נזק."
 TID_WEAPON_THROWER_ULTI,אגרופנים
 TID_WEAPON_THROWER_ULTI_DESC,סאם משליך את האגרופנים שלו וגורם נזק לכל האויבים שנפגעים מהם לפני שהם נוחתים על הקרקע. תכונת הסופר הבאה שלו מחזירה אותם אליו וגם גורמת נזק.
 TID_SPEC_ABI_WEAPON_THROWER_1,התאוששות מהירה
+TID_SPEC_ABI_WEAPON_THROWER_1_DESC,"לאחר שהחזיר את האגרופנים לידיו, סאם משחזר באופן מיידי <c00cc00>%<VALUE1></c> מבריאותו החסרה."
 TID_SPEC_ABI_WEAPON_THROWER_2,הטענה מרחוק
 TID_SPEC_ABI_WEAPON_THROWER_2_DESC,"כל עוד האגרופנים על הקרקע ובקרבת אויבים, הם מטעינים את תכונת הסופר של סאם."
 TID_ACCESSORY_WEAPON_THROWER_GADGET_1,שדה מגנטי
@@ -6599,6 +6674,7 @@ TID_ACCESSORY_BLOCKED_GAUNTLETS_TOO_FAR,האגרופנים רחוקים מדי!
 TID_ACCESSORY_BLOCKED_GAUNTLETS_REQUIRED,נדרשים אגרופנים!
 TID_SOUL_COLLECTOR,גאס
 TID_SOUL_COLLECTOR_SHORT_DESC,תמיכה
+TID_SOUL_COLLECTOR_DESC,"גאס חובב בלונים ומתגורר ברכבת נטושה. האגדה מספרת שיום אחד הוא עקב אחרי בלון מרחף בצורת כלב, התרחק מדי, הלך לאיבוד ומאז הוא שם."
 TID_SOUL_COLLECTOR_WEAPON,בלוני לוני
 TID_SOUL_COLLECTOR_WEAPON_DESC,"גאס יורה בלונים לעבר אויבים. אחרי כמה פגיעות ברצף, צונחת רוח. רוחות שיצטברו ישחזרו חלק מהבריאות של גאס או של חברי הצוות שלו."
 TID_SOUL_COLLECTOR_ULTI,ספוקי
@@ -6698,6 +6774,7 @@ TID_HINT_51,לא אהבת את פריסת השליטה שלך? אפשר לשנו
 TID_HINT_52,בכדור-בראולר אפשר להשתמש בתכונת הסופר כדי לבצע סופר בעיטה!
 TID_HINT_53,"כשמרוויחים הכי הרבה יהלומים בתופסים-יהלומים, צריך לתעדף הגנה על פני התקפה."
 TID_HINT_54,"אם החברים שלך לקבוצה מובסים, צריך לחכות עד שהם ייווצרו מחדש לפני שמסתערים שוב יחד!"
+TID_HINT_55,כדאי להיעזר בקרבות ידידותיים כדי לתרגל את הכישורים ולשפר אותם.
 TID_HINT_56,לחלק מהבראולרים יש תכונות מיוחדות! מומלץ לעיין בהן במסך נתוני הבראולרים.
 TID_HINT_57,בקרב מכריע בזוג צריך לוודא שהחבר שלך לצוות חי לפני שאוספים קוביות כוח.
 TID_HINT_58,"אם משתתפים באתגרים, מומלץ להשתמש בתכונה חיפוש-קבוצה!"
@@ -6725,13 +6802,18 @@ TID_TRY_BRAWLER_TITLE,נסו את הבראולר
 TID_TRY_BRAWLER_BUTTON_PRACTICE_MATCH,משחק אימון
 TID_TRY_BRAWLER_BUTTON_TRAINING_GROUNDS,שטחי אימון
 TID_FIRST_GADGET_TUTORIAL_HEADER,גאדג‘טים
+TID_FIRST_GADGET_TUTORIAL_HEADER_DESC,יכולת נוספת לבראולר שלך
 TID_FIRST_GADGET_TUTORIAL_1_DESC,כל הבראולרים מקבלים גישה למשבצת הגאדג‘טים שלהם ברמת כוח 7
+TID_FIRST_GADGET_TUTORIAL_2_DESC,גאדג‘טים ייחודיים לכל בראולר
 TID_FIRST_GADGET_TUTORIAL_3_DESC,אפשר להשתמש בגאדג‘ט המצויד עד 3 פעמים במשחק
 TID_FIRST_GADGET_TUTORIAL_3_x3,x3
 TID_FIRST_STARPOWER_TUTORIAL_HEADER,כוחות כוכב
+TID_FIRST_STARPOWER_TUTORIAL_HEADER_DESC,יכולות פסיביות ייחודיות לבראולר שלך
 TID_FIRST_STARPOWER_TUTORIAL_1_DESC,כל הבראולרים מקבלים גישה למשבצת כוחות הכוכב שלהם ברמת כוח 9
+TID_FIRST_STARPOWER_TUTORIAL_2_DESC,כוחות כוכב ייחודיים לכל בראולר
 TID_FIRST_STARPOWER_TUTORIAL_3_DESC,כוחות הכוכב המצוידים שלך יהיו פעילים כל הזמן
 TID_FIRST_GEAR_TUTORIAL_1_DESC,כל הבראולרים מקבלים גישה למשבצת הציוד הראשונה שלהם ברמת כוח 10
+TID_FIRST_GEAR_TUTORIAL_2_DESC,פריטי ציוד רבים זמינים לכל בראולר
 TID_FIRST_GEAR_TUTORIAL_3_DESC,הציוד המצויד שלך יהיה פעיל כל הזמן
 TID_TRY_BRAWLER_SELECTING_PRACTICE_MATCH,בחירת משחק אימון
 TID_SHIELD_TANK,באסטר
@@ -6742,9 +6824,11 @@ TID_SHIELD_TANK_WEAPON_DESC,באסטר יורה קונוס של אור מהמק�
 TID_SHIELD_TANK_ULTI,מונטאז‘
 TID_SHIELD_TANK_ULTI_DESC,באסטר מקרין לפניו מגן שחוסם את כל קליעי האויב ומשקף את האנרגיה בחזרה אל האויבים.
 TID_SPEC_ABI_SHIELD_TANK_1,Blockbuster
+TID_SPEC_ABI_SHIELD_TANK_1_DESC,אלומת האור של באסטר גורמת <c00cc00>%<VALUE1></c> יותר נזק לכל בעל ברית בשטח טעינת הסופר שלו.
 TID_SPEC_ABI_SHIELD_TANK_2,אפוד מגן
 TID_SPEC_ABI_SHIELD_TANK_2_DESC,"כשהמונטאז‘ פעיל, באסטר סופג <c00cc00>%<VALUE1></c> פחות נזק והוא חסין מפני הדיפות, האטות ושיתוקים."
 TID_ACCESSORY_SHIELD_TANK_GADGET_1,חגורת כלים
+TID_ACCESSORY_SHIELD_TANK_GADGET_1_DESC,באסטר מרפא את עצמו ואת בעלי הברית הסמוכים ב-<c00cc00><VALUE1></c> נקודות בריאות לכל בעל ברית בשטח טעינת הסופר שלו.
 TID_ACCESSORY_SHIELD_TANK_GADGET_2,הילוך חוזר איטי
 TID_ACCESSORY_SHIELD_TANK_GADGET_2_DESC,אלומת האור הבאה השל באסטר מושכת אליו אויבים ומאטה את התקדמותם למשך <c00cc00><VALUE1></c> שניות.
 TID_GEAR_COMPENSATION_AMOUNTS_DESC,<TOKENS> טוקנים לציוד\n<SCRAP> גרוטאות
@@ -6753,6 +6837,7 @@ TID_FIRST_GEAR_TUTORIAL_SUBTITLE,התאימו את הבילד ביכולת פס�
 TID_FIRST_ITEM_TUTORIAL_BUTTON_LETS_GO,קדימה!
 TID_INBOX_CAPTION_52,תרומה של ציוד <TYPE> עבור <NAME>
 TID_GEAR_COMPENSATION_INFO,"בבקשה, לרשותך <COINS> מטבעות עבור הציוד, טוקנים לציוד וגרוטאות!"
+TID_INBOX_CAPTION_GEAR_COMPENSATION,הציוד אופס וכפיצוי ניתנו לך <COINS> מטבעות
 TID_RECRUIT_TOKEN,קרדיט
 TID_CHROMATIC_TOKEN,קרדיט כרומה
 TID_FIRST_STARPOWER_TUTORIAL_TITLE,כוחות כוכב
@@ -6788,6 +6873,11 @@ TID_PURCHASE_CHROMATIC_BTN_BP_ACTIVATE,הפעלה
 TID_PURCHASE_CHROMATIC_BTN_BP_CLAIM,קבלו
 TID_PURCHASE_CHROMATIC_HERO_BP_CHANGED,עונת Brawl Pass השתנתה
 TID_RECRUIT_BRAWLER_BUY_BUTTON_UNLOCK_NOW,פתחו עכשיו
+TID_PURCHASE_BRAWLER_ERROR_BRAWLER_ALREADY_UNLOCKED,כבר יש לך בראולר כזה!
+TID_PURCHASE_BRAWLER_ERROR_BP_TIER_NOT_REACHED,צריך להגיע לדרגה <TIER> של Brawl Pass כדי לקנות את הבראולר הזה
+TID_PURCHASE_BRAWLER_ERROR_BP_TIER_ALREADY_CLAIMABLE,הבראולר הזה כבר זמין ב-Brawl Pass
+TID_PURCHASE_BRAWLER_ERROR_PREVIOUS_CHROMATIC_BRAWLER_COUNT_TOO_SMALL,קודם צריך לפתוח <NUM> בראולרים כרומטיים נוספים
+TID_PURCHASE_BRAWLER_ERROR_UNKNOWN,לא ניתן כעת לרכוש את הבראולר הזה (<NUM>)
 TID_PURCHASE_BRAWLER_AUTO_OFFER_TITLE,לפתוח את <NAME>עכשיו?
 TID_PURCHASE_BRAWLER_AUTO_OFFER_DESC,קבלו באופן מיידי את הקרדיטים החסרים ושחקו <NAME> עכשיו!
 TID_RECRUIT_ROAD_CURRENT_BRAWLER_SWITCH,החלפה
@@ -6806,6 +6896,7 @@ TID_CHROMATIC_TOKEN_CAP_REACHED_BUTTON_SHOP,חנות כרומטית
 TID_BUTTON_NAVI_RECRUIT_ROAD,פתחו את הסטאררים
 TID_SKIN_INFO_GHOST_TRAIN,סקין תחנת הרוחות
 TID_SCID_PURCHASE_VERIFICATION_ERROR,אירעה שגיאה בעת אימות הרכישה
+TID_TRAIT_CHARGE_SUPER_FROM_ALLIES,הבראולר הזה טוען תכונת סופר משהייה בקרבת חברים לקבוצה
 TID_SKIN_INFO_ACTION,סקין של גיבורי פעולה
 TID_SKIN_INFO_WF_2022,סקין של הגמר העולמי 2022
 TID_BRAWL_PASS_SEASON_14,תחנת רוחות
@@ -6870,11 +6961,14 @@ TID_FAME_TIER_SATURNAL3,תהילת שבתאי III
 TID_FAME_TIER_SOLAR1,תהילת השמש I
 TID_FAME_TIER_SOLAR2,תהילת השמש II
 TID_FAME_TIER_SOLAR3,תהילת השמש III
+TID_FAME_PANEL_UNLOCK_INFO,פתחו את כל הבראולרים כדי לקבל תהילת עולם!
 TID_FAME_SCREEN_PROFILE_BUTTON,פרופיל
 TID_FAME_SCREEN_FAME_BUTTON,תהילה
 TID_JESTER,צ‘סטר
 TID_JESTER_SHORT_DESC,גורם נזק
+TID_JESTER_DESC,"מה בתיבה?\n\nהגבלת אחריות:\nStarr Corporation או השותפים לו, החברות המסונפות לו, הספקים שלו או בעלי הרישיונות שלו לא יהיו אחראים בשום מקרה לכל נזק עקיף, מקרי, ..."
 TID_JESTER_WEAPON,כובעים רועמים
+TID_JESTER_WEAPON_DESC,"צ'סטר יורה רצף של פעמונים מהכובע שלו - תחילה אחד, אחר כך שניים ולבסוף שלושה פעמונים."
 TID_JESTER_ULTI,נשק מתוק
 TID_JESTER_ULTI_EXPLOSION,שקית ממתקים
 TID_JESTER_ULTI_EXPLOSION_DESC,"צ'סטר יורה שקית ממתקים מתפוצצת שהורסת את הסביבה, מסיגה את האויבים לאחור וגורמת להם נזק."
@@ -6886,6 +6980,8 @@ TID_JESTER_ULTI_AREA,סוכריות קופצות
 TID_JESTER_ULTI_AREA_DESC,"צ‘סטר מפזר סוכריות קופצות מתפצפצות על הקרקע, שגורמות נזק במשך הזמן לאויבים שעומדים עליהן."
 TID_JESTER_ULTI_HEAL,מנטה חריפה
 TID_JESTER_ULTI_HEAL_DESC,צ‘סטר לועס מנטה מרעננת שמרפאה אותו במשך הזמן.
+TID_SPEC_ABI_JESTER_1,שיגעון פעמונים
+TID_SPEC_ABI_JESTER_1_DESC,להתקפה של צ'סטר יש שלב נוסף הכולל ארבעה פעמונים.
 TID_SPEC_ABI_JESTER_2,הצצה אל העתיד
 TID_SPEC_ABI_JESTER_2_DESC,צ‘סטר תמיד יודע מה תהיה תכונת הסופר הבאה שלו.
 TID_ACCESSORY_JESTER_GADGET_1,הגרלה מפולפלת
@@ -6899,23 +6995,34 @@ TID_DOORMAN_DESC,"מה פירוש המילה אורתוכרומטיק?\n\nגרי
 TID_DOORMAN_WEAPON,אקדח אצבע
 TID_DOORMAN_WEAPON_DESC,האם הקליעים אמיתיים בכלל?
 TID_DOORMAN_ULTI,דלתות בין ממדיות
+TID_DOORMAN_ULTI_DESC,גריי יוצר עבורו ועבור חבריו לקבוצה סדרת דלתות שימושית לבריחה מהירה ולהתקפות ערמומיות!
 TID_SPEC_ABI_DOORMAN_1,פציעה מזויפת
+TID_SPEC_ABI_DOORMAN_1_DESC,"כשבריאותו של גריי שלמה, הנזק הבא שנגרם מופחת ב-%<VALUE1>."
 TID_SPEC_ABI_DOORMAN_2,נקודת מבט חדשה
+TID_SPEC_ABI_DOORMAN_2_DESC,"כשגריי ובעלי בריתו משתמשים בדלתות, הם משחזרים <VALUE1> נקודות פגיעה."
 TID_ACCESSORY_DOORMAN_GADGET_1,מקל הליכה
+TID_ACCESSORY_DOORMAN_GADGET_1_DESC,הפגיעה הבאה של גריי מאקדח האצבע יורה מקל הליכה שמסיג את האויבים מעט לאחור.
 TID_ACCESSORY_DOORMAN_GADGET_2,פסנתר כנף
+TID_ACCESSORY_DOORMAN_GADGET_2_DESC,"הפגיעה הבאה של גריי מאקדח האצבע גם מסמנת מטרה על הקרקע שעליה ינחת פסנתר ויפגע באויבים.\nחבל אם מישהו ייפגע, נכון?"
 TID_SELECT_RECRUIT,בחרו בראולר
+TID_SELECT_RECRUIT_DESC,הקישו על בראולר לקבלת מידע נוסף
 TID_SWITCH_RECRUIT,לשנות בראולר לפתיחה?
+TID_SWITCH_RECRUIT_DESC,הקישו על בראולר לקבלת מידע נוסף
 TID_RESOURCE_POWER_POINTS,נקודות כוח
 TID_TOP_TOOL_TIP_POWER_POINTS,<cff00ff>נקודות כוח</c>משמשות לשדרוג הבראולרים.\n\nאספו נקודות כוח מ-Brawl Pass ומצבירת גביעים.\n\nמקסימום:<cff00ff><MAX></c>
 TID_POWER_POINT_CAP_REACHED_TITLE,הגעת לכמות המקסימלית של נקודות כוח
 TID_POWER_POINT_CAP_REACHED_DESC,צריך להשקיע נקודות כוח בשדרוג הבראולרים לפני שאוספים נקודות נוספות.
+TID_POWER_POINT_CAP_REACHED_DESC_OFFER,צריך להשקיע נקודות כוח בשדרוג הבראולרים לפני שרוכשים עוד.
 TID_POWER_POINT_CAP_REACHED_AMOUNT,<NUM>/<MAX>
 TID_POWER_POINT_CAP_REACHED_UPGRADE_BUTTON,שדרוג בראולרים
 TID_CURRENTLY_RECRUITING,כעת נפתח
+TID_RECRUIT_TOKENS_TO_UNLOCK,צריך קרדיטים כדי לפתוח <BRAWLER>:
 TID_FAME_LEVEL_UP_FLOW_BUTTON,קדימה!
 TID_FAME_SHOP_TITLE,השיגו עוד יהלומים
 TID_FAME_BUTTON_VALUE,+<NUM>תהילה
 TID_FAME_LOCKED_TITLE,תהילה
+TID_FAME,תהילה
+TID_PURCHASE_FAME_ERROR_CHROMATIC_BRAWLERS_AVAILABLE_TO_UNLOCK,צריך לפתוח את כל הבראולרים הכרומטיים הזמינים תחילה
 TID_PURCHASE_FAME_ERROR_UNKNOWN,לא ניתן כעת לרכוש תהילה (<NUM>)
 TID_RECRUIT_ROAD_COLLECT_CREDITS_TO_UNLOCK,אספו קרדיטים כדי לפתוח את הבראולר הזה:
 TID_RECRUIT_ROAD_CHOICES_AVAILABLE,האפשרויות הזמינות:
@@ -6923,6 +7030,7 @@ TID_RECRUIT_ROAD_TAP_TO_TRY,הקישו כדי לנסות
 TID_RECRUIT_ROAD_SINGLE_AVAILABLE,בראולר אחד זמין
 TID_RECRUIT_ROAD_CHOOSE_ONE,בחירת בראולר
 TID_SHOP_OFFER_TITLE_41,נקודות כוח
+TID_SHOP_OFFER_TITLE_43,תפקיד השחקן
 TID_GATCHA_SCREEN_GENERIC_POWER_POINTS_DROP_TITLE,נקודות כוח עבור כל בראולר
 TID_HERO_INFO_LEVEL_UP_ERROR_8,אין לך מספיק נקודות כוח כיד לשדרג את הבראולר הזה
 TID_RECRUIT_NOW_UNLOCKING_TITLE,<BRAWLER>
@@ -6932,14 +7040,17 @@ TID_QUEST_BRAWLER_SPECIAL_REWARD,פרס
 TID_RECRUIT_NEXT_BRAWLER_READY,זה הזמן לפתוח בראולר <RARITY> חדש!
 TID_SHOP_OFFER_INFO_41,מכיל<AMOUNT> נקודות כוח. צריך לצבור נקודות כוח כדי לפתוח שדרוגים לבראולרים!
 TID_FAME_INFO_TITLE,תהילה
+TID_FAME_INFO_TXT1,אחרי פתיחת כל הבראורלים בנתיב הסטאררים...
 TID_FAME_INFO_TXT2,כל הקרדיטים שהתקבלו יעזרו לך להשיג עוד תהילה!
 TID_FAME_INFO_TXT3,"התהילה גלויה בפרופיל שלך, ומראה כמה רחוק הגעת!"
 TID_FAME_INFO_TXT4,"אחרי שפותחים את כל הבראולרים הכרומטיים הזמינים, אפשר להשיג תהילה תמורת קרדיטי כרומה!"
 TID_INFO_BUTTON_GOTIT,הבנתי!
 TID_RECRUIT_ROAD_BUTTON_LETS_GO,קדימה!
 TID_SHOP_POWER_POINTS_OFFER_ANY_BRAWLER,בכל\nבראולר
+TID_SHOP_POWER_POINTS_OFFER_ANY_DESC,עם כל בראולר!
 TID_RECRUIT_ROAD_LEGENDARY_DISCOUNT_50_PERCENT,<DISCOUNT>%
 TID_RECRUIT_ROAD_LEGENDARY_DISCOUNT_OFF,כבוי
+TID_RECRUIT_ROAD_LEGENDARY_DISCOUNT_LABEL,%<DISCOUNT>הנחה על הבראולר האגדי הראשון שנפתח.
 TID_RECRUIT_NOW_UNLOCKING,עכשיו נפתח
 TID_RECRUIT_ROAD_NEW_BRAWLER,בראולר חדש
 TID_SWITCH_TO_NEWLY_RELEASED_TITLE,החלפה ל-<NEWBRAWLER>
@@ -6950,8 +7061,9 @@ TID_RECRUIT_ROAD_STOP_UNLOCK_TITLE,להפסיק את פתיחת <BRAWLER>?
 TID_RECRUIT_ROAD_STOP_UNLOCK_TEXT,הקרדיטים שאספת עבור <BRAWLER> יועברו לבראולר הבא בנתיב הסטאררים. <BRAWLER> יעבור לדרגת <RARITY> הנדירות האחרונה בנתיב הסטאררים.
 TID_RECRUIT_ROAD_STOP_UNLOCK_YES,נטישה
 TID_RECRUIT_ROAD_STOP_UNLOCK_NO,המשך פתיחה
+TID_RECRUIT_NOW_UNLOCKING_TRANSFER_DESC,קרדיטים שהועברו מפתיחת <PREVIOUSBRAWLER>
 TID_BEAMER,מנדי
-TID_BEAMER_SHORT_DESC,גורם נזק
+TID_BEAMER_SHORT_DESC,צלף
 TID_BEAMER_DESC,מרגישים נפילת סוכר? בואו לבקר בחנות הממתקים של מנדי. זכרו ילדים - תמיד תרגישו מתוקים עם הממתקים של מנדי!
 TID_BEAMER_WEAPON,מתקן ממתקים
 TID_BEAMER_WEAPON_DESC,"מנדי יורה ממתקים ממתקן הממתקים שלה, ובזמן שהיא נמצאת ברגיעה היא משיגה פוקוס שמגדיל את טווח ההתקפה שלה."
@@ -6999,6 +7111,7 @@ TID_CLASSIC_SHELLY_SKIN_SHOP,שלי\nהקלאסית
 TID_WF_GUS_SKIN,גאס אלוף העולם
 TID_WF_GUS_SKIN_SHOP,גאס\nאלוף העולם
 TID_RECRUIT_ROAD_INFO_TITLE,מה זה נתיב הסטאררים?
+TID_RECRUIT_ROAD_INFO_TXT1,בראולר אחד לפתיחה בכל דרגת נדירות
 TID_RECRUIT_ROAD_INFO_TXT2,אספו את כל הקרדיטים הנדרשים
 TID_RECRUIT_ROAD_INFO_TXT3,פתחו והפעילו את הבראולר החדש שלכם
 TID_RECRUIT_ROAD_INFO_TXT4,"פתחו בראולר <c7aff6b>נדיר</c>, <c8ccaff>נדיר במיוחד</c>, <ce297ff>אדיר</c>, <cff9a9a>מדהים</c> ו<cfdf01f>אגדי</c> בנתיב הסטאררים!"
@@ -7010,6 +7123,7 @@ TID_CHROMATIC_SHOP_INFO_TXT3,פתחו בראולרים כרומטיים נוספ
 TID_CHROMATIC_SHOP_INFO_TXT4,בראולרים כרומטיים הם בראולרים עונתיים המופעים ב-Brawl Pass. פתחו את הבראולר הכרומטי האחרון בדרגה 30 של ה-BRAWL PASS
 TID_GEMGRAB_471,חדר המבחן של ג‘והה
 TID_NEW_META_REIMBURSEMENT_POPUP_TITLE,דרך חדשה להתקדם!
+TID_NEW_META_REIMBURSEMENT_POPUP_INFO,יש דרך חדשה לאסוף בראולרים ולהתקדם ב-Brawl Stars שאינה תלויה במזל.\n\nקיבלת את הפרסים הנוכחיים שלך? זה הזמן לגלות את הדרך החדשה להתקדם ב-Brawl Stars.
 TID_NEW_META_REIMBURSEMENT_POPUP_BOXES_REMOVED,תיבות הבראולר הוסרו!
 TID_NEW_META_REIMBURSEMENT_POPUP_BOXES_REMOVED_DESCRIPTION,בראולרים ופרסים אחרים לא ייאספו יותר מתיבות בראולר.
 TID_NEW_META_REIMBURSEMENT_POPUP_REIMBURSEMENT,כל הפרסים הנוכחיים ייאספו אוטומטית:
@@ -7020,6 +7134,7 @@ TID_NEW_META_REIMBURSEMENT_POPUP_REIMBURSEMENT_TROPHY_ROAD,פרסי צבירת �
 TID_NEW_META_REIMBURSEMENT_POPUP_REIMBURSEMENT_BRAWL_PASS_SEASON,פרסי עונה <NUM>
 TID_NEW_META_REIMBURSEMENT_POPUP_COLLECTED_TITLE,דרך חדשה להתקדם!
 TID_NEW_META_REIMBURSEMENT_POPUP_COLLECTED_DESCRIPTION,כל הפרסים נאספו אוטומטית.
+TID_NEW_META_REIMBURSEMENT_NOTIFICATION_INFO,יש דרך חדשה לאסוף ברואלרים ולהתקדם ב-Brawl Stars שאינה תלויה במזל. כל הפרסים נאספו אוטומטית.
 TID_NEW_META_REIMBURSEMENT_NOTIFICATION_BONUS_CREDITS,קיבלת <AMOUNT> קרדיטים בתור בונוס לעונת ה-Brawl Pass <NUM>.
 TID_SWITCH_FROM_NEW_TO_ANOTHER_NEW_TITLE,לנטוש את <CURRENTBRAWLER> ולעבור ל-<NEWBRAWLER>?
 TID_SWITCH_FROM_NEW_TO_ANOTHER_NEW_DESC,לנטוש את פתיחת <CURRENTBRAWLER> ולהעביר קרדיטים ל-<NEWBRAWLER>
@@ -7069,6 +7184,7 @@ TID_HERO_INFO_BUY_BOTH_MISSING_GEMS_TITLE1,צריך עוד <MISSINGPOWERPOINTS> 
 TID_HERO_INFO_BUY_BOTH_MISSING_GEMS_TITLE2,וגם עוד <MISSINGCOINS> מטבעות
 TID_HERO_INFO_BUY_BOTH_MISSING_GEMS_TEXT,צריך להשיג עוד <MISSINGGEMS> יהלומים כדי לקנות משאבים חסרים
 TID_CHOOSE_BRAWLER_INFO_TITLE,בחירת בראולר לפתיחה
+TID_CHOOSE_BRAWLER_INFO_TXT1,בחרו בראולר אחד לפתיחה בדרגת נדירות זו
 TID_CHOOSE_BRAWLER_INFO_TXT2,אספו את כל הקרדיטים הנדרשים כדי לפתוח את הבראולר
 TID_CHOOSE_BRAWLER_INFO_TXT3,כדי לשנות את הבחירה מאוחר יותר צריך לגשת אל הבראולר בנתיב הסטאררים
 TID_UNLOCK_BRAWLERS_INFO_SPLASH,דרך חדשה לפתיחת בראולרים!
@@ -7076,146 +7192,356 @@ TID_CHINA_YOOZOO_EXTRA_PRIVACY_BUTTON,个人信息收集清单
 TID_BRAWLER_SCREEN_EXISTING_POWER_POINTS,נקודות כוח נוכחיות:
 TID_RESOURCES_YOU_HAVE,יש לך:
 TID_CHROMATIC_COINS_INFO_TITLE,בראולרים כרומטיים
+TID_CHROMATIC_COINS_INFO_TEXT1,ברואלרים כרומטיים הם בראולרים עונתיים הכלולים ב-Brawl Pass!\nזמינים כעת לפתיחה באמצעות קרדיטי כרומה.
 TID_RECRUIT_ROAD_TUTORIAL,ברוכים הבאים לנתיב הסטאררים! פה אוספים קרדיטים כדי לפתוח בראולרים חדשים.
 TID_RECRUIT_ROAD_HELP_TUTORIAL,פה רואים איך נתיב הסטאריים עובד
 TID_SHOP_DAILY_FREEBIE_JACKPOT,כל הקופה!
 TID_RANK_POPUP_COLLECT_CREDITS_TO_UNLOCK_NEXT_BRAWLER,אספו קרדיטים כדי לפתוח <BRAWLER>
 TID_HOMEPAGE_GUIDE_COLLECT_TR_2_CREDITS,יש קרדיטים שצריך לאסוף. זה הזמן לפתוח בראולר חדש!
+TID_HOMEPAGE_GUIDE_COLLECTED_BRAWL_PASS_CREDITS,אספת קרדיטים לקראת פתיחת <BRAWLER>!
 TID_HOMEPAGE_GUIDE_STARR_ROAD_CHECK_HERE,פה רואים איך נתיב הסטאריים עובד
 TID_CHROMATIC_SHOP_TUTORIAL_1,זה הבראולר לעונה זו. פתחו את הבראולר ב-Brawl Pass
 TID_CHROMATIC_SHOP_TUTORIAL_2,פתחו בראולר כרומטי אחר באמצעות קרדיטי כרומה או יהלומים
 TID_CHROMATIC_SHOP_TUTORIAL_3,הקישו כאן כדי לקבל מידע נוסף על בראולרים כרומטיים
-TID_TEAM_ERROR_38,
-TID_HERO_INFO_LEVEL_UP_ERROR_5,
-TID_UNDERTAKER_ULTI_DESC,
-TID_TEAM_ERROR_122,
-TID_HERO_INFO_STAR_POWER_BLOCKED,
-TID_HERO_INFO_ACCESSORIES_BLOCKED,
-TID_RANK_POPUP_TOTAL_INFO,
-TID_SHOP_OFFER_ANY_BRAWLER_DESC,
-TID_GATCHA_BOX_INFO_2,
-TID_SHOP_OFFER_INFO_38,
-TID_SPEC_ABI_PET_LIFESTEAL_DESC,
-TID_SPEC_ABI_HEAL_OTHERS_MAIN_ATTACK_DESC,
-TID_BRAWL_BOX_INFO_FOOTER,
-TID_EVENT_MODIFIER_DESC_16,
-TID_SPEC_ABI_PROJECTILE_SPEED_DESC,
-TID_SPEC_EXTRA_BULLET_DESC,
-TID_SPEC_ABI_HEAL_SUPER_DMG_DESC,
-TID_QUICK_MESSAGE_CHOOSE_BRAWLER,
-TID_QUICK_MESSAGE_CHANGE_BRAWLERS,
-TID_QUICK_MESSAGE_ASK_BRAWLER,
-TID_GAME_MODE_16,
-TID_GAME_MODE_16_DESC,
-TID_CTF_GOAL,
-TID_QUICK_MESSAGE_ASK_BRAWLER_SPLIT,
-TID_ALLIANCE_FF_FAILED_NO_RIGHTS,
-TID_SPEC_ABI_PERCENTER_1_DESC,
-TID_SPEC_ABI_PERCENTER_2_DESC,
-TID_ACCESSORY_RUFFS_COVER_DESC,
-TID_ACCESSORY_POCO_CLEANSE_DESC,
-TID_RANKED_ERROR_BRAWLER_BLACKLISTED,
-TID_QUALIFIED_INFO_FALLBACK_PARAM,
-TID_GEAR_FOREST_SPEED_INFO,
-TID_GEAR_LOW_HEALTH_DAMAGE_INFO,
-TID_GEAR_VISION_INFO,
-TID_GEAR_SUPER_HEALTH_INFO,
-TID_GEAR_POISON_DURATION_INFO,
-TID_GEAR_POISON_DURATION_UPGRADE_INFO,
-TID_GEAR_SLOW_INCREASE_INFO,
-TID_GEAR_SLOW_INCREASE_UPGRADE_INFO,
-TID_GEAR_SMOKE_DURATION_INFO,
-TID_GEAR_SUPER_SHIELD_INFO,
-TID_GEAR_SUPER_SHIELD_UPGRADE_INFO,
-TID_GEAR_SUPER_RANGE_INFO,
-TID_CLUB_LEAGUE_INFO_PAGE_1_DESC,
-TID_CLUB_LEAGUE_INFO_PAGE_2_DESC,
-TID_CLUB_LEAGUE_INFO_PAGE_3_DESC,
-TID_HOMEPAGE_GUIDE_FIRST_GEAR,
-TID_CLUB_JOIN_FAIL_FEATURE_LOCKED,
-TID_SPEC_ABI_KICKER_DUDE_1_DESC,
-TID_GAME_MODE_24_DESC,
-TID_TAG_TEAM_INTRO_TEXT,
-TID_CLUB_LEAGUE_TROPHY_RESET_MESSAGE,
-TID_TAGTEAM_TROPHY_INFO_LOSE_INFO,
-TID_TAGTEAM_TROPHY_INFO_WIN_INFO,
-TID_TAGTEAM_TROPHY_INFO_WIN_INFO_EXTRA,
-TID_LOGIN_CALENDAR_REWARD_DESC_STARPOWER_CHOICE,
-TID_TUTORIAL_SD_FIRSTBATTLE,
-TID_GATCHA_SCREEN_WCPP_DROP_DESC,
-TID_LOGIN_CALENDAR_TIP_STAR_POWER,
-TID_LOGIN_CALENDAR_REWARD_DESC_STARPOWER,
-TID_PLAYER_CLUB_INFO_PRIVATE,
-TID_POWER_LEAGUE_BRAWLER_REQUIREMENT_SELECT,
-TID_POWER_LEAGUE_BRAWLER_REQUIREMENT_INVITE,
-TID_LOGIN_CALENDAR_TOOLTIP_SKIN,
-TID_LOGIN_CALENDAR_TOOLTIP_CHOOSE_BRAWLER,
-TID_LOGIN_CALENDAR_TOOLTIP_UPGRADE_BRAWLER,
-TID_LOGIN_CALENDAR_TOOLTIP_STAR_POWER,
-TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_IS_TOP,
-TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_NOT_TOP,
-TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_NOT_RANKED,
-TID_CLUB_INFO_TOP_EVENT_DAY_PLAYER_DIVIDER,
-TID_CLUB_QUESTS_REWARD_TRACK_OVERLAY,
-TID_CLUB_QUESTS_WARNING_NOT_AVAILABLE,
-TID_CLUB_LEAGUE_WARNING_NOT_AVAILABLE,
-TID_CLUB_EVENTS_ONBOARDING_PAGE_2_DESCRIPTION,
-TID_CLUB_EVENTS_ONBOARDING_PAGE_3_DESCRIPTION,
-TID_CLUB_EVENTS_ONBOARDING_PAGE_4_1,
-TID_CLUB_EVENTS_CHANGED_CLUB,
-TID_CLUB_QUESTS_CURRENT_CLUB_POINTS,
-TID_CLUB_QUESTS_TUTORIAL,
-TID_SPEC_ABI_WEAPON_THROWER_1_DESC,
-TID_SOUL_COLLECTOR_DESC,
-TID_HINT_55,
-TID_FIRST_GADGET_TUTORIAL_HEADER_DESC,
-TID_FIRST_GADGET_TUTORIAL_2_DESC,
-TID_FIRST_STARPOWER_TUTORIAL_HEADER_DESC,
-TID_FIRST_STARPOWER_TUTORIAL_2_DESC,
-TID_FIRST_GEAR_TUTORIAL_2_DESC,
-TID_SPEC_ABI_SHIELD_TANK_1_DESC,
-TID_ACCESSORY_SHIELD_TANK_GADGET_1_DESC,
-TID_INBOX_CAPTION_GEAR_COMPENSATION,
-TID_PURCHASE_BRAWLER_ERROR_BRAWLER_ALREADY_UNLOCKED,
-TID_PURCHASE_BRAWLER_ERROR_BP_TIER_NOT_REACHED,
-TID_PURCHASE_BRAWLER_ERROR_BP_TIER_ALREADY_CLAIMABLE,
-TID_PURCHASE_BRAWLER_ERROR_PREVIOUS_CHROMATIC_BRAWLER_COUNT_TOO_SMALL,
-TID_PURCHASE_BRAWLER_ERROR_UNKNOWN,
-TID_TRAIT_CHARGE_SUPER_FROM_ALLIES,
-TID_FAME_PANEL_UNLOCK_INFO,
-TID_JESTER_DESC,
-TID_JESTER_WEAPON_DESC,
-TID_SPEC_ABI_JESTER_1,
-TID_SPEC_ABI_JESTER_1_DESC,
-TID_DOORMAN_ULTI_DESC,
-TID_SPEC_ABI_DOORMAN_1_DESC,
-TID_SPEC_ABI_DOORMAN_2_DESC,
-TID_ACCESSORY_DOORMAN_GADGET_1_DESC,
-TID_ACCESSORY_DOORMAN_GADGET_2_DESC,
-TID_SELECT_RECRUIT_DESC,
-TID_SWITCH_RECRUIT_DESC,
-TID_RECRUIT_TOKENS_TO_UNLOCK,
-TID_PURCHASE_FAME_ERROR_CHROMATIC_BRAWLERS_AVAILABLE_TO_UNLOCK,
-TID_FAME_INFO_TXT1,
-TID_SHOP_POWER_POINTS_OFFER_ANY_DESC,
-TID_RECRUIT_ROAD_LEGENDARY_DISCOUNT_LABEL,
-TID_RECRUIT_NOW_UNLOCKING_TRANSFER_DESC,
-TID_RECRUIT_ROAD_INFO_TXT1,
-TID_NEW_META_REIMBURSEMENT_POPUP_INFO,
-TID_NEW_META_REIMBURSEMENT_NOTIFICATION_INFO,
-TID_CHOOSE_BRAWLER_INFO_TXT1,
-TID_CHROMATIC_COINS_INFO_TEXT1,
-TID_HOMEPAGE_GUIDE_COLLECTED_BRAWL_PASS_CREDITS,
-TID_SWITCH_TRANSFER,
-TID_FAME,
-TID_SKIN_INFO_CAMPAIGN_LUNAR_BRAWL_2023,
-TID_SKIN_INFO_WC_2022,
-TID_SKIN_INFO_CAMPAIGN_ANNIVERSARY_2022,
-TID_HOMEPAGE_GUIDE_CHROMATIC_SHOP_TUTORIAL_1,
-TID_HOMEPAGE_GUIDE_CHROMATIC_SHOP_TUTORIAL_2,
-TID_CHROMATIC_HERO_UNLOCK_MORE_TO_PURCHASE_SINGLE,
-TID_PURCHASE_BRAWLER_ERROR_PREVIOUS_CHROMATIC_BRAWLER_COUNT_TOO_SMALL_SINGLE,
-TID_HERO_INFO_LOCKED_INFO_UNLOCK_MORE_CHROMATIC_BRAWLERS_SINGLE,
+TID_SWITCH_TRANSFER,העברת קרדיטים מ-<BRAWLER>
+TID_SKIN_INFO_CAMPAIGN_LUNAR_BRAWL_2023,סקין השנה הסינית החדשה 2023
+TID_SKIN_INFO_WC_2022,סקין אלופי העולם 2022
+TID_SKIN_INFO_CAMPAIGN_ANNIVERSARY_2022,יום השנה 2022 של BRAWL STARS
+TID_HOMEPAGE_GUIDE_CHROMATIC_SHOP_TUTORIAL_1,הציגו את הבראולרים הכרומטיים הזמינים
+TID_HOMEPAGE_GUIDE_CHROMATIC_SHOP_TUTORIAL_2,הקישו כאן כדי לראות בראולרים כרומטיים
+TID_CHROMATIC_HERO_UNLOCK_MORE_TO_PURCHASE_SINGLE,פתחו <NUM> בראולרים כרומטיים נוספים כדי לרכוש <HERO> באמצעות קרדיטי כרומה
+TID_PURCHASE_BRAWLER_ERROR_PREVIOUS_CHROMATIC_BRAWLER_COUNT_TOO_SMALL_SINGLE,קודם צריך לפתוח <NUM> בראולרים כרומטיים נוספים
+TID_HERO_INFO_LOCKED_INFO_UNLOCK_MORE_CHROMATIC_BRAWLERS_SINGLE,פתחו <COUNT> בראולרים כרומטיים נוספים
+TID_MASTERY_TIER_1,I
+TID_MASTERY_TIER_2,II
+TID_MASTERY_TIER_3,III
+TID_MASTERY_TIER_4,IV
+TID_MASTERY_TIER_5,V
+TID_MASTERY_TIER_6,VI
+TID_MASTERY_TIER_7,VII
+TID_MASTERY_TIER_8,VIII
+TID_MASTERY_TIER_9,IX
+TID_MASTERY_TIER_10,X
+TID_REWARD_INFO_RESOURCE_RECRUITTOKENS,<AMOUNT> קרדיטים התקבלו
+TID_REWARD_INFO_RESOURCE_CHROMATICTOKENS,<AMOUNT> קרדיטי כרומה התקבלו
+TID_REWARD_INFO_RESOURCE_FAME,<AMOUNT> יחידות תהילה התקבלו
+TID_REWARD_INFO_RESOURCE_POWERPOINTS,<AMOUNT> נקודות כוח התקבלו
+TID_EVENT_SLOT_NAME_33,אירועי קהילה
+TID_EMOTE_CATEGORY_6,משבצת 1
+TID_EMOTE_CATEGORY_INTRO_PINS,סיכות תחילת הקרב
+TID_PIN_POPUP_BATTLE_INTRO,צריך להציג את הסיכה בתחילת הקרב
+TID_DETECTIVE_GRAY_SKIN,גריי הבלש
+TID_DETECTIVE_GRAY_SKIN_SHOP,גריי\nהבלש
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_TITLE,重要提示
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_TEXT,为方便您与客服交流，如需要提供已拍摄照片或截图，我们需要获取您设备的相册权限，以及读取存储器的权限。
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_YES,允许
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_NO,拒绝
+TID_CLAIM_MASTERY_REWARD_ERROR_1,פרס המיומנות לא זמין. נא לנסות שוב מאוחר יותר.
+TID_CLAIM_MASTERY_REWARD_ERROR_2,פרס המיומנות התקבל כבר
+TID_CLAIM_MASTERY_REWARD_ERROR_3,צריך לאסוף עוד נקודות מיומנות כדי להגיע לרמה זו!
+TID_CLAIM_MASTERY_REWARD_ERROR_4,יש לקבל קודם את פרסי המיומנות מהרמה הקודמת!
+TID_BATTLE_INTRO_OWN_TEAM,הקבוצה שלך
+TID_BATTLE_INTRO_ENEMY_TEAM,קבוצה יריבה
+TID_SPLITTER,R-T
+TID_SPLITTER_SHORT_DESC,גורם נזק
+TID_SPLITTER_DESC,"הלכת לאיבוד בפארק סטארר? אל דאגה! R-T משגיח עליך!\nאה, בעצם הוא שומר עליך. כן, לגמרי."
+TID_SPLITTER_WEAPON,הקשה על מטרה
+TID_SPLITTER_WEAPON_DESC,"R-T יורה טיל בודד, שמבצע סימון בראולר על הלוחמים שהצליח לפגוע בהם. כל נזק שנגרם למטרה מסומנת מכלה את המסומן וגורם נזק נוסף."
+TID_SPLITTER_LEGS_WEAPON,EAT STATIC
+TID_SPLITTER_LEGS_WEAPON_DESC,"R-T ורגליו משגרים אות חזק, ופוגעים בכל המטרות סביבם."
+TID_SPLITTER_ULTI_SPLIT,גלי רדאר
+TID_SPLITTER_ULTI_SPLIT_DESC,"R-T משוגר מיידית אל רגליו ומתחבר איתן שוב ליחידה אחת, מרפא עבור <c00cc00><VALUE1></c>."
+TID_SPLITTER_ULTI_WHOLE,מחבואים
+TID_SPLITTER_ULTI_WHOLE_DESC,R-T מתפצל לשניים. רגליו של R-T נשארות מאחור בזמן שגם R-T וגם רגליו זוכים ליכולת התקפה קצרת טווח ורבת עוצמה המסמנת אויבים. R-T נע מהר יותר בזמן הפיצול.
+TID_SPEC_ABI_SPLITTER_1,חשבון פשוט
+TID_SPEC_ABI_SPLITTER_1_DESC,סימנים שנוצרו יישארו עוד <c00cc00><VALUE1></c> שניות.
+TID_SPEC_ABI_SPLITTER_2,הקלטה
+TID_SPEC_ABI_SPLITTER_2_DESC,R-T ורגליו סופגים <c00cc00>%<VALUE1></c> פחות נזק כשהם מפוצלים.
+TID_ACCESSORY_SPLITTER_GADGET_1,בתור
+TID_ACCESSORY_SPLITTER_GADGET_1_DESC,"R-T שולח אות לרגליו בזמן הפיצול, גורם נזק לבראולרים אויבים בין לבין למשך <c00cc00><VALUE1></c> ומאט אותם."
+TID_ACCESSORY_SPLITTER_GADGET_2,פתרונות!
+TID_ACCESSORY_SPLITTER_GADGET_2_DESC,"ניתן להפעיל מיד את כל הסימנים הפעילים על כל הבראולרים של האויב, תוך גרימת נזק."
+TID_PUPPETEER,וילו
+TID_PUPPETEER_SHORT_DESC,בקר
+TID_PUPPETEER_DESC,מגניב? אולי.\nמפחיד? ללא ספק.\nבשליטה? ב-100%.
+TID_PUPPETEER_WEAPON,קללת העששית
+TID_PUPPETEER_WEAPON_DESC,"וילו מניפה את העששית שלה, וגורמת נזק ממושך לאויבים שהיא פוגעת בהם."
+TID_PUPPETEER_ULTI,כישוף
+TID_PUPPETEER_ULTI_DESC,"וילו יורה ראשן בודד לעבר בראולרים של האויב, מרפאה אותם לחלוטין ומשתלטת על המוח שלהם, אם היא פוגעת. וילו יכולה להשתמש ביכולת ההתקפה הבסיסית של בראולרי האויב ולהזיז אותם כרצונה. השליטה על מוחם מתפוגגת כעבור <c00cc00><VALUE1></c> שניות או כאשר הבראולר צובר <c00cc00>%<VALUE2></c> נקודות בריאות."
+TID_SPEC_ABI_PUPPETEER_1,האהבה עיוורת
+TID_SPEC_ABI_PUPPETEER_1_DESC,קללת העששית מפחיתה גם את מהירות הטעינה מחדש של בראולרים תחת השפעה ב-<c00cc00>%<VALUE1></c>
+TID_SPEC_ABI_PUPPETEER_2,אובססיה
+TID_SPEC_ABI_PUPPETEER_2_DESC,אויבים תחת כישוף צוברים <c00cc00>%<VALUE1></c> מהירות תנועה בזמן שמוחם נשלט.
+TID_ACCESSORY_PUPPETEER_GADGET_1,מכושפים
+TID_ACCESSORY_PUPPETEER_GADGET_1_DESC,קללת העששית הבאה של וילו גורמת <c00cc00><VALUE1></c> יותר נזק. היא מחילה את כולו בבת אחת ולא בהדרגה לאורך זמן.
+TID_ACCESSORY_PUPPETEER_GADGET_2,צלילה
+TID_ACCESSORY_PUPPETEER_GADGET_2_DESC,"וילו צוללת למשך <c00cc00><VALUE1></c> שניות שבמהלכן לא ניתן לפגוע בה, אך במקביל היא גם מנוטרלת מכל פעולה."
+TID_POPUP_GEM_CONFIRM_TITLE,אישור רכישה
+TID_POPUP_GEM_CONFIRM_GADGET,האם באמת ברצונך לקנות את הגאדג‘ט הזה תמורת יהלומים?
+TID_POPUP_GEM_CONFIRM_STAR_POWER,האם באמת ברצונך לקנות את כוח הכוכב הזה תמורת יהלומים?
+TID_POPUP_GEM_CONFIRM_BRAWLER_UPGRADE,האם באמת ברצונך לשדרג את הבראולר הזה תמורת יהלומים?
+TID_POPUP_GEM_CONFIRM_GEAR,האם באמת ברצונך לקנות את הציוד הזה תמורת יהלומים?
+TID_POPUP_GEM_CONFIRM_LEVEL_UP,האם באמת ברצונך לשפר את הבראולר הזה תמורת יהלומים?
+TID_FRIENDLY_GAME_LOCKED,מקבלים <TROPHIES> גביעים כדי לפתוח קרבות ידידותיים
+TID_MASTERY_LEVEL_START,מיומנות
+TID_MASTERY_LEVEL_BRONZE,<TIER> ארד
+TID_MASTERY_LEVEL_SILVER,<TIER> כסף
+TID_MASTERY_LEVEL_GOLD,<TIER> זהב
+TID_HERO_MASTERY_POINTS_PROGRESS,<NUM>/<MAX>
+TID_HERO_MASTERY_POINTS_BATTLE_PROGRESS,<NUM>/<MAX>
+TID_MASTERY_TITLE,מיומנות
+TID_MASTERY_FALLBACK_REWARD_DESC,"כיוון שפרס המיומנות כבר ברשותך, יינתן לך <REWARD>!"
+TID_MASTERY_FALLBACK_REWARD_TITLE,פרס מיומנות
+TID_MASTERY_FALLBACK_REWARD_BUTTON_CLAIM,קבלה
+TID_MASTERY_REWARD_REPLACED_TITLE,אישור פרס חלופי
+TID_MASTERY_REWARD_REPLACED_POWER_POINTS,"אף אחד מהבראולרים שלך לא יכול לקבל <AMOUNT> נקודות כוח, כי הגעת לכמות המקסימלית.\n\nרוצה לקבל פרס חלופי במקום?"
+TID_TITLE_MASTERY_SHELLY,אין זמן להסביר!
+TID_TITLE_MASTERY_COLT,היפה
+TID_TITLE_MASTERY_BULL,בולדוזר!
+TID_TITLE_MASTERY_BROCK,בום!
+TID_TITLE_MASTERY_RICO,המאהב
+TID_TITLE_MASTERY_SPIKE,מיוחד במינו
+TID_TITLE_MASTERY_BARLEY,קיבלת שירות!
+TID_TITLE_MASTERY_JESSIE,הבנאי
+TID_TITLE_MASTERY_NITA,הסוררת
+TID_TITLE_MASTERY_DYNAMIKE,ציפורוש!
+TID_TITLE_MASTERY_ELPRIMO,El Luchador
+TID_TITLE_MASTERY_MORTIS,חיית לילה
+TID_TITLE_MASTERY_CROW,קרע-קרע!
+TID_TITLE_MASTERY_POCO,אל מריאצ‘י
+TID_TITLE_MASTERY_BO,מחובר לטבע
+TID_TITLE_MASTERY_PIPER,הצלף
+TID_TITLE_MASTERY_PAM,אימאא‘שך
+TID_TITLE_MASTERY_TARA,מה מגלים הקלפים?
+TID_TITLE_MASTERY_DARRYL,פירררראט!
+TID_TITLE_MASTERY_PENNY,הממולח
+TID_TITLE_MASTERY_FRANK,הטנק
+TID_TITLE_MASTERY_GENE,עבודת יד!
+TID_TITLE_MASTERY_TICK,איפה הראש שלי?
+TID_TITLE_MASTERY_LEON,הערמומי
+TID_TITLE_MASTERY_ROSA,לנשום אוויר
+TID_TITLE_MASTERY_CARL,גיאולוג
+TID_TITLE_MASTERY_BIBI,קר רוח
+TID_TITLE_MASTERY_8BIT,SYS 64738
+TID_TITLE_MASTERY_SANDY,ישנוני
+TID_TITLE_MASTERY_BEA,מלכה
+TID_TITLE_MASTERY_EMZ,#שונאים
+TID_TITLE_MASTERY_MRP,הבוס
+TID_TITLE_MASTERY_MAX,אני על ספיד!
+TID_TITLE_MASTERY_JACKY,#@%**
+TID_TITLE_MASTERY_GALE,השרת
+TID_TITLE_MASTERY_NANI,המטפלת
+TID_TITLE_MASTERY_SPROUT,מחבק עצים
+TID_TITLE_MASTERY_SURGE,אח שלי
+TID_TITLE_MASTERY_COLETTE,האספן
+TID_TITLE_MASTERY_AMBER,מחולל אש
+TID_TITLE_MASTERY_LOU,כאן בשבילך!
+TID_TITLE_MASTERY_BYRON,הסנסציוני
+TID_TITLE_MASTERY_EDGAR,מנכ\qל Brawl Stars
+TID_TITLE_MASTERY_RUFFS,קולונל
+TID_TITLE_MASTERY_STU,מרושע
+TID_TITLE_MASTERY_BELLE,סטארר
+TID_TITLE_MASTERY_SQUEAK,תאונה
+TID_TITLE_MASTERY_GROM,עם יד שמאלית אחת!
+TID_TITLE_MASTERY_BUZZ,רע מלידה
+TID_TITLE_MASTERY_GRIFF,החמדן
+TID_TITLE_MASTERY_ASH,רמת גרוטאה
+TID_TITLE_MASTERY_MEG,תמיכה טכנית 2.0
+TID_TITLE_MASTERY_LOLA,מלכת דרמות
+TID_TITLE_MASTERY_FANG,אשף ההתגנבות
+TID_TITLE_MASTERY_EVE,אימא‘לה
+TID_TITLE_MASTERY_JANET,הטיל
+TID_TITLE_MASTERY_BONNIE,הפזיז
+TID_TITLE_MASTERY_OTIS,האומן
+TID_TITLE_MASTERY_SAM,לפנים!
+TID_TITLE_MASTERY_GUS,האבוד
+TID_TITLE_MASTERY_BUSTER,שובר קופות
+TID_TITLE_MASTERY_CHESTER,כל יכול
+TID_TITLE_MASTERY_GRAY,האפלולי
+TID_TITLE_MASTERY_MANDY,הקשוחה
+TID_MASTERY_INFO_TITLE,מה זו מיומנות?
+TID_MASTERY_INFO_TXT1,כל ניצחון מזכה בנקודות מיומנות
+TID_MASTERY_INFO_TXT2,מעפילים בדירוג המיומנות וזוכים בפרסים
+TID_MASTERY_INFO_TXT3,מעפילים בדירוג גביעי הבראולרים או ליגת הכוח כדי לצבור עוד נקודות מיומנות לכל ניצחון
+TID_MASTERY_INFO_TXT4,משחקים בבראולר וזוכים בפרסים
+TID_SKIN_INFO_MASKS,שבט איאקאשי
+TID_SKIN_INFO_HUB,רישיון ל-BRAWL
+TID_QUESTS_SEASON_TITLE,קווסטים עונתיים
+TID_QUESTS_SEASON_UNLOCK_AT,פתיחה עם
+TID_QUESTS_SEASON_SUBTITLE,מרוויחים עוד טוקנים בקווסטים עונתיים
+TID_MASTERY_RANK_UP,עלייה בדירוג המיומנות!
+TID_MASTERY_ALL_MASTERY_POINTS_COLLECTED,כל נקודות המיומנות להיום כבר נאספו
+TID_MASTERY_MVP_BONUS,בונוס שחקן כוכב
+TID_MASTERY_MAX_RANK,דירוג מיומנות מקסימלי
+TID_SHOP_OFFER_INFO_44,פותחים קווסטים יומיים ומקבלים עוד טוקנים עבור Brawl Pass
+TID_BATTLE_CARD_TITLE,קלף קרב
+TID_BATTLE_CARD_SUB_TITLE_BRAWLER,<BRAWLER>
+TID_BATTLE_CARD_SUB_TITLE_DEFAULT,ברירת מחדל
+TID_PROFILE_FAVORITE_BRAWLER_TITLE,הבראולר המועדף
+TID_PROFILE_TITLE,פרופיל
+TID_PREVIOUS_STATS_TITLE,הסטטיסטיקה הקודמת שלך
+TID_PREVIOUS_STATS_LIST,<LEGACYXP><STAT:9><STAT:12><STAT:16><STAT:15>
+TID_PREVIOUS_STAT_LEGACY_XP,<c0070dd>רמת ניסיון <XPLEVEL> - <XPPOINTS>/<XPPOINTMAX></c>\n\n
+TID_PREVIOUS_STAT_FORMAT,<NAME> - <cde9700><VALUE></c>\n
+TID_FAVOURITE_BRAWLER_NOT_CHOSEN,לא נבחר
+TID_FAVOURITE_BRAWLER_CHOOSE,בחירה
+TID_CHINA_YOOZOO_ACCOUNT_OPENID_LOGIN_NOT_ENABLED,此账号已成功完成绑定，请您继续使用原有方式登录，后续登录方式请留意官方公告。
+TID_QUESTS_SEASON_INFO_UNCLAIMED,אפשר כעת לפתוח קווסטים עונתיים מצבירת הגביעים!
+TID_BATTLE_CARD_CHOOSE_DEFAULT,שימוש בברירת מחדל
+TID_INBOX_CAPTION_MASTERY_DONATION,תרומה של <AMOUNT> נקודות מיומנות עבור <NAME>
+TID_INTRO_CARD_DEFAULT,שימוש בברירת מחדל:
+TID_INTRO_CARD_OVERRIDE_PROFILE,יש לבחור סמל לתצוגה רק עבור <BRAWLER>
+TID_INTRO_CARD_OVERRIDE_EMOTE,יש לבחור סיכה לתצוגה רק עבור <BRAWLER>
+TID_INTRO_CARD_OVERRIDE_TITLE,יש לבחור תפקיד לתצוגה רק עבור <BRAWLER>
+TID_INTRO_CARD_DEFAULT_PROFILE,בחירה בסמל ברירת המחדל
+TID_INTRO_CARD_DEFAULT_EMOTE,בחירה בסיכת ברירת המחדל
+TID_INTRO_CARD_DEFAULT_TITLE,בחירה בתפקיד ברירת מחדל
+TID_BATTLE_INTRO_COUNTDOWN_TITLE,האירוע מתחיל בעוד
+TID_BATTLE_INTRO_CARD_DEFAULT,ברירת מחדל
+TID_INTRO_CARD_NO_TITLES,שחרור תפקידים ברמת מיומנות 10 לכל בראולר
+TID_SHOP_MASKS_SKINS,שבט איאקאשי
+TID_SKIN_INFO_CAMPAIGN_MASKS_TITLE,שבט איאקאשי
+TID_MASKS_SKINS_INFO,ערכת סקינים
+TID_EL_MAYORDOMO_SKIN,אל מאיורדומו
+TID_EL_MAYORDOMO_SKIN_SHOP,אל מאיורדומו
+TID_SPIRIT_KNIGHT_FRANK_SKIN,פרנק אביר הרוח
+TID_SPIRIT_KNIGHT_FRANK_SKIN_SHOP,פרנק\nאביר הרוח
+TID_KITSUNE_LOLA_SKIN,לולה קיטסונה
+TID_KITSUNE_LOLA_SKIN_SHOP,לולה\nקיטסונה
+TID_TENGU_MIKE_SKIN,מייק טנגו
+TID_TENGU_MIKE_SKIN_SHOP,מייק\nטנגו
+TID_ONI_OTIS_SKIN,אוני אוטיס
+TID_ONI_OTIS_SKIN_SHOP,אוני אוטיס
+TID_ALLEYCAT_BULL_SKIN,בול החתול
+TID_ALLEYCAT_BULL_SKIN_SHOP,בול\nהחתול
+TID_MARIPOSA_PIPER_SKIN,פייפר הפרפרית
+TID_MARIPOSA_PIPER_SKIN_SHOP,פייפר\nהפרפרית
+TID_POPSTAR_JANET_SKIN,ג‘נט כוכבת הפופ
+TID_POPSTAR_JANET_SKIN_SHOP,ג‘נט\nכוכבת הפופ
+TID_BELL_NANI_SKIN,נאני היפה
+TID_BELL_NANI_SKIN_SHOP,נאני היפה
+TID_MAGIC_CARPET_CARL_SKIN,קארל הסולטן
+TID_MAGIC_CARPET_CARL_SKIN_SHOP,קארל\nהסולטן
+TID_DETECTIVE_GRAY_NOIR_SKIN,הבלש גריי מהדורת נואר
+TID_DETECTIVE_GRAY_NOIR_SKIN_SHOP,הבלש גריי\nמהדורת נואר
+TID_ROTOCOP_SKIN,סיור R-T
+TID_ROTOCOP_SKIN_SHOP,סיור R-T
+TID_CRIMSON_RT_SKIN,R-T קרימזון
+TID_CRIMSON_RT_SKIN_SHOP,R-T קרימזון
+TID_CC_UNLIMITED_LIVES,חיי נצח
+TID_CC_POPUP_DESC_UNLIMITED_LIVES,אפשר לזכות בפרסים מדהימים עם כל ניצחון! דרושים <WINS> ניצחונות כדי לזכות באתגר!
+TID_EVENT_MODIFIER_18,ביצי פסחא
+TID_EVENT_MODIFIER_DESC_18,אוספים ביצי פסחא כדי להרוויח פרסים!
+TID_BATTLE_CARD_TYPE_TAB_DEFAULTS,ברירות המחדל
+TID_TITLE_MASTERY_RT,הצופה
+TID_TITLE_MASTERY_WILLOW,בראש שלך!
+TID_SHOP_HUB_SKINS,רישיון ל-BRAWL
+TID_SKIN_INFO_CAMPAIGN_HUB_TITLE,רישיון ל-BRAWL
+TID_HUB_SKINS_INFO,ערכת סקינים
+TID_INBOX_CAPTION_REWARD_BUNDLE_SKIN_PINS,תרומת סיכות מכוסות סקינים
+TID_GEMGRAB_481,ארבע דלתות
+TID_GEMGRAB_482,מרכז איתן
+TID_HEIST_481,שוד מפצה
+TID_HEIST_482,מפקדה ראשית
+TID_BOUNTY_481,פרשת דרכים
+TID_BOUNTY_482,אין מקלט
+TID_BOUNTY_483,קיפאון ברזל
+TID_HOTZONE_481,שעת עומס
+TID_HOTZONE_482,מעטה ברזל
+TID_KNOCKOUT_481,מקום טוב באמצע
+TID_KNOCKOUT_482,צעד אחר צעד
+TID_SHOWDOWN_481,קטבים שופעים
+TID_SHOWDOWN_482,גבולות יציבים
+TID_TAGTEAM_481,מוגורה טטאקי
+TID_TAGTEAM_482,ארבעת האגמים
+TID_TAGTEAM_483,האי הקודר
+TID_TAGTEAM_484,ליבת ברזל
+TID_BASKET_481,כרי דשא ירוקים
+TID_BASKET_482,מסך הברזל
+TID_BASKET_483,מצודת הסל
+TID_BASKET_484,גג מרקד
+TID_BRAWLBALL_481,תנועה סיבובית
+TID_BRAWLBALL_482,מסדרון ברזל
+TID_CONTEXT_MENU_REPORT_PICTURE,דיווח על תמונה
+TID_REPORT_PROFILE_PICTURE_TITLE,דיווח על תמונת פרופיל
+TID_REPORT_PROFILE_PICTURE_TEXT,בטוח שברצונך לדווח על תמונת פרופיל?
+TID_REPORT_PROFILE_PICTURE_CONFIRM,דיווח
+TID_CANNOT_REPORT_PROFILE_PICTURE,לא ניתן לדווח על תמונת פרופיל
+TID_TRUE_GOLD_GUS_SKIN,יציקת גאס מזהב
+TID_TRUE_GOLD_GUS_SKIN_SHOP,יציקת גאס\nמזהב
+TID_TRUE_SILVER_GUS_SKIN,יציקת גאס מכסף
+TID_TRUE_SILVER_GUS_SKIN_SHOP,יציקת גאס\nמכסף
+TID_TRUE_GOLD_CHESTER_SKIN,יציקת צ‘סטר מזהב
+TID_TRUE_GOLD_CHESTER_SKIN_SHOP,יציקת צ‘סטר\nמזהב
+TID_TRUE_SILVER_CHESTER_SKIN,יציקת צ‘סטר מכסף
+TID_TRUE_SILVER_CHESTER_SKIN_SHOP,יציקת צ‘סטר\nמכסף
+TID_TRUE_GOLD_GRAY_SKIN,יציקת גריי מזהב
+TID_TRUE_GOLD_GRAY_SKIN_SHOP,יציקת גריי\nמזהב
+TID_TRUE_SILVER_GRAY_SKIN,יציקת גריי מכסף
+TID_TRUE_SILVER_GRAY_SKIN_SHOP,יציקת גריי\nמכסף
+TID_TRUE_GOLD_SAM_SKIN,יציקת סאם מזהב
+TID_TRUE_GOLD_SAM_SKIN_SHOP,יציקת סאם\nמזהב
+TID_TRUE_SILVER_SAM_SKIN,יציקת סאם מכסף
+TID_TRUE_SILVER_SAM_SKIN_SHOP,יציקת סאם\nמכסף
+TID_TRUE_GOLD_BUSTER_SKIN,יציקת באסטר מזהב
+TID_TRUE_GOLD_BUSTER_SKIN_SHOP,יציקת באסטר\nמזהב
+TID_TRUE_SILVER_BUSTER_SKIN,יציקת באסטר מכסף
+TID_TRUE_SILVER_BUSTER_SKIN_SHOP,יציקת באסטר\nמכסף
+TID_TRUE_GOLD_MANDY_SKIN,יציקת מנדי מזהב
+TID_TRUE_GOLD_MANDY_SKIN_SHOP,יציקת מנדי\nמזהב
+TID_TRUE_SILVER_MANDY_SKIN,יציקת מנדי מכסף
+TID_TRUE_SILVER_MANDY_SKIN_SHOP,יציקת מנדי\nמכסף
+TID_EVENT_EASTER_TITLE,אירוע פסחא
+TID_BATTLE_CARD_DEFAULTS_DESCRIPTION,תצוגת ברירת מחדל לכל הבראולרים שהגדרותיהם לא עברו התאמה
+TID_EASTER_EGGS_COLLECTED,ביצים שנאספו
+TID_ITEMS_NEW,חדש
+TID_AXL_WILLOW_SKIN,וילו AXL
+TID_AXL_WILLOW_SHOP,וילו AXL
+TID_COLLECT_EVENT_SOFT_CAP_MESSAGE,נראה שזכית בכל הפרסים הגדולים להיום!
+TID_COLLECT_EVENT_HARD_CAP_MESSAGE,נראה שזכית בכל הפרסים האפשריים להיום!
+TID_TENCENT_DOLPHIN_TITLE,检查更新
+TID_TENCENT_DOLPHIN_CHECK_VERSION,检查最新版本
+TID_TENCENT_DOLPHIN_DOWNLOADING_70,安装包更新
+TID_TENCENT_DOLPHIN_DOWNLOADING_71,更新下载配置文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_72,更新下载差异文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_73,更新下载全量文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_74,更新校验完成文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_75,更新校验本地安装包
+TID_TENCENT_DOLPHIN_DOWNLOADING_76,更新校验配置文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_77,更新校验差异文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_78,更新合并差异文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_79,更新校验全量文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_SIZE,<nowsize>/<totalsize>
+TID_TENCENT_DOLPHIN_SUCCESS,检查更新完成
+TID_TENCENT_DOLPHIN_ERROR,更新错误<error>
+TID_TENCENT_DOLPHIN_CONFIRM,检查到新版本，请立即更新下载，大约<totalsize>k
+TID_TENCENT_DOLPHIN_INSTALLFAIL,安装失败，请重试
+TID_TENCENT_CDKEY_EXCHANGE,兑换码
+TID_TENCENT_AGREE,同意
+TID_TENCENT_DISAGREE,不同意
+TID_TENCENT_REFUSE,拒绝
+TID_TENCENT_RETURN,返回
+TID_TENCENT_EXIT,退出
+TID_TENCENT_RETRY,重试
+TID_TENCENT_DOLPHIN_ERROR_0,初始化错误
+TID_TENCENT_DOLPHIN_ERROR_1,网络错误，请在网络环境正常下重启游戏。
+TID_TENCENT_DOLPHIN_ERROR_2,网络超时，请在网络环境正常下重启游戏。
+TID_TENCENT_DOLPHIN_ERROR_3,磁盘空间不足，请清理磁盘空间后，重启游戏。
+TID_TENCENT_DOLPHIN_ERROR_4,其他系统错误，请重启手机重试。
+TID_TENCENT_DOLPHIN_ERROR_5,模块其他错误，请重启手机重试。
+TID_TENCENT_DOLPHIN_ERROR_6,当前版本不支持更新，请去应用商店下载最新版本。
+TID_TENCENT_DOLPHIN_ERROR_8,当前环境下载安装包异常，请去应用商店下载最新版本。
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_AGREE,同意
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_REFUSE,拒绝
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE,公告
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE_2,重要提示
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP,各位用户：\n自本日起，本游戏服务将由深圳市腾讯计算机系统有限公司（以下简称\q腾讯计算机公司\q）和深圳市腾讯天游科技有限公司（以下简称\q腾讯天游公司\q）共同提供。\n如您之前未使用本游戏及相关服务，在您使用本游戏的服务前，请您务必审慎阅读、充分理解<TOS> <PP> <CHILDREN> <THIRDPARTY>的各条款，了解我们对您个人信息的处理规则。同时您应特别注意前述协议中免除或者限制我们责任的条款、对您权利进行限制的条款、约定争议解决方式和司法管辖的条款。\n如您之前使用过本游戏及相关服务，您此前与腾讯计算机公司签署的相关游戏用户协议和隐私政策将变更为<TOS> <PP> <CHILDREN> <THIRDPARTY>。同时，为使腾讯计算机公司和腾讯天游公司能共同提供本游戏服务，在您点击下一页面中的\q同意\q按钮后，腾讯计算机公司和腾讯天游公司将共同处理您的个人信息，但对您个人信息的收集、使用范围、保护义务等均不变，且腾讯计算机公司和腾讯天游公司会依法共同承担相应的个人信息保护义务和责任。腾讯计算机公司会在您同意后将之前基于本游戏服务目的收集的有关您在本游戏中的相关信息，提供给腾讯天游公司。\n如您已详细阅读并同意本公告内容以及<TOS> <PP> <CHILDREN> <THIRDPARTY>内容，请点击页面下方的\q同意\q开始使用我们的服务。\n如您有任何问题，请联系腾讯客服（0755-83765566），或通过微信公众号\q腾讯客服\q进行咨询，我们会及时帮助您。\n\n深圳市腾讯计算机系统有限公司\n深圳市腾讯天游科技有限公司\n2023年03月16日
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_2,尊敬的用户，您需要详细阅读并同意<TOS>、 <PP>、 <CHILDREN>和<THIRDPARTY>才可进入游戏哦。
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_BACK,返回
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_NO,拒绝
+TID_BRAWL_PASS_SEASON_16,תעלומה במרכז
+TID_SKIN_INFO_CAMPAIGN_BUNNY,בריגדת הארנבים
+TID_TITLES_DESCRIPTION,תפקיד זה ניתן כעת לתצוגה בקלף הקרב שלך
 TID_REGION_CUSTOM1,
 TID_REGION_CUSTOM2,
 TID_REGION_CUSTOM3,

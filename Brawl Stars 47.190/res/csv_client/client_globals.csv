@@ -35,7 +35,6 @@
 ,,,,,"Adreno.*3\d\d",
 ,,,,,"PowerVR.*SGX.*",
 ,,,,,"PowerVR.*Rogue.*GE8100",
-"VULKAN_ENABLED_DEVICES",,,,,"SM-N970F",
 "LOW_MEMORY_LIMIT",1536,,,,,
 "ASH_CNT",250,,,,,
 "ASH_CNT_COMBAT",40,,,,,
@@ -61,7 +60,6 @@
 ,,,,100,,
 ,,,,150,,
 ,,,,200,,
-"SWITCH_CONFIRMATION_XP_LEVEL",7,,,,,
 "NO_MONEY_COLOR_RED",255,,,,,
 "NO_MONEY_COLOR_GREEN",123,,,,,
 "NO_MONEY_COLOR_BLUE",114,,,,,
@@ -241,8 +239,6 @@
 "CLUB_LEAGUE_ONBOARDING_FLOW_SKIN_2",,,"TntDudeToxic",,,
 "CLUB_SHOP_TEASE_SKIN_DEFAULT",,,"TrickshotDudeChicken",,,
 "CLUB_LEAGUE_SELFHELP_FAQ_URL",,,,,,
-"REQUIRED_HEROES_FOR_WCPP_DROP",16,,,,,
-"DROP_CHANCE_WCPP",0,,,,,
 "TENCENT_SUPPORT_URL",,,,,"LOGIN","https://kf.qq.com/touch/scene_product.html?scene_id=kf8629"
 ,,,,,"HOMESCREEN","https://kf.qq.com/touch/scene_product.html?scene_id=kf8631"
 ,,,,,"EVENTS","https://kf.qq.com/touch/scene_product.html?scene_id=kf8632"
@@ -269,3 +265,13 @@
 "RECRUIT_AUTO_HIGHLIGHT_PERCENTAGES",,,,50,,
 ,,,,90,,
 "RECRUIT_AUTO_HIGHLIGHT_MIN_HEROES",3,,,,,
+"ENABLE_NEW_BATTLE_INTRO",,"TRUE",,,,
+"TENCENT_DOLPHIN_URL_DEV",,,"pre-download.936396168-1-2.gcloudsvcs.com",,,
+"TENCENT_DOLPHIN_CHANNEL_DEV",1001225,,,,,
+"TENCENT_DOLPHIN_URL_STAGE",,,"pre-download.936396168-1-2.gcloudsvcs.com",,,
+"TENCENT_DOLPHIN_CHANNEL_STAGE",1001224,,,,,
+"TENCENT_DOLPHIN_URL",,,"download.936396168-1-1.gcloudsvcs.com",,,
+"TENCENT_DOLPHIN_CHANNEL",1001223,,,,,
+"TENCENT_GCLOUD_ID",,,"936396168",,,
+"TENCENT_GCLOUD_KEY",,,"eba81f5ecae852e5947746aacb562ba9",,,
+"TENCENT_CDKEY_EXCHANGE_URL",,,"https://bs.qq.com/act/a20230116cdkey/index.html",,,

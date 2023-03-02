@@ -121,6 +121,7 @@ TID_PRO_LEAGUE_POPUP_INFO,POWER PLAY liginde gücünü test etme fırsatı! Lig 
 TID_PRO_LEAGUE_POPUP_CURRENT_SEASON,ŞU ANKİ LİG
 TID_PRO_LEAGUE_POPUP_PREVIOUS_SEASON,ÖNCEKİ LİG
 TID_PRO_LEAGUE_LABEL,POWER PLAY
+TID_TEAM_ERROR_38,10. seviye bir savaşçı seç!
 TID_TEAM_ERROR_39,Bugün başka POWER PLAY maçı kalmadı.
 TID_PRO_LEAGUE_GAMES,<GAMESLEFT>/<MAXGAMES> SAVAŞ KALDI
 TID_PRO_LEAGUE_SEASON_END_POPUP_TITLE,POWER PLAY LİGİ BİTTİ
@@ -181,6 +182,7 @@ TID_INBOX_CAPTION_72_52,HEDİYE: ROZET
 TID_INBOX_CAPTION_71,HEDİYE: <SEASON>. BRAWL PASS SEZONU İÇİN <AMOUNT> JETON
 TID_INBOX_CAPTION_70,<CHALLENGE> zafer ödülü:
 TID_INBOX_CAPTION_64,Hediye: <AMOUNT> <NAME>
+TID_INBOX_CAPTION_DONATION,HEDİYE: <TEXT>
 TID_INBOX_NEW,YENİ!
 TID_BAND_MAIL_POPUP_TITLE,KULÜP POSTASI
 TID_BAND_MAIL_POPUP_DEFAULT_TXT,mesajını buraya yaz...
@@ -219,7 +221,6 @@ TID_BATTLE_LOG_REPLAY_INFO_NO_REPLAY_TOO_LOW,Tekrar yok: yetersiz savaşçı kup
 TID_BATTLE_LOG_REPLAY_INFO_NO_REPLAY_TOO_LOW_TROPHIES,Maç tekrarları <NUM> kupaya ulaştığında açılır.
 TID_BATTLE_LOG_REPLAY_INFO_NO_REPLAY_SERVER_ERROR,Tekrar yok: kayıt yapılamadı
 TID_BATTLE_LOG_REPLAY_INFO_REPLAY_EXPIRED,Oyun tekrarı artık yok
-TID_PLAYER_XP_LEVEL,SEVİYE
 TID_PLAYER_RANK_TIER_0,I
 TID_PLAYER_RANK_TIER_1,II
 TID_PLAYER_RANK_TIER_2,III
@@ -255,6 +256,7 @@ TID_HERO_INFO_MAX_LEVEL,MAKSİMUM SEVİYE
 TID_HERO_INFO_MORE_POWER_NEEDED,Yükseltmek için daha fazla güç puanı toplamalısın!
 TID_HERO_INFO_LEVEL_UP_ERROR_4,Savaşçının yeterli güç puanı yok.
 TID_HERO_INFO_LEVEL_UP_ERROR_3,Altının yeterli değil!
+TID_HERO_INFO_LEVEL_UP_ERROR_5,Savaşçı zaten maksimum seviyede!
 TID_HERO_INFO_LEVEL_UP_PRICE_MISSING,<cff6034><AMOUNT></c>
 TID_HERO_INFO_LEVEL_UP_PRICE,<AMOUNT>
 TID_HERO_INFO_STARTING_HERO,İLK SAVAŞÇI
@@ -337,6 +339,7 @@ TID_UNDERTAKER_DESC,"Mortis, küreğinin her darbesinde ileri atılır. Süper s
 TID_UNDERTAKER_WEAPON,KÜREK DARBESİ
 TID_UNDERTAKER_WEAPON_DESC,"Mortis ileri atılıp bir kürek darbesi indirir, girişimci ruhuyla kendine iş fırsatları yaratır. Üç darbesi de dolduktan kısa bir süre sonra ileri atıldığında daha uzun mesafe kat eder."
 TID_UNDERTAKER_ULTI,CAN SUYU
+TID_UNDERTAKER_ULTI_DESC,"Mortis, düşman savaşçıların sağlığını emen ve kendi sağlığını artıran bir vampir yarasa sürüsü çağırır. Tüyler ürpertici!"
 TID_CROW,CROW
 TID_CROW_DESC,Bu esrarengiz yaratık bir gün ansızın kasabada belirdi. Kimse onu kızdırmaya cesaret edemiyor.
 TID_CROW_WEAPON,HANÇER
@@ -424,7 +427,7 @@ TID_SUPERCELL_ID_BUTTON_CONNECTED,Bağlandı
 TID_SUPERCELL_ID_BUTTON_DISCONNECTED,Bağlan
 TID_SUPERCELL_ID_LOGIN_BUTTON,Giriş
 TID_SUPERCELL_ID_NEW_GAME_BUTTON,Giriş yapmadan oyna
-TID_CANNOT_SWITCH_TO_ACCOUNT_WITHOUT_SUPERCELL_ID,"<number>. DP seviyesine sahip başka bir oyun var, yüklemek istiyor musun? Supercell ID ile giriş yaparak yükleyebilirsin."
+TID_CANNOT_SWITCH_TO_ACCOUNT_WITHOUT_SUPERCELL_ID,<name> oyuncusunun (<trophies> kupalı) başka bir ilerlemesini yüklemek istiyor musun? Supercell ID bilgilerinle giriş yaparak yükleyebilirsin.
 TID_ERROR_POP_UP_OUT_OF_SYNC_TITLE,Hata!
 TID_ERROR_POP_UP_OUT_OF_SYNC,İstemci ve sunucu senkronize değil!
 TID_ERROR_POP_UP_OUT_OF_SYNC_BUTTON,Oyunu yeniden yükle
@@ -472,7 +475,6 @@ TID_BATTLE_END_RETURN_HOME,ÇIKIŞ
 TID_BATTLE_END_NEXT,İleri
 TID_BATTLE_END_TAP,devam etmek için dokun
 TID_BATTLE_END_NO_PRACTISE_TROPHIES,ALIŞTIRMALAR KUPA VERMEZ
-TID_BATTLE_END_XP_CAPPED,Bugünlük tüm deneyim toplandı
 TID_BATTLE_END_PLAY_AGAIN,TEKRAR OYNA
 TID_BATTLE_END_PLAY_AGAIN_CANCEL,İPTAL
 TID_BATTLE_END_PLAY_AGAIN_READY_PLAYERS,<WAITING>/<TOTAL>
@@ -551,6 +553,7 @@ TID_TEAM_ERROR_62,Etkinlik önerilemiyor. Bu etkinlik bazı takım üyelerinde y
 TID_TEAM_ERROR_102,Takım oluşturulamıyor. Bir takıma katılma isteği göndermişsin.
 TID_TEAM_ERROR_120,Maça başlanamıyor. Yalnızca şu anki mücadele seviyene ait haritada oynayabilirsin.
 TID_TEAM_ERROR_121,Maça başlanamıyor. Canın kalmadı.
+TID_TEAM_ERROR_122,Bu savaşçı bu maçta kullanılamaz.
 TID_TEAM_ERROR_123,Maça başlanamıyor. Seçtiğin savaşçı bu sezon POWER PLAY ve mücadelelerden çıkarıldı.
 TID_TEAM_ERROR_124,Oyun başlatılamıyor. Seçilen harita arkadaşlarla oynamak için onaylanmamış.
 TID_TEAM_ERROR_125,"Bu etkinlik, takım oyununa uygun değil."
@@ -656,15 +659,17 @@ TID_HERO_INFO_ABILITY_LEVEL,SEVİYE <LEVEL>/<MAXLEVEL>
 TID_HERO_INFO_CRAFT_HERO,Savaşçıyı Satın Al
 TID_HERO_INFO_RARITY,<c<COLOR>><NAME></c>
 TID_HERO_INFO_ITEM_RARITY,<c<COLOR>><NAME></c>
-TID_HERO_INFO_POWER_BAR_TOOL_TIP,Yeni yükseltmeyi açmak için savaş kutularından ve dükkandaki tekliflerden güç puanı almalısın.
+TID_HERO_INFO_POWER_BAR_TOOL_TIP,"Yeni yükseltmeyi açmak için Brawl Pass, kupa yolu ve dükkan tekliflerinden güç puanı almalısın."
 TID_HERO_INFO_STAR_POWER_CAN_DROP,Yıldız gücü savaş kutularından çıkabilir.
+TID_HERO_INFO_STAR_POWER_BLOCKED,"<HERONAME>, özel yıldız gücüyle güçlendirilebilir!\n<LEVEL>. seviyeye ulaştıktan sonra satın alabilirsin."
 TID_HERO_INFO_ACCESSORIES_CAN_DROP,Aksesuarlar savaş kutularından çıkar.
+TID_HERO_INFO_ACCESSORIES_BLOCKED,"<HERONAME>, özel aksesuar ile güçlendirilebilir!\n<LEVEL>. seviyeye ulaştıktan sonra satın alabilirsin."
 TID_HERO_INFO_STAR_POWER_LABEL,YILDIZ GÜCÜ: <NAME>
 TID_HERO_INFO_ACCESSORIES_LABEL,AKSESUAR: <NAME>
 TID_HERO_INFO_ABILITY_DESC,<c<COLOR>><CAPTION></c>\n<BODY>
-TID_HERO_INFO_DYNAMIC_RARITY_INFO,"KROMATİK savaşçı kazanma şansı her Brawl Pass sezonuyla birlikte daha da artıyor! Kromatik savaşçıların enderlik seviyeleri önce EFSANEVİ, sonra GİZEMLİ, en son DESTANSI oluyor.\n\nBu sezon <BRAWLER>, <RARITY> enderlik seviyesinde açılıyor."
-TID_HERO_INFO_DYNAMIC_RARITY_INFO_TIER,"KROMATİK savaşçı kazanma şansı her Brawl Pass sezonuyla birlikte daha da artıyor! Kromatik savaşçıların enderlik seviyeleri önce EFSANEVİ, sonra GİZEMLİ, en son DESTANSI oluyor.\n\nKutulardan <BRAWLER> çıkması için <SEASON>. sezonun <TIER>. kademesine ulaşman gerek."
-TID_HERO_INFO_DYNAMIC_RARITY_INFO_TEASER,"KROMATİK savaşçı kazanma şansı her Brawl Pass sezonuyla birlikte daha da artıyor! Kromatik savaşçıların enderlik seviyeleri önce EFSANEVİ, sonra GİZEMLİ, en son DESTANSI oluyor.\n\n<BRAWLER>, <SEASON>. sezonda geliyor."
+TID_HERO_INFO_DYNAMIC_RARITY_INFO,"Her yeni Brawl Pass sezonunda KROMATİK savaşçıların enderliği azalır. Kromatik savaşçıların enderlikleri sırasıyla EFSANEVİ, GİZEMLİ, en son DESTANSI olur.\n\nBu sezon <BRAWLER>, <RARITY> enderlik seviyesinde açılıyor."
+TID_HERO_INFO_DYNAMIC_RARITY_INFO_TIER,"Her yeni Brawl Pass sezonunda KROMATİK savaşçıların enderliği azalır. Kromatik savaşçıların enderlikleri sırasıyla EFSANEVİ, GİZEMLİ, en son DESTANSI olur.\n\n<SEASON>. sezonun <TIER>. kademesine ulaştığında <BRAWLER>, kroma kredileriyle satın alınabilecek."
+TID_HERO_INFO_DYNAMIC_RARITY_INFO_TEASER,"Her yeni Brawl Pass sezonunda KROMATİK savaşçıların enderliği azalır. Kromatik savaşçıların enderlikleri sırasıyla EFSANEVİ, GİZEMLİ, en son DESTANSI olur.\n\n<BRAWLER>, <SEASON>. sezonda geliyor."
 TID_HERO_INFO_BUY_ITEM,SATIN AL
 TID_HERO_INFO_BUY_ITEM_FREE,ÜCRETSİZ
 TID_HERO_INFO_BUY_MISSING1,<MISSINGCOINS> ALTINA DAHA İHTİYACIN VAR
@@ -679,8 +684,8 @@ TID_HERO_INFO_UNLOCK_STARPOWERS,YILDIZ GÜÇLERİNİ AÇ
 TID_CONFIRM_GADGET_DIRECT_PURCHASE_TITLE,SATIN ALMAYI ONAYLA
 TID_CONFIRM_STAR_POWER_DIRECT_PURCHASE_TITLE,SATIN ALMAYI ONAYLA
 TID_CONFIRM_GEAR_DIRECT_PURCHASE_TITLE,SATIN ALMAYI ONAYLA
-TID_DIRECT_PURCHASE_GEM_PACKS_TITLE,DAHA FAZLA ELMAS AL
-TID_DIRECT_PURCHASE_GEM_PACKS_DESC,Eksik altınlarını satın almak için <cC5F724><REQUIREDGEMS> elmas daha</c> al
+TID_DIRECT_PURCHASE_GEM_PACKS_TITLE,ELMAS ALIMI
+TID_DIRECT_PURCHASE_GEM_PACKS_DESC,Eksik altınları satın almak için <cC5F724><REQUIREDGEMS> elmas daha</c> gerekiyor.
 TID_DIRECT_PURCHASE_GEM_PACKS_ALL_BUTTON,TÜM ELMAS PAKETLERİ
 TID_DIRECT_PURCHASE_GEM_PACKS_RECOMMENDED_TAG,ÖNERİLEN
 TID_MATCHMAKE_FAILED_5,Eşleştirme yapılamadı: Etkinliğin süresi dolmuş.
@@ -741,6 +746,7 @@ TID_RANK_POPUP_NEXT_GOAL,SONRAKİ HEDEF
 TID_RANK_POPUP_COLLECT,AL
 TID_RANK_POPUP_SEASON_END_REWARD,Kupa Ligi Ödülü
 TID_RANK_POPUP_SEASON_END_REWARD_OWN,<cffff00>KUPA LİGİ ÖDÜLÜN</c>
+TID_RANK_POPUP_TOTAL_INFO,"Kupa sayın arttıkça ödüllere ve yeni liglere ulaşırsın!\nToplam kupa sayın, tüm savaşçılarının kupa sayılarının toplamıdır."
 TID_RANK_POPUP_SEASON_END_TITLE,KUPA LİGİNİN BİTMESİNE:
 TID_RANK_POPUP_SEASON_END_INFO,Kupa Ligi bittiğinde <DECAYSTART> üstü kupaya sahip savaşçılar kupalarının bir kısmını kaybeder. Kaybedilen kupalar dükkanda kullanılan yıldız puanlarına dönüşür.
 TID_RANK_POPUP_HILITE_CAPTION_3,SAVAŞÇI: <HERO>
@@ -785,6 +791,7 @@ TID_GATCHA_SCREEN_VANITY_ITEM_DROP_TITLE_52,ROZET
 TID_GATCHA_SCREEN_VANITY_ITEM_DROP_DESC_52,Rozetleri topla ve kendini en iyi şekilde ifade et!
 TID_GATCHA_SCREEN_VANITY_ITEM_DROP_TITLE_68,SPREY
 TID_GATCHA_SCREEN_VANITY_ITEM_DROP_DESC_68,Spreyleri topla ve kendini en iyi şekilde ifade et!
+TID_GATCHA_SCREEN_VANITY_ITEM_DROP_TITLE_76,YENİ OYUNCU UNVANI
 TID_GATCHA_SCREEN_BOX_COUNTER_BONUS,BONUS
 TID_GATCHA_SCREEN_STAR_POINT_DROP_TITLE,YILDIZ PUANLARI
 TID_GATCHA_SCREEN_STAR_POINT_DROP_DESC,Yıldız puanları ile dükkandan özel ürünler alabilirsin.
@@ -825,9 +832,8 @@ TID_VICTORY_CONDITION_COINRUSH_TEXT,10 elmas topla ve koru!
 TID_BATTLE_END_MY_TEAM,Takımın
 TID_BATTLE_END_ENEMY_TEAM,Düşman Takım
 TID_BACK,GERİ
-TID_NOT_ENOUGH_GOLD,"Altın yetersiz, altın almak için savaş kutularını aç."
+TID_NOT_ENOUGH_GOLD,Altın yetersiz! Kupa yolundan ve Brawl Pass'ten daha fazla altın topla.
 TID_UNLOCK_SKIN_ERROR_1,Elmas yetersiz
-TID_EXPERIENCE_LEVEL,Deneyim seviyesi
 TID_BOT_1,Bot 1
 TID_BOT_2,Bot 2
 TID_BOT_3,Bot 3
@@ -844,12 +850,12 @@ TID_SKIN_COMING_SOON,Kostüm henüz kullanılamıyor
 TID_UNLOCK_SKIN_BUTTON_LABEL,Satın al
 TID_HERO_LIST_TOTAL_TROPHIES,Toplam kupa
 TID_TOP_TOOL_TIP_TOKENS,"<c00ccff>Jetonlar</c> Brawl Pass ödüllerini açar.\n\nGörevlerden, yeni etkinliklerden ve savaşlardan jeton kazanabilirsin."
-TID_TOP_TOOL_TIP_GEMS,"<c0ed12d>Elmas;</c> dükkandan savaşçılar, yeni kostümler ve başka şeyler almak için kullanılır.\n\nBrawl Pass ödüllerinden elmas kazanabilir veya gerçek para karşılığı elmas satın alabilirsin."
-TID_TOP_TOOL_TIP_COINS,"<cff8E1b>Altın,</c>savaşçıları yükseltmek için kullanılır.\n\nKupa yolundan, Brawl Pass'ten, görevler ve mücadelelerden altın kazanabilirsin."
+TID_TOP_TOOL_TIP_GEMS,"<c0ed12d>Elmaslar</c> dükkandan savaşçılar, yeni kostümler ve başka şeyler almak için kullanılır.\n\nBrawl Pass ödüllerinden elmas kazanabilir veya gerçek para karşılığı elmas satın alabilirsin."
+TID_TOP_TOOL_TIP_COINS,"<cff8E1b>Altın</c>, savaşçıları yükseltmek için kullanılır.\n\nKupa yolundan, Brawl Pass'ten, görevler ve mücadelelerden altın kazanabilirsin."
 TID_TOP_TOOL_TIP_STAR_POINTS,<cff00ff>Yıldız puanları</c> ile dükkandan özel ürünler alırsın.\n\n10. rütbe ve üzerindeki her beş rütbeye ulaşan savaşçılar ve Kupa Ligi sana yıldız puanı kazandırır!
 TID_TOP_TOOL_TIP_CLUB_TICKETS,"<cff0000>Biletler</c>, kulüp ligi etkinliklerine katılmak için kullanılır."
-TID_TOP_TOOL_TIP_CLUB_COINS,"<cff0000>Kulüp altınları</c>, kulüp ligi dükkanından özel ürünler almak için kullanılır.\n\nKulüp liglerinden kazanılır."
-TID_TOP_TOOL_TIP_CHROMATIC_COINS,"<cF88F25>Kroma kredileri</c>, kromatik savaşçıları açmak için kullanılır.\n\nBu kredileri kupa yolundan ve Brawl Pass'ten toplayabilirsin.\n\nMaksimum: <cFF0000><MAX></c><EXTRAINFO>"
+TID_TOP_TOOL_TIP_CLUB_COINS,"<cff0000>Kulüp altınları</c>, kulüp dükkanından özel ürünler almak için kullanılır.\n\nKulüp oyunlarına katılarak kazanabilirsin."
+TID_TOP_TOOL_TIP_CHROMATIC_COINS,<cF88F25>Kroma kredileri</c> kromatik savaşçıları açmak için kullanılır.\n\nBu kredileri Brawl Pass ödüllerinden toplayabilirsin.\n\nMaksimum: <cFF0000><MAX></c><EXTRAINFO>
 TID_TOP_TOOL_TIP_CHROMATIC_COINS_EXTRAINFO_MAX_REACHED,\n\n<cFF0000>Maksimum sınıra ulaştın. Daha fazlasını toplamadan önce elindeki kroma kredilerini harcamalısın.</c>
 TID_GAME_MODE_0,ELMAS KAPMACA
 TID_GAME_MODE_0_DESC,Haritanın ortasındaki elmas madeninden çıkan elmasları topla. Yok edilen rakiplerden düşenleri de alabilirsin! Oyunu kazanmak için geri sayım bitene kadar elinde on elmas tutmalısın!
@@ -895,8 +901,6 @@ TID_FIGHT_TUTORIAL,OYNA
 TID_HERO_SCORE_INFO,Diğer oyunculara karşı oyun kazanarak bu savaşçı için kupa toplarsın.\n\n<PROGRESS> kupa topladığında bir sonraki rütbeye ulaşır ve <COINS> jeton kazanırsın.
 TID_HERO_SCORE_INFO_LEG_TROS,"Diğer oyunculara karşı oyun kazanarak bu savaşçı için kupa toplarsın.\n\n<PROGRESS> kupa topladığında bir sonraki rütbeye ulaşır, <COINS> jeton ve <cff00ff><LEGTROS> yıldız puanı</c> kazanırsın."
 TID_HERO_SCORE_INFO_MAXED,Son rütbeye ulaştın.\n\n
-TID_XP_INFO_ME,Deneyim seviyen.\n\nSavaşarak deneyim kazanırsın. <REMPROGRESS> deneyim puanı daha kazandığında <LEVEL>. seviyeye ulaşır ve <COINS> jeton kazanırsın.
-TID_XP_INFO_OTHER,Bu oyuncunun deneyim düzeyi
 TID_TUTORIAL_WIN_ONE_GAME_PROMPT,TAM OYUNU AÇMAK İÇİN BİR ALIŞTIRMA SAVAŞI YAP
 TID_SOCIAL_TAB_CLANS,KULÜP
 TID_SOCIAL_TAB_FRIENDS,ARKADAŞLAR
@@ -980,7 +984,7 @@ TID_BATTLE_ROYALE_4,Bolluk ve Kıtlık
 TID_WANTED_8,Sığınak
 TID_BANKHEIST_4,G.G. Mezarlık
 TID_CLAN_MEMBERS_ONLINE,Çevrimiçi üyeler: <COUNT>/<TOTAL>
-TID_CLAN_TOTAL_TROPHIES,Kulüp kupası
+TID_CLAN_TOTAL_TROPHIES,Kulüp Kupası
 TID_CLAN_SEARCH_OK,ARA
 TID_CLAN_INFO_NAME,KULÜP ADI
 TID_CLAN_INFO_BADGE,ROZET
@@ -1010,7 +1014,6 @@ TID_CLAN_MEMBER_VIEW_ALLIANCE,Kulübü göster
 TID_BUTTON_INVITE,DAVET ET
 TID_PLAYER_INFO_GOTO_CLAN,Kulübü göster
 TID_SELECT_PLAYER_THUMBNAIL,SİMGE SEÇ
-TID_SELECT_PLAYER_THUMBNAIL_FAIL_2,Bu simge <LEVEL>. deneyim seviyesine ulaştığında açılır.
 TID_SELECT_PLAYER_THUMBNAIL_FAIL_3,Bu simge <TROPHIES> toplam kupaya ulaştığında açılır.
 TID_PLAYER_INFO_WINS_AMOUNT,<AMOUNT> zafer
 TID_PLAYER_INFO_TAB_1,İSTATİSTİKLER
@@ -1198,7 +1201,6 @@ TID_HINT_COLLECT_BUFFS,Güçlenmek için kutulardan ve düşmanlardan\n<c50d050>
 TID_PLAYERS_LEFT,Kalan savaşçı: <num>
 TID_AVOID_POISON,Yaklaşan <c90ee90>zehir bulutlarından</c> uzak dur!
 TID_CLAN_CREATE_COOLDOWN,Henüz bir kulüp oluşturamazsın. <TIME> içinde tekrar dene.
-TID_CLAN_CREATE_XP_LEVEL_REQUIRED,Bir kulüp oluşturmak için <LEVEL>. deneyim seviyesine ulaşman gerekir.
 TID_PLAYER_DATA_MISSING,Oyuncu verileri eksik
 TID_ALLIANCE_DATA_MISSING,Kulüp verileri eksik
 TID_BATTLE_END_PLAYER_NAME_YOU,<c00ff00><NAME></c>
@@ -1206,7 +1208,6 @@ TID_BATTLE_END_PLAYER_NAME_OTHER,<NAME>
 TID_RECHARGE_HINT,Cephanenin dolmasını bekle!
 TID_EVENT_EXPIRED,Etkinliğin süresi doldu
 TID_DOUBLE_COINS_INFO,Buradaki savaşlar iki kat jeton verir
-TID_DOUBLE_XP_INFO,Buradaki savaşlar iki kat deneyim puanı verir
 TID_SETTINGS_TITLE,AYARLAR
 TID_SETTINGS_CONTROL_MODE_TITLE,KONTROL MODU
 TID_SETTINGS_CONTROL_MODE_VALUE_0,Hareket etmek için dokun
@@ -1228,7 +1229,6 @@ TID_NAME_ALREADY_CHANGED,Ad yalnızca bir kez değiştirilebilir.
 TID_NAME_CHANGE_ALREADY_USED,Adını zaten bir kez değiştirdin.
 TID_NAME_CHANGED_SUCCESS,Adın değiştirildi!
 TID_NAME_CHANGE_IN_PROGRESS,Adın değiştirilemiyor. Bir önceki ad değişikliği isteğin işleniyor.
-TID_NAME_CHANGE_EXP_LEVEL_TOO_LOW,Ad değişikliği <level>. seviyeden sonra yapılabilir.
 TID_CONFIRM_CONFIRM,İşlemi tamamlamak için \q<confirmword>\q yazıp Tamam düğmesine dokun.
 TID_CONFIRM_WORD,ONAYLA
 TID_SETTINGS_PLAYERNAME_CONFIRM_NEW,Ad değişikliğini onaylamak için yeni adını tekrar gir.\nYeni adın şu olacak:
@@ -1241,12 +1241,11 @@ TID_EVENTS_NEXT_EVENT_STARTING_AT,Sonraki etkinliğe:
 TID_EVENTS_TIME_LEFT,Kalan süre
 TID_EVENTS_NEW,YENİ!
 TID_EVENTS_FREE_REWARD,<AMOUNT>
-TID_EVENTS_XP_CAP_REACHED,Tüm deneyim toplandı
 TID_EVENTS_EVENT_LOCKED,KİLİTLİ
 TID_EVENTS_TROPHY_REQ,<c00ffff><COUNT></c> kupaya ulaştığında açılır.
 TID_EVENTS_PRO_LEAGUE_REQ,Açmak için bir savaşçının yıldız gücü olmalı.
 TID_GAME_STARTING,Şurada bir savaş başlıyor: <LOCATION>. Katılabilirsin!
-TID_WEEKEND_EVENT,İki kat deneyim etkinliği
+TID_WEEKEND_EVENT,Hafta sonu etkinliği
 TID_PLAYER_KILLED_SOMEONE,<name>
 TID_SHOP_TEMPORARILY_DISABLED,Dükkan geçici olarak kapalı.
 TID_GATCHA_TEMPORARILY_DISABLED,Savaş kutuları geçici bir süreliğine açılamıyor.
@@ -1328,6 +1327,7 @@ TID_SHOP_OFFER_TITLE_20,ROZET SETİ
 TID_SHOP_OFFER_TITLE_21,ROZET PAKETİ
 TID_SHOP_OFFER_TITLE_22,ROZET PAKETİ
 TID_SHOP_OFFER_TITLE_23,<RARITY> ROZET
+TID_SHOP_OFFER_TITLE_25,OYUNCU SİMGESİ
 TID_SHOP_OFFER_TITLE_27,<RARITY> ROZET PAKETİ
 TID_SHOP_OFFER_TITLE_35,YENİ SPREY
 TID_SHOP_OFFER_TITLE_36,SPREYLER
@@ -1342,6 +1342,7 @@ TID_EMOTE_RARITY_2,DESTANSI
 TID_EMOTE_RARITY_3,EFSANEVİ
 TID_SHOP_OFFER_DESC_GOLD,"Altın, savaşçılarını yükseltmek için kullanılır."
 TID_SHOP_OFFER_ANY_BRAWLER,İSTEDİĞİN\nSAVAŞÇIYA VER
+TID_SHOP_OFFER_ANY_BRAWLER_DESC,İstediğin savaşçıya ver!
 TID_PURCHASE_OFFER_POPUP_TITLE,Satın alma onayı
 TID_PURCHASE_OFFER_POPUP_TITLE_FREE,Ücretsiz Ödül
 TID_SHOP_OFFER_NEW_HERO_LABEL,SAVAŞÇI
@@ -1353,6 +1354,7 @@ TID_SHOP_OFFER_NEW,YENİ
 TID_GATCHA_BOX_TITLE_2,SAVAŞ KUTUSU
 TID_GATCHA_BOX_TITLE_3,MEGA KUTU
 TID_SHOP_HERO_PURCHASE_CONFIRM_LABEL,YENİ SAVAŞÇI
+TID_GATCHA_BOX_INFO_2,"İçinden yeni bir savaşçı, aksesuar, yıldız gücü veya altın + iki savaşçı için güç puanı çıkabilir. Bazı kutulardan bonus jeton katlayıcı çıkar!"
 TID_GATCHA_BOX_INFO_3,Bir Savaş Kutusunun\n\n<AMOUNT> katı.
 TID_SHOP_OFFER_INFO_0,Ücretsizdir. Keyfini çıkar!
 TID_SHOP_OFFER_INFO_1,"<AMOUNT> altın içerir. Altın, savaşçıları yükseltmek için kullanılır."
@@ -1367,7 +1369,7 @@ TID_SHOP_OFFER_INFO_12,Güç puanlarını hangi savaşçının alacağını sen 
 TID_SHOP_OFFER_INFO_13,Yeni etkinlik slotu aç
 TID_SHOP_OFFER_INFO_14,Büyük kutularda normal savaş kutularına göre üç kat fazla ödül vardır!
 TID_SHOP_OFFER_INFO_16,<AMOUNT> elmas içerir.
-TID_SHOP_OFFER_INFO_18,"GÖREVLERİ açarak daha fazla jeton kazan, Brawl Pass kademelerinde ilerle!"
+TID_SHOP_OFFER_INFO_18,Sezon görevlerini açarak Brawl Pass için daha fazla jeton kazan.
 TID_SHOP_OFFER_INFO_19,<BRAWLER> için yeni bir rozet!
 TID_SHOP_OFFER_INFO_20,<AMOUNT> rozetli bir set. Rozetleri kullanarak diğer oyuncularla iletişim kurabilirsin.
 TID_SHOP_OFFER_INFO_21,"Bu pakette, açtığın herhangi bir savaşçı için 2 sıradan rozet ve 1 ender ya da destansı rozet bulunur. Çıkma ihtimalleri şöyledir:\nEnder rozet: %<Rare>\nDestansı rozet: %<Epic>"
@@ -1380,6 +1382,7 @@ TID_SHOP_OFFER_INFO_32,Eşya jetonları eşya üretip yükseltmek için kullanı
 TID_SHOP_OFFER_INFO_33,Parçalar eşya üretip yükseltmek için kullanılır.
 TID_SHOP_OFFER_INFO_35,Spreyler savaş alanını süslemek için kullanılır.
 TID_SHOP_OFFER_INFO_37,Spreyler için ekstra bölme
+TID_SHOP_OFFER_INFO_38,"Krediler, yeni savaşçı açmak için kullanılır!"
 TID_SHOP_OFFER_INFO_39,Kroma kredilerini kullanarak kromatik savaşçı alabilirsin!
 TID_SHOP_OFFER_HOR_NEW,YENİ
 TID_SHOP_OFFER_HOR_RARITY,<c<COLOR>><NAME></c>
@@ -1401,11 +1404,11 @@ TID_HINT_DRAG_TO_ULTI_1,Şimdi kırmızı düğmeyi kullanarak süper atışın�
 TID_BIND_TO_NEW_GAMECENTER_ACCOUNT_TITLE,Yeni Game Center girişi
 TID_BIND_TO_NEW_GAMECENTER_ACCOUNT,Şu anki oyununu bu Game Center hesabı ile ilişkilendirmek istiyor musun?
 TID_GOOGLE_SERVICE_BOUND_TO_OTHER_ACCOUNT_TITLE,Google Hesabı Uyarısı
-TID_GOOGLE_SERVICE_BOUND_TO_OTHER_ACCOUNT,<number> deneyim seviyesine sahip <name> adlı kullanıcının oyununu yüklemek istiyor musun? Uyarı: Mevcut oyundaki ilerleme kaybedilir.
+TID_GOOGLE_SERVICE_BOUND_TO_OTHER_ACCOUNT,<name> oyuncusunun (<trophies> kupalı) oyununu yüklemek istiyor musun? Uyarı: Mevcut oyundaki ilerleme kaybedilir.
 TID_BOUND_TO_OTHER_ACCOUNT_LOAD_VILLAGE_TITLE,Oyun yüklensin mi?
 TID_BUTTON_VILLAGE_LOAD,Yükle
 TID_GAMECENTER_BOUND_TO_OTHER_ACCOUNT_TITLE,Game Center Uyarısı
-TID_GAMECENTER_BOUND_TO_OTHER_ACCOUNT,<number> deneyim seviyesine sahip <name> adlı kullanıcının oyununu yüklemek istiyor musun? Uyarı: Mevcut oyundaki ilerleme kaybedilir.
+TID_GAMECENTER_BOUND_TO_OTHER_ACCOUNT,<name> oyuncusunun (<trophies> kupalı) oyununu yüklemek istiyor musun? Uyarı: Mevcut oyundaki ilerleme kaybedilir.
 TID_BUTTON_AVATAR_LOAD,Yükle
 TID_SETTINGS_SCREEN_TITLE,Ayarlar
 TID_SETTINGS_MUSIC,MÜZİK
@@ -1428,7 +1431,7 @@ TID_SETTINGS_BUTTON_FACEBOOK_CONNECTED_UP,BAĞLANDI
 TID_SETTINGS_BUTTON_FACEBOOK_DISCONNECTED_UP,BAĞLAN
 TID_FAQ_BUTTON,Yardım ve Destek
 TID_ABOUT_TERMS,Bu yazılımın kullanımı www.supercell.com adresindeki Hizmet Koşulları ve Gizlilik Politikası'na tabidir.
-TID_ABOUT,Hazırlayanlar\n\n<names>\n\nBrawl Stars ™ <version>\nTelif Hakkı 2016-2022 Supercell Ltd. Tüm hakları saklıdır.\n<extracopyright>\n<terms>
+TID_ABOUT,Hazırlayanlar\n\n<names>\n\nBrawl Stars ™ <version>\nTelif Hakkı 2016-2023 Supercell Ltd. Tüm hakları saklıdır.\n<extracopyright>\n<terms>
 TID_IAP_TRANSACTION_PENDING,Lütfen bekle. İşlem beklemede.
 TID_RATE_APP_TITLE,Brawl Stars'a puan ver
 TID_RATE_APP_MESSAGE,Görüşlerini bizimle paylaşmak için lütfen App Store'da Brawl Stars'a puan ver ya da yorum yap!
@@ -1611,8 +1614,7 @@ TID_BOLTS_MIGRATION_CHIP_GEM,ÇİPLERİN ELMASLARLA DEĞİŞTİRİLDİ
 TID_STAT_HEALING_PER_SEC,Saniye Başına İyileştirme
 TID_STAT_DAMAGE_PER_CARD,Kart başına hasar
 TID_OVERTIME,Uzatmalar!
-TID_STARTER_PACK_XP_REQ,<XPLEVEL>. seviyeye özel teklif
-TID_VALUE,değer
+TID_VALUE,değerli
 TID_SHOP_ONE_TIME_PURCHASE,Bu TEK seferlik bir tekliftir!
 TID_HINT_MAKE_GOAL_1,Topu hedeflemek için <ccc0033>kırmızı düğmeyi</c> sürükle!
 TID_BALL_2,Top Sürme
@@ -1680,6 +1682,7 @@ TID_SPEC_SELF_DESTRUCT_DESC,Dynamike yok edildiğinde her biri <c00cc00><VALUE1>
 TID_SPEC_ABI_CACTUS_HEAL_DESC,"Spike süper özelliğini kullandığında, özelliğin etki alanında kalarak saniyede <c00cc00><VALUE1></c> sağlık puanını yeniler."
 TID_SPEC_ABI_HEAL_SELF_MAIN_ATTACK_DESC,"Barley, her saldırısından <c00cc00><VALUE1></c> sağlık puanı kazanır."
 TID_SPEC_ABI_REPAIR_TURRET_DESC,"Jessie, elektrikli atışıyla taretini vurarak <c00cc00><VALUE1></c> puan iyileştirir."
+TID_SPEC_ABI_PET_LIFESTEAL_DESC,"Nita, ayısı bir düşman savaşçıya vurduğunda <c00cc00><VALUE1></c> sağlık puanı kazanır. Nita bir düşman savaşçıya hasar verdiğinde de ayısı <c00cc00><VALUE2></c> sağlık puanı kazanır."
 TID_SPEC_ABI_STEAL_SOULS_DESC,Mortis yendiği savaşçıların ruhunu toplar ve sağlığını <c00cc00><VALUE1></c> artırır.
 TID_SPEC_SPOT_FROM_AIR_DESC,"Piper, süper saldırısını kullandığında çalılarda saklanan düşmanları görür."
 TID_SPEC_HEAL_MAIN_ATTACK_DESC,Poco'nun saldırısı takım arkadaşlarına isabet ettiğinde <c00cc00><VALUE1></c> sağlık puanı kazandırır.
@@ -1689,6 +1692,7 @@ TID_SPEC_ABI_BLACK_HOLE_MONSTER_DESC,Tara'nın Süper özelliği bir boyut kapı
 TID_SPEC_ABI_TODO_DESC,Özel yetenek belirtilmemiş
 TID_SPEC_ABI_SPEED_DESC,Colt'un hareket hızı <c00cc00>%<VALUE1></c> artar.
 TID_SPEC_ABI_PUSHBACK_SELF_DESC,"Dynamike, patlayan dinamitlerin etkisiyle engellerin üzerinden atlar!"
+TID_SPEC_ABI_HEAL_OTHERS_MAIN_ATTACK_DESC,"Pam, düşman savaşçıları hurda atışıyla vurduğunda kendisine ve yakınlardaki takım arkadaşlarına <c00cc00><VALUE1></c> sağlık puanı kazandırır."
 TID_SPEC_BOUNCED_BULLETS_STRONGER_DESC,"Rico'nun mermileri, hem normal hem de süper saldırılarda sektikten sonra +<c00cc00><VALUE1></c> hasar verir!"
 TID_SPEC_ABI_FIRE_DOT_ULTI_DESC,El Primo'nun süper saldırısına yakalanan düşmanlar 4 saniye boyunca yanar ve toplam <c00cc00><VALUE1></c> hasar alır.
 TID_SPEC_LAST_STAND_DESC,"Poco, yok edildiği anda kuğu şarkısını çalar. Etrafındaki dost savaşçılar <c00cc00><VALUE1></c> sağlık puanı kazanır!"
@@ -1730,22 +1734,22 @@ TID_CLAN_RESPONSE_44,Katılamadın: Zaten bir kulüptesin
 TID_SHOTGUN_GIRL_SHORT_DESC,YÜKSEK HASAR
 TID_GUNSLINGER_SHORT_DESC,YÜKSEK HASAR
 TID_BULL_DUDE_SHORT_DESC,TANK
-TID_ROCKET_GIRL_SHORT_DESC,YÜKSEK HASAR
-TID_TNT_DUDE_SHORT_DESC,YÜKSEK HASAR
+TID_ROCKET_GIRL_SHORT_DESC,KESKİN NİŞANCI
+TID_TNT_DUDE_SHORT_DESC,TOPÇU
 TID_LUCHADOR_SHORT_DESC,TANK
 TID_TRICKSHOT_DUDE_SHORT_DESC,YÜKSEK HASAR
 TID_CACTUS_SHORT_DESC,YÜKSEK HASAR
-TID_BARKEEP_SHORT_DESC,YÜKSEK HASAR
-TID_MECHANIC_SHORT_DESC,YÜKSEK HASAR
+TID_BARKEEP_SHORT_DESC,TOPÇU
+TID_MECHANIC_SHORT_DESC,GÖZETMEN
 TID_SHAMAN_SHORT_DESC,YÜKSEK HASAR
 TID_UNDERTAKER_SHORT_DESC,SUİKASTÇİ
 TID_CROW_SHORT_DESC,SUİKASTÇİ
 TID_DEAD_MARIACHI_SHORT_DESC,DESTEK
-TID_BOW_DUDE_SHORT_DESC,YÜKSEK HASAR
-TID_SNIPER_SHORT_DESC,YÜKSEK HASAR
+TID_BOW_DUDE_SHORT_DESC,GÖZETMEN
+TID_SNIPER_SHORT_DESC,KESKİN NİŞANCI
 TID_MINIGUN_DUDE_SHORT_DESC,DESTEK
 TID_BLACK_HOLE_SHORT_DESC,YÜKSEK HASAR
-TID_BARREL_BOT_SHORT_DESC,KARMA
+TID_BARREL_BOT_SHORT_DESC,TANK
 TID_CLAN_INTRO_SUGGESTED_CLANS,SENİN İÇİN ÖNERİLEN KULÜPLER
 TID_CLAN_INTRO_CREATE_TITLE,KENDİ KULÜBÜNÜ KURMAYA NE DERSİN?
 TID_CLAN_INTRO_HEADER,KULÜPLER
@@ -1758,6 +1762,7 @@ TID_BRAWL_BOX_INFO_1,Bir büyük kutu açtığında 3 savaş kutusu açmış kad
 TID_BRAWL_BOX_INFO_2,"Her savaş kutusunda şunlardan biri bulunur: yeni bir savaşçı, güç puanı + altın (birlikte), bir aksesuar veya bir yıldız gücü. Bonus jeton katlayıcı da çıkabilir.\n\nBu ödüllerin çıkma şansı şöyledir:"
 TID_BRAWL_BOX_INFO_3,Bir mega kutu açtığında 10 savaş kutusu açmış kadar ödül kazanırsın ama güç puanları daha az savaşçıya dağıtılır.\n\nRastgele 10 çekiliş gerçekleşir ve her birinin ödül şansı şöyledir:
 TID_BRAWL_BOX_INFO_CATEGORIES,\n\n<CATEGORY1> : %<NUM1>\nEnder savaşçı : %<NUM2><GAR_HERO_1>\nSüper ender savaşçı : %<NUM3><GAR_HERO_2>\nDestansı savaşçı : %<NUM4><GAR_HERO_3>\nGizemli savaşçı : %<NUM5><GAR_HERO_4>\nEfsanevi savaşçı : %<NUM6><GAR_HERO_5>\nYıldız gücü : %<NUM7><GAR_STAR_POWER>\nAksesuar : %<NUM8><GAR_ACCESSORY>
+TID_BRAWL_BOX_INFO_FOOTER,"\n\nEk olarak her açışta %<TOKEN_DOUBLER> jeton katlayıcı çıkma şansı vardır. Aksesuarların en az 7. seviyeye ulaşmış savaşçılar için, yıldız güçlerinin ise en az 9. seviyeye ulaşmış savaşçılar için çıktığını unutma. <WCPP_BRAWLERS> savaşçı açtıktan sonra güç puanları %<WCPP_CHANCE> şansla herhangi bir savaşçıya verilebilir. Belirli bir türdeki tüm ödülleri açtığında (örneğin tüm ender savaşçıları açtığında) diğer ödüllerin çıkma şansı artar. Şans: Savaş kutusu açma sisteminin adil olması için, efsanevi savaşçıların çıkma ihtimalini belirleyen bir şans sistemi vardır. Yeni savaşçı çıkmadığında şans puanın artar. Yeni bir savaşçı çıktığında, çıkan savaşçının enderlik düzeyine göre şans puanın azalır. Şans puanın yükseldikçe efsanevi savaşçı çıkma ihtimali artar, ama şans en fazla %<MAX_LEGENDARY> olabilir. Düşük şans puanıyla yeni efsanevi savaşçı çıkma ihtimali daha düşüktür. İlk birkaç ödül, oyunun adil başlaması için önceden belirlenmiştir."
 TID_BRAWL_BOX_INFO_POWER_POINTS_AND_COINS,Güç puanı + altın
 TID_BRAWL_BOX_INFO_POWER_POINTS_COINS_AND_SCRAP,Güç puanı + altın + parça
 TID_BRAWL_BOX_INFO_COINS_AND_SCRAP,Altın + parça
@@ -1780,7 +1785,7 @@ TID_TOTAL,TOPLAM
 TID_BRAWL_BOX_INFO_TITLE_2,SAVAŞ KUTUSU BİLGİLERİ
 TID_BRAWL_BOX_INFO_TITLE_3,MEGA KUTU BİLGİLERİ
 TID_OFFER_ALSO_INCLUDES,TEKLİFTEKİ EKSTRALAR:
-TID_OFFER_VALUE_TITLE,DEĞER
+TID_OFFER_VALUE_TITLE,DEĞERLİ
 TID_OFFER_VALUE,+%<VALUE>
 TID_SHOP_OFFER_COUNTDOWN,<TIME>
 TID_USE_ULTI_TUTORIAL,Nişan almak için <cff9900>sarı düğmeyi</c> sürükle!
@@ -1850,6 +1855,7 @@ TID_BUTTON_CHANGE,Değiştir
 TID_CLAN_JOIN_FAILED_IN_TUTORIAL,Bir kulübe katılmak için eğitimi tamamla.
 TID_CLAN_JOIN_FAILED_FEATURE_LOCKED,Önce kupa yolunda kulüpleri açmalısın.
 TID_CLUB_FEATURE_LOCKED_TROPHIES,Kulüpler <TROPHIES> kupada açılır.
+TID_CLUB_CREATE_LOCKED_TROPHIES,Kulüp oluşturmak için <TROPHIES> kupaya ulaşmalısın.
 TID_CLAN_INTRO_INVITE,DAVET GÖNDER
 TID_INVITE_CLAN_TOKEN_ERROR,Davet oluşturulurken bir hata oluştu.
 TID_ALLIANCE_INVITE_FAILED_NO_RIGHTS,Yalnızca kulüp başkanları yeni üye davet edebilir.
@@ -1893,7 +1899,7 @@ TID_ALLIANCE_JOIN_POST_MESSAGE,Brawl Stars'da kulübüme katılmak için bu bağ
 TID_ALLIANCE_JOIN_POST_TITLE,Bir arkadaşını kulübe davet et!
 TID_HOMESCREEN_MODE_LOCKED,Burada savaşmak için toplam <COUNT> kupaya ulaş.
 TID_GAMEROOMS_PLAYERS_ONLINE,<count> ARKADAŞIN ÇEVRİMİÇİ
-TID_ARTILLERY_DUDE_SHORT_DESC,YÜKSEK HASAR
+TID_ARTILLERY_DUDE_SHORT_DESC,TOPÇU
 TID_HAMMER_DUDE_SHORT_DESC,TANK
 TID_HAMMER_DUDE_DESC,"Frank düşmanlara çekiciyle saldırır ve bir şok dalgası gönderir. Süper saldırısı daha da güçlü, düşmanları sersemleten bir darbedir!"
 TID_HAMMER_DUDE_WEAPON,SAĞLAM VURUŞ
@@ -1985,7 +1991,6 @@ TID_HINT_28,"Etkinlikler için alıştırma yapmak, dostluk mücadeleleri düzen
 TID_HINT_29,Yeni takım arkadaşlarınla iyi geçen bir maçın ardından Tekrar Oyna'ya dokunup aynı takımla bir maç daha yapabilirsin!
 TID_HINT_30,Dostluk savaşlarında istediğin etkinliği ve haritayı seçebilirsin. Savaşçılar da maksimum yükseltilmiş olur!
 TID_HINT_31,"Frank, normal ve süper saldırılarını yaparken duraklar, bu da rakiplere kaçma fırsatı verir."
-TID_EXPERIENCE,DENEYİM
 TID_HINT_32,Özel etkinlikler kupa kazandırmaz. Bu etkinlikler Brawl Pass için jeton verir.
 TID_HINT_33,Kulüp üyeleri listesinden kulüp üyelerini arkadaş olarak davet edebilirsin.
 TID_HINT_34,Bulunduğun takımdaki oyuncuları arkadaş olarak ekleyebilirsin.
@@ -2066,6 +2071,7 @@ TID_EVENT_MODIFIER_DESC_14,Tüm savaşçılar daha hızlı hareket eder!
 TID_EVENT_MODIFIER_15,HESAPLAŞMA+
 TID_EVENT_MODIFIER_DESC_15,"Yok ettiğin her rakip için ekstra kupa kazanırsın, ama yok edildiğinde de kupa kaybedersin."
 TID_EVENT_MODIFIER_16,SAKLAMBAÇ
+TID_EVENT_MODIFIER_DESC_16,Arada sırada tüm savaşçılar görünmez olur!
 TID_EVENT_MODIFIER_17,YANAN TOP
 TID_EVENT_MODIFIER_DESC_17,"Amber, ateşle oynarken dikkatsizlik ederek topunu ateşe verdi! Top artık dokunduğu herkese hasar veriyor ve duvarları yıkıyor! Yetişin, yangın var!"
 TID_BALL_5,Oyuncak Kale
@@ -2106,7 +2112,7 @@ TID_BUTTON_NAVI_BRAWLERS,SAVAŞÇILAR
 TID_BUTTON_NAVI_ESPORTS,ESPOR
 TID_BRAWL_TICKETS_BUTTON,OYNA
 TID_HOME_SCREEN_INVITE,DAVET ET
-TID_HINT_41,"Toplam kupa sayın, tüm savaşçılarının kupa sayısı toplamıdır."
+TID_HINT_41,"Toplam kupa sayın, tüm savaşçılarının kupa sayısı toplamına eşittir."
 TID_TAKEDOWNS,Alaşağı: +<NUM>
 TID_GOAL,<name> gol attı!
 TID_EVENT_MODIFIER_5,ŞİFA MANTARLARI
@@ -2115,7 +2121,7 @@ TID_EVENT_MODIFIER_DESC_5_SD,Şifa mantarları rastgele çıkar ve arkadaşları
 TID_NINJA,LEON
 TID_ROSA,ROSA
 TID_HINT_42,Savaşçın bir süre saldırı yapmaz ve zarar görmezse iyileşmeye başlar.
-TID_HOOK_SHORT_DESC,DESTEK
+TID_HOOK_SHORT_DESC,GÖZETMEN
 TID_HOOK_DESC,"Gene, büyülü lambasıyla bölünen mermiler atar. Süper saldırısı ise düşmanlarını yakalayıp yakına çeken büyülü bir eldir!"
 TID_SPEC_ABI_HOOK,BÜYÜLÜ SİS
 TID_SPEC_ABI_HOOK_DESC,Gene takım arkadaşlarını saniyede <c00cc00><VALUE1></c> puan iyileştirir.
@@ -2383,7 +2389,6 @@ TID_SHOP_UPGRADE_BUNDLE,Yükseltme Seti
 TID_SHOP_NEW_BRAWLER_OFFER,Yeni Savaşçı Teklifi
 TID_SHOP_NEW_SKIN_RELEASE,Yeni Çıkan Kostümler
 TID_SHOP_NEW_SKIN_OFFER,Yeni Kostüm Teklifi
-TID_FRIENDLY_GAME_ROOM_LOCKED,Dostluk savaşları <NUM>. deneyim seviyesinde açılır.
 TID_HEROES_COMING_SOON,YENİ SAVAŞÇILAR GELİYOR
 TID_RARITY_NAME_0_UPPER,KUPA YOLU ÖDÜLÜ
 TID_RARITY_NAME_1_UPPER,ENDER
@@ -2407,13 +2412,14 @@ TID_STAT_DAMAGE_EACH_WAY,Vuruş Başına Hasar
 TID_STAT_DAMAGE_PER_SWING,Dönüş Başına Hasar
 TID_HINT_43,"Carl'ın kazması bir engele çarptığında sekip geri döner, böylece Carl kazmayı daha kısa süre içinde tekrar fırlatabilir."
 TID_SPEC_ABI_PROJECTILE_SPEED,GÜÇLÜ ATIŞ
+TID_SPEC_ABI_PROJECTILE_SPEED_DESC,"Carl kazmasını <c00cc00>%<VALUE1></c> daha hızlı fırlatır, böylece kazma daha hızlı gider ve gelir."
 TID_SPEC_ABI_SUPERSPEED,FIRDÖNDÜ
 TID_SPEC_ABI_SUPERSPEED_DESC,Carl'ın dönen arabası süper özelliğini kullandığında daha da hızlanır.
 TID_HERO_SORTING_TROPHIES,En Az Kupa
 TID_HERO_SORTING_TROPHIES_DESC,En Çok Kupa
 TID_HERO_SORTING_RARITY,Enderlik
 TID_HERO_SORTING_RARITY_DESC,Enderlik - Azalan
-TID_HERO_SORTING_POWER_DESC,Seviye
+TID_HERO_SORTING_POWER_DESC,SEVİYE
 TID_HERO_SORTING_RANKUP,Üst Rütbeye En Yakın
 TID_MUTE_INVITES_LABEL,Rahatsız etme:
 TID_GEM_BALANCE_TITLE,Elmas Sayısı
@@ -2615,7 +2621,7 @@ TID_SKIN_INFO_FX_TURRET,- Özel savaşçı modeli\n- Özel taret modeli\n- Özel
 TID_SPEC_ABI_SPED_FULL_AMMO,SAYI VURUŞU
 TID_SPEC_ABI_SPED_FULL_AMMO_DESC,"Bibi, sayı vuruşu çubuğu dolduğunda <c00cc00>%<VALUE1></c> daha hızlı hareket eder."
 TID_BASEBALL,BIBI
-TID_BASEBALL_SHORT_DESC,YÜKSEK HASAR
+TID_BASEBALL_SHORT_DESC,TANK
 TID_BASEBALL_DESC,"Sopanın gücü! Sayı vuruşu çubuğu dolduğunda Bibi çok güçlü bir vuruş yapıp düşmanları geri püskürtür. Süper saldırısı ise düşmanlarına hasar veren, zıplayan bir sakız topudur."
 TID_BASEBALL_WEAPON,ÜÇ VURUŞ
 TID_BASEBALL_ULTI,SAKIZ TOPU
@@ -2656,7 +2662,7 @@ TID_SPEC_ULTI_BURN_DESC,Penny'nin tareti vurduğu yerleri üç saniye yakar. Yan
 TID_SPEC_ABI_REPAIR_SELF,İYİ YAĞLANMIŞ
 TID_SPEC_ABI_REPAIR_SELF_DESC,Tick hasar almadığında ve saldırı yapmadığında normalden <c00cc00><VALUE1></c> saniye daha hızlı iyileşmeye başlar.
 TID_HEAD_HEALTH,Kafa Sağlığı
-TID_CLUSTER_BOMB_DUDE_SHORT_DESC,YÜKSEK HASAR
+TID_CLUSTER_BOMB_DUDE_SHORT_DESC,TOPÇU
 TID_CLUSTER_BOMB_DUDE_DESC,"Tick, heyecan ve patlayıcı enerjiyle dolu bir metal küre! Mayın fırlatıyor, süper saldırısında da kafasını çıkarıp güdümlü bomba olarak kullanıyor."
 TID_CLUSTER_BOMB_DUDE_WEAPON,MİNİMAYINLAR
 TID_CLUSTER_BOMB_DUDE_ULTI,BOMBAKAFA
@@ -2677,6 +2683,7 @@ TID_SPEC_ABI_STUN_TRAP_DESC,Bo'nun tuzakları düşmanları geri püskürtmek ye
 TID_SPEC_ABI_TURRET_ELECTRICITY,ŞOK ATIŞI
 TID_SPEC_ABI_TURRET_ELECTRICITY_DESC,Jessie'nin tareti bir düşmandan diğerine sıçrayan enerji küreleri ateşler. Sıçrayan enerji kürelerinin menzili <c00cc00>%<VALUE1></c> artar.
 TID_SPEC_EXTRA_BULLET,DÖRDÜNCÜ ROKET
+TID_SPEC_EXTRA_BULLET_DESC,"Brock, roket atarına dördüncü bir roket takarak cephanesini artırır (bunu yapmak için roketatarın dördüncü yuvasındaki termosu çıkarır)."
 TID_SPEC_ABI_SPIKES_LOW_HEALTH,DİKEN SALGINI
 TID_SPEC_ABI_SPIKES_LOW_HEALTH_DESC,Spike <c00cc00>%<VALUE1></c> sağlığın altına düştüğünde her biri <c00cc00><VALUE2></c> hasar veren dikenler saçmaya başlar!
 TID_SPEC_ABI_RELOAD_ON_HIT,HIZLI NİŞANCI
@@ -2847,7 +2854,7 @@ TID_SOLO_BOUNTY_IN_LEAD,Öndesin!
 TID_SOLO_BOUNTY_DOING_GOOD,Böyle devam et!
 TID_SOLO_BOUNTY_DOING_OK,Fena değilsin.
 TID_SOLO_BOUNTY_DOING_BAD,Daha fazla yıldız topla!
-TID_SANDSTORM_SHORT_DESC,DESTEK
+TID_SANDSTORM_SHORT_DESC,GÖZETMEN
 TID_SANDSTORM_DESC,Sandy genelde uyku sorunu çeker ama kumlara hükmetmede ustadır. Düşmanlarına keskin çakıl taşları fırlatır ve takım arkadaşlarını gizlemek için kum fırtınası başlatır.
 TID_SANDSTORM_WEAPON,ÇAKIL YAĞMURU
 TID_SANDSTORM_WEAPON_DESC,"Sandy, düşmanlarına keskin çakıl taşları fırlatır. Ah!"
@@ -2886,7 +2893,7 @@ TID_ADDITIONAL_GEM_TOOLTIP_FOR_JAPAN,\n\nSatın alınan elmas: <PAID>\nÜcretsiz
 TID_RANK,Sıralama: <val> / 10
 TID_SOLO_BOUNTY_NO_RANK,Yıldız kazanmak için düşmanları yen!
 TID_BOSS_RACE_NO_RANK,Boss'a hasar ver!
-TID_MUMMY_SHORT_DESC,YÜKSEK HASAR
+TID_MUMMY_SHORT_DESC,GÖZETMEN
 TID_MUMMY_DESC,"Emz düşmanlarına saç spreyi sıkar, düşmanlar spreyin etkisinden kurtulana kadar hasar almaya devam eder. Süper saldırısıyla da düşmanlarını yavaşlatır."
 TID_MUMMY_WEAPON,SPREY
 TID_MUMMY_WEAPON_DESC,Emz saç spreyinden sıkar! Yüzünü eritecek kadar güçlü.
@@ -2896,6 +2903,7 @@ TID_STAT_MUMMY,Emz
 TID_SPEC_ABI_TICK_DMG_GROW,KÖR TALİH
 TID_SPEC_ABI_TICK_DMG_GROW_DESC,Emz'in zehirli saç spreyi bulutunda kalan düşmanlar darbe başına <c00cc00>%<VALUE1></c> artan oranda hasar alır.
 TID_SPEC_ABI_HEAL_SUPER_DMG,HEYECAN
+TID_SPEC_ABI_HEAL_SUPER_DMG_DESC,Emz süper saldırısının etki alanında bulunan her bir düşman savaşçı için saniye başına <c00cc00><VALUE1></c> sağlık kazanır.
 TID_FRIEND_ADD_YOUR_ID,Sahip olduğun ID: <ID>
 TID_FRIEND_ADD_BUTTON,ARKADAŞ\nEKLE
 TID_FRIEND_ADD_BUTTON_SHORT,EKLE
@@ -2991,12 +2999,12 @@ TID_IAP_XMAS_19_3,MUTLU BİR YILBAŞI DİLERİZ
 TID_IAP_XMAS_19_4,MUTLU BİR YILBAŞI DİLERİZ
 TID_IAP_COINPACK_11_19,"ALTIN, ALTIN, ALTIN"
 TID_IAP_NEWYEAR_20,YENİ YILINI KUTLARIZ
-TID_SKIN_INFO_CAMPAIGN_4_NOT_AVAILABLE,BROWN & FRIENDS kostümü
+TID_SKIN_INFO_CAMPAIGN_4_NOT_AVAILABLE,BROWN & FRIENDS
 TID_HOME_PAGE_PENDING_DONATION,ÖNEMLİ\nMESAJ
 TID_SETTINGS_BLOCK_FRIEND_REQUESTS,ARKADAŞLIK İSTEKLERİNİ ENGELLE
 TID_SPAWNER_DUDE,MR. P
 TID_BEE_SNIPER,BEA
-TID_BEE_SNIPER_SHORT_DESC,YÜKSEK HASAR
+TID_BEE_SNIPER_SHORT_DESC,KESKİN NİŞANCI
 TID_BEE_SNIPER_DESC,"Bea, çiçeklere ve böceklere bayılır. Düşmanlarına uzun mesafeden mekanik bir arı atar. Süper saldırısı ise öfkeli bir arı ordusudur!"
 TID_BEE_SNIPER_WEAPON,BÜYÜK İĞNE
 TID_BEE_SNIPER_WEAPON_DESC,Bea uzun menzilli bir atış yapar. Atış hedefini vurduğunda bir sonraki atışı güçlendirir.
@@ -3018,8 +3026,10 @@ TID_SPEC_ABI_SPEEDY_1_DESC,Max hareket ederken süper gücü dolar.
 TID_SPEC_ABI_SPEEDY_2,DURMADAN ATEŞ
 TID_SPEC_ABI_SPEEDY_2_DESC,Max hareket ederken yeniden doldurma hızı artar.
 TID_SPEEDY_ULTI_STAT,Haydi!
+TID_QUICK_MESSAGE_CHOOSE_BRAWLER,Önce savaşçı gerekiyor...
 TID_QUICK_MESSAGE_CHOOSE_MODE,Haydi başlayalım...
 TID_QUICK_MESSAGE_CHOOSE_FRIENDLY_LOCATION,Haydi başlayalım...
+TID_QUICK_MESSAGE_CHANGE_BRAWLERS,Savaşçılarımızı değiştirelim!
 TID_QUICK_MESSAGE_GOOD_GAME,İyi oyundu!
 TID_QUICK_MESSAGE_PLAY_AGAIN,Bir oyun daha?
 TID_QUICK_MESSAGE_WELL_PLAYED,Çok iyiydi!
@@ -3040,6 +3050,7 @@ TID_QUICK_MESSAGE_OOPS,Eyvah!
 TID_QUICK_MESSAGE_SUGGEST_BRAWLER,<c<COLOR>><NAME></c> olur musun?
 TID_QUICK_MESSAGE_SUGGEST_STARPOWER,<c<COLOR>><NAME></c> kullanır mısın?
 TID_QUICK_MESSAGE_SUGGEST_MODE,<c<COLOR>><NAME></c> ile oynayalım!
+TID_QUICK_MESSAGE_ASK_BRAWLER,Hangi savaşçıyı seçeyim?
 TID_QUICK_MESSAGE_ASK_MODE,Hangi etkinliğe katılsak?
 TID_PLAYER_CTX_SUGGEST_BRAWLER_SHORT,ÖNER
 TID_PLAYER_CTX_SUGGEST_CANCEL,ÖNERİYİ İPTAL ET
@@ -3091,11 +3102,15 @@ TID_CLAN_POPUP_TAB_CHAT,SOHBET
 TID_BUTTON_SCID,SUPERCELL ID
 TID_BUTTON_NAVI_CHAT,SOHBET
 TID_BUTTON_NAVI_TEAM,TAKIM
-TID_CTF_INTRO_TEXT,Kazanmak için iki kupa kap!
+TID_GAME_MODE_16,KAR OTELİ HIRSIZLARI
+TID_GAME_MODE_16_DESC,Rakip takımın hediyelerini alıp kendi üssüne getir! Takımlardan biri iki hediyeyi kendi üssüne getirdiğinde ya da süre dolduğunda maç biter.
+TID_CTF_INTRO_TEXT,Kazanmak için iki hediye kap!
 TID_TEAM_CHAT_NOT_AVAILABLE_NO_TEAM,Arkadaşlarınla sohbet etmek için önce bir takım oluştur!
 TID_CTF_2,Yan Şeritler
-TID_HINT_CTF_STEAL_GIFT,Rakip takımın kupasını kap!
-TID_HINT_CTF_BRING_GIFT_BACK,Kupayı kendi üssüne getir!
+TID_HINT_CTF_STEAL_GIFT,Rakip takımın hediyesini kap!
+TID_HINT_CTF_BRING_GIFT_BACK,Hediyeyi kendi üssüne getir!
+TID_CTF_GOAL,"<name>,\nbir hediye çaldı!"
+TID_CTF_GOAL_MATCH_OVER,<name>\nbir hediyeyi çaldı!\n\nMaç bitti.
 TID_IAP_XMAS_19_GENERIC,MUTLU BİR YILBAŞI DİLERİZ
 TID_IAP_XMAS_19_GENERIC_2,YILBAŞI GELİYOR
 TID_IAP_NEW_YEAR_20,YENİ YILINI KUTLARIZ
@@ -3158,11 +3173,11 @@ TID_CTF_5,Neşeli Kaçış
 TID_CTF_6,Çorap Dolusu Hediye
 TID_CTF_7,Yaramaz Periler
 TID_CTF_8,En İyi Hediye
-TID_CTF_GOAL_MATCH_OVER,<name>\nkupayı çaldı!\n\nMaç bitti
 TID_STAT_DAMAGE_PER_DRONE,Arı başına hasar
 TID_GOLDRUSH_46,İki Bin Göl
 TID_EVENT_MODIFIER_11,EĞİM
 TID_EVENT_MODIFIER_DESC_11,"Zemin eğik hale gelir, savaşçılar hareket ettikleri yöne bağlı olarak hızlanır ya da yavaşlar."
+TID_QUICK_MESSAGE_ASK_BRAWLER_SPLIT,Hangi savaşçıyı seçeyim?
 TID_QUICK_MESSAGE_ASK_MODE_SPLIT,Hangi etkinliğe katılsak?
 TID_DRILLER,JACKY
 TID_GAME_MODE_17,SICAK BÖLGE
@@ -3174,7 +3189,7 @@ TID_IAP_LNY2020,YENİ AY YILI
 TID_IAP_TGS2020,TEKLİF
 TID_IAP_VD2020,SEVGİLİLER GÜNÜ TEKLİFİ
 TID_IAP_MAR2020,HOŞ GELDİN MART!
-TID_SPAWNER_DUDE_SHORT_DESC,YÜKSEK HASAR
+TID_SPAWNER_DUDE_SHORT_DESC,GÖZETMEN
 TID_SPAWNER_DUDE_DESC,"Mr. P, düşmanlara öfkeyle bavul fırlatan suratsız bir bavul taşıyıcısı. Süper özelliğiyle robot yardımcılarını çağırıyor."
 TID_SPAWNER_DUDE_WEAPON,BUYRUN BAVULUNUZ!
 TID_SPAWNER_DUDE_WEAPON_DESC,"Mr. P, ağır bavulunu öfkeyle fırlatır. Bavul bir engele çarptığında veya maksimum menzile ulaştığında seker ve düştüğü yerde patlayıp alan hasarı verir."
@@ -3345,7 +3360,8 @@ TID_ACCESSORY_BLOCKED_REQUIRES_DUPLICATE,Lola'nın Ego'su gerekiyor!
 TID_ACCESSORY_BLOCKED_DUPLICATE_TOO_FAR,Lola'nın Ego'su çok uzak!
 TID_ACCESSORY_BLOCKED_SILENCED,Susturuldun!
 TID_ACCESSORY_BLOCKED_RANGE_TO_TURRET,Yakında düşman yok!
-TID_WALLY_SHORT_DESC,DESTEK
+TID_ACCESSORY_BLOCKED_MIND_CONTROL,Kontrol ediliyorsun!
+TID_WALLY_SHORT_DESC,TOPÇU
 TID_WALLY_DESC,"Sprout, yaşam filizlendirmek için tasarlanmış bir robottur. Zıplayan tohum bombalarını etrafa pervasızca saçar. Süper özelliği de düşmanları engelleyen bir bitki duvarıdır."
 TID_WALLY_WEAPON,TOHUM BOMBASI
 TID_WALLY_WEAPON_DESC,"Sprout, patlamadan önce zıplayan bir tohum yumağı atar! Tohum yumağı düşmana doğrudan isabet ederse hemen patlar."
@@ -3386,7 +3402,7 @@ TID_ACCESSORY_TELEPORT_TO_PET_DESC,8-Bit hasar artırıcısına ışınlanır.
 TID_ACCESSORY_BARREL_SPIN_DESC,Darryl kendi etrafında dönmeye başlar ve her yöne bir sürü mermi atar. Her atış <c00cc00><VALUE1></c> hasar verir ve düşmanlara isabet ettiğinde Darryl'in süper saldırısını <c00cc00>%<VALUE2></c> doldurur.
 TID_ACCESSORY_FRANK_CC_IMMUNITY_DESC,"Frank üzerindeki tüm olumsuz etkilerden kurtulur ve bir süreliğine sersemletme, yavaşlatma ve geri itme gibi etkiler onu etkileyemez."
 TID_ACCESSORY_CARL_TRAIL_DESC,"Carl'ın attığı bir sonraki kazma, arkasında sıcak taşlar bırakır! Bu taşlara dokunan düşmanlar tutuşur ve zaman içinde toplam <c00cc00><VALUE1></c> hasar alır."
-TID_ACCESSORY_BOW_TOTEM_DESC,"Bo, kendisinin ve etki alanındaki tüm takım arkadaşlarının Süper özelliklerini dolduran bir totem yerleştirir. Totem zaman içinde yavaş yavaş sağlığını kaybeder."
+TID_ACCESSORY_BOW_TOTEM_DESC,"Bo, takım arkadaşlarının süper özelliklerini %<c00cc00><VALUE1></c> daha hızlı doldurmasını sağlayan bir totem yerleştirir. Totemin sağlığı zaman içinde azalır."
 TID_ACCESSORY_PRIMO_GRAB_DESC,"El Primo, ulaşabildiği en yakın düşmanı yakalar ve tepetakla döndürür."
 TID_ACCESSORY_MORTIS_SWING_DESC,Mortis küreğini döndürmeye başlar ve etrafındaki tüm düşmanlara <c00cc00><VALUE1></c> hasar verir.
 TID_ACCESSORY_TARA_VISION_DESC,"Tara ve arkadaşları, <c00cc00><VALUE1></c> saniye boyunca tüm düşmanları görebilir. Buna çalıların içindeki düşmanlar da dahildir."
@@ -3488,11 +3504,12 @@ TID_ENTER_BIRTHDAY_BUTTON,Doğum Gününü Gir
 TID_FREE_TEXT_CHAT_MUTED_OTHER,Bir oyuncunun sohbet sesi kapalı.
 TID_FREE_TEXT_CHAT_MUTED_LFG,Takım Arıyorum özelliği kullanılırken sohbet sesi kapatılır.
 TID_FREE_TEXT_CHAT_MUTED_YOU,Sohbetin sesini kapattın. Geri açmak için Çevrimiçi Oyuncular menüsüne gidebilirsin.
-TID_SKIN_INFO_CAMPAIGN_6_NOT_AVAILABLE,PSG kostümü
+TID_SKIN_INFO_CAMPAIGN_6_NOT_AVAILABLE,PSG
 TID_KAKAO_TEAM_INVITED,DAVET EDİLDİ
 TID_ACCESSORY_CHARGES_PER_MATCH,Maç başına kullanım hakkı: <NUM>
 TID_SKIN_INFO_CAMPAIGN_7_NOT_AVAILABLE,Supercell Make kostümü\n\nTasarlayan:\n<cff8000><CREDIT></c>
 TID_CLAN_CANNOT_JOIN_NON_FF_CLAN,Aile dostu olmayan bir kulübe katılamazsın.
+TID_ALLIANCE_FF_FAILED_NO_RIGHTS,Kulübün aile dostu ayarını yalnızca kulüp başkanı değiştirebilir.
 TID_QQ_LOGIN_BUTTON,QQ'ya giriş
 TID_WECHAT_LOGIN_BUTTON,WeChat'e giriş
 TID_GUEST_LOGIN_BUTTON,Misafir girişi
@@ -3503,7 +3520,7 @@ TID_WECHAT_NOT_INSTALLED,Sende WeChat yüklü değil.
 TID_SHARE_DIALOG_TITLE,Paylaş
 TID_TENCENT_CREATE_NEW_ACCOUNT_CONFIRM_TITLE,Yeni Oyun Hesabı
 TID_TENCENT_CREATE_NEW_ACCOUNT_CONFIRM,Şu anki ilerlemen başka bir hesaba bağlı! Bu QQ/WeChat hesabına giriş yapıp yeni bir oyun oluşturmak istediğine emin misin?
-TID_TENCENT_BOUND_TO_OTHER_ACCOUNT,DP seviyesi <number> olan <name> adlı oyuncunun oyununu yüklemek istiyor musun?
+TID_TENCENT_BOUND_TO_OTHER_ACCOUNT,<name> oyuncusunun (<trophies> kupalı) ilerlemesini yüklemek istiyor musun?
 TID_INFO_POP_UP_IAP_NOTE_TENCENT,"Brawl Stars ücretsiz bir oyundur, ama oyun içi satın alımlarla ilerlemeni hızlandırabilirsin."
 TID_MULTIDEVICE_INFO_TENCENT,"Birden fazla Android cihazda oynamak için, aynı WeChat veya QQ hesabıyla giriş yapmalısın."
 TID_LINK_SAME_PLATFORM_TITLE_TENCENT,Hesabınla senkronize et
@@ -3518,7 +3535,7 @@ TID_BUTTON_CONFLICTING_ACCOUNT_YES,"Evet, şu anki hesaba geçilsin."
 TID_BUTTON_CONFLICTING_ACCOUNT_NO,"Hayır, orijinal hesaba geçilsin."
 TID_TENCENT_AUTH_EXPIRED,"Yetkilendirme sona erdi, tekrar giriş yap."
 TID_BLOWER,GALE
-TID_BLOWER_SHORT_DESC,KARMA
+TID_BLOWER_SHORT_DESC,GÖZETMEN
 TID_BLOWER_DESC,Gale yorulmak nedir bilmeyen çalışkan bir tamirci. Üfleme makinesiyle düşmanlarına geniş menzilli kar ve rüzgar atışı yapar. Süper saldırısıyla da devasa bir kar fırtınası çıkarıp düşmanlarını geri iter.
 TID_BLOWER_WEAPON,KUTUP GİRDABI
 TID_BLOWER_WEAPON_DESC,Gale düşmanlarına devasa bir kar topu duvarı yollar.
@@ -3529,7 +3546,7 @@ TID_SPEC_ABI_BLOWER_1_DESC,"Gale'in süper saldırısı, engellere çarpan düş
 TID_SPEC_ABI_BLOWER_2,DONDURUCU BUZ
 TID_SPEC_ABI_BLOWER_2_DESC,"Gale'in kar topları, düşmanları <c00cc00><VALUE1></c> saniyeliğine yavaşlatma etkisine de sahip olur."
 TID_CONTROLLER,NANI
-TID_CONTROLLER_SHORT_DESC,YÜKSEK HASAR
+TID_CONTROLLER_SHORT_DESC,KESKİN NİŞANCI
 TID_CONTROLLER_DESC,"Nani arkadaşlarını çok sever ve onları robot gözleriyle sürekli takip eder. Düşmanlarına farklı açılarda atışlar yapar, süper saldırısıyla da dostu Peep'i düşmanların üzerine salar!"
 TID_CONTROLLER_WEAPON,TRİGONOMERMİ
 TID_CONTROLLER_WEAPON_DESC,"Nani, farklı açılarla ilerleyen üç ışık küresi ateşler, bu küreler hedefe yaklaştıkça birleşir."
@@ -3620,6 +3637,7 @@ TID_HOMEPAGE_GUIDE_NEW_BRAWLER,Yeni savaşçı açıldı!
 TID_HOMEPAGE_GUIDE_QUESTS_UNLOCKED,Görevler açıldı!
 TID_HOMEPAGE_GUIDE_CLUB_FEATURE_UNLOCKABLE,Kulüpler açıldı!
 TID_HOMEPAGE_GUIDE_CLUB_FEATURE_UNLOCKED,Burada kulüp bulabilirsin!
+TID_HOMEPAGE_GUIDE_FIRST_MASTERY_REWARD,<HERO> için yeni bir ustalık rütbesi açtın. Ödülünü almayı unutma!
 TID_BRAWL_PASS_SEASON_0,TARA'NIN ÇARŞISI
 TID_BRAWL_PASS_TAB_REWARDS,ÖDÜLLER
 TID_BRAWL_PASS_TAB_QUESTS,GÖREVLER
@@ -3839,8 +3857,8 @@ TID_TRUE_GOLD_LEON_SKIN,SAF ALTIN LEON
 TID_TRUE_GOLD_LEON_SKIN_SHOP,SAF ALTIN\nLEON
 TID_SUPER_RANGER_BROCK_SKIN,SÜPER RANGER BROCK
 TID_SUPER_RANGER_BROCK_SKIN_SHOP,SÜPER RANGER\nBROCK
-TID_SKIN_INFO_CAMPAIGN_13_NOT_AVAILABLE,Saf gümüş kostüm
-TID_SKIN_INFO_CAMPAIGN_14_NOT_AVAILABLE,Saf altın kostüm
+TID_SKIN_INFO_CAMPAIGN_13_NOT_AVAILABLE,SAF GÜMÜŞ
+TID_SKIN_INFO_CAMPAIGN_14_NOT_AVAILABLE,SAF ALTIN
 TID_BATTLE_ROYALE_45,Ara Mağarası
 TID_BATTLE_ROYALE_46,Kolezyum
 TID_BATTLE_ROYALE_47,Nehir Yanı
@@ -3871,6 +3889,7 @@ TID_KING_OF_HILL_26,Rulet
 TID_KING_OF_HILL_27,Dikey Dilim
 TID_KING_OF_HILL_28,Büyük Kontrol
 TID_EMOTE_EQUIP_NOT_OWNED_SPECIAL,Koleksiyoncular için özel rozet! Bu rozet kolay kolay bulunmuyor!
+TID_EMOTE_EQUIP_NOT_OWNED_MASTERY,Ustalık rozeti! Bu rozeti savaşçının ustalık yolundan açabilirsin!
 TID_LOGIN_WITH_FACEBOOK,Facebook ile giriş yap
 TID_TERMS_OF_SERVICE_BUTTON_TENCENT,Tencent Games Lisans ve Hizmet Sözleşmesi
 TID_PRIVACY_POLICY_BUTTON_TENCENT,荒野乱斗隐私保护指引
@@ -3983,7 +4002,9 @@ TID_PERCENTER_WEAPON_DESC,"Colette, düşmanlarının vergi borçlarını toplam
 TID_PERCENTER_ULTI,TAHSİLAT ZAMANI
 TID_PERCENTER_ULTI_DESC,"Colette ileri atılır ve geri gelir, yoluna çıkan düşmanlara hasar verir. Verdiği hasar miktarı düşmanların maksimum sağlığına bağlıdır."
 TID_SPEC_ABI_PERCENTER_1,AĞIR VERGİ
+TID_SPEC_ABI_PERCENTER_1_DESC,"Colette'in saldırısının isabet ettiği düşmanlar, saldırının ulaşacağı en uzak noktaya kadar püskürtülür."
 TID_SPEC_ABI_PERCENTER_2,VERGİ ZAMMI
+TID_SPEC_ABI_PERCENTER_2_DESC,"Süper gücü etkinleştirildiği zaman Colette, <c00cc00><VALUE3></c> saniye boyunca <c00cc00>%<VALUE1></c> kalkan elde eder. Colette süper gücüyle düşmanlara her hasar verdiğinde kalkanın koruması <c00cc00>%<VALUE2></c> artar."
 TID_ACCESSORY_PERCENTER_STATIC_DAMAGE,ÖZVERİ
 TID_ACCESSORY_PERCENTER_STATIC_DAMAGE_DESC,Colette'in sonraki atışı fazladan <c00cc00><VALUE1></c> hasar verir.
 TID_TUTORIAL_PLAYED_BEFORE,Daha önce oynadın mı?
@@ -4089,7 +4110,7 @@ TID_ACCESSORY_GUNSLINGER_BIG_BULLET_DESC,"Colt, bir sonraki saldırısında tek 
 TID_MULTIPLE_PURCHASE_RESTART_WARNING_TITLE,Satın alım yeniden başlasın mı?
 TID_MULTIPLE_PURCHASE_RESTART_WARNING,"Bu teklifin satın alım işlemi önceden başlatılmış. Bu teklif yalnızca bir kez satın alınabilir. Yanlışlıkla birden fazla kez satın alındığında aynı ürünler ikinci kez alınamaz. Bir önceki satın alım işleminin iptal edildiğinden eminseniz, riski size ait olmakla beraber tekrar satın almayı deneyebilirsiniz. İşleme devam ediyor musunuz?"
 TID_FIRE_DUDE,AMBER
-TID_FIRE_DUDE_SHORT_DESC,YÜKSEK HASAR
+TID_FIRE_DUDE_SHORT_DESC,GÖZETMEN
 TID_FIRE_DUDE_DESC,Amber kendini bildi bileli ateşi çok sever. Etrafındaki şeyleri ateşe vermek ve kendisine saldıran düşmanlara sıcak bir karşılama hazırlamak en büyük tutkusudur!
 TID_FIRE_DUDE_WEAPON,EJDERHANIN NEFESİ
 TID_FIRE_DUDE_WEAPON_DESC,"Amber düşmanlarına alev üfler. Alev çok havalı görünür, ama dikkat et, oldukça sıcak!"
@@ -4351,7 +4372,7 @@ TID_TEAM_MEMBER_STATUS_NEW_14,HARİTA OLUŞTURUCU
 TID_FRIEND_STATUS_MAP_MAKER,Harita Oluşturucu
 TID_CLAN_MEMBER_ONLINE_STATUS_14,HARİTA OLUŞTURUCU
 TID_ICE_DUDE,LOU
-TID_ICE_DUDE_SHORT_DESC,KARMA
+TID_ICE_DUDE_SHORT_DESC,GÖZETMEN
 TID_ICE_DUDE_DESC,Lou hakikaten soğuk biridir. Çevresindekilerin içi ürperir. Buza basarken temkinli davranmayı ve beynini dondurmamaya özen göstermeyi sakın unutma!
 TID_ICE_DUDE_WEAPON,BEYİN DONMASI
 TID_ICE_DUDE_WEAPON_DESC,"Rakiplerin üzerine buzlu külah yağdıran Lou, saldırı sonunda onları <accumulatedStun> saniyeliğine bulundukları yerde dondurur."
@@ -4396,7 +4417,7 @@ TID_HERO_INFO_LOCKED_BP_FUTURE_SEASON_INFO,<SEASON>. sezonda geliyor
 TID_HERO_INFO_LOCKED_BP_FUTURE_SEASON_INFO_SHORT,<SEASON>. sezonda geliyor
 TID_RAID_4,Ormanda Gümbürtü
 TID_RAID_5,İplere Bağlı
-TID_BRAWLPASS_AUTOCOLLECT_INFO,"Küçük bir hatırlatma: <NUM>. sezondan kalan alınmamış ödüllerin var. <NUM>. sezonun ödüllerini yakın zamanda almazsan, bu ödüller senin için otomatik olarak alınacak. Maksimum güç puanı sınırını aşan alınmamış güç puanları, şu anki sezon sona erdiğinde kaybedilecek."
+TID_BRAWLPASS_AUTOCOLLECT_INFO,Küçük bir hatırlatma: <NUM>. sezondan kalan almadığın ödüller var. <NUM>. sezonun ödüllerini yakında almazsan ödüller otomatik olarak alınacak. Sezon bittiğinde almadığın güç puanı ödülleri maksimum güç puanı sınırını aşıyorsa sığmayan puanlar altına dönüştürülür.
 TID_BRAWLPASS_AUTOCOLLECT_INFO_TITLE,ÖNEMLİ DUYURU!
 TID_BRAWLPASS_ALREADY_UNLOCKED_COMPENSATION_INFO,"Satın alım sırasında Brawl Pass zaten etkin olduğundan, durumu telafi etmek için hesabınıza <NUM> elmas ekledik."
 TID_BRAWLPASS_ALREADY_UNLOCKED_COMPENSATION_INFO_TITLE,BRAWL PASS ZATEN ETKİN
@@ -4495,6 +4516,7 @@ TID_SPEC_ABI_RUFFS_1_DESC,İkmal kutusuna ekstra bir bomba eklenir ve kutunun ha
 TID_SPEC_ABI_RUFFS_2,DESTEK ALANI
 TID_SPEC_ABI_RUFFS_2_DESC,Bu yetenek etkin olduğu sürece Ruffs'ın menzilinde yer alan dost savaşçıların maksimum sağlığı saniye başına <c00cc00><VALUE1></c> puan artar.
 TID_ACCESSORY_RUFFS_COVER,SİPER AL!
+TID_ACCESSORY_RUFFS_COVER_DESC,"Ruffs, siper almak için <c00cc00><VALUE1></c> kum torbası atar. Her kum torbası <c00cc00><VALUE2></c> sağlığa sahiptir."
 TID_SKIN_INFO_CAMPAIGN_ANNIVERSARY_2019,2019 yıl dönümü kostümü
 TID_SKIN_INFO_CAMPAIGN_ANNIVERSARY_2020,2020 yıl dönümü kostümü
 TID_ENTER_AGE_TIP_NUM_PAD,Devam etmek için yaşını gir.
@@ -4503,6 +4525,7 @@ TID_ACCESSORY_ROSA_BUSH_CONTROL_DESC,Çalıların içinde saklanan tüm düşman
 TID_ACCESSORY_SPAWNER_DUDE_EXTRA_PORTER,EKSTRA YARDIMCI
 TID_ACCESSORY_SPAWNER_DUDE_EXTRA_PORTER_DESC,Bir sonraki saldırının isabet ettiği yerde güçlü olmayan bir yardımcı çıkar.
 TID_ACCESSORY_POCO_CLEANSE,KORUYUCU NOTALAR
+TID_ACCESSORY_POCO_CLEANSE_DESC,Geniş bir alanda dost savaşçıların üzerindeki kötü etkileri kaldırır ve <c00cc00><VALUE2></c> saniye boyunca bu tür etkilere karşı koruma sağlar.
 TID_ACCESSORY_FRANK_PULL,KARŞI KONULMAZ ÇEKİM
 TID_ACCESSORY_FRANK_PULL_DESC,Frank'in sonraki saldırısı ekstra <c00cc00>%<VALUE1></c> hasar verir ve düşmanları kendine çeker.
 TID_ACCESSORY_GENE_HOMING,İNTİKAMCI RUHLAR
@@ -4719,8 +4742,8 @@ TID_RANKED_ENEMY_TEAM_PICK_TURN,<cf75252><PLAYER> İÇİN SEÇME</c> SIRASI
 TID_RANKED_OWN_PICK_TURN,<cffffff>SENİN SEÇME</c> SIRAN
 TID_RANKED_FINAL_TURN,<cffffff>SON HAZIRLIK</c>
 TID_ELECTRO_SNIPER,BELLE
-TID_ELECTRO_SNIPER_SHORT_DESC,YÜKSEK HASAR
-TID_ELECTRO_SNIPER_DESC,"Çetesindeki herkesin hayranlık duyduğu Belle, elektro tüfeğiyle rakiplerini de şok edip dehşete düşürür!"
+TID_ELECTRO_SNIPER_SHORT_DESC,KESKİN NİŞANCI
+TID_ELECTRO_SNIPER_DESC,"Çetesindeki herkesin hayranlık duyduğu Belle, elektro tüfeğiyle rakiplerini şoka sokar!"
 TID_ELECTRO_SNIPER_WEAPON,ŞOKÇU
 TID_ELECTRO_SNIPER_WEAPON_DESC,"Belle, isabet ettiği tüm hedeflere hasar veren uzun menzilli bir Elektro Ok atar. Kısa bir gecikmeden sonra ok, yakındaki bir hedefe sıçrayıp hasar verir ve bir sonraki hedefe sıçrar."
 TID_ELECTRO_SNIPER_ULTI,GÖZCÜ
@@ -4732,7 +4755,7 @@ TID_SPEC_ABI_ELECTRO_SNIPER_2_DESC,"Belle'in süper saldırısıyla işaretlenen
 TID_ACCESSORY_ELECTRO_SNIPER_TRAP,ZULA
 TID_ACCESSORY_ELECTRO_SNIPER_TRAP_DESC,"Belle, rakipler tarafından tetiklendiğinde patlayan bir tuzak yerleştirir. Tuzak <c00cc00><VALUE1></c> hasar verir ve patlama alanındaki herkesi <c00cc00><VALUE2></c> saniyeliğine yavaşlatır."
 TID_STICKY_BOMB,SQUEAK
-TID_STICKY_BOMB_SHORT_DESC,YÜKSEK HASAR
+TID_STICKY_BOMB_SHORT_DESC,GÖZETMEN
 TID_STICKY_BOMB_DESC,"Colonel Ruffs'ın kazara oluşturduğu Squeak, yakalayıp getirme konusunda çok yetenekli!"
 TID_STICKY_BOMB_WEAPON,YAPIŞKAN BOMBA
 TID_STICKY_BOMB_WEAPON_DESC,"Squeak'in dengesiz yapışkan kütleleri, geniş bir alana yayılacak şekilde patlar. İsabet ettiği tüm rakiplere yapışır."
@@ -4750,6 +4773,7 @@ TID_RANKED_PICK_ERROR_BRAWLER_BANNED,"Bu savaşçı yasaklandı, başka seç!"
 TID_RANKED_PICK_ERROR_BRAWLER_PICKED,"Bu savaşçı zaten seçildi, başka seç!"
 TID_RANKED_PICK_ERROR_BRAWLER_UNRELEASED,Bu savaşçı henüz Güç Liginde kullanılamıyor. Başkasını seç!
 TID_RANKED_PICK_ERROR_BRAWLER_UNRELEASED_CLUB_LEAGUE,Bu savaşçı henüz güç maçlarında kullanılamıyor. Başka bir savaşçı seç!
+TID_RANKED_ERROR_BRAWLER_BLACKLISTED,"Bu savaşçı, turnuva organizatörü tarafından devre dışı bırakıldı."
 TID_RANKED_HERO_POWER,GÜÇ <NUM>
 TID_RANKED_REWARD_POPUP_SEASON,<SEASON>. SEZON
 TID_RANKED_REWARDS_TOOL_TIP,GÜÇ LİGİ iki 3'e 3 mod içerir:\n\n- Solo modda sana yakın lig seviyesinde iki rastgele oyuncuyla takım olursun.\n\n- Takım modunda önce takımını kurup öyle savaşa başlarsın.\n\nGÜÇ LİGİ ödüllerin bu iki modda ulaştığın en yüksek rütbeye göre belirlenir.
@@ -4934,7 +4958,7 @@ TID_ACCESSORY_ROPE_DUDE_WEAK_ULTI,YEDEK ŞAMANDIRA
 TID_ACCESSORY_ROPE_DUDE_WEAK_ULTI_DESC,Süper saldırıyı anında doldurur ancak sonraki torpido atışı rakipleri sersemletmez.
 TID_DONATION_FROM_SUPPORT,BRAWL STARS DESTEK'TEN HEDİYE
 TID_ASSAULT_SHOTGUN,GRIFF
-TID_ASSAULT_SHOTGUN_SHORT_DESC,YÜKSEK HASAR
+TID_ASSAULT_SHOTGUN_SHORT_DESC,GÖZETMEN
 TID_ASSAULT_SHOTGUN_DESC,"Griff, Starr Park'ta hediye dükkanının sahibidir. İşler kesat olsa da paraları har vurup harman savurur. Tabii çalışanların bahşiş kavanozundan aldığı paraları!"
 TID_ASSAULT_SHOTGUN_WEAPON,YAZI TURA
 TID_ASSAULT_SHOTGUN_WEAPON_DESC,"Öfkeli Griff, rakiplerine para fırlatır. Koni şeklinde yayılan üç ayrı atış yapar."
@@ -4960,7 +4984,7 @@ TID_SPEC_ABI_KNIGHT_2_DESC,"Ash, öfkelendikçe silahını daha hızlı doldurma
 TID_ACCESSORY_KNIGHT_HEAL,ÖFKE İLACI
 TID_ACCESSORY_KNIGHT_HEAL_DESC,"Ash, sürekli öfkeli olsa da zaman zaman sakinleşmek ona iyi geliyor. Bu aksesuarı kullandığında öfkesi tam doluysa sağlığı <c00cc00><VALUE1></c> puan artıyor. Öfkesi az olduğunda daha az iyileşiyor."
 TID_MECHA_DUDE,MEG
-TID_MECHA_DUDE_SHORT_DESC,YÜKSEK HASAR
+TID_MECHA_DUDE_SHORT_DESC,TANK
 TID_MECHA_DUDE_DESC,"Meg'in iki modu vardır: normal mod ve robotuna binip savaştığı robot modu. Robot, zamanla sağlık kaybeder ve yok edildiğinde Meg normal moduna geri döner."
 TID_MECHA_DUDE_WEAPON,HEDEF BELİRLENDİ
 TID_MECHA_DUDE_WEAPON_DESC,"Meg, silahıyla düşmanları rahatsız edecek seri atışlar yapar."
@@ -5002,7 +5026,7 @@ TID_CERRO_PORTENO_COLT_SKIN_SHOP,CERRO PORTEÑO\nCOLT
 TID_ATL_NACIONAL_COLT_SKIN_SHOP,ATL. NACIONAL\nCOLT
 TID_CLUB_AMERICA_COLT_SKIN,CLUB AMERICA COLT
 TID_CLUB_AMERICA_COLT_SKIN_SHOP,CLUB AMERICA\nCOLT
-TID_SKIN_INFO_CAMPAIGN_LAML,Güney Amerika Master Ligi kostümü
+TID_SKIN_INFO_CAMPAIGN_LAML,GÜNEY AMERİKA MASTER LİGİ
 TID_GAME_MODE_21,KUPAYI KORU
 TID_GAME_MODE_21_DESC,Puan kazanmak için kupayı elinde tut! %100'e ilk ulaşan takım maçı kazanır.
 TID_HOLD_THE_BALL_INTRO_TEXT,Puan toplamak için kupayı koru!
@@ -5148,6 +5172,7 @@ TID_KO_JUNE21_1,Para Saçma
 TID_KO_JUNE21_2,Zor İş
 TID_QUALIFIED_INFO_PARAM,"Tebrikler, <CHALLENGE> bitti, sen kazandın! Mücadele ödülün: <REWARD>"
 TID_CHALLENGE_WIN_REWARD_POPUP_TEXT,"<CHALLENGE>, <WIN>. zafer ödülün: <REWARD>"
+TID_QUALIFIED_INFO_FALLBACK_PARAM,"Tebrikler! <CHALLENGE> bitti, sen kazandın! Mücadele zaferi ödülün: <REWARD>\nBu ödül, sahip olduğun mevcut ödülün yerini alır."
 TID_CHALLENGE_WIN_FALLBACK_REWARD_POPUP_TEXT,"<WIN>, <CHALLENGE>. zafer ödülün: <REWARD>\nBu ödül, sahip olduğun mevcut ödülün yerini alır."
 TID_CHALLENGE_TEASER_INFO_PARAM,<CHALLENGE> geliyor!\n\n<WIN> maç kazan ve <REWARD> senin olsun! Kazanma şansını maksimuma çıkarmak için arkadaşlarınla takım kur veya \qTAKIM ARA\q seçeneğini kullan.\n\nMücadele sadece <DURATION> saat açık olacak. İyi şanslar ve iyi eğlenceler!
 TID_CC_POPUP_QUALIFY_INFO_PARAM,Mücadele ödülü: <REWARD>!
@@ -5275,7 +5300,10 @@ TID_GEAR_VISION_TITLE,GÖRÜŞ
 TID_GEAR_SHIELD_TITLE,KALKAN
 TID_GEAR_RELOAD_SPEED_TITLE,DOLDURMA HIZI
 TID_GEAR_SUPER_CHARGE_TITLE,SÜPER DOLUM
+TID_GEAR_FOREST_SPEED_INFO,Çalıların içindeyken hızını %<NUM> artırır.
 TID_GEAR_STANDING_HEAL_INFO,Sağlığı %<NUM> daha hızlı doldurur.
+TID_GEAR_LOW_HEALTH_DAMAGE_INFO,Sağlığın %50'nin altındayken verdiğin hasarı %<NUM> artırır.
+TID_GEAR_VISION_INFO,Hasar gören düşmanlar <NUM> saniyeliğine görünür olur.
 TID_GEAR_SHIELD_INFO,"Ekstra <NUM> sağlık kazandıran bir kalkan verir. Bu kalkan, sağlık tam dolu olduğunda 10 saniyede onarılır."
 TID_GEAR_RELOAD_SPEED_INFO,%<NUM> daha hızlı DOLDURMA
 TID_GEAR_SUPER_CHARGE_INFO,Süper DOLUMLAR %<NUM> DAHA HIZLI
@@ -5287,25 +5315,34 @@ TID_GEAR_SHIELD_UPGRADE_INFO,Sağlığı artıran bir kalkan verir.
 TID_GEAR_RELOAD_SPEED_UPGRADE_INFO,Daha hızlı doldurma
 TID_GEAR_SUPER_CHARGE_UPGRADE_INFO,Daha hızlı süper dolum
 TID_GEAR_FOREST_SPEED_UPGRADE_TARGET,HIZ ARTIŞI
-TID_GEAR_STANDING_HEAL_UPGRADE_TARGET,SAĞLIK BONUSU
+TID_GEAR_STANDING_HEAL_UPGRADE_TARGET,SAĞLIK BONUSU %
 TID_GEAR_LOW_HEALTH_DAMAGE_UPGRADE_TARGET,EKSTRA HASAR
 TID_GEAR_VISION_UPGRADE_TARGET,GÖRÜNME SÜRESİ
 TID_GEAR_SHIELD_UPGRADE_TARGET,KALKAN CANI
 TID_GEAR_RELOAD_SPEED_UPGRADE_TARGET,DOLDURMA HIZI
 TID_GEAR_SUPER_CHARGE_UPGRADE_TARGET,SÜPER DOLUM ORANI
 TID_GEAR_SUPER_HEALTH_TITLE,DİK KAFALI
+TID_GEAR_SUPER_HEALTH_INFO,Tick'in kafası <NUM> ekstra sağlık kazanır.
 TID_GEAR_SUPER_HEALTH_UPGRADE_INFO,Tick'in kafası ekstra sağlık kazanır.
 TID_GEAR_SUPER_HEALTH_UPGRADE_TARGET,KAFA SAĞLIĞI
 TID_GEAR_POISON_DURATION_TITLE,GÜÇLÜ ZEHİR
+TID_GEAR_POISON_DURATION_INFO,Crow'un zehir hasarı %<NUM> artar.
+TID_GEAR_POISON_DURATION_UPGRADE_INFO,Crow'un zehir hasarı artar.
 TID_GEAR_POISON_DURATION_UPGRADE_TARGET,Güçlü Zehir
 TID_GEAR_SLOW_INCREASE_TITLE,YAPIŞKAN DİKENLER
+TID_GEAR_SLOW_INCREASE_INFO,Spike'ın süper saldırısı %<NUM> daha çok yavaşlatır.
+TID_GEAR_SLOW_INCREASE_UPGRADE_INFO,Spike'ın süper saldırısı daha çok yavaşlatır.
 TID_GEAR_SLOW_INCREASE_UPGRADE_TARGET,Yapışkan Dikenler
 TID_GEAR_SMOKE_DURATION_TITLE,SİS DALGASI
+TID_GEAR_SMOKE_DURATION_INFO,Leon'un sis bombası <NUM> saniye daha uzun sürer.
 TID_GEAR_SMOKE_DURATION_UPGRADE_INFO,Leon'un sis bombası daha uzun sürer.
 TID_GEAR_SMOKE_DURATION_UPGRADE_TARGET,Sis Dalgası
 TID_GEAR_SUPER_SHIELD_TITLE,SERT FIRTINA
+TID_GEAR_SUPER_SHIELD_INFO,Sandy'nin kum fırtınasının içinde kalan düşmanlar %<NUM> daha az hasar verir.
+TID_GEAR_SUPER_SHIELD_UPGRADE_INFO,Sandy'nin kum fırtınasının içinde kalan düşmanlar daha az hasar verir.
 TID_GEAR_SUPER_SHIELD_UPGRADE_TARGET,Sert Fırtına
 TID_GEAR_SUPER_RANGE_TITLE,ELİME KONUŞ
+TID_GEAR_SUPER_RANGE_INFO,Gene'in büyülü elinin menzili artar.
 TID_GEAR_SUPER_RANGE_UPGRADE_INFO,Gene'in büyülü eli daha ileriye uzanır.
 TID_GEAR_SUPER_RANGE_UPGRADE_TARGET,Elime Konuş
 TID_GEAR_UPGRADED,EŞYA YÜKSELTİLDİ!
@@ -5551,13 +5588,16 @@ TID_CLUB_LEAGUE_SHOW_TICKETS_TOGGLE,Alınabilecek <cFFDA14>maksimum</c> kulüp k
 TID_CLUB_LEAGUE_INFO_TITLE,KULÜP LİGİ HAKKINDA BİLGİLER
 TID_CLUB_LEAGUE_INFO_PAGE_1_MARKER,Hoş geldin
 TID_CLUB_LEAGUE_INFO_PAGE_1_TITLE,<cFCBC22>KULÜP OYUNLARINA HOŞ GELDİN!</c>
+TID_CLUB_LEAGUE_INFO_PAGE_1_DESC,Kulübünle oyna ve her hafta <cFCBC22>kulüp dükkanı</c> ödülleri kazan!\n\nHer hafta bir kulüp oyunu aktif olur:\n<cFCBC22>KULÜP LİGİ HAFTASI</c> - En yüksek sıralama ödülünü almak ve lig sıralamasında tırmanmak için diğer kulüplerle rekabet edersin.\n<cFCBC22>KULÜP GÖREVLERİ HAFTASI</c> - Üç kulüp görevi tamamlayarak kulübüne puan kazandırırsın. Hafta boyunca görevleri tamamladıkça kulüpteki herkesin alacağı ödül artar.
 TID_CLUB_LEAGUE_INFO_PAGE_2_MARKER,Kulüp Ligi
 TID_CLUB_LEAGUE_INFO_PAGE_2_TITLE,<cFCBC22>KULÜP LİGİ HAFTASI</c>
+TID_CLUB_LEAGUE_INFO_PAGE_2_DESC,"Kulüp ligi haftasında aynı ligdeki yedi kulüple mücadele edersin. Kulüp ligi etkinlikleri <cFCBC22>üç farklı günde</c> oynanır ve kulüpler en yüksek <cFCBC22>kulüp kupası</c> sayısına ulaşmaya çalışır. Kulüp ligi maçları için <cFCBC22>bilet</c> kullanman gerekir.\n\nHafta boyunca en iyi performansı sergileyen kulüp en fazla ödülü alır. <cFCBC22>Üst lige çıkma</c> ve <cFCBC22>alt lige düşme</c>, hafta bitiminde gerçekleşir.\n\nBonus: Kulüp arkadaşlarınla birlikte oynadığında maçlardan <cFCBC22>ekstra kulüp kupası</c> kazanırsın."
 TID_CLUB_LEAGUE_INFO_PAGE_3_MARKER,Kulüp Görevleri
 TID_CLUB_LEAGUE_INFO_PAGE_3_TITLE,<cFCBC22>KULÜP GÖREVLERİ HAFTASI</c>
+TID_CLUB_LEAGUE_INFO_PAGE_3_DESC,Kulüp görevleri haftasında yapacak <cFCBC22>üç görevin</c> olur.\n\nKulüp görevlerini tamamladığında kulübün <cFCBC22>puan</c> kazanır. Hafta bitene kadar kulübün ne kadar fazla puan kazanırsa herkesin alacağı ödül o kadar büyük olur. Ödülünü almak için en az bir kulüp görevi tamamlaman gerekir.\n\nBonus: Kulüp arkadaşınla birlikte oynayarak <cFCBC22>görevlerde ilerleme hızını iki katına çıkarabilirsin</c>.
 TID_CLUB_LEAGUE_INFO_PAGE_4_MARKER,Kulüp dükkanı
 TID_CLUB_LEAGUE_INFO_PAGE_4_TITLE,<cFCBC22>KULÜP DÜKKANI NEDİR?</c>
-TID_CLUB_LEAGUE_INFO_PAGE_4_DESC,Kulüp ligini ve kulüp görevlerini oynayarak <cFCBC22>kulüp altını</c> kazanırsın. Kazandığın kulüp altınlarını kulüp dükkanında harcayabilirsin!\n\nKulüp dükkanında <cFCBC22>ilerlemeni %50'ye kadar hızlandırabilir</c> ve <cFCBC22>özel kostümler</c> satın alabilirsin!
+TID_CLUB_LEAGUE_INFO_PAGE_4_DESC,Kulüp oyunlarına katılarak <cFCBC22>kulüp altını</c> kazanırsın. Kazandığın kulüp altınlarını kulüp dükkanında harcayabilirsin!\n\nKulüp dükkanında <cFCBC22>ilerlemeni %50'ye kadar hızlandırabilir</c> ve <cFCBC22>özel kostümler</c> satın alabilirsin!
 TID_CLUB_LEAGUE_INFO_PAGE_1_IMAGE_1,7 KULÜPLE YARIŞ
 TID_CLUB_LEAGUE_INFO_PAGE_1_IMAGE_2,3 ETKİNLİK GÜNÜ
 TID_CLUB_LEAGUE_INFO_PAGE_1_IMAGE_3,KULÜP KUPASI KAZANMAK İÇİN ETKİNLİKLERE KATIL
@@ -5728,7 +5768,7 @@ TID_TEAM_ERROR_52,Takıma katılınamıyor: Etkinlik artık yok.
 TID_TEAM_ERROR_53,Takımda daha fazla üye olmalı.
 TID_TEAM_ERROR_54,Etkinlik seçilemiyor. Bu etkinliğe yalnızca kulüp üyeleri katılabilir.
 TID_CROSS_BOMBER,GROM
-TID_CROSS_BOMBER_SHORT_DESC,YÜKSEK HASAR
+TID_CROSS_BOMBER_SHORT_DESC,TOPÇU
 TID_CROSS_BOMBER_DESC,"Grom, bir bekçidir ve nöbet tutmak onun için her şeyden önce gelir. Asıl saldırısında düşmanlarına telsizini fırlatır. Süper saldırısı da duvarları yıkan ve düşmanları geri püskürten koca bir bombadır!"
 TID_CROSS_BOMBER_WEAPON,PATLAYAN TELSİZ
 TID_CROSS_BOMBER_WEAPON_DESC,"Grom, patlayan telsizini fırlatır. Telsiz düştüğü yerde artı şeklinde patlayıp yoluna çıkan düşmanlara hasar verir."
@@ -5740,8 +5780,9 @@ TID_SPEC_ABI_CROSS_BOMBER_2,X FAKTÖRÜ
 TID_SPEC_ABI_CROSS_BOMBER_2_DESC,"Grom'un asıl saldırısı, maksimum menzilde <c00cc00>%<VALUE1></c> ekstra hasar verir."
 TID_ACCESSORY_CROSS_BOMBER_WATCHTOWER,BEKÇİ KULESİ
 TID_ACCESSORY_CROSS_BOMBER_WATCHTOWER_DESC,Grom'un büyük Grom bombasından bir bekçi kulesi çıkar ve tüm takım arkadaşlarının geniş bir alanda çalıların içini görmesini sağlar. Bekçi kulesi sağlığını zamanla kaybeder.
+TID_HOMEPAGE_GUIDE_FIRST_GEAR,Eşya bölmesi açıldı!
 TID_HOMEPAGE_GUIDE_FIRST_GEAR_2,İlk eşyanı ÜCRETSİZ olarak seç
-TID_ITEMS_HUB_GUIDE_GADGET,"Burada, <BRAWLER> için eşsiz aksesuarlar satın alabilirsin"
+TID_ITEMS_HUB_GUIDE_GADGET,Burada <BRAWLER> için eşsiz aksesuarlar satın alabilirsin.
 TID_ITEMS_HUB_GUIDE_GADGET_TAB,Aksesuarlar artık burada
 TID_ITEMS_HUB_GUIDE_STARPOWER,"Burada, <BRAWLER> için eşsiz Yıldız Güçleri alabilirsin"
 TID_ITEMS_HUB_GUIDE_STARPOWER_TAB,Yıldız Güçleri artık burada
@@ -5781,6 +5822,7 @@ TID_CLUB_LEAGUE_MIGRATION_KICKED,"Güncellemeyle birlikte kulüpler küçüldü�
 TID_CLUB_LEAGUE_MIGRATION_NO_CLUB_FOUND,"Hay aksi, sana uygun bir kulüp bulamadık. Kulüp ligine katılmak istiyorsan kulüplerde arama yaparak bir kulübe katılmanı öneririz."
 TID_LOOKING_TOGGLE_LOOKING_FOR_A_TEAM,Diğer oyunculara TAKIM ARIYOR notuyla gösterileceksin.
 TID_LOOKING_TOGGLE_LOOKING_FOR_PLAYERS,Kulübün diğer oyunculara OYUNCU ARANIYOR notuyla gösterilecek.
+TID_CLUB_JOIN_FAIL_FEATURE_LOCKED,Kulübe katılamadın. Kulüpler <NUM> kupada açılır.
 TID_CLUB_LEAGUE_LEAGUES_POPUP_CURRENT_LEAGUE,ŞU ANKİ LİG
 TID_CLUB_LEAGUE_LEAGUES_POPUP_MESSAGE,Lig değişiklikleri kulüp ligi haftasının sonunda gerçekleşir.\nÜst liglere çıktıkça kazanabileceğin kulüp altını sayısı artar.
 TID_CLUB_LEAGUE_LEAGUES_POPUP_BUTTON,TAMAM
@@ -5798,19 +5840,22 @@ TID_TEAM_AD_JOIN_FAIL_NOT_ENOUGH_TICKETS_YOU,Takıma katılamadın. Kulüp bilet
 TID_TEAM_REQUEST_INVITE_FAIL_NOT_ENOUGH_TICKETS_YOU,Davet edilemedi. Kulüp biletin yetersiz.
 TID_TEAM_REQUEST_INVITE_FAIL_NOT_ENOUGH_TICKETS_PLAYER,Davet edilemedi. Oyuncunun kulüp bileti yetersiz.
 TID_KICKER_DUDE,FANG
-TID_KICKER_DUDE_SHORT_DESC,YÜKSEK HASAR
+TID_KICKER_DUDE_SHORT_DESC,SUİKASTÇI
 TID_KICKER_DUDE_DESC,"Fang, amansız ve hızlı tekmeleriyle nam salmıştır. Asıl saldırısında bir tekme atar ve ayakkabısı uçar! Süper saldırısında ise çok güçlü bir tekmeyle yakın düşmanlarına zincir saldırı yapar."
 TID_KICKER_DUDE_WEAPON,KUNG FU AYAKKABISI
 TID_KICKER_DUDE_WEAPON_DESC,"Fang, hızlı bir tekme atar ve gizli bir teknik kullanır. Tekme hedefini vuramazsa ayakkabıları ayağından uçar!"
 TID_KICKER_DUDE_ULTI,ZİNCİR TEKME
 TID_KICKER_DUDE_ULTI_DESC,Fang'in güçlü tekmesi bir düşmana temas ettiğinde yakındaki düşmanlara zincirleme 3 vuruş yapabilir.
 TID_SPEC_ABI_KICKER_DUDE_1,SERİ TEKME
+TID_SPEC_ABI_KICKER_DUDE_1_DESC,Fang süper özelliğiyle bir düşmanı yok ettiğinde süper saldırısı anında yeniden dolar ve tekrar kullanılabilir.
 TID_SPEC_ABI_KICKER_DUDE_2,KALKAN AYAKKABI
 TID_SPEC_ABI_KICKER_DUDE_2_DESC,"Düşman saldırılarından gelen hasar, her <c00cc00><VALUE1></c> saniyede bir <c00cc00><VALUE2></c> azalır. Alınan hasar, maksimum <c00cc00>%<VALUE3></c> azaltılır."
 TID_ACCESSORY_KICKER_DUDE_GADGET,PATLAMIŞ MISIR YAĞMURU
 TID_ACCESSORY_KICKER_DUDE_GADGET_DESC,"Fang, bir avuç dolusu mısır tanesini havaya fırlatıp patlamış mısır yağmuru yağdırır! Her bir mısır patlağı <c00cc00><VALUE1></c> hasar verir."
 TID_GAME_MODE_24,DÜELLO
+TID_GAME_MODE_24_DESC,"Üç savaşçılı bir takım kurup rakip takımla düello formatında maçlar yaparsın. Her turda 1'e 1 savaş yapılır, savaşçılardan biri yok edildiğinde tur sona erer. Maçı almak için üç tur kazanmalısın!\n\nİyi bir savaşçı kadrosu oluşturmak ve savaşçıları doğru sırayla seçmek kazanma şansını artırır."
 TID_NOTIFICATION_TAG_TEAM,Yeni DÜELLO haritası açıldı! Yeni ödüller kazanma zamanı!
+TID_TAG_TEAM_INTRO_TEXT,Tüm düşman savaşçılarını yok et!
 TID_REWARD_INFO_RESOURCE_CLUBCOINS,<AMOUNT> kulüp altını aldın.
 TID_REWARD_INFO_RESOURCE_GEARSCRAP,<AMOUNT> parça aldın.
 TID_SKIN_INFO_PIRATES,Korsan kostümleri
@@ -5900,6 +5945,7 @@ TID_CLUB_LEAGUE_TODAYS_MAX_POINTS,MAKSİMUM PUAN
 TID_CLUB_LEAGUE_TODAYS_MAX_POINTS_EXTRA_PERCENT,+%<PERCENT>
 TID_CLUB_LEAGUE_BONUS_DAY,BONUS GÜNÜ
 TID_CLUB_LEAGUE_TROPHY_RESET,Kulüp kupaları her etkinlik gününün sonunda sıfırlanır.
+TID_CLUB_LEAGUE_TROPHY_RESET_MESSAGE,"Bugünün kulüp ligi etkinliklerine katıl, kulüp kupası kazan! Kulüp kupaları her etkinlik gününün ardından sıfırlanır. Kulübüne katkıda bulunmak için her etkinlik gününde oyna."
 TID_EMOTE_BUNDLE_LNY22_PACK,Yeni ay yılı kostüm ve rozet seti
 TID_SKIN_INFO_CAMPAIGN_LUNAR_BRAWL_22,Bu kostümle yeni ay yılını kutluyoruz!
 TID_EVENT_POPUP_GMV_LABEL_DUEL,1'e 1
@@ -5912,6 +5958,9 @@ TID_BRAWL_PASS_SEASON_9,KAPLAN YILI
 TID_TAGTEAM_TROPHY_INFO_TITLE,DÜELLO'DA KUPA ÖDÜLLERİ
 TID_TAGTEAM_TROPHY_INFO_LOSE_TITLE,KAYBEDİLEN MAÇ
 TID_TAGTEAM_TROPHY_INFO_WIN_TITLE,KAZANILAN MAÇ
+TID_TAGTEAM_TROPHY_INFO_LOSE_INFO,"Her savaşçı, normal maçta kaybedeceği kupanın <VALUE> kadarını kaybeder."
+TID_TAGTEAM_TROPHY_INFO_WIN_INFO,"Her savaşçı, normal maçta kazanacağı kupanın <VALUE> kadarını kazanır."
+TID_TAGTEAM_TROPHY_INFO_WIN_INFO_EXTRA,"Toplam kupa sayısı, tek bir savaşçının kazanabileceği en düşük kupa sayısından azsa aradaki fark tüm savaşçılara rastgele dağıtılır."
 TID_TRUE_GOLD_ROSA_SKIN,SAF ALTIN ROSA
 TID_TRUE_GOLD_ROSA_SKIN_SHOP,SAF ALTIN\nROSA
 TID_TRUE_GOLD_JACKY_SKIN,SAF ALTIN JACKY
@@ -5993,7 +6042,7 @@ TID_VICTORY_MATCH_OVER,ZAFER!\nMaç bitti
 TID_LOSS_MATCH_OVER,YENİLGİ!\nMaç bitti
 TID_SKIN_INFO_CAMPAIGN_LUNAR_BRAWL_2022,Yeni ay yılı 2022 kostümü
 TID_LOGIN_CALENDAR_LEFT_TITLE,GÜNLÜK HEDİYE SERİSİ
-TID_LOGIN_CALENDAR_LEFT_SUBTITLE,"<cfffc11>15 GÜN BOYUNCA HER GÜN GİRİŞ YAP</c>, <cfffc11>ÜCRETSİZ HEDİYELER</c> kazan! <cfffc11>BİR GÜN BİLE KAÇIRIRSAN</c> seri bozulur!"
+TID_LOGIN_CALENDAR_LEFT_SUBTITLE,<cfffc11>15 GÜN BOYUNCA HER GÜN GİRİŞ YAP</c> ve <cfffc11>ÜCRETSİZ HEDİYELER</c> kazan!
 TID_LOGIN_CALENDAR_RIGHT_TITLE,BUGÜNÜN ÖDÜLLERİ
 TID_LOGIN_CALENDAR_BUTTON_CLAIM,AL
 TID_LOGIN_CALENDAR_BUTTON_CLOSE,KAPAT
@@ -6014,6 +6063,7 @@ TID_LOGIN_CALENDAR_REWARD_DESC_PIN,<VALUE1> rozet <VALUE2>/<VALUE3>. Rozetleri s
 TID_LOGIN_CALENDAR_REWARD_DESC_SKIN,Bu yeni kostümü <VALUE> için kullanabilirsin!
 TID_LOGIN_CALENDAR_REWARD_DESC_GADGET_CHOICE,<VALUE> için bir aksesuar seç. Aksesuarlar savaşta üç kez kullanılabilen ekstra yeteneklerdir.
 TID_LOGIN_CALENDAR_REWARD_DESC_PIN_X2,Bu ödül 2 YENİ ROZET veriyor.
+TID_LOGIN_CALENDAR_REWARD_DESC_STARPOWER_CHOICE,<VALUE> için bir yıldız gücü seç. Yıldız güçleri savaşçılara pasif yetenekler kazandırır.
 TID_LOGIN_CALENDAR_ERROR_REWARD_EXPIRED,Ödülün süresi doldu.
 TID_CHINA_PRIVACY_SETTINGS_BUTTON,Gizlilik Ayarları
 TID_CHINA_PRIVACY_SETTINGS_TITLE,GİZLİLİK AYARLARI
@@ -6027,6 +6077,7 @@ TID_ACCESSORY_STICKY_BOMB_VISION,KALINTI
 TID_ACCESSORY_STICKY_BOMB_VISION_DESC,"Squeak'in bir sonraki yapışkan bombası patladıktan sonra, düşmanları yavaşlatan ve dostlarının <c00cc00><VALUE1></c> saniyeliğine çalılarda saklananları görmesini sağlayan bir kalıntı bırakır."
 TID_ACCESSORY_ELECTRO_SNIPER_BOUNCE,TERS KUTUP
 TID_ACCESSORY_ELECTRO_SNIPER_BOUNCE_DESC,Belle'in bir sonraki elektro oku duvarlardan seker.
+TID_TUTORIAL_SD_FIRSTBATTLE,"En son ayakta kalan savaşçı kazanır! Gücünü artırmak için güç küplerini toplamalısın. Zehirli bulutlar yaklaşıyor, elini çabuk tut!"
 TID_ACCESSORY_KICKER_DUDE_SWEEP,DÖNER TEKME
 TID_ACCESSORY_KICKER_DUDE_SWEEP_DESC,Fang kendi etrafında dönerek çevresindeki tüm düşmanlara vurur ve hepsini <c00cc00><VALUE1></c> saniyeliğine sersemletir.
 TID_TDM_30_SECONDS,30 SANİYE KALDI!
@@ -6040,6 +6091,7 @@ TID_STAT_BIG_EGG_DAMAGE,En büyük yumurta hasarı
 TID_TUTORIAL_SD_FIRST,Eğitim Adası
 TID_OVERTIME_PAYLOAD,Uzatmalar!\nMaden arabaları artık daha hızlı!
 TID_GATCHA_SCREEN_WCPP_DROP_TITLE,TÜM SAVAŞÇILAR İÇİN GÜÇ PUANI
+TID_GATCHA_SCREEN_WCPP_DROP_DESC,Tüm ödülleri aldıktan sonra bir savaşçı seç.
 TID_EMOTE_BUNDLE_BIODOME_PACK,Biyodom kostüm ve rozet seti
 TID_SHOP_BIODOME_SKINS,Biyodom kostümleri
 TID_SHOP_BIODOME_TITLE,BİYODOM
@@ -6056,6 +6108,7 @@ TID_LOGIN_CALENDAR_TIP_TITLE,İPUCU:
 TID_LOGIN_CALENDAR_TIP_SKINS,Shelly'i seçerken kostümler düğmesini kullanarak kostümünü değiştirebilirsin.
 TID_LOGIN_CALENDAR_TIP_PINS,Rozetleri savaşta duygularını ifade etmek için kullanırsın.
 TID_LOGIN_CALENDAR_TIP_GADGET,Aksesuarlar savaşta üç kez kullanılabilen ekstra yeteneklerdir.
+TID_LOGIN_CALENDAR_TIP_STAR_POWER,Yıldız güçleri savaşçılara pasif yetenekler kazandırır.
 TID_LOGIN_CALENDAR_PINS_DESCRIPTION,Sonraki rozet <VALUE>. GÜN gelecek.\nKoleksiyonu tamamlamak için her gün giriş yapmayı unutma!
 TID_LOGIN_CALENDAR_BUTTON_TITLE,SONRAKİ GÜNLÜK HEDİYE:
 TID_LOGIN_CALENDAR_REMINDER_1_TITLE,14 gün boyunca <HERONAME> için ÜCRETSİZ ödüller!
@@ -6065,6 +6118,7 @@ TID_LOGIN_CALENDAR_REMINDER_2_TITLE,15. günde ÜCRETSİZ <cff92f9>destansı</c>
 TID_LOGIN_CALENDAR_REMINDER_2_DESCRIPTION,Günlük hediyelerin hepsini almak için bir günü bile kaçırma!
 TID_LOGIN_CALENDAR_REMINDER_2_BUTTON,HAYDİ!
 TID_LOGIN_CALENDAR_REWARD_DESC_GADGET,<HERONAME> için <VALUE> aksesuarını açar. Aksesuarlar savaşta üç kez kullanılabilen ekstra yeteneklerdir.
+TID_LOGIN_CALENDAR_REWARD_DESC_STARPOWER,<HERONAME> için <VALUE> yıldız gücünü açar. Yıldız güçleri savaşçılara pasif yetenekler kazandırır.
 TID_LOGIN_CALENDAR_SCREEN_BRAWLER_CHOICE_TAGLINE_1,Çift Çifte
 TID_LOGIN_CALENDAR_SCREEN_BRAWLER_CHOICE_TAGLINE_2,Alan Hasarı
 TID_LOGIN_CALENDAR_CHOICE_OR,VEYA
@@ -6129,7 +6183,7 @@ TID_PAYLOAD_13,Görülmez Hasar
 TID_PAYLOAD_15,Özel Teslimat
 TID_BRAWL_PASS_SEASON_10,BİYODOM
 TID_DEATHMATCH_8,Kaçış Atlayışı
-TID_CLUB_LEAGUE_TIE_BREAKER_TITLE,EŞİTLİK DURUMUNDA SIRALAMA
+TID_CLUB_LEAGUE_TIE_BREAKER_TITLE,EŞİTLİK DURUMUNDA
 TID_CLUB_LEAGUE_TIE_BREAKER_DESCRIPTION,EŞİTLİK DURUMUNDA SIRALAMA\n\n1. Kulüp puanı\n2. Kulüp kupası (toplam)\n3. Kullanılan bilet (toplam)\n4. Aktif üye sayısı\n5. İlk sonuç değişimi\n
 TID_GEMGRAB_49,Açık Alan
 TID_BRAWLBALL_47,Hat Gerisi
@@ -6144,7 +6198,7 @@ TID_SHOWDOWN_70,Mezarlık
 TID_RANKED_BATTLE_END_EPIC,Destansı zafer!
 TID_RANKED_BATTLE_END_CLOSE,Çekişmeli maç!
 TID_JETPACK_GIRL,JANET
-TID_JETPACK_GIRL_SHORT_DESC,YÜKSEK HASAR
+TID_JETPACK_GIRL_SHORT_DESC,KESKİN NİŞANCI
 TID_JETPACK_GIRL_DESC,"Gösterinin yıldızı Janet, etrafındaki herkese gösteriş yapmaya bayılır.\n\nBir de kardeşi Bonnie'nin başı sürekli belaya girmese..."
 TID_JETPACK_GIRL_WEAPON,YÜKSEK NOTA
 TID_JETPACK_GIRL_WEAPON_DESC,Janet şarkı söylemeye başlayıp bir nota oluşturur. Elinde tuttuğu sürece notanın etki alanı daralır ve menzili artar.
@@ -6159,7 +6213,7 @@ TID_ACCESSORY_JETPACK_GIRL_GADGET_1_DESC,"Janet, yok olana kadar etrafındaki t�
 TID_ACCESSORY_JETPACK_GIRL_GADGET_2,SAHNE ARKASI
 TID_ACCESSORY_JETPACK_GIRL_GADGET_2_DESC,Janet'in bir sonraki yüksek notası kendisini geri iter. Bu şekilde duvarların arkasına geçebilir! Saldırısı ne kadar odaklanırsa o kadar geriye gider.
 TID_CANNON_GIRL,BONNIE
-TID_CANNON_GIRL_SHORT_DESC,KARMA
+TID_CANNON_GIRL_SHORT_DESC,KESKİN NİŞANCI
 TID_CANNON_GIRL_DESC,"Bonnie ve biricik topu \qClyde\q, ortalığı karıştırmaya bayılır. Bu sevimli küçük kızın bu kadar fazla felakete neden olabileceği kimin aklına gelirdi?"
 TID_CANNON_GIRL_WEAPON,DİŞ ATIŞI
 TID_CANNON_GIRL_WEAPON_DESC,"Bonnie, Clyde ile düşmanlarına DEV bir diş atar."
@@ -6252,6 +6306,7 @@ TID_REPORT_BATTLE_PLAYER_CONFIRMATION,Uygunsuz davranışları nedeniyle <NAME> 
 TID_DELETE_ACCOUNT_TITLE,Hesabımı Sil
 TID_UGC_INPUT_FEATURE_UNAVAILABLE,Bu özellik şu anda kullanılamıyor.
 TID_PLAYER_PROFILE_PRIVATE,Bu oyuncunun profili gizli olarak ayarlanmış.
+TID_PLAYER_CLUB_INFO_PRIVATE,Bu oyuncunun kulüp bilgileri gizli olarak ayarlanmış.
 TID_CLAN_RESPONSE_111,Bu özellik şu anda kullanılamıyor.
 TID_CLAN_RESPONSE_120,"Açıklama içeriğine izin verilmedi, lütfen farklı bir içerik deneyin."
 TID_CHINA_LOGIN_DESC_YOOZOO,本公司积极履行《网络游戏行业防沉迷自律公约》抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》、《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有网络游戏用户均需使用有效身份信息完成账号实名注册后方可进入游戏，认证为未成年的玩家将受到防沉迷功能限制。沪网文【2018】8544-517号、新出网证（沪）字33号 著作权人：SUPERCELL OY 出版单位：上海游族信息技术有限公司 运营单位：上海游族信息技术有限公司 批准文号：国新出审【2020】552号 出版物号：ISBN 978-7-498-07472-0
@@ -6330,7 +6385,7 @@ TID_VALKYRIE_JANET_SKIN,VALKÜR JANET
 TID_VALKYRIE_JANET_SKIN_SHOP,VALKÜR\nJANET
 TID_DARUMA_MRP_SKIN,DARUMA MR. P
 TID_DARUMA_MRP_SKIN_SHOP,DARUMA\nMR. P
-TID_SKIN_INFO_CAMPAIGN_LANTERN,Fener Savaşı Kostümü
+TID_SKIN_INFO_CAMPAIGN_LANTERN,ZAMANIN KUMLARI
 TID_ACCESSORY_DRILLER_REBUILD,YENİLEME
 TID_ACCESSORY_DRILLER_REBUILD_DESC,"Jacky, etrafındaki küçük bir alanda engelleri tamir eder."
 TID_ACCESSORY_ASSAULT_SHOTGUN_PROJECTILES,ALTIN YAĞMURU
@@ -6346,8 +6401,10 @@ TID_LOGIN_CALENDAR_ALREADY_HAVE_GADGET,Bu aksesuar sende zaten var.
 TID_LOGIN_CALENDAR_ALREADY_HAVE_STAR_POWER,Bu yıldız gücü sende zaten var.
 TID_LOGIN_CALENDAR_FINAL_REWARD_MESSAGE,15. GÜNDE ÜCRETSİZ <cFF92F9>DESTANSI</c> SAVAŞÇI
 TID_LOGIN_CALENDAR_WARNING_MESSAGE,<cFFB820>BİR GÜN BİLE KAÇIRIRSAN</c> hediyelerini kaybedersin!
+TID_POWER_LEAGUE_BRAWLER_REQUIREMENT_SELECT,Bu etkinliğe katılmak için en az 12 savaşçı açmış olman gerekir.
 TID_TEAM_ERROR_134,Bu etkinliğe katılmak için en az 12 savaşçı açmış olman gerekir.
 TID_MATCHMAKE_FAILED_25,Bu etkinliğe katılmak için en az 12 savaşçı açmış olman gerekir.
+TID_POWER_LEAGUE_BRAWLER_REQUIREMENT_INVITE,"Bu oyuncu, etkinliğe katılmak için yeterli sayıda savaşçıya sahip değil."
 TID_TEAM_ERROR_133,"Bu oyuncu, etkinliğe katılmak için yeterli sayıda savaşçıya sahip değil."
 TID_REWARD_SPRAY_SLOT,EKSTRA SPREY BÖLMESİ
 TID_SPRAY_SLOT_TITLE,SPREY BÖLMESİ
@@ -6356,15 +6413,19 @@ TID_BANKHEIST_31,Ulaşılamaz
 TID_LOGIN_CALENDAR_FINAL_REWARD,ÜCRETSİZ <cFF92F9>DESTANSI</c> SAVAŞÇI
 TID_LOGIN_CALENDAR_OR,VEYA
 TID_LOGIN_CALENDAR_BRAWLER_UPGRADED,SAVAŞÇI YÜKSELTİLDİ!
+TID_LOGIN_CALENDAR_TOOLTIP_SKIN,Bu yeni savaşçı kostümü açılmayı bekliyor.\n\nKostümü aldıktan sonra savaşçı ekranından seçebilirsin. Savaşçının en az bir kostümü varsa savaşçıyı seçtikten sonra askı simgesine dokun.
+TID_LOGIN_CALENDAR_TOOLTIP_CHOOSE_BRAWLER,Açmak istediğin bir sonraki savaşçıyı seç!
+TID_LOGIN_CALENDAR_TOOLTIP_UPGRADE_BRAWLER,"Savaşçını yükselttikçe her seviyede sağlığı, saldırı hasarı ve süper saldırı hasarı artar. 7. seviyeye ulaştığında aksesuar bölmesi, 9. seviyeye ulaştığında yıldız gücü bölmesi açılır."
 TID_LOGIN_CALENDAR_TOOLTIP_PIN_1,Rozetleri kullanarak savaşta kendini ifade edebilirsin. Rozetler savaşçı ekranından seçilir.
 TID_LOGIN_CALENDAR_TOOLTIP_PIN_2,Rozetleri kullanarak savaşta kendini ifade edebilirsin. Rozetler savaşçı ekranından seçilir.
 TID_LOGIN_CALENDAR_TOOLTIP_GADGETS,Savaşçın için bir aksesuar seç. Aksesuarlar savaşta üç kez kullanılabilen ekstra bir özellik sağlar. Her savaşçının kendine özel aksesuarları vardır.
+TID_LOGIN_CALENDAR_TOOLTIP_STAR_POWER,Savaşçın için bir yıldız gücü seç. Yıldız güçleri savaşçına ekstra pasif yetenekler sağlar. Her savaşçının kendine özel yıldız güçleri vardır.
 TID_LOGIN_CALENDAR_TUTORIAL_TOOLTIP,İlk günlük hediyen seni bekliyor! Almak için dokun.
 TID_LOGIN_CALENDAR_STARR_PARK,STARR PARK
 TID_LOGIN_CALENDAR_LOYALTY_PROGRAM,SADAKAT PROGRAMI
 TID_LOGIN_CALENDAR_TITLE,STARR PARK SADAKAT PROGRAMI
 TID_REWARD_DESC_PLAYER_ICON_REGULAR,OYUNCU SİMGESİ
-TID_CLUB_LEAGUE_CLUB_COINS_HOW_TO_GET,"Kulüp altını, kulüp liginden kazanılır."
+TID_CLUB_LEAGUE_CLUB_COINS_HOW_TO_GET,"Kulüp altını, kulüp oyunlarına katılarak kazanılır."
 TID_CLUB_EVENTS_TITLE,KULÜP OYUNLARI
 TID_CLUB_EVENTS_LEAGUE_TAB_DAY,ETKİNLİK GÜNÜ
 TID_CLUB_EVENTS_LEAGUE_TAB_EVENT_DAY,<NUM>. ETKİNLİK GÜNÜ
@@ -6373,8 +6434,13 @@ TID_CLUB_EVENTS_LEAGUE_TAB_SEASON,HAFTA
 TID_CLUB_EVENTS_TAB_LEAGUE,LİG
 TID_CLUB_EVENTS_TAB_QUESTS,GÖREVLER
 TID_CLUB_EVENTS_BUTTON_CLUB_SHOP,KULÜP DÜKKANI
+TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_IS_TOP,Kulüplerin sadece en iyi <TOP> sonucu sayılır. <NUM>. sıradasın.
+TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_NOT_TOP,Kulüplerin sadece en iyi <TOP> sonucu sayılır. <cF76263><NUM></c>. sıradasın.
+TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_NOT_RANKED,Kulüplerin sadece en iyi <TOP> sonucu sayılır. <cF76263>Henüz katılmadın.</c>
+TID_CLUB_INFO_TOP_EVENT_DAY_PLAYER_DIVIDER,Kulüpteki sadece en iyi <TOP> katılımcının sonuçları sayılır.
 TID_CLUB_QUESTS_PLAYER_REWARD_DESC,HAFTA BİTİMİ ÖDÜLÜN
 TID_CLUB_QUESTS_LOCKED_REWARD_DESC,AÇMAK İÇİN HERHANGİ BİR KULÜP GÖREVİNİ TAMAMLA
+TID_CLUB_QUESTS_REWARD_TRACK_OVERLAY,Hafta bitimi ödülü olarak bunu almak için kulübünle <POINTS> puana ulaş!
 TID_CLUB_QUESTS_REWARD_TRACK_OVERLAY_CURRENT,Şu anki kulüp görevi hafta bitimi ödülü.
 TID_CLUB_QUESTS_REWARD_TRACK_OVERLAY_LOCKED,Şu anki kulüp görevi hafta bitimi ödülü. Hafta bittiğinde bir kulüp görevi tamamlayarak alabilirsin!
 TID_CLUB_QUESTS_LEAGUES_BUTTON,LİGLER
@@ -6413,7 +6479,9 @@ TID_CLUB_QUESTS_TEAM_BONUS_POPUP_X2,x2
 TID_CLUB_QUESTS_TEAM_BONUS_POPUP_PLAY_SOLO,TEK BAŞINA OYNA
 TID_CLUB_QUESTS_TEAM_BONUS_POPUP_ONLINE,<NUM> Çevrimiçi
 TID_CLUB_QUESTS_TEAM_BONUS_POPUP_TEAM_UP,TAKIM KUR!
+TID_CLUB_QUESTS_WARNING_NOT_AVAILABLE,Sadece haftaya başlarken üyesi olduğun kulübe katkıda bulunabilirsin.\n\nBu kulübe katkıda bulunmak için gelecek haftayı bekle!
 TID_CLUB_QUESTS_SEASON_END_REWARD_CLAIMED,ALINDI
+TID_CLUB_LEAGUE_WARNING_NOT_AVAILABLE,Kulübün henüz bir kulüp ligi haftasına katılmadı. Sıradaki kulüp ligi haftası başladığında diğer kulüplerle rekabet edebilirsin.
 TID_CLUB_EVENT_TIME_LEFT,<TIME> kaldı
 TID_SHOP_CLUB_SHOP_SEE_OFFERS,TEKLİFLERİ GÖR
 TID_SHOP_CLUB_SHOP_TITLE,KULÜP DÜKKANI
@@ -6426,7 +6494,7 @@ TID_BRAWLBALL_51,Yüksek Puan
 TID_BRAWLBALL_52,Pinpon
 TID_INBOX_CAPTION_72_68,HEDİYE: SPREY
 TID_SILENCER,OTIS
-TID_SILENCER_SHORT_DESC,YÜKSEK HASAR
+TID_SILENCER_SHORT_DESC,GÖZETMEN
 TID_SILENCER_DESC,"Otis, denizyıldızı dostu Cil ile birlikte derinlerde takılan bir sokak sanatçısıdır. Birlikte Starr Park'ın her yerine grafiti yapıyorlar."
 TID_SILENCER_WEAPON,MÜREKKEP SANATI
 TID_SILENCER_WEAPON_DESC,"Otis, sprey tabanca koluyla mürekkep damlaları püskürtür."
@@ -6458,7 +6526,10 @@ TID_CLUB_EVENTS_ONBOARDING_SUBTITLE,İlerlemeni hızlandır ve özel kostümler 
 TID_CLUB_EVENTS_ONBOARDING_PAGE_1_TITLE,Haftalık\nKULÜP OYUNLARINA hoş geldin!
 TID_CLUB_EVENTS_ONBOARDING_NEW_GAME,Yeni kulüp oyunu!
 TID_CLUB_EVENTS_ONBOARDING_PAGE_2_TITLE,KULÜP LİGİ
+TID_CLUB_EVENTS_ONBOARDING_PAGE_2_DESCRIPTION,Başka kulüplerle karşı karşıya gel!\nÜst liglere tırman!
 TID_CLUB_EVENTS_ONBOARDING_PAGE_3_TITLE,KULÜP GÖREVLERİ
+TID_CLUB_EVENTS_ONBOARDING_PAGE_3_DESCRIPTION,Kulübünle birlikte görevleri tamamla!
+TID_CLUB_EVENTS_ONBOARDING_PAGE_4_1,Kulübünle birlikte oyna! Her hafta bir kulüp oyunu olur.
 TID_CLUB_EVENTS_ONBOARDING_PAGE_4_2,Kulüp altını kazan!
 TID_CLUB_EVENTS_ONBOARDING_PAGE_4_3,Kulüp dükkanında ilerlemeni hızlandır!
 TID_SUGGEST_TITLE,Savaşçı Öner
@@ -6528,6 +6599,8 @@ TID_DEATHMATCH_FFA_4,Hızlı ve Huzursuz
 TID_DEATHMATCH_FFA_5,Hüküm
 TID_DEATHMATCH_FFA_6,Doğru Patika
 TID_DEATHMATCH_FFA_7,Omega
+TID_CLUB_EVENTS_CHANGED_CLUB,Sadece haftaya başlarken üyesi olduğun kulübe katkıda bulunabilirsin.\n\nBu kulübe katkıda bulunmak için gelecek haftayı bekle!\n\nGelecek haftanın başlamasına: <TIME>
+TID_CLUB_QUESTS_CURRENT_CLUB_POINTS,Bu hafta kulübünün topladığı puan
 TID_CLUB_QUESTS_THIS_WEEKS_QUESTS,BU HAFTAKİ KULÜP GÖREVLERİ
 TID_SPEC_ABI_ARTILLERY_DUDE_1,BÜYÜK KESE
 TID_SPEC_ABI_ARTILLERY_DUDE_1_DESC,"Penny'nin altın dolu keseleri, rakibe isabet ettiğinde <c00cc00>%<VALUE1></c> daha geniş bir koniye saçılır."
@@ -6540,6 +6613,7 @@ TID_ACCESSORY_ARTILLERY_DUDE_GADGET_2_DESC,"Penny'nin topu, menzildeki görünen
 TID_RANDOM_GAME_MODE_DESC,"Oyun modu, harita ve dış etkenler rastgele seçiliyor. Nelerle karşılaşacağın tam bir sır!"
 TID_CLUB_QUESTS_EXPIRED,GÖREVİN SÜRESİ DOLDU
 TID_CLUB_LEAGUE_ACTIVE,LİG HAFTASI etkin
+TID_CLUB_QUESTS_TUTORIAL,Kulübüne puan kazandırmak için bu hafta üç kulüp görevi tamamlamalısın.
 TID_CLUB_QUESTS_YOUR_QUESTS,BU HAFTAKİ KULÜP GÖREVLERİ
 TID_CLUB_QUESTS_NEW_QUESTS,YENİ KULÜP GÖREVLERİ
 TID_CLUB_QUESTS_REWARDS_INCREASED,Kulüp ligi ve kulüp görevleri için alacağın maksimum ödüller arttı.
@@ -6581,13 +6655,14 @@ TID_BRAWL_PASS_SEASON_12,DERİN DENİZ SAVAŞI
 TID_TRIPLE_TAKEDOWN,ÜÇ KİŞİ YOK EDİLDİ!
 TID_QUAD_TAKEDOWN,DÖRT KİŞİ YOK EDİLDİ!
 TID_WEAPON_THROWER,SAM
-TID_WEAPON_THROWER_SHORT_DESC,YÜKSEK HASAR
+TID_WEAPON_THROWER_SHORT_DESC,SUİKASTÇI
 TID_WEAPON_THROWER_DESC,"Eski bir fabrika işçisi olan Sam Bronson, tüm robotlara büyük bir kin besler.\n\nAltın Kol Çetesinin kas gücü olarak altınları aşırmaktan, robotları ise yumruklamaktan mutluluk duyar!"
 TID_WEAPON_THROWER_WEAPON,AĞIR YUMRUKLAR
 TID_WEAPON_THROWER_WEAPON_DESC,"Sam, büyük hasar veren bir çift yumruk atar. Eldivenleri takılı olduğunda çok daha fazla hasar verir."
 TID_WEAPON_THROWER_ULTI,VAHŞİ ELDİVENLER
 TID_WEAPON_THROWER_ULTI_DESC,"Sam, vahşi eldivenlerini fırlatır ve eldivenler yere düşene kadar çarptıkları tüm düşmanlara hasar verir. Bir sonraki süper saldırısı eldivenleri geri çağırır, eldivenler dönerken de çarptıkları düşmanlara hasar verir."
 TID_SPEC_ABI_WEAPON_THROWER_1,GÜÇLÜ İYİLEŞME
+TID_SPEC_ABI_WEAPON_THROWER_1_DESC,"Sam, vahşi eldivenlerini geri çağırır çağırmaz <c00cc00>%<VALUE1></c> iyileşir."
 TID_SPEC_ABI_WEAPON_THROWER_2,UZAKTAN DOLUM
 TID_SPEC_ABI_WEAPON_THROWER_2_DESC,Yerdeki eldivenler düşmanlara yakın olduğu sürece Sam'in süper gücü dolar.
 TID_ACCESSORY_WEAPON_THROWER_GADGET_1,MANYETİK ALAN
@@ -6599,6 +6674,7 @@ TID_ACCESSORY_BLOCKED_GAUNTLETS_TOO_FAR,Vahşi eldivenler çok uzakta!
 TID_ACCESSORY_BLOCKED_GAUNTLETS_REQUIRED,Vahşi eldivenler gerekiyor!
 TID_SOUL_COLLECTOR,GUS
 TID_SOUL_COLLECTOR_SHORT_DESC,DESTEK
+TID_SOUL_COLLECTOR_DESC,"Unutulup gitmiş bir lunapark trenini evi belleyen Gus, balonlara bayılır. Efsaneye göre bir gün, balondan yapılma bir köpeğin peşinden koştururken kaybolmuş ve bir daha evine dönememiş."
 TID_SOUL_COLLECTOR_WEAPON,ÇILGIN BALONLAR
 TID_SOUL_COLLECTOR_WEAPON_DESC,"Gus, düşmanlarına balon atar. Birkaç vuruş yaptığında yere bir ruh düşer. Toplanan ruhlar Gus'ı veya takım arkadaşlarını bir miktar iyileştirir."
 TID_SOUL_COLLECTOR_ULTI,ÜRKÜNÇ ÇOCUK
@@ -6698,6 +6774,7 @@ TID_HINT_51,Kontrol düğmelerinin yerini değiştirmek için DENE özelliğini 
 TID_HINT_52,Savaş topunda süper gücünü kullanarak süper vuruş yapabilirsin!
 TID_HINT_53,Elmas kapmaca sırasında en fazla elmas sizdeyse saldırı yerine savunmaya öncelik verin.
 TID_HINT_54,Takım arkadaşların yok edildiyse oyuna girmelerini bekleyip birlikte saldırabilirsiniz!
+TID_HINT_55,"Dostluk maçları, pratik yaparak becerilerini geliştirmeni sağlar."
 TID_HINT_56,Bazı savaşçıların ilginç özellikleri var! Savaşçı İstatistikleri ekranından özelliklere bakabilirsin.
 TID_HINT_57,Çift hesaplaşma sırasında güç küplerini takım arkadaşın hayattayken almaya dikkat et.
 TID_HINT_58,Mücadelelerde \qTakım ara\q özelliğini kullanmayı unutma!
@@ -6707,7 +6784,7 @@ TID_HINT_61,Jessie'nin mermisi her sektiğinde biraz daha az hasar verir.
 TID_HINT_62,"Colette, sağlığı yüksek savaşçılara büyük hasar verebilir."
 TID_HINT_63,"Edgar, her yumruk attığında iyileşir."
 TID_HINT_64,"Janet, ne kadar uzun süre nişan alırsan o kadar uzağa ateş eder."
-TID_HINT_65,"Gene'nin bölünen saldırısı, hem düşmanları kontrol altında tutmasını hem de süper gücünü doldurmasını sağlar."
+TID_HINT_65,"Gene'in bölünen saldırısı, hem düşmanları kontrol altında tutmasını hem de süper gücünü doldurmasını sağlar."
 TID_LAST_STAND_WAVE_1,Robotlar yaklaşıyor!
 TID_LAST_STAND_WAVE_2,Daha fazla düşman geliyor!
 TID_LAST_STAND_SHUTDOWN,<ccc0000>8-BIT kapanıyor!</c>
@@ -6725,13 +6802,18 @@ TID_TRY_BRAWLER_TITLE,Savaşçıyı Dene
 TID_TRY_BRAWLER_BUTTON_PRACTICE_MATCH,ALIŞTIRMA MAÇI
 TID_TRY_BRAWLER_BUTTON_TRAINING_GROUNDS,EĞİTİM ALANI
 TID_FIRST_GADGET_TUTORIAL_HEADER,AKSESUARLAR
+TID_FIRST_GADGET_TUTORIAL_HEADER_DESC,Savaşçın için ekstra bir yetenek
 TID_FIRST_GADGET_TUTORIAL_1_DESC,Tüm savaşçıların aksesuar bölmesi 7. seviyede açılır
+TID_FIRST_GADGET_TUTORIAL_2_DESC,Tüm savaşçılar için eşsiz aksesuarlar
 TID_FIRST_GADGET_TUTORIAL_3_DESC,Seçilen aksesuar maç başına 3 kez kullanılabilir
 TID_FIRST_GADGET_TUTORIAL_3_x3,3 kez
 TID_FIRST_STARPOWER_TUTORIAL_HEADER,YILDIZ GÜÇLERİ
+TID_FIRST_STARPOWER_TUTORIAL_HEADER_DESC,Savaşçın için benzersiz pasif yetenekler
 TID_FIRST_STARPOWER_TUTORIAL_1_DESC,Tüm savaşçıların yıldız gücü bölmesi 9. seviyede açılır
+TID_FIRST_STARPOWER_TUTORIAL_2_DESC,Tüm savaşçılar için eşsiz yıldız güçleri
 TID_FIRST_STARPOWER_TUTORIAL_3_DESC,Seçilen yıldız gücü her zaman aktif olur
 TID_FIRST_GEAR_TUTORIAL_1_DESC,Tüm savaşçıların ilk eşya bölmesi 10. seviyede açılır
+TID_FIRST_GEAR_TUTORIAL_2_DESC,Her savaşçı için birden fazla eşya vardır.
 TID_FIRST_GEAR_TUTORIAL_3_DESC,Seçilen eşya her zaman aktif olur
 TID_TRY_BRAWLER_SELECTING_PRACTICE_MATCH,Alıştırma Maçı Seçimi
 TID_SHIELD_TANK,BUSTER
@@ -6742,9 +6824,11 @@ TID_SHIELD_TANK_WEAPON_DESC,"Buster, projektöründen bir ışık konisi ateşle
 TID_SHIELD_TANK_ULTI,MONTAJ
 TID_SHIELD_TANK_ULTI_DESC,"Buster, düşmanların mermilerini engelleyen ve enerji olarak geri yansıtan bir kalkan oluşturur."
 TID_SPEC_ABI_SHIELD_TANK_1,BÜYÜK SÜKSE
+TID_SPEC_ABI_SHIELD_TANK_1_DESC,"Buster'ın lens yansıması saldırısı, süper dolum alanındaki takım arkadaşı başına <c00cc00>%<VALUE1></c> daha fazla hasar verir."
 TID_SPEC_ABI_SHIELD_TANK_2,ÇELİK YELEK
 TID_SPEC_ABI_SHIELD_TANK_2_DESC,"Montaj gücü etkinken Buster <c00cc00>%<VALUE1></c> daha az hasar alır ve geri püskürtmelerden, yavaşlatmalardan ve sersemletmelerden etkilenmez."
 TID_ACCESSORY_SHIELD_TANK_GADGET_1,ALET KEMERİ
+TID_ACCESSORY_SHIELD_TANK_GADGET_1_DESC,"Buster, kendini ve yakınındaki tüm dost karakterleri süper dolum alanındaki takım arkadaşı başına <c00cc00><VALUE1></c> iyileştirir."
 TID_ACCESSORY_SHIELD_TANK_GADGET_2,AĞIR ÇEKİM TEKRARI
 TID_ACCESSORY_SHIELD_TANK_GADGET_2_DESC,"Buster´ın bir sonraki lens yansıması saldırısı, düşmanları kendisine çeker ve <c00cc00><VALUE1></c> saniyeliğine yavaşlatır."
 TID_GEAR_COMPENSATION_AMOUNTS_DESC,<TOKENS> EŞYA JETONU\n<SCRAP> PARÇASI
@@ -6753,6 +6837,7 @@ TID_FIRST_GEAR_TUTORIAL_SUBTITLE,Yeni bir pasif yetenekle savaşçını özelle�
 TID_FIRST_ITEM_TUTORIAL_BUTTON_LETS_GO,HAYDİ!
 TID_INBOX_CAPTION_52,<NAME> karşılığında <TYPE> eşyası hediye edildi
 TID_GEAR_COMPENSATION_INFO,"İşte eşyaların, eşya jetonların ve parçan için kullanabileceğin <COINS> altın!"
+TID_INBOX_CAPTION_GEAR_COMPENSATION,Eşyalar sıfırlandı ve sıfırlanan eşyalar için <COINS> altın aldın.
 TID_RECRUIT_TOKEN,Kredi
 TID_CHROMATIC_TOKEN,Kroma kredisi
 TID_FIRST_STARPOWER_TUTORIAL_TITLE,YILDIZ GÜÇLERİ
@@ -6788,6 +6873,11 @@ TID_PURCHASE_CHROMATIC_BTN_BP_ACTIVATE,ETKİNLEŞTİR
 TID_PURCHASE_CHROMATIC_BTN_BP_CLAIM,AL
 TID_PURCHASE_CHROMATIC_HERO_BP_CHANGED,Brawl Pass sezonu değişti!
 TID_RECRUIT_BRAWLER_BUY_BUTTON_UNLOCK_NOW,ŞİMDİ AÇ
+TID_PURCHASE_BRAWLER_ERROR_BRAWLER_ALREADY_UNLOCKED,Bu savaşçı sende zaten var!
+TID_PURCHASE_BRAWLER_ERROR_BP_TIER_NOT_REACHED,Bu savaşçıyı almak için Brawl Pass'in <TIER>. kademesine ulaşmalısın.
+TID_PURCHASE_BRAWLER_ERROR_BP_TIER_ALREADY_CLAIMABLE,Bu savaşçı Brawl Pass'ten alınmaya hazır.
+TID_PURCHASE_BRAWLER_ERROR_PREVIOUS_CHROMATIC_BRAWLER_COUNT_TOO_SMALL,İlk önce <NUM> kromatik savaşçı daha açmalısın.
+TID_PURCHASE_BRAWLER_ERROR_UNKNOWN,Bu savaşçı şu anda satın alınamıyor (<NUM>).
 TID_PURCHASE_BRAWLER_AUTO_OFFER_TITLE,<NAME> HEMEN AÇILSIN MI?
 TID_PURCHASE_BRAWLER_AUTO_OFFER_DESC,Eksik kredileri hemen topla ve <NAME> ile oynamaya başla!
 TID_RECRUIT_ROAD_CURRENT_BRAWLER_SWITCH,DEĞİŞTİR
@@ -6806,6 +6896,7 @@ TID_CHROMATIC_TOKEN_CAP_REACHED_BUTTON_SHOP,KROMATİK DÜKKAN
 TID_BUTTON_NAVI_RECRUIT_ROAD,STARR SAVAŞÇILARINI AÇ
 TID_SKIN_INFO_GHOST_TRAIN,Hayalet İstasyon kostümü
 TID_SCID_PURCHASE_VERIFICATION_ERROR,Satın alım doğrulanırken bir hata oluştu
+TID_TRAIT_CHARGE_SUPER_FROM_ALLIES,Bu savaşçının süper özelliği takım arkadaşlarının yakınındayken dolar
 TID_SKIN_INFO_ACTION,Aksiyon Filmi Kahramanı kostümü
 TID_SKIN_INFO_WF_2022,2022 Dünya Finalleri kostümü
 TID_BRAWL_PASS_SEASON_14,HAYALET İSTASYONU
@@ -6870,28 +6961,33 @@ TID_FAME_TIER_SATURNAL3,SATÜRN ŞÖHRETİ III
 TID_FAME_TIER_SOLAR1,GÜNEŞ ŞÖHRETİ I
 TID_FAME_TIER_SOLAR2,GÜNEŞ ŞÖHRETİ II
 TID_FAME_TIER_SOLAR3,GÜNEŞ ŞÖHRETİ III
+TID_FAME_PANEL_UNLOCK_INFO,Dünya şöhreti kazanmak için tüm savaşçıları aç!
 TID_FAME_SCREEN_PROFILE_BUTTON,PROFİL
 TID_FAME_SCREEN_FAME_BUTTON,ŞÖHRET
 TID_JESTER,CHESTER
 TID_JESTER_SHORT_DESC,YÜKSEK HASAR
+TID_JESTER_DESC,"Kutuda ne var?\n\nSorumluluk Reddi:\nStarr Corporation veya iştirakleri, iş ortakları, tedarikçileri ya da lisans sahipleri hiçbir koşulda kutuda ne olduğuna bakarken doğrudan..."
 TID_JESTER_WEAPON,ÇINGIRAKLI ŞAPKA
+TID_JESTER_WEAPON_DESC,"Chester şapkasından arka arkaya önce bir, sonra iki ve en son üç tane çıngırak fırlatır."
 TID_JESTER_ULTI,SÜRPRİZ KUTUSU
 TID_JESTER_ULTI_EXPLOSION,ŞEKER KUTUSU
 TID_JESTER_ULTI_EXPLOSION_DESC,"Chester'ın attığı şeker kutusu patlayarak siperleri darmaduman eder, düşmanları geri püskürtür ve onlara hasar verir."
 TID_JESTER_ULTI_STUN,AKİDE ŞEKERİ
-TID_JESTER_ULTI_STUN_DESC,"Chester, isabet ettiği düşmanları sersemleten kaya gibi sert bir şeker fırlatır."
+TID_JESTER_ULTI_STUN_DESC,"Chester, isabet ettiği düşmanları sersemleten, kaya gibi sert bir şeker fırlatır."
 TID_JESTER_ULTI_POISON,SALMİAKKİ
-TID_JESTER_ULTI_POISON_DESC,Chester'ın koni şeklinde püskürttüğü tuzlu salmiakki tozu düşmanları zehirler ve zaman geçtikçe hasar vermeye devam eder.
+TID_JESTER_ULTI_POISON_DESC,Chester'ın koni şeklinde püskürttüğü tuzlu salmiakki tozu düşmanları zehirler ve zaman içinde hasar vermeye devam eder.
 TID_JESTER_ULTI_AREA,PATLAYAN ŞEKERLER
-TID_JESTER_ULTI_AREA_DESC,Chester'ın yere serpiştirdiği patlayan şekerler üzerinde duran düşmanlara zaman geçtikçe hasar verir.
+TID_JESTER_ULTI_AREA_DESC,"Chester'ın yere serpiştirdiği patlayan şekerler, üzerlerinde duran düşmanlara zaman içinde hasar verir."
 TID_JESTER_ULTI_HEAL,NANE ETKİSİ
 TID_JESTER_ULTI_HEAL_DESC,Chester'ın ağzına attığı ferahlatıcı nane onu zamanla iyileştirir.
+TID_SPEC_ABI_JESTER_1,ÇINGIRAK ÇILGINLIĞI
+TID_SPEC_ABI_JESTER_1_DESC,Chester'ın saldırısına dört çıngıraklı ekstra bir vuruş eklenir.
 TID_SPEC_ABI_JESTER_2,ÖN GÖSTERİM
 TID_SPEC_ABI_JESTER_2_DESC,Chester her zaman bir sonraki süper saldırısının ne olacağını bilir.
 TID_ACCESSORY_JESTER_GADGET_1,SÜRPRİZ ZAR
-TID_ACCESSORY_JESTER_GADGET_1_DESC,"Chester sahip olduğundan farklı, rastgele bir süper saldırı alır."
+TID_ACCESSORY_JESTER_GADGET_1_DESC,"Chester'ın süperi, süper özellikleri arasından rastgele başka bir tanesiyle değişir."
 TID_ACCESSORY_JESTER_GADGET_2,AYICIK ŞEKERLEMELER
-TID_ACCESSORY_JESTER_GADGET_2_DESC,"Şapkasından çıkardığı gizemli şekerlemeleri yiyen Chester, <c00cc00><VALUE1></c> saniyeliğine rastgele bir güçlenme kazanır."
+TID_ACCESSORY_JESTER_GADGET_2_DESC,"Şapkasından çıkardığı gizemli şekerlemeleri yiyen Chester, <c00cc00><VALUE1></c> saniyeliğine rastgele bir güçlendirme kazanır."
 TID_TRAIT_CHARGE_SUPER_RANDOM,"Bu savaşçı, her kullanımdan sonra değişen rastgele bir süper saldırıyla oyuna başlar."
 TID_DOORMAN,GRAY
 TID_DOORMAN_SHORT_DESC,DESTEK
@@ -6899,70 +6995,86 @@ TID_DOORMAN_DESC,\qOrtokromatik\q kelimesinin anlamını bilir misin?\n\nGray sa
 TID_DOORMAN_WEAPON,PARMAKTAN TABANCA
 TID_DOORMAN_WEAPON_DESC,Acaba mermiler gerçek mi?
 TID_DOORMAN_ULTI,BOYUTLAR ARASI KAPILAR
+TID_DOORMAN_ULTI_DESC,"Gray, hem kendisinin hem de takım arkadaşlarının hızlıca kaçabileceği ve sinsi saldırılar yapabileceği bir dizi kapı açar."
 TID_SPEC_ABI_DOORMAN_1,SAHTE YARALANMA
+TID_SPEC_ABI_DOORMAN_1_DESC,Gray'in sağlığı tam doluyken aldığı ilk hasar %<VALUE1> azalır.
 TID_SPEC_ABI_DOORMAN_2,YENİ DÜNYALAR
+TID_SPEC_ABI_DOORMAN_2_DESC,Gray veya takım arkadaşları kapıları kullandığında sağlıkları <VALUE1> artar.
 TID_ACCESSORY_DOORMAN_GADGET_1,BASTON
+TID_ACCESSORY_DOORMAN_GADGET_1_DESC,"Gray, parmaktan tabanca vuruşuyla düşmanı bir miktar geri püskürten bir baston fırlatır."
 TID_ACCESSORY_DOORMAN_GADGET_2,KUYRUKLU PİYANO
+TID_ACCESSORY_DOORMAN_GADGET_2_DESC,Gray'in parmaktan tabanca saldırısı yere bir hedef işareti bırakır. Buraya bir piyano düşer ve düşmanlara hasar verir.\nAman kimse zarar görmesin!
 TID_SELECT_RECRUIT,SAVAŞÇI SEÇ
+TID_SELECT_RECRUIT_DESC,Daha fazla bilgi için bir savaşçıya dokun
 TID_SWITCH_RECRUIT,AÇILACAK SAVAŞÇI DEĞİŞTİRİLSİN Mİ?
+TID_SWITCH_RECRUIT_DESC,Daha fazla bilgi için bir savaşçıya dokun
 TID_RESOURCE_POWER_POINTS,Güç Puanı
 TID_TOP_TOOL_TIP_POWER_POINTS,<cff00ff>Güç puanları</c> savaşçıları yükseltmek için kullanılır.\n\nBrawl Pass ve kupa yolundan toplanabilirler.\n\nMaksimum: <cff00ff><MAX></c>
 TID_POWER_POINT_CAP_REACHED_TITLE,GÜÇ PUANI SINIRINA ULAŞILDI
 TID_POWER_POINT_CAP_REACHED_DESC,Daha fazla toplamadan önce savaşçılarını yükselterek güç puanlarını harcamalısın.
+TID_POWER_POINT_CAP_REACHED_DESC_OFFER,"Daha fazla güç puanı almadan önce, var olan güç puanlarını savaşçılarını yükseltmek için kullanmalısın."
 TID_POWER_POINT_CAP_REACHED_AMOUNT,<NUM>/<MAX>
 TID_POWER_POINT_CAP_REACHED_UPGRADE_BUTTON,SAVAŞÇILARI YÜKSELT
 TID_CURRENTLY_RECRUITING,ŞU ANDA AÇILIYOR
+TID_RECRUIT_TOKENS_TO_UNLOCK,<BRAWLER> için gereken kredi:
 TID_FAME_LEVEL_UP_FLOW_BUTTON,HAYDİ!
 TID_FAME_SHOP_TITLE,DAHA FAZLA ŞÖHRET KAZAN!
 TID_FAME_BUTTON_VALUE,+ <NUM> ŞÖHRET
 TID_FAME_LOCKED_TITLE,ŞÖHRET
+TID_FAME,ŞÖHRET
+TID_PURCHASE_FAME_ERROR_CHROMATIC_BRAWLERS_AVAILABLE_TO_UNLOCK,İlk önce tüm mevcut kromatik savaşçıları açmalısın.
 TID_PURCHASE_FAME_ERROR_UNKNOWN,Şöhret şu anda satın alınamıyor (<NUM>).
-TID_RECRUIT_ROAD_COLLECT_CREDITS_TO_UNLOCK,Bu savaşçıyı açmak için kredi toplamalısın:
+TID_RECRUIT_ROAD_COLLECT_CREDITS_TO_UNLOCK,Savaşçıyı açmak için toplaman gereken kredi:
 TID_RECRUIT_ROAD_CHOICES_AVAILABLE,Seçenekler:
 TID_RECRUIT_ROAD_TAP_TO_TRY,DENEMEK İÇİN DOKUN
 TID_RECRUIT_ROAD_SINGLE_AVAILABLE,1 savaşçı mevcut
 TID_RECRUIT_ROAD_CHOOSE_ONE,SAVAŞÇI SEÇİMİ
 TID_SHOP_OFFER_TITLE_41,GÜÇ PUANI
+TID_SHOP_OFFER_TITLE_43,OYUNCU UNVANI
 TID_GATCHA_SCREEN_GENERIC_POWER_POINTS_DROP_TITLE,TÜM SAVAŞÇILAR İÇİN GÜÇ PUANI
 TID_HERO_INFO_LEVEL_UP_ERROR_8,Bu savaşçıyı yükseltmek için yeterince güç puanın yok.
 TID_RECRUIT_NOW_UNLOCKING_TITLE,<BRAWLER>
 TID_RECRUIT_ROAD_BUBBLE_UNLOCK_NOW,HEMEN AÇILSIN MI?
 TID_QUEST_BRAWLER_UNLOCK_BRAWLER,SAVAŞÇIYI AÇ
 TID_QUEST_BRAWLER_SPECIAL_REWARD,ÖDÜL
-TID_RECRUIT_NEXT_BRAWLER_READY,YENİ BİR <RARITY> SAVAŞÇI AÇMAYA BAŞLA!
+TID_RECRUIT_NEXT_BRAWLER_READY,YENİ BİR <RARITY> SAVAŞÇI AÇILIYOR!
 TID_SHOP_OFFER_INFO_41,<AMOUNT> güç puanı içerir. Güç puanı toplayarak savaşçıları yükseltebilirsin.
 TID_FAME_INFO_TITLE,ŞÖHRET
+TID_FAME_INFO_TXT1,STARR YOLU'ndaki tüm savaşçıları açtıktan sonra...
 TID_FAME_INFO_TXT2,Topladığın krediler sana daha fazla ŞÖHRET kazandırır!
 TID_FAME_INFO_TXT3,"Şöhretin profilinde görünür, böylece ne kadar ilerlediğini herkese gösterebilirsin!"
-TID_FAME_INFO_TXT4,Mevcut kromatik savaşçıların tümünü aldıktan sonra kroma kredilerini ŞÖHRETE dönüştürebilirsin.
+TID_FAME_INFO_TXT4,Kromatik savaşçıların tümünü açtıktan sonra kroma kredilerini de şöhrete dönüştürebilirsin.
 TID_INFO_BUTTON_GOTIT,ANLADIM!
 TID_RECRUIT_ROAD_BUTTON_LETS_GO,HAYDİ!
 TID_SHOP_POWER_POINTS_OFFER_ANY_BRAWLER,İSTEDİĞİN\nSAVAŞÇIYA VER
+TID_SHOP_POWER_POINTS_OFFER_ANY_DESC,İstediğin savaşçıya ver!
 TID_RECRUIT_ROAD_LEGENDARY_DISCOUNT_50_PERCENT,%<DISCOUNT>
 TID_RECRUIT_ROAD_LEGENDARY_DISCOUNT_OFF,İNDİRİM
-TID_RECRUIT_NOW_UNLOCKING,ŞU ANDA AÇILAN
+TID_RECRUIT_ROAD_LEGENDARY_DISCOUNT_LABEL,Açtığın ilk efsanevi savaşçıda %<DISCOUNT> indirim.
+TID_RECRUIT_NOW_UNLOCKING,SIRADAKİ SAVAŞÇI
 TID_RECRUIT_ROAD_NEW_BRAWLER,Yeni Savaşçı
 TID_SWITCH_TO_NEWLY_RELEASED_TITLE,<NEWBRAWLER> İLE DEĞİŞTİRİLSİN Mİ?
 TID_SWITCH_TO_NEWLY_RELEASED_DESC,<CURRENTBRAWLER> açmayı iptal edip kredileri <NEWBRAWLER> açmaya aktarmak istiyor musun? <NEWBRAWLER> açıldıktan sonra <CURRENTBRAWLER> açmaya dönebilirsin.
 TID_SWITCH_TO_NEWLY_RELEASED_BUTTON,DEĞİŞTİR
 TID_RECRUIT_ROAD_CURRENT_BRAWLER_CANCEL,AÇMAYI DURDUR
 TID_RECRUIT_ROAD_STOP_UNLOCK_TITLE,<BRAWLER> AÇMAYI DURDURMAK İSTİYOR MUSUN?
-TID_RECRUIT_ROAD_STOP_UNLOCK_TEXT,"<BRAWLER> için topladığın krediler, STARR YOLU'ndaki bir sonraki savaşçıya aktarılacak. <BRAWLER>, STARR YOLU'nun en sonunda yer alan <RARITY> enderlik kademesine taşınacak."
+TID_RECRUIT_ROAD_STOP_UNLOCK_TEXT,"<BRAWLER> için topladığın krediler, Starr Yolundaki bir sonraki savaşçıya aktarılacak. <BRAWLER>, Starr Yolunun en sonunda yer alan <RARITY> enderlik kademesine taşınacak."
 TID_RECRUIT_ROAD_STOP_UNLOCK_YES,DURDUR
 TID_RECRUIT_ROAD_STOP_UNLOCK_NO,AÇMAYA DEVAM ET
+TID_RECRUIT_NOW_UNLOCKING_TRANSFER_DESC,<PREVIOUSBRAWLER> açıldığından alınan krediler
 TID_BEAMER,MANDY
-TID_BEAMER_SHORT_DESC,YÜKSEK HASAR
+TID_BEAMER_SHORT_DESC,KESKİN NİŞANCI
 TID_BEAMER_DESC,"Canın şeker çektiyse Mandy'nin Gökkuşağı Şekerleme Dükkanına mutlaka uğramalısın. Unutma, Mandy'nin şekerleri, her zaman efsanevi!"
 TID_BEAMER_WEAPON,ŞEKER OTOMATI
 TID_BEAMER_WEAPON_DESC,"Mandy, şeker otomatından şeker fırlatır. Sabit durduğunda daha kolay odaklanır ve saldırı menzili artar."
 TID_BEAMER_ULTI,ŞEKER IŞINI
-TID_BEAMER_ULTI_DESC,"Mandy, düşmanları ve çevresini yarıp geçen ve büyük hasar veren bir dizi şeker atar."
+TID_BEAMER_ULTI_DESC,"Mandy, düşmanları ve çevresini yarıp geçen ve büyük hasar veren bir şeker ışını atar."
 TID_SPEC_ABI_BEAMER_1,AÇIK GÖZLÜ
 TID_SPEC_ABI_BEAMER_1_DESC,Mandy odaklandığında şekerlerini %<c00cc00><VALUE1></c> daha hızlı atar.
 TID_SPEC_ABI_BEAMER_2,SERT ŞEKER
 TID_SPEC_ABI_BEAMER_2_DESC,Mandy odaklandığında <c00cc00>%<VALUE1> </c> kalkan kazanır.
 TID_ACCESSORY_BEAMER_GADGET_1,KARAMELİZE
-TID_ACCESSORY_BEAMER_GADGET_1_DESC,"Mandy'nin, şeker otomatından attığı sonraki ilk şeker isabet ettiği düşmanı <c00cc00><VALUE1></c>saniye yavaşlatır."
+TID_ACCESSORY_BEAMER_GADGET_1_DESC,"Mandy'nin, şeker otomatından attığı sonraki ilk şeker isabet ettiği düşmanı <c00cc00><VALUE1></c> saniye yavaşlatır."
 TID_ACCESSORY_BEAMER_GADGET_2,KURABİYE KIRINTILARI
 TID_ACCESSORY_BEAMER_GADGET_2_DESC,Mandy'nin şeker otomatından attığı sonraki şeker düşmanların ve engellerin içinden geçer.
 TID_GATCHA_SCREEN_GENERIC_POWER_POINTS_DROP_VALUE,<VALUE>
@@ -6970,20 +7082,20 @@ TID_YETI_SAM_SKIN,YETİ SAM
 TID_YETI_SAM_SKIN_SHOP,YETİ SAM
 TID_FROST_QUEEN_AMBER_SKIN,BUZ KRALİÇESİ AMBER
 TID_FROST_QUEEN_AMBER_SKIN_SHOP,BUZ KRALİÇESİ\nAMBER
-TID_KRAMPUS_ASH_SKIN,NOEL CANAVARI ASH
-TID_KRAMPUS_ASH_SKIN_SHOP,NOEL CANAVARI ASH
+TID_KRAMPUS_ASH_SKIN,KRAMPUS ASH
+TID_KRAMPUS_ASH_SKIN_SHOP,KRAMPUS ASH
 TID_CUPCAKE_DARRYL_SKIN,KAPKEK DARRYL
 TID_CUPCAKE_DARRYL_SKIN_SHOP,KAPKEK\nDARRYL
-TID_BUZZETTE_SKIN,SÜSLÜ BUZZ
-TID_BUZZETTE_SKIN_SHOP,SÜSLÜ BUZZ
+TID_BUZZETTE_SKIN,BUZZETTE
+TID_BUZZETTE_SKIN_SHOP,BUZZETTE
 TID_GUMMYBEAR_NITA_SKIN,JEL AYICIK NITA
 TID_GUMMYBEAR_NITA_SKIN_SHOP,JEL AYICIK\nNITA
-TID_MAGMA_MANDY_SKIN,MAĞMA MANDY
-TID_MAGMA_MANDY_SKIN_SHOP,MAĞMA MANDY
+TID_MAGMA_MANDY_SKIN,MAGMA MANDY
+TID_MAGMA_MANDY_SKIN_SHOP,MAGMA MANDY
 TID_PINATA_ASH_SKIN,PİNYATA ASH
 TID_PINATA_ASH_SKIN_SHOP,PİNYATA ASH
-TID_RIDER_EVE_SKIN,FÜTÜRİST BİSİKLETÇİ EVE
-TID_RIDER_EVE_SKIN_SHOP,FÜTÜRİST BİSİKLETÇİ EVE
+TID_RIDER_EVE_SKIN,BAIKU EVE
+TID_RIDER_EVE_SKIN_SHOP,BAIKU EVE
 TID_ARCADE_GRIFF_SKIN,REKORTMEN GRIFF
 TID_ARCADE_GRIFF_SKIN_SHOP,REKORTMEN\nGRIFF
 TID_TEDDY_SAM_SKIN,AYICIK SAM
@@ -6999,6 +7111,7 @@ TID_CLASSIC_SHELLY_SKIN_SHOP,KLASİK\nSHELLY
 TID_WF_GUS_SKIN,DÜNYA ŞAMPİYONU GUS
 TID_WF_GUS_SKIN_SHOP,DÜNYA ŞAMPİYONU\nGUS
 TID_RECRUIT_ROAD_INFO_TITLE,STARR YOLU NEDİR?
+TID_RECRUIT_ROAD_INFO_TXT1,Her enderlik kademesinden açmak istediğin bir savaşçıyı seçersin.
 TID_RECRUIT_ROAD_INFO_TXT2,Belirli sayıda kredi toplaman gerekir.
 TID_RECRUIT_ROAD_INFO_TXT3,Yeni savaşçını açıp oynamaya başlarsın.
 TID_RECRUIT_ROAD_INFO_TXT4,"Starr Yolunda <c7aff6b>ender</c>, <c8ccaff>süper ender</c>, <ce297ff>destansı</c>, <cff9a9a>gizemli</c> ve <cfdf01f>efsanevi</c> savaşçılar açabilirsin!"
@@ -7010,6 +7123,7 @@ TID_CHROMATIC_SHOP_INFO_TXT3,Kromatik savaşçıları açtıkça seçeneklerin a
 TID_CHROMATIC_SHOP_INFO_TXT4,"Kromatik savaşçılar Brawl Pass'te görünen, sezona özel savaşçılardır. BRAWL PASS'in 30. KADEMESİNDE en yeni kromatik savaşçıyı açarsın."
 TID_GEMGRAB_471,Juha'nın Test Odası
 TID_NEW_META_REIMBURSEMENT_POPUP_TITLE,İLERLEMENİN YENİ BİR YOLU!
+TID_NEW_META_REIMBURSEMENT_POPUP_INFO,Brawl Stars'da ilerlemek ve yeni savaşçılar açmak artık şansa dayalı değil!\n\nMevcut ödüllerini topladıktan sonra yeni ilerleme sistemini keşfetmeye başlayabilirsin.
 TID_NEW_META_REIMBURSEMENT_POPUP_BOXES_REMOVED,SAVAŞ KUTULARI KALDIRILDI!
 TID_NEW_META_REIMBURSEMENT_POPUP_BOXES_REMOVED_DESCRIPTION,Savaşçılar ve diğer ödüller artık savaş kutularından çıkmayacak.
 TID_NEW_META_REIMBURSEMENT_POPUP_REIMBURSEMENT,Tüm mevcut ödüller otomatik olarak toplanacak:
@@ -7020,20 +7134,21 @@ TID_NEW_META_REIMBURSEMENT_POPUP_REIMBURSEMENT_TROPHY_ROAD,Kupa Yolu Ödülleri
 TID_NEW_META_REIMBURSEMENT_POPUP_REIMBURSEMENT_BRAWL_PASS_SEASON,<NUM>. Sezon Ödülleri
 TID_NEW_META_REIMBURSEMENT_POPUP_COLLECTED_TITLE,İLERLEMENİN YENİ BİR YOLU!
 TID_NEW_META_REIMBURSEMENT_POPUP_COLLECTED_DESCRIPTION,Tüm ödüller otomatik olarak toplandı.
+TID_NEW_META_REIMBURSEMENT_NOTIFICATION_INFO,Brawl Stars'da ilerlemek ve yeni savaşçılar açmak artık şansa dayalı değil. Tüm ödüller otomatik olarak toplandı.
 TID_NEW_META_REIMBURSEMENT_NOTIFICATION_BONUS_CREDITS,Brawl Pass <NUM>. sezonu için <AMOUNT> bonus kredi kazandın.
 TID_SWITCH_FROM_NEW_TO_ANOTHER_NEW_TITLE,<CURRENTBRAWLER> bırakılıp <NEWBRAWLER> seçilsin mi?
 TID_SWITCH_FROM_NEW_TO_ANOTHER_NEW_DESC,<CURRENTBRAWLER> için açma işlemini bırakıp kredileri <NEWBRAWLER> için transfer et
-TID_SWITCH_FROM_NEW_TO_ANOTHER_NEW_CROSS_DESC,"<CURRENTBRAWLER>, STARR YOLUNDA <RARITY> seviyesinin en son kademesine taşınacak"
-TID_SWITCH_FROM_NEW_TO_ANOTHER_NEW_CONFIRM,"EMİN MİSİN?\n<CURRENTBRAWLER>, STARR YOLUNDA <RARITY> seviyesinin en son kademesine taşınacak"
+TID_SWITCH_FROM_NEW_TO_ANOTHER_NEW_CROSS_DESC,"<CURRENTBRAWLER>, Starr Yolunda<RARITY> seviyesinin en son kademesine taşınacak."
+TID_SWITCH_FROM_NEW_TO_ANOTHER_NEW_CONFIRM,"EMİN MİSİN?\n<CURRENTBRAWLER>, Starr Yolunda <RARITY> seviyesinin en son kademesine taşınacak."
 TID_ESPORTS_OFFER_SUBTITLE_STARTING_FROM,EN DÜŞÜK
 TID_POWER_POINTS_INFO_TITLE,SAVAŞÇILAR NASIL YÜKSELTİLİR?
-TID_POWER_POINTS_INFO_TXT1,"Oyunda güç puanları ve altın toplarsın.\nBunları, seçtiğin savaşçıyı yükseltmek için kullanabilirsin!"
-TID_HERO_INFO_LOCKED_INFO_AVAILABLE_ON_STARR_ROAD,STARR YOLUNDAN alınabilir
-TID_HERO_INFO_LOCKED_INFO_UNLOCK_MORE_CHROMATIC_BRAWLERS,<COUNT> kromatik savaşçı daha aç
-TID_HERO_INFO_LOCKED_INFO_UNLOCK_WITH_CHROMA_CREDITS,Kroma kredileriyle aç
+TID_POWER_POINTS_INFO_TXT1,"Oynadıkça güç puanları ve altın toplarsın.\nBunları, seçtiğin savaşçıyı yükseltmek için kullanabilirsin!"
+TID_HERO_INFO_LOCKED_INFO_AVAILABLE_ON_STARR_ROAD,Starr Yolundan alınır.
+TID_HERO_INFO_LOCKED_INFO_UNLOCK_MORE_CHROMATIC_BRAWLERS,<COUNT> kromatik savaşçı açmalısın.
+TID_HERO_INFO_LOCKED_INFO_UNLOCK_WITH_CHROMA_CREDITS,Kroma kredileriyle açılır.
 TID_HERO_INFO_RECRUIT_TOKEN_BAR_TOOL_TIP,"<c0450B4>Krediler</c> savaşçı açmak için kullanılır.\n\nKredileri, Brawl Pass ve kupa yolundan toplayabilirsin."
 TID_CHROMATIC_TUTORIAL_TITLE,KROMATİK SAVAŞÇILAR
-TID_CHROMATIC_TUTORIAL_SUBTITLE,Artık kroma kredileriyle açabilirsin!
+TID_CHROMATIC_TUTORIAL_SUBTITLE,Artık kroma kredileriyle açılabilir!
 TID_CHROMATIC_TUTORIAL_DESCRIPTION,"Kromatik savaşçılar Brawl Pass'te yer alan, sezona özel savaşçılardır."
 TID_CHROMATIC_SHOP_INFO_TXT5,BU SEZONDA YENİ
 TID_TAGTEAM_471,Hamilton'ın Sonu
@@ -7061,161 +7176,372 @@ TID_RECRUIT_ROAD_CHOOSE_BRAWLER_SWITCH,Tercihini istediğin zaman değiştirebil
 TID_HERO_INFO_BUY_MISSING_POWER_POINTS1,<MISSINGPOWERPOINTS> GÜÇ PUANI DAHA GEREKLİ
 TID_HERO_INFO_BUY_MISSING_POWER_POINTS2,Eksik güç puanlarını şimdi almak ister misin?
 TID_HERO_INFO_BUY_MISSING_POWER_POINTS_GEMS1,<MISSINGPOWERPOINTS> GÜÇ PUANI DAHA GEREKLİ
-TID_HERO_INFO_BUY_MISSING_POWER_POINTS_GEMS2,Eksik güç puanlarını satın almak için <MISSINGGEMS> elmas daha gerekli
+TID_HERO_INFO_BUY_MISSING_POWER_POINTS_GEMS2,Eksik güç puanlarını satın almak için <MISSINGGEMS> elmas daha gerekiyor.
 TID_HERO_INFO_BUY_BOTH_MISSING_TITLE1,<MISSINGPOWERPOINTS> GÜÇ PUANI GEREKLİ
 TID_HERO_INFO_BUY_BOTH_MISSING_TITLE2,<MISSINGCOINS> ALTIN DAHA GEREKLİ
-TID_HERO_INFO_BUY_BOTH_MISSING_TEXT,Eksik kaynakları almak ister misin?
+TID_HERO_INFO_BUY_BOTH_MISSING_TEXT,Eksik kaynakları almak istiyor musun?
 TID_HERO_INFO_BUY_BOTH_MISSING_GEMS_TITLE1,<MISSINGPOWERPOINTS> GÜÇ PUANI GEREKLİ
 TID_HERO_INFO_BUY_BOTH_MISSING_GEMS_TITLE2,<MISSINGCOINS> ALTIN DAHA GEREKLİ
-TID_HERO_INFO_BUY_BOTH_MISSING_GEMS_TEXT,Eksik kaynakları satın almak için <MISSINGGEMS> elmas daha gerekli
+TID_HERO_INFO_BUY_BOTH_MISSING_GEMS_TEXT,Eksik kaynakları satın almak için <MISSINGGEMS> elmas daha gerekiyor.
 TID_CHOOSE_BRAWLER_INFO_TITLE,AÇILACAK SAVAŞÇI SEÇİMİ
+TID_CHOOSE_BRAWLER_INFO_TXT1,Bu enderlik kademesinden açmak istediğin bir savaşçıyı seç.
 TID_CHOOSE_BRAWLER_INFO_TXT2,Savaşçıyı açmak için gereken kredileri topla.
-TID_CHOOSE_BRAWLER_INFO_TXT3,Savaşçı tercihini değiştirmek istersen Starr Yolu'nda savaşçıya dokun.
+TID_CHOOSE_BRAWLER_INFO_TXT3,Savaşçı tercihini değiştirmek istersen Starr Yolunda savaşçıya dokun.
 TID_UNLOCK_BRAWLERS_INFO_SPLASH,SAVAŞÇI AÇMANIN YENİ YOLU!
 TID_CHINA_YOOZOO_EXTRA_PRIVACY_BUTTON,个人信息收集清单
 TID_BRAWLER_SCREEN_EXISTING_POWER_POINTS,Mevcut güç puanı:
 TID_RESOURCES_YOU_HAVE,Sende olan:
 TID_CHROMATIC_COINS_INFO_TITLE,KROMATİK SAVAŞÇILAR
-TID_RECRUIT_ROAD_TUTORIAL,Starr Yolu'na hoşgeldin! Kredi topladıkça buradan yeni savaşçılar açabilirsin.
-TID_RECRUIT_ROAD_HELP_TUTORIAL,Starr Road'la ilgili daha fazla bilgi için buraya bakabilirsin.
+TID_CHROMATIC_COINS_INFO_TEXT1,"Kromatik savaşçılar Brawl Pass'te yer alan, sezona özel savaşçılardır.\nKroma kredileriyle açılırlar!"
+TID_RECRUIT_ROAD_TUTORIAL,Starr Yoluna hoşgeldin! Kredi topladıkça buradan yeni savaşçılar açabilirsin.
+TID_RECRUIT_ROAD_HELP_TUTORIAL,Starr Yolu hakkında daha fazla bilgi için buraya bakabilirsin.
 TID_SHOP_DAILY_FREEBIE_JACKPOT,BİNGO!
 TID_RANK_POPUP_COLLECT_CREDITS_TO_UNLOCK_NEXT_BRAWLER,<BRAWLER> savaşçısını açmak için kredi toplamalısın.
-TID_HOMEPAGE_GUIDE_COLLECT_TR_2_CREDITS,Alabileceğin krediler var. Şimdi yeni bir savaşçı açma zamanı!
+TID_HOMEPAGE_GUIDE_COLLECT_TR_2_CREDITS,Alabileceğin krediler var. Yeni bir savaşçı açma zamanı!
+TID_HOMEPAGE_GUIDE_COLLECTED_BRAWL_PASS_CREDITS,<BRAWLER> için kredi topladın!
 TID_HOMEPAGE_GUIDE_STARR_ROAD_CHECK_HERE,Starr Yolu hakkında daha fazla bilgiye buradan ulaşabilirsin!
-TID_CHROMATIC_SHOP_TUTORIAL_1,İşte yeni sezonun savaşçısı! Bu savaşçıyı Brawl Pass'ten açabilirsin.
+TID_CHROMATIC_SHOP_TUTORIAL_1,İşte bu sezonun savaşçısı! Savaşçıyı Brawl Pass'ten açabilirsin.
 TID_CHROMATIC_SHOP_TUTORIAL_2,Kroma kredileri veya elmas karşılığında geçmiş sezonların kromatik savaşçılarını da açabilirsin.
 TID_CHROMATIC_SHOP_TUTORIAL_3,Kromatik savaşçılarla ilgili daha fazla bilgi için buraya dokun.
-TID_TEAM_ERROR_38,
-TID_HERO_INFO_LEVEL_UP_ERROR_5,
-TID_UNDERTAKER_ULTI_DESC,
-TID_TEAM_ERROR_122,
-TID_HERO_INFO_STAR_POWER_BLOCKED,
-TID_HERO_INFO_ACCESSORIES_BLOCKED,
-TID_RANK_POPUP_TOTAL_INFO,
-TID_SHOP_OFFER_ANY_BRAWLER_DESC,
-TID_GATCHA_BOX_INFO_2,
-TID_SHOP_OFFER_INFO_38,
-TID_SPEC_ABI_PET_LIFESTEAL_DESC,
-TID_SPEC_ABI_HEAL_OTHERS_MAIN_ATTACK_DESC,
-TID_BRAWL_BOX_INFO_FOOTER,
-TID_EVENT_MODIFIER_DESC_16,
-TID_SPEC_ABI_PROJECTILE_SPEED_DESC,
-TID_SPEC_EXTRA_BULLET_DESC,
-TID_SPEC_ABI_HEAL_SUPER_DMG_DESC,
-TID_QUICK_MESSAGE_CHOOSE_BRAWLER,
-TID_QUICK_MESSAGE_CHANGE_BRAWLERS,
-TID_QUICK_MESSAGE_ASK_BRAWLER,
-TID_GAME_MODE_16,
-TID_GAME_MODE_16_DESC,
-TID_CTF_GOAL,
-TID_QUICK_MESSAGE_ASK_BRAWLER_SPLIT,
-TID_ALLIANCE_FF_FAILED_NO_RIGHTS,
-TID_SPEC_ABI_PERCENTER_1_DESC,
-TID_SPEC_ABI_PERCENTER_2_DESC,
-TID_ACCESSORY_RUFFS_COVER_DESC,
-TID_ACCESSORY_POCO_CLEANSE_DESC,
-TID_RANKED_ERROR_BRAWLER_BLACKLISTED,
-TID_QUALIFIED_INFO_FALLBACK_PARAM,
-TID_GEAR_FOREST_SPEED_INFO,
-TID_GEAR_LOW_HEALTH_DAMAGE_INFO,
-TID_GEAR_VISION_INFO,
-TID_GEAR_SUPER_HEALTH_INFO,
-TID_GEAR_POISON_DURATION_INFO,
-TID_GEAR_POISON_DURATION_UPGRADE_INFO,
-TID_GEAR_SLOW_INCREASE_INFO,
-TID_GEAR_SLOW_INCREASE_UPGRADE_INFO,
-TID_GEAR_SMOKE_DURATION_INFO,
-TID_GEAR_SUPER_SHIELD_INFO,
-TID_GEAR_SUPER_SHIELD_UPGRADE_INFO,
-TID_GEAR_SUPER_RANGE_INFO,
-TID_CLUB_LEAGUE_INFO_PAGE_1_DESC,
-TID_CLUB_LEAGUE_INFO_PAGE_2_DESC,
-TID_CLUB_LEAGUE_INFO_PAGE_3_DESC,
-TID_HOMEPAGE_GUIDE_FIRST_GEAR,
-TID_CLUB_JOIN_FAIL_FEATURE_LOCKED,
-TID_SPEC_ABI_KICKER_DUDE_1_DESC,
-TID_GAME_MODE_24_DESC,
-TID_TAG_TEAM_INTRO_TEXT,
-TID_CLUB_LEAGUE_TROPHY_RESET_MESSAGE,
-TID_TAGTEAM_TROPHY_INFO_LOSE_INFO,
-TID_TAGTEAM_TROPHY_INFO_WIN_INFO,
-TID_TAGTEAM_TROPHY_INFO_WIN_INFO_EXTRA,
-TID_LOGIN_CALENDAR_REWARD_DESC_STARPOWER_CHOICE,
-TID_TUTORIAL_SD_FIRSTBATTLE,
-TID_GATCHA_SCREEN_WCPP_DROP_DESC,
-TID_LOGIN_CALENDAR_TIP_STAR_POWER,
-TID_LOGIN_CALENDAR_REWARD_DESC_STARPOWER,
-TID_PLAYER_CLUB_INFO_PRIVATE,
-TID_POWER_LEAGUE_BRAWLER_REQUIREMENT_SELECT,
-TID_POWER_LEAGUE_BRAWLER_REQUIREMENT_INVITE,
-TID_LOGIN_CALENDAR_TOOLTIP_SKIN,
-TID_LOGIN_CALENDAR_TOOLTIP_CHOOSE_BRAWLER,
-TID_LOGIN_CALENDAR_TOOLTIP_UPGRADE_BRAWLER,
-TID_LOGIN_CALENDAR_TOOLTIP_STAR_POWER,
-TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_IS_TOP,
-TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_NOT_TOP,
-TID_CLUB_LEAGUE_MEMBER_RANKINGS_NUM_DESC_NOT_RANKED,
-TID_CLUB_INFO_TOP_EVENT_DAY_PLAYER_DIVIDER,
-TID_CLUB_QUESTS_REWARD_TRACK_OVERLAY,
-TID_CLUB_QUESTS_WARNING_NOT_AVAILABLE,
-TID_CLUB_LEAGUE_WARNING_NOT_AVAILABLE,
-TID_CLUB_EVENTS_ONBOARDING_PAGE_2_DESCRIPTION,
-TID_CLUB_EVENTS_ONBOARDING_PAGE_3_DESCRIPTION,
-TID_CLUB_EVENTS_ONBOARDING_PAGE_4_1,
-TID_CLUB_EVENTS_CHANGED_CLUB,
-TID_CLUB_QUESTS_CURRENT_CLUB_POINTS,
-TID_CLUB_QUESTS_TUTORIAL,
-TID_SPEC_ABI_WEAPON_THROWER_1_DESC,
-TID_SOUL_COLLECTOR_DESC,
-TID_HINT_55,
-TID_FIRST_GADGET_TUTORIAL_HEADER_DESC,
-TID_FIRST_GADGET_TUTORIAL_2_DESC,
-TID_FIRST_STARPOWER_TUTORIAL_HEADER_DESC,
-TID_FIRST_STARPOWER_TUTORIAL_2_DESC,
-TID_FIRST_GEAR_TUTORIAL_2_DESC,
-TID_SPEC_ABI_SHIELD_TANK_1_DESC,
-TID_ACCESSORY_SHIELD_TANK_GADGET_1_DESC,
-TID_INBOX_CAPTION_GEAR_COMPENSATION,
-TID_PURCHASE_BRAWLER_ERROR_BRAWLER_ALREADY_UNLOCKED,
-TID_PURCHASE_BRAWLER_ERROR_BP_TIER_NOT_REACHED,
-TID_PURCHASE_BRAWLER_ERROR_BP_TIER_ALREADY_CLAIMABLE,
-TID_PURCHASE_BRAWLER_ERROR_PREVIOUS_CHROMATIC_BRAWLER_COUNT_TOO_SMALL,
-TID_PURCHASE_BRAWLER_ERROR_UNKNOWN,
-TID_TRAIT_CHARGE_SUPER_FROM_ALLIES,
-TID_FAME_PANEL_UNLOCK_INFO,
-TID_JESTER_DESC,
-TID_JESTER_WEAPON_DESC,
-TID_SPEC_ABI_JESTER_1,
-TID_SPEC_ABI_JESTER_1_DESC,
-TID_DOORMAN_ULTI_DESC,
-TID_SPEC_ABI_DOORMAN_1_DESC,
-TID_SPEC_ABI_DOORMAN_2_DESC,
-TID_ACCESSORY_DOORMAN_GADGET_1_DESC,
-TID_ACCESSORY_DOORMAN_GADGET_2_DESC,
-TID_SELECT_RECRUIT_DESC,
-TID_SWITCH_RECRUIT_DESC,
-TID_RECRUIT_TOKENS_TO_UNLOCK,
-TID_PURCHASE_FAME_ERROR_CHROMATIC_BRAWLERS_AVAILABLE_TO_UNLOCK,
-TID_FAME_INFO_TXT1,
-TID_SHOP_POWER_POINTS_OFFER_ANY_DESC,
-TID_RECRUIT_ROAD_LEGENDARY_DISCOUNT_LABEL,
-TID_RECRUIT_NOW_UNLOCKING_TRANSFER_DESC,
-TID_RECRUIT_ROAD_INFO_TXT1,
-TID_NEW_META_REIMBURSEMENT_POPUP_INFO,
-TID_NEW_META_REIMBURSEMENT_NOTIFICATION_INFO,
-TID_CHOOSE_BRAWLER_INFO_TXT1,
-TID_CHROMATIC_COINS_INFO_TEXT1,
-TID_HOMEPAGE_GUIDE_COLLECTED_BRAWL_PASS_CREDITS,
-TID_SWITCH_TRANSFER,
-TID_FAME,
-TID_SKIN_INFO_CAMPAIGN_LUNAR_BRAWL_2023,
-TID_SKIN_INFO_WC_2022,
-TID_SKIN_INFO_CAMPAIGN_ANNIVERSARY_2022,
-TID_HOMEPAGE_GUIDE_CHROMATIC_SHOP_TUTORIAL_1,
-TID_HOMEPAGE_GUIDE_CHROMATIC_SHOP_TUTORIAL_2,
-TID_CHROMATIC_HERO_UNLOCK_MORE_TO_PURCHASE_SINGLE,
-TID_PURCHASE_BRAWLER_ERROR_PREVIOUS_CHROMATIC_BRAWLER_COUNT_TOO_SMALL_SINGLE,
-TID_HERO_INFO_LOCKED_INFO_UNLOCK_MORE_CHROMATIC_BRAWLERS_SINGLE,
+TID_SWITCH_TRANSFER,<BRAWLER> kredilerini aktar
+TID_SKIN_INFO_CAMPAIGN_LUNAR_BRAWL_2023,2023 Yeni Ay Yılı kostümü
+TID_SKIN_INFO_WC_2022,2022 Dünya Şampiyonları kostümü
+TID_SKIN_INFO_CAMPAIGN_ANNIVERSARY_2022,BRAWL STARS 2022 YIL DÖNÜMÜ
+TID_HOMEPAGE_GUIDE_CHROMATIC_SHOP_TUTORIAL_1,Mevcut kromatik savaşçıları gör.
+TID_HOMEPAGE_GUIDE_CHROMATIC_SHOP_TUTORIAL_2,Kromatik savaşçıları görmek için buraya dokun.
+TID_CHROMATIC_HERO_UNLOCK_MORE_TO_PURCHASE_SINGLE,<NUM> kromatik savaşçı daha açtığında kroma kredilerini <HERO> için kullanabilirsin.
+TID_PURCHASE_BRAWLER_ERROR_PREVIOUS_CHROMATIC_BRAWLER_COUNT_TOO_SMALL_SINGLE,İlk önce <NUM> kromatik savaşçı daha açmalısın.
+TID_HERO_INFO_LOCKED_INFO_UNLOCK_MORE_CHROMATIC_BRAWLERS_SINGLE,<COUNT> kromatik savaşçı açmalısın.
+TID_MASTERY_TIER_1,I
+TID_MASTERY_TIER_2,II
+TID_MASTERY_TIER_3,III
+TID_MASTERY_TIER_4,IV
+TID_MASTERY_TIER_5,V
+TID_MASTERY_TIER_6,VI
+TID_MASTERY_TIER_7,VII
+TID_MASTERY_TIER_8,VIII
+TID_MASTERY_TIER_9,IX
+TID_MASTERY_TIER_10,X
+TID_REWARD_INFO_RESOURCE_RECRUITTOKENS,<AMOUNT> kredi alındı
+TID_REWARD_INFO_RESOURCE_CHROMATICTOKENS,<AMOUNT> kroma kredisi alındı
+TID_REWARD_INFO_RESOURCE_FAME,<AMOUNT> şöhret puanı alındı
+TID_REWARD_INFO_RESOURCE_POWERPOINTS,<AMOUNT> güç puanı alındı
+TID_EVENT_SLOT_NAME_33,TOPLULUK ETKİNLİKLERİ
+TID_EMOTE_CATEGORY_6,1. BÖLME
+TID_EMOTE_CATEGORY_INTRO_PINS,SAVAŞ BAŞLANGICI ROZETLERİ
+TID_PIN_POPUP_BATTLE_INTRO,BU ROZETİ SAVAŞ BAŞLADIĞINDA GÖSTER
+TID_DETECTIVE_GRAY_SKIN,DEDEKTİF GRAY
+TID_DETECTIVE_GRAY_SKIN_SHOP,DEDEKTİF\nGRAY
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_TITLE,重要提示
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_TEXT,为方便您与客服交流，如需要提供已拍摄照片或截图，我们需要获取您设备的相册权限，以及读取存储器的权限。
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_YES,允许
+TID_CHINA_ENTER_HELPSHIFT_CONVERSATION_NO,拒绝
+TID_CLAIM_MASTERY_REWARD_ERROR_1,Ustalık ödülü alınamıyor. Lütfen daha sonra tekrar deneyin.
+TID_CLAIM_MASTERY_REWARD_ERROR_2,Ustalık ödülü zaten alındı.
+TID_CLAIM_MASTERY_REWARD_ERROR_3,Bu seviyeye ulaşmak için daha fazla ustalık puanı topla!
+TID_CLAIM_MASTERY_REWARD_ERROR_4,İlk olarak önceki ustalık seviyesi ödüllerini topla!
+TID_BATTLE_INTRO_OWN_TEAM,TAKIMIN
+TID_BATTLE_INTRO_ENEMY_TEAM,RAKİP TAKIM
+TID_SPLITTER,R-T
+TID_SPLITTER_SHORT_DESC,YÜKSEK HASAR
+TID_SPLITTER_DESC,"Starr Park'ta yolunu mu kaybettin? Sakın korkma! R-T seni izliyor!\nYok, demek istediğim... Seni kolluyor. Kesin. Hiç endişen olmasın."
+TID_SPLITTER_WEAPON,ELİM SENDE
+TID_SPLITTER_WEAPON_DESC,R-T tek bir mermi fırlatır ve bu merminin isabet ettiği savaşçı işaretlenir. İşaretlenen hedef her hasar aldığında işaretin süresi azalır ama hedef ek hasar görür.
+TID_SPLITTER_LEGS_WEAPON,STATİK HASAR
+TID_SPLITTER_LEGS_WEAPON_DESC,R-T ve bacakları güçlü bir sinyal yayar ve etraftaki tüm hedeflere hasar verir.
+TID_SPLITTER_ULTI_SPLIT,RADAR DALGALARI
+TID_SPLITTER_ULTI_SPLIT_DESC,R-T anında bacaklarına ışınlanır ve tekrar bir bütün haline gelerek <c00cc00><VALUE1></c> puan iyileşir.
+TID_SPLITTER_ULTI_WHOLE,SAKLAMBAÇ
+TID_SPLITTER_ULTI_WHOLE_DESC,"R-T ikiye ayrılır ve bacakları geride kalır. Hem R-T hem de bacakları, düşmanları işaretleyen kısa mesafeli ve güçlü bir saldırı kazanır. İkiye ayrılan R-T daha hızlı hareket eder."
+TID_SPEC_ABI_SPLITTER_1,HIZLI HESAP
+TID_SPEC_ABI_SPLITTER_1_DESC,Oluşturulan işaretler <c00cc00><VALUE1></c> saniye daha kalıcı olur.
+TID_SPEC_ABI_SPLITTER_2,GÜÇLÜ BACAKLAR
+TID_SPEC_ABI_SPLITTER_2_DESC,R-T ve bacakları ayrı haldeyken <c00cc00>%<VALUE1></c> daha az hasar alır.
+TID_ACCESSORY_SPLITTER_GADGET_1,YOĞUN FREKANS
+TID_ACCESSORY_SPLITTER_GADGET_1_DESC,"Bölünen R-T, bacaklarına bir sinyal göndererek arada kalan savaşçılara <c00cc00><VALUE1></c> boyunca hasar verir ve onları yavaşlatır."
+TID_ACCESSORY_SPLITTER_GADGET_2,BÜYÜK DARBE
+TID_ACCESSORY_SPLITTER_GADGET_2_DESC,Üzerinde işaret olan tüm rakip savaşçılara anında hasar verir.
+TID_PUPPETEER,WILLOW
+TID_PUPPETEER_SHORT_DESC,GÖZETMEN
+TID_PUPPETEER_DESC,Sevecen? Olabilir.\nKorkutucu? Şüphesiz.\nKontrol Meraklısı? %100.
+TID_PUPPETEER_WEAPON,FENERİN LANETİ
+TID_PUPPETEER_WEAPON_DESC,Willow fenerini fırlatarak isabet alan düşmanlara bir süre boyunca hasar verir.
+TID_PUPPETEER_ULTI,BÜYÜ
+TID_PUPPETEER_ULTI_DESC,"Willow, düşman savaşçılardan birine bir kurbağa yavrusu fırlatır. İsabet ettirirse bu savaşçıyı tamamen iyileştirir ve savaşçının zihnini ele geçirir. Bu şekilde düşman savaşçının temel saldırılarını kullanabilir ve savaşçıyı istediği gibi hareket ettirebilir. Zihin kontrolü, <c00cc00><VALUE1></c> saniye sonra veya savaşçının canı <c00cc00>%<VALUE2></c> seviyesine indiğinde biter."
+TID_SPEC_ABI_PUPPETEER_1,AŞKIN GÖZÜ KÖRDÜR
+TID_SPEC_ABI_PUPPETEER_1_DESC,"Fenerin Laneti, etkilenen savaşçıların doldurma hızını <c00cc00>%<VALUE1></c> azaltır."
+TID_SPEC_ABI_PUPPETEER_2,SAPLANTI
+TID_SPEC_ABI_PUPPETEER_2_DESC,"Zihni ele geçirilen düşmanların hızı, etki devam ettiği sürece <c00cc00>%<VALUE1></c> artar."
+TID_ACCESSORY_PUPPETEER_GADGET_1,PERİLİ FENER
+TID_ACCESSORY_PUPPETEER_GADGET_1_DESC,"Willow, Fenerin Lanetini kullandığında <c00cc00><VALUE1></c> daha fazla hasar verir ve zamanla can azaltmak yerine tüm hasarı bir anda verir."
+TID_ACCESSORY_PUPPETEER_GADGET_2,DALIŞ
+TID_ACCESSORY_PUPPETEER_GADGET_2_DESC,"Willow <c00cc00><VALUE1></c> saniyeliğine dalış yapar ve vurulamaz olur, ama bu süre boyunca kendisi de bir eylemde bulunamaz."
+TID_POPUP_GEM_CONFIRM_TITLE,Satın Alma Onayı
+TID_POPUP_GEM_CONFIRM_GADGET,Bu aksesuarı elmasla satın almak istediğine emin misin?
+TID_POPUP_GEM_CONFIRM_STAR_POWER,Bu yıldız gücünü elmasla satın almak istediğine emin misin?
+TID_POPUP_GEM_CONFIRM_BRAWLER_UPGRADE,Bu savaşçıyı elmasla yükseltmek istediğine emin misin?
+TID_POPUP_GEM_CONFIRM_GEAR,Bu eşyayı elmasla satın almak istediğine emin misin?
+TID_POPUP_GEM_CONFIRM_LEVEL_UP,Bu savaşçının seviyesini elmasla yükseltmek istediğine emin misin?
+TID_FRIENDLY_GAME_LOCKED,Dostluk savaşlarını açmak için <TROPHIES> kupaya ulaş.
+TID_MASTERY_LEVEL_START,USTALIK
+TID_MASTERY_LEVEL_BRONZE,BRONZ <TIER>
+TID_MASTERY_LEVEL_SILVER,GÜMÜŞ <TIER>
+TID_MASTERY_LEVEL_GOLD,ALTIN <TIER>
+TID_HERO_MASTERY_POINTS_PROGRESS,<NUM>/<MAX>
+TID_HERO_MASTERY_POINTS_BATTLE_PROGRESS,<NUM>/<MAX>
+TID_MASTERY_TITLE,USTALIK
+TID_MASTERY_FALLBACK_REWARD_DESC,Bu ustalık ödülünü zaten aldığın için <REWARD> kazandın!
+TID_MASTERY_FALLBACK_REWARD_TITLE,USTALIK ÖDÜLÜ
+TID_MASTERY_FALLBACK_REWARD_BUTTON_CLAIM,AL
+TID_MASTERY_REWARD_REPLACED_TITLE,Alternatif Ödül Onayı
+TID_MASTERY_REWARD_REPLACED_POWER_POINTS,<AMOUNT> güç puanı alabilecek savaşçın yok ve maksimum güç puanı limitine ulaştın.\n\nAlternatif ödülü almak ister misin?
+TID_TITLE_MASTERY_SHELLY,Anlatacak zaman yok!
+TID_TITLE_MASTERY_COLT,Güzeller güzeli
+TID_TITLE_MASTERY_BULL,Buldozer!
+TID_TITLE_MASTERY_BROCK,Bom!
+TID_TITLE_MASTERY_RICO,Mükemmel sevgili
+TID_TITLE_MASTERY_SPIKE,Türünün tek örneği
+TID_TITLE_MASTERY_BARLEY,Al bakalım!
+TID_TITLE_MASTERY_JESSIE,İnşaat tutkunu
+TID_TITLE_MASTERY_NITA,Yabani
+TID_TITLE_MASTERY_DYNAMIKE,Cici kuş!
+TID_TITLE_MASTERY_ELPRIMO,Güreşçi
+TID_TITLE_MASTERY_MORTIS,Gece yaratığı
+TID_TITLE_MASTERY_CROW,"Gak, gak!"
+TID_TITLE_MASTERY_POCO,El mariachi
+TID_TITLE_MASTERY_BO,Doğa tutkunu
+TID_TITLE_MASTERY_PIPER,Keskin nişancı
+TID_TITLE_MASTERY_PAM,Anne figürü
+TID_TITLE_MASTERY_TARA,Kartlarda ne var?
+TID_TITLE_MASTERY_DARRYL,"Dikkat, korsan!"
+TID_TITLE_MASTERY_PENNY,Pek tuzlu
+TID_TITLE_MASTERY_FRANK,Tank
+TID_TITLE_MASTERY_GENE,Elime konuş!
+TID_TITLE_MASTERY_TICK,Kafam bulutlarda...
+TID_TITLE_MASTERY_LEON,Sinsi tehdit
+TID_TITLE_MASTERY_ROSA,Toprakla temas
+TID_TITLE_MASTERY_CARL,Jeolog
+TID_TITLE_MASTERY_BIBI,Ortamın havalısı
+TID_TITLE_MASTERY_8BIT,SYS 64738
+TID_TITLE_MASTERY_SANDY,Uykucu
+TID_TITLE_MASTERY_BEA,Kraliçe
+TID_TITLE_MASTERY_EMZ,#ağlayın
+TID_TITLE_MASTERY_MRP,Patron
+TID_TITLE_MASTERY_MAX,Hız budur!
+TID_TITLE_MASTERY_JACKY,#@%**
+TID_TITLE_MASTERY_GALE,Hademe
+TID_TITLE_MASTERY_NANI,Dadı
+TID_TITLE_MASTERY_SPROUT,Doğasever
+TID_TITLE_MASTERY_SURGE,Kanka
+TID_TITLE_MASTERY_COLETTE,Koleksiyoncu
+TID_TITLE_MASTERY_AMBER,Kundakçı
+TID_TITLE_MASTERY_LOU,Hep yanında!
+TID_TITLE_MASTERY_BYRON,Sansasyonel
+TID_TITLE_MASTERY_EDGAR,Brawl Stars CEO'su
+TID_TITLE_MASTERY_RUFFS,Albay
+TID_TITLE_MASTERY_STU,Korkunç
+TID_TITLE_MASTERY_BELLE,Starr
+TID_TITLE_MASTERY_SQUEAK,Laboratuvar kazası
+TID_TITLE_MASTERY_GROM,Tek el yeter!
+TID_TITLE_MASTERY_BUZZ,Doğuştan kötü
+TID_TITLE_MASTERY_GRIFF,Açgözlü
+TID_TITLE_MASTERY_ASH,Ayaklı çöp tenekesi
+TID_TITLE_MASTERY_MEG,Teknik destek 2.0
+TID_TITLE_MASTERY_LOLA,Drama düşkünü
+TID_TITLE_MASTERY_FANG,Ayakkabı sanatçısı
+TID_TITLE_MASTERY_EVE,Ana yüreği
+TID_TITLE_MASTERY_JANET,Roket
+TID_TITLE_MASTERY_BONNIE,Pervasız
+TID_TITLE_MASTERY_OTIS,Sanatçı
+TID_TITLE_MASTERY_SAM,Kapak olsun!
+TID_TITLE_MASTERY_GUS,Kayıp
+TID_TITLE_MASTERY_BUSTER,Büyük sükse
+TID_TITLE_MASTERY_CHESTER,Her işte usta
+TID_TITLE_MASTERY_GRAY,Pandomimci
+TID_TITLE_MASTERY_MANDY,Çetin ceviz
+TID_MASTERY_INFO_TITLE,USTALIK NEDİR?
+TID_MASTERY_INFO_TXT1,Her galibiyette ustalık puanı kazanırsın.
+TID_MASTERY_INFO_TXT2,Ustalık seviyelerinde yükseldikçe ödüller alırsın.
+TID_MASTERY_INFO_TXT3,Savaşçı kupalarını artırarak veya güç liginde üst seviyelere çıkarak galibiyet başına daha fazla ustalık puanı alabilirsin.
+TID_MASTERY_INFO_TXT4,Bu savaşçıyla oynayarak ödüller kazanabilirsin.
+TID_SKIN_INFO_MASKS,AYAKASHI KLANI
+TID_SKIN_INFO_HUB,SAVAŞ LİSANSI
+TID_QUESTS_SEASON_TITLE,SEZONLUK GÖREVLER
+TID_QUESTS_SEASON_UNLOCK_AT,Açmak için:
+TID_QUESTS_SEASON_SUBTITLE,Sezonluk görevlerle daha fazla jeton kazanırsın.
+TID_MASTERY_RANK_UP,USTALIK RÜTBESİ YÜKSELDİ!
+TID_MASTERY_ALL_MASTERY_POINTS_COLLECTED,Bugünlük tüm ustalık puanları toplandı.
+TID_MASTERY_MVP_BONUS,Yıldız Oyuncu Bonusu
+TID_MASTERY_MAX_RANK,MAKSİMUM USTALIK RÜTBESİ
+TID_SHOP_OFFER_INFO_44,Günlük görevleri açarak Brawl Pass için daha fazla jeton kazan.
+TID_BATTLE_CARD_TITLE,SAVAŞ KARTI
+TID_BATTLE_CARD_SUB_TITLE_BRAWLER,<BRAWLER>
+TID_BATTLE_CARD_SUB_TITLE_DEFAULT,VARSAYILAN
+TID_PROFILE_FAVORITE_BRAWLER_TITLE,EN SEVDİĞİM SAVAŞÇI
+TID_PROFILE_TITLE,PROFİL
+TID_PREVIOUS_STATS_TITLE,ÖNCEKİ İSTATİSTİKLERİN
+TID_PREVIOUS_STATS_LIST,<LEGACYXP><STAT:9><STAT:12><STAT:16><STAT:15>
+TID_PREVIOUS_STAT_LEGACY_XP,<c0070dd>Deneyim Seviyesi <XPLEVEL> - <XPPOINTS>/<XPPOINTMAX></c>\n\n
+TID_PREVIOUS_STAT_FORMAT,<NAME> - <cde9700><VALUE></c>\n
+TID_FAVOURITE_BRAWLER_NOT_CHOSEN,SEÇİLMEDİ
+TID_FAVOURITE_BRAWLER_CHOOSE,SEÇ
+TID_CHINA_YOOZOO_ACCOUNT_OPENID_LOGIN_NOT_ENABLED,此账号已成功完成绑定，请您继续使用原有方式登录，后续登录方式请留意官方公告。
+TID_QUESTS_SEASON_INFO_UNCLAIMED,Sezon görevleri artık kupa yolundan açılabilir!
+TID_BATTLE_CARD_CHOOSE_DEFAULT,VARSAYILANI KULLAN
+TID_INBOX_CAPTION_MASTERY_DONATION,<NAME> için <AMOUNT> ustalık puanı hediyesi
+TID_INTRO_CARD_DEFAULT,Varsayılanı kullan:
+TID_INTRO_CARD_OVERRIDE_PROFILE,Yalnızca <BRAWLER> için gösterilecek simgeyi seç.
+TID_INTRO_CARD_OVERRIDE_EMOTE,Yalnızca <BRAWLER> için gösterilecek rozeti seç.
+TID_INTRO_CARD_OVERRIDE_TITLE,Yalnızca <BRAWLER> için gösterilecek unvanı seç.
+TID_INTRO_CARD_DEFAULT_PROFILE,Varsayılan simgeyi seç.
+TID_INTRO_CARD_DEFAULT_EMOTE,Varsayılan rozeti seç.
+TID_INTRO_CARD_DEFAULT_TITLE,Varsayılan unvanı seç.
+TID_BATTLE_INTRO_COUNTDOWN_TITLE,Maçın başlamasına:
+TID_BATTLE_INTRO_CARD_DEFAULT,VARSAYILAN
+TID_INTRO_CARD_NO_TITLES,"Unvanlar, her savaşçı için 10. ustalık seviyesinde açılır."
+TID_SHOP_MASKS_SKINS,AYAKASHI KLANI
+TID_SKIN_INFO_CAMPAIGN_MASKS_TITLE,AYAKASHI KLANI
+TID_MASKS_SKINS_INFO,Kostüm seti
+TID_EL_MAYORDOMO_SKIN,EL MAYORDOMO
+TID_EL_MAYORDOMO_SKIN_SHOP,EL MAYORDOMO
+TID_SPIRIT_KNIGHT_FRANK_SKIN,HAYALET ŞÖVALYE FRANK
+TID_SPIRIT_KNIGHT_FRANK_SKIN_SHOP,HAYALET ŞÖVALYE\nFRANK
+TID_KITSUNE_LOLA_SKIN,KITSUNE LOLA
+TID_KITSUNE_LOLA_SKIN_SHOP,KITSUNE\nLOLA
+TID_TENGU_MIKE_SKIN,TENGU MIKE
+TID_TENGU_MIKE_SKIN_SHOP,TENGU\nMIKE
+TID_ONI_OTIS_SKIN,ONI OTIS
+TID_ONI_OTIS_SKIN_SHOP,ONI OTIS
+TID_ALLEYCAT_BULL_SKIN,BAŞIBOŞ BULL
+TID_ALLEYCAT_BULL_SKIN_SHOP,BAŞIBOŞ\nBULL
+TID_MARIPOSA_PIPER_SKIN,KELEBEK PIPER
+TID_MARIPOSA_PIPER_SKIN_SHOP,KELEBEK\nPIPER
+TID_POPSTAR_JANET_SKIN,POP YILDIZI JANET
+TID_POPSTAR_JANET_SKIN_SHOP,POP YILDIZI\nJANET
+TID_BELL_NANI_SKIN,ÇAN NANI
+TID_BELL_NANI_SKIN_SHOP,ÇAN NANI
+TID_MAGIC_CARPET_CARL_SKIN,SULTAN CARL
+TID_MAGIC_CARPET_CARL_SKIN_SHOP,SULTAN\nCARL
+TID_DETECTIVE_GRAY_NOIR_SKIN,SİYAH BEYAZ MÜFETTİŞ GRAY
+TID_DETECTIVE_GRAY_NOIR_SKIN_SHOP,SİYAH BEYAZ\nMÜFETTİŞ GRAY
+TID_ROTOCOP_SKIN,DEVRİYE MEMURU R-T
+TID_ROTOCOP_SKIN_SHOP,DEVRİYE MEMURU R-T
+TID_CRIMSON_RT_SKIN,KIZIL R-T
+TID_CRIMSON_RT_SKIN_SHOP,KIZIL R-T
+TID_CC_UNLIMITED_LIVES,SONSUZ CAN
+TID_CC_POPUP_DESC_UNLIMITED_LIVES,Her zaferde harika ödüller kazan! Mücadeleyi tamamlamak için <WINS> zafer elde etmelisin!
+TID_EVENT_MODIFIER_18,Paskalya Yumurtaları
+TID_EVENT_MODIFIER_DESC_18,Ödüller kazanmak için Paskalya yumurtalarını topla!
+TID_BATTLE_CARD_TYPE_TAB_DEFAULTS,VARSAYILANLAR
+TID_TITLE_MASTERY_RT,Gözcü
+TID_TITLE_MASTERY_WILLOW,Zihin kontrolü!
+TID_SHOP_HUB_SKINS,SAVAŞ LİSANSI
+TID_SKIN_INFO_CAMPAIGN_HUB_TITLE,SAVAŞ LİSANSI
+TID_HUB_SKINS_INFO,Kostüm seti
+TID_INBOX_CAPTION_REWARD_BUNDLE_SKIN_PINS,Kostüm rozeti hediyesi:
+TID_GEMGRAB_481,Dört Kapı
+TID_GEMGRAB_482,Sağlam Merkez
+TID_HEIST_481,Telafi Soygunu
+TID_HEIST_482,Merkezi Kontrol
+TID_BOUNTY_481,Yol Ayrımı
+TID_BOUNTY_482,Saklanacak Yer Yok
+TID_BOUNTY_483,Demir Düellosu
+TID_HOTZONE_481,Yoğun Saat
+TID_HOTZONE_482,Demir Siper
+TID_KNOCKOUT_481,Ortak Karar
+TID_KNOCKOUT_482,Adım Adım
+TID_SHOWDOWN_481,Yeşillik Direkler
+TID_SHOWDOWN_482,Aşılmaz Sınırlar
+TID_TAGTEAM_481,Çekiç Oyunu
+TID_TAGTEAM_482,Dört Göl
+TID_TAGTEAM_483,Kasvetli Ada
+TID_TAGTEAM_484,Demir Merkez
+TID_BASKET_481,Yeşil Çayır
+TID_BASKET_482,Demir Perde
+TID_BASKET_483,Basket Kalesi
+TID_BASKET_484,Dans Eden Çatı
+TID_BRAWLBALL_481,Dairesel Hareket
+TID_BRAWLBALL_482,Demir Koridor
+TID_CONTEXT_MENU_REPORT_PICTURE,RESMİ ŞİKAYET ET
+TID_REPORT_PROFILE_PICTURE_TITLE,PROFİL RESMİNİ ŞİKAYET ET
+TID_REPORT_PROFILE_PICTURE_TEXT,Bu profil resmini şikayet etmek istediğine emin misin?
+TID_REPORT_PROFILE_PICTURE_CONFIRM,ŞİKAYET ET
+TID_CANNOT_REPORT_PROFILE_PICTURE,Profil resmi şikayet edilemiyor.
+TID_TRUE_GOLD_GUS_SKIN,SAF ALTIN GUS
+TID_TRUE_GOLD_GUS_SKIN_SHOP,SAF ALTIN\nGUS
+TID_TRUE_SILVER_GUS_SKIN,SAF GÜMÜŞ GUS
+TID_TRUE_SILVER_GUS_SKIN_SHOP,SAF GÜMÜŞ\nGUS
+TID_TRUE_GOLD_CHESTER_SKIN,SAF ALTIN CHESTER
+TID_TRUE_GOLD_CHESTER_SKIN_SHOP,SAF ALTIN\nCHESTER
+TID_TRUE_SILVER_CHESTER_SKIN,SAF GÜMÜŞ CHESTER
+TID_TRUE_SILVER_CHESTER_SKIN_SHOP,SAF GÜMÜŞ\nCHESTER
+TID_TRUE_GOLD_GRAY_SKIN,SAF ALTIN GRAY
+TID_TRUE_GOLD_GRAY_SKIN_SHOP,SAF ALTIN\nGRAY
+TID_TRUE_SILVER_GRAY_SKIN,SAF GÜMÜŞ GRAY
+TID_TRUE_SILVER_GRAY_SKIN_SHOP,SAF GÜMÜŞ\nGRAY
+TID_TRUE_GOLD_SAM_SKIN,SAF ALTIN SAM
+TID_TRUE_GOLD_SAM_SKIN_SHOP,SAF ALTIN\nSAM
+TID_TRUE_SILVER_SAM_SKIN,SAF GÜMÜŞ SAM
+TID_TRUE_SILVER_SAM_SKIN_SHOP,SAF GÜMÜŞ\nSAM
+TID_TRUE_GOLD_BUSTER_SKIN,SAF ALTIN BUSTER
+TID_TRUE_GOLD_BUSTER_SKIN_SHOP,SAF ALTIN\nBUSTER
+TID_TRUE_SILVER_BUSTER_SKIN,SAF GÜMÜŞ BUSTER
+TID_TRUE_SILVER_BUSTER_SKIN_SHOP,SAF GÜMÜŞ\nBUSTER
+TID_TRUE_GOLD_MANDY_SKIN,SAF ALTIN MANDY
+TID_TRUE_GOLD_MANDY_SKIN_SHOP,SAF ALTIN\nMANDY
+TID_TRUE_SILVER_MANDY_SKIN,SAF GÜMÜŞ MANDY
+TID_TRUE_SILVER_MANDY_SKIN_SHOP,SAF GÜMÜŞ\nMANDY
+TID_EVENT_EASTER_TITLE,PASKALYA ETKİNLİĞİ
+TID_BATTLE_CARD_DEFAULTS_DESCRIPTION,Özel seçim yapılmayan tüm savaşçılarda varsayılan seçimler gösterilir.
+TID_EASTER_EGGS_COLLECTED,TOPLANAN YUMURTALAR
+TID_ITEMS_NEW,YENİ
+TID_AXL_WILLOW_SKIN,SEMENDER WILLOW
+TID_AXL_WILLOW_SHOP,SEMENDER WILLOW
+TID_COLLECT_EVENT_SOFT_CAP_MESSAGE,Bugünlük tüm büyük ödülleri topladın!
+TID_COLLECT_EVENT_HARD_CAP_MESSAGE,Bugün alabileceğin tüm ödülleri topladın!
+TID_TENCENT_DOLPHIN_TITLE,检查更新
+TID_TENCENT_DOLPHIN_CHECK_VERSION,检查最新版本
+TID_TENCENT_DOLPHIN_DOWNLOADING_70,安装包更新
+TID_TENCENT_DOLPHIN_DOWNLOADING_71,更新下载配置文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_72,更新下载差异文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_73,更新下载全量文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_74,更新校验完成文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_75,更新校验本地安装包
+TID_TENCENT_DOLPHIN_DOWNLOADING_76,更新校验配置文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_77,更新校验差异文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_78,更新合并差异文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_79,更新校验全量文件
+TID_TENCENT_DOLPHIN_DOWNLOADING_SIZE,<nowsize>/<totalsize>
+TID_TENCENT_DOLPHIN_SUCCESS,检查更新完成
+TID_TENCENT_DOLPHIN_ERROR,更新错误<error>
+TID_TENCENT_DOLPHIN_CONFIRM,检查到新版本，请立即更新下载，大约<totalsize>k
+TID_TENCENT_DOLPHIN_INSTALLFAIL,安装失败，请重试
+TID_TENCENT_CDKEY_EXCHANGE,兑换码
+TID_TENCENT_AGREE,同意
+TID_TENCENT_DISAGREE,不同意
+TID_TENCENT_REFUSE,拒绝
+TID_TENCENT_RETURN,返回
+TID_TENCENT_EXIT,退出
+TID_TENCENT_RETRY,重试
+TID_TENCENT_DOLPHIN_ERROR_0,初始化错误
+TID_TENCENT_DOLPHIN_ERROR_1,网络错误，请在网络环境正常下重启游戏。
+TID_TENCENT_DOLPHIN_ERROR_2,网络超时，请在网络环境正常下重启游戏。
+TID_TENCENT_DOLPHIN_ERROR_3,磁盘空间不足，请清理磁盘空间后，重启游戏。
+TID_TENCENT_DOLPHIN_ERROR_4,其他系统错误，请重启手机重试。
+TID_TENCENT_DOLPHIN_ERROR_5,模块其他错误，请重启手机重试。
+TID_TENCENT_DOLPHIN_ERROR_6,当前版本不支持更新，请去应用商店下载最新版本。
+TID_TENCENT_DOLPHIN_ERROR_8,当前环境下载安装包异常，请去应用商店下载最新版本。
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_AGREE,同意
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_REFUSE,拒绝
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE,公告
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_TITLE_2,重要提示
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP,各位用户：\n自本日起，本游戏服务将由深圳市腾讯计算机系统有限公司（以下简称\q腾讯计算机公司\q）和深圳市腾讯天游科技有限公司（以下简称\q腾讯天游公司\q）共同提供。\n如您之前未使用本游戏及相关服务，在您使用本游戏的服务前，请您务必审慎阅读、充分理解<TOS> <PP> <CHILDREN> <THIRDPARTY>的各条款，了解我们对您个人信息的处理规则。同时您应特别注意前述协议中免除或者限制我们责任的条款、对您权利进行限制的条款、约定争议解决方式和司法管辖的条款。\n如您之前使用过本游戏及相关服务，您此前与腾讯计算机公司签署的相关游戏用户协议和隐私政策将变更为<TOS> <PP> <CHILDREN> <THIRDPARTY>。同时，为使腾讯计算机公司和腾讯天游公司能共同提供本游戏服务，在您点击下一页面中的\q同意\q按钮后，腾讯计算机公司和腾讯天游公司将共同处理您的个人信息，但对您个人信息的收集、使用范围、保护义务等均不变，且腾讯计算机公司和腾讯天游公司会依法共同承担相应的个人信息保护义务和责任。腾讯计算机公司会在您同意后将之前基于本游戏服务目的收集的有关您在本游戏中的相关信息，提供给腾讯天游公司。\n如您已详细阅读并同意本公告内容以及<TOS> <PP> <CHILDREN> <THIRDPARTY>内容，请点击页面下方的\q同意\q开始使用我们的服务。\n如您有任何问题，请联系腾讯客服（0755-83765566），或通过微信公众号\q腾讯客服\q进行咨询，我们会及时帮助您。\n\n深圳市腾讯计算机系统有限公司\n深圳市腾讯天游科技有限公司\n2023年03月16日
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_2,尊敬的用户，您需要详细阅读并同意<TOS>、 <PP>、 <CHILDREN>和<THIRDPARTY>才可进入游戏哦。
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_BACK,返回
+TID_TENCENT_LOGIN_CPS_AGREEMENT_POPUP_NO,拒绝
+TID_BRAWL_PASS_SEASON_16,MERKEZDE GİZEM
+TID_SKIN_INFO_CAMPAIGN_BUNNY,TAVŞAN TUGAYI
+TID_TITLES_DESCRIPTION,Bu unvan artık savaş kartında gösterilebilir.
 TID_REGION_CUSTOM1,
 TID_REGION_CUSTOM2,
 TID_REGION_CUSTOM3,

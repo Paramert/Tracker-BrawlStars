@@ -8,7 +8,7 @@
 ,,,"Knockout","Default","Template_Knockout"
 "ScrapyardEnvironment","TRUE","TID_ENVIRONMENT_SCRAPYARD","Siege","Scrapyard","Template_Siege"
 "OasisEnvironment","TRUE","TID_ENVIRONMENT_OASIS","Bounty","Oasis","Template_Bounty"
-"MortuaryEnvironment",,"TID_ENVIRONMENT_MORTUARY","Showdown","MortuaryShowdown","Template_Survival"
+"MortuaryEnvironment","TRUE","TID_ENVIRONMENT_MORTUARY","Showdown","MortuaryShowdown","Template_Survival"
 ,,,"DuoShowdown","MortuaryShowdown","Template_Survival_2"
 ,,,"Knockout","Mortuary","Template_Knockout"
 "GrassfieldEnvironment",,"TID_ENVIRONMENT_GRASSFIELD","BrawlBall","Grassfield","Template_Laserball"

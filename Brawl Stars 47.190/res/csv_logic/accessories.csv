@@ -132,3 +132,7 @@ DoorMan_Puller,next_attack_change,17,100,gadget_activate,,gadget_on_loop,,,10000
 DoorMan_DamageDrop,next_attack_change,8,100,gadget_activate,,gadget_on_loop,,,100000,,,,,,,,,,,,,,,,,,,,,,,,,DoorManDamageDropWarning,,1,,,,,,,TID_ACCESSORY_BLOCKED_ALREADY_ACTIVE,,
 Beamer_Slow,next_attack_change,7,100,gadget_activate,,gadget_on_loop,,,100000,,,,,,,,,,,,,,,,,,,,,,,,,,,,350,50,1,,,,TID_ACCESSORY_BLOCKED_ALREADY_ACTIVE,,
 Beamer_Pierce,next_attack_change,16,100,gadget_activate,,gadget_on_loop,,,100000,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,,,,TID_ACCESSORY_BLOCKED_ALREADY_ACTIVE,,
+Splitter_PetDamageSignal,damage_line_to_pet,,100,gadget_activate,,,,,,,true,,,,,,,,true,,,,,,,,,,,,,,,SplitterLegSignalProjectile,500,,,,,,,,,,
+Splitter_TriggerTags,trigger_tags,,100,gadget_activate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SplitterTagExplosion,,,,,,,,,,,
+Puppeteer_MoreDamage,next_attack_change,18,100,gadget_activate,,gadget_on_loop,,,100000,,,,,,,,PuppeteerPoisonAlternative,,,,,,,,,,,,,,,,,,500,,,,,,,,TID_ACCESSORY_BLOCKED_ALREADY_ACTIVE,,
+Puppeteer_Dive,dive,,100,gadget_activate,,,,,40,,true,,,,,,PuppeteerDive,,true,,,,,,,,,,,,,,,,,,,,,,,,,,
